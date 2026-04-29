@@ -14,7 +14,14 @@ namespace Project.Gameplay.Player
             Locomotion = 0,
             Dash = 1,
             Attack = 2,
-            Hitstun = 3
+            Hitstun = 3,
+            Defending = 4,
+            DefendBreak = 5,
+            HurtGrounded = 6,
+            HurtAir = 7,
+            Lying = 8,
+            GetUp = 9,
+            Dead = 10
         }
 
         private enum LocomotionSubState
@@ -34,6 +41,7 @@ namespace Project.Gameplay.Player
         private InputAction dashAction;
         private InputAction attackAction;
         private InputAction launcherAction;
+        private InputAction defendAction;
 
         private readonly CombatInputBuffer _combatBuffer = new CombatInputBuffer();
 
@@ -57,6 +65,29 @@ namespace Project.Gameplay.Player
         private CombatHitbox _activeHitbox;
         private PlayerRuntimeStats _runtimeStats;
 
+        // Reactive combat
+        private DamageReactionRouter _reactionRouter;
+        private ReactiveMoveSet _reactiveMoves;
+        private ReactiveStateId _currentReactiveState;
+        private int _reactiveFrameIndex;
+        private int _reactiveFrameTickCounter;
+        private int _lyingTimerTicks;
+        private Vector2 _reactiveVelocity; // for HurtAir gravity
+        private HitResult _lastHitResult;  // for debug overlay
+
+        // Status effect
+        private StatusEffectInstance _statusEffect;
+        private Color _originalTint = Color.white;
+
+        // Cached references (avoid GetComponent per-tick)
+        private SpriteRenderer _cachedSR;
+        private Health _cachedHealth;
+        private CharacterMotor _motor;
+        private StatusEffectTuning _statusEffectTuning;
+
+        // Cached burn damage delegate (avoids lambda allocation per-tick)
+        private System.Action<int> _burnDamageCallback;
+
         public long CurrentTick { get; private set; }
 
         public bool IsInvulnerable => invulnLeft > 0f;
@@ -65,6 +96,22 @@ namespace Project.Gameplay.Player
         public CombatAttackId ActiveAttackId => currentAttackId;
         public int ActiveAttackFrameIndex => attackFrameIndex;
         public bool FacingRight => lastMoveDir.x >= 0f;
+
+        public bool IsDefendHeld => defendAction != null && defendAction.IsPressed();
+
+        // Reactive combat state queries (for sprite animator and debug overlay)
+        public bool IsDefending => superState == SuperState.Defending;
+        public bool IsDefendBreak => superState == SuperState.DefendBreak;
+        public bool IsHurtGrounded => superState == SuperState.HurtGrounded;
+        public bool IsHurtAir => superState == SuperState.HurtAir;
+        public bool IsLying => superState == SuperState.Lying;
+        public bool IsGetUp => superState == SuperState.GetUp;
+        public bool IsDead => superState == SuperState.Dead;
+
+        public ReactiveStateId CurrentReactiveState => _currentReactiveState;
+        public int ReactiveFrameIndex => _reactiveFrameIndex;
+        public HitResult LastHitResult => _lastHitResult;
+        public StatusEffectInstance ActiveStatusEffect => _statusEffect;
 
         private void Awake()
         {
@@ -104,6 +151,11 @@ namespace Project.Gameplay.Player
             launcherAction.AddBinding("<Gamepad>/buttonNorth");
             launcherAction.Enable();
 
+            defendAction = new InputAction("Defend", InputActionType.Button);
+            defendAction.AddBinding("<Keyboard>/l");
+            defendAction.AddBinding("<Gamepad>/buttonEast");
+            defendAction.Enable();
+
             superState = SuperState.Locomotion;
             locomotionSubState = LocomotionSubState.Idle;
             _runtimeStats = GetComponent<PlayerRuntimeStats>();
@@ -123,12 +175,29 @@ namespace Project.Gameplay.Player
             PlayerTuning tuningData,
             AttackDefinition jab,
             AttackDefinition launcher,
-            AttackDefinition dash)
+            AttackDefinition dash,
+            ReactiveMoveSet reactiveMoves = null)
         {
             tuning = tuningData;
             jabDefinition = jab;
             launcherDefinition = launcher;
             dashAttackDefinition = dash;
+            _reactiveMoves = reactiveMoves;
+
+            _cachedSR = GetComponent<SpriteRenderer>();
+            _cachedHealth = GetComponent<Health>();
+            _motor = GetComponent<CharacterMotor>();
+            _statusEffectTuning = tuningData != null ? tuningData.statusEffectTuning : null;
+
+            if (_motor != null && tuningData != null)
+                _motor.Configure(tuningData.gravityPerTick);
+
+            if (tuningData != null && reactiveMoves != null && _cachedHealth != null)
+                _reactionRouter = new DamageReactionRouter(tuningData, reactiveMoves, _cachedHealth);
+
+            // Cache burn damage delegate to avoid per-tick lambda allocation
+            _burnDamageCallback = OnBurnDamageTick;
+
             enabled = true;
         }
 
@@ -174,12 +243,18 @@ namespace Project.Gameplay.Player
                 launcherAction.Dispose();
                 launcherAction = null;
             }
+
+            if (defendAction != null)
+            {
+                defendAction.Disable();
+                defendAction.Dispose();
+                defendAction = null;
+            }
         }
 
         public void Tick(in TickContext context)
         {
             CurrentTick = context.Tick;
-
             var dt = context.FixedDelta;
 
             if (dashCooldownLeft > 0f)
@@ -188,23 +263,36 @@ namespace Project.Gameplay.Player
             if (invulnLeft > 0f)
                 invulnLeft = Mathf.Max(0f, invulnLeft - dt);
 
-            ReadCombatInputs(in context);
+            // Skip input reading when in reactive states with locked input
+            bool skipInput = superState == SuperState.DefendBreak
+                || superState == SuperState.HurtGrounded
+                || superState == SuperState.HurtAir
+                || superState == SuperState.Lying
+                || superState == SuperState.GetUp
+                || superState == SuperState.Dead;
 
-            if (superState == SuperState.Hitstun)
+            if (!skipInput)
+                ReadCombatInputs(in context);
+
+            // Reactive states (Defending .. Dead)
+            if (superState >= SuperState.Defending && superState <= SuperState.Dead)
             {
-                TickHitstun(dt);
+                TickReactiveState(in context, dt);
                 return;
             }
 
-            if (superState == SuperState.Dash)
-            {
-                TickDash(in context, dt);
-                return;
-            }
+            // Original states
+            if (superState == SuperState.Hitstun) { TickHitstun(dt); return; }
+            if (superState == SuperState.Dash) { TickDash(in context, dt); return; }
+            if (superState == SuperState.Attack) { TickAttack(in context, dt); return; }
 
-            if (superState == SuperState.Attack)
+            // Check for defend input in Locomotion
+            if (IsDefendHeld && superState == SuperState.Locomotion)
             {
-                TickAttack(in context, dt);
+                superState = SuperState.Defending;
+                _currentReactiveState = ReactiveStateId.Defend;
+                _reactiveFrameIndex = 0;
+                _reactiveFrameTickCounter = 0;
                 return;
             }
 
@@ -222,6 +310,17 @@ namespace Project.Gameplay.Player
 
             if (superState == SuperState.Attack)
                 sb.Append("Ataque: ").Append(currentAttackId).Append(" | frame ").Append(attackFrameIndex).AppendLine();
+
+            if (superState >= SuperState.Defending && superState <= SuperState.Dead)
+            {
+                sb.Append("Reactive: ").Append(_currentReactiveState)
+                  .Append(" | frame ").Append(_reactiveFrameIndex).AppendLine();
+
+                if (_lastHitResult.Damage > 0)
+                    sb.Append("LastHit: dmg=").Append(_lastHitResult.Damage)
+                      .Append(" kb=").Append(_lastHitResult.Knockback)
+                      .Append(" flags=").Append(_lastHitResult.Flags).AppendLine();
+            }
 
             sb.AppendLine("Buffer (FIFO, ≤8 ticks):");
             var buf = _combatBuffer.BufferedInputs;
@@ -487,6 +586,310 @@ namespace Project.Gameplay.Player
 
             EnterHitstun(knockbackDir);
             return true;
+        }
+
+        /// <summary>
+        /// Apply a reactive hit: evaluate state via DamageReactionRouter and enter the
+        /// appropriate reactive state (HurtGrounded, HurtAir, DefendBreak, etc.).
+        /// Falls back to old Hitstun if no router is configured.
+        /// </summary>
+        public void ApplyReactiveHit(in HitResult hit)
+        {
+            _lastHitResult = hit;
+
+            if (IsInvulnerable)
+                return;
+
+            // Apply status effect if present
+            if (hit.Effect != StatusEffect.None)
+            {
+                if (_cachedSR != null) _originalTint = _cachedSR.color;
+                _statusEffect = StatusEffectProcessor.ApplyFromTuning(hit.Effect, _statusEffectTuning);
+            }
+
+            if (_reactionRouter != null)
+            {
+                bool isDefending = superState == SuperState.Defending;
+                bool isAirborne = superState == SuperState.HurtAir;
+                var stateId = _reactionRouter.Evaluate(in hit, isDefending, isAirborne);
+                EnterReactiveState(stateId, in hit);
+            }
+            else
+            {
+                // Fallback: use old hitstun
+                TryApplyHit(hit.Knockback);
+            }
+        }
+
+        private void EnterReactiveState(ReactiveStateId stateId, in HitResult hit)
+        {
+            ReleaseHitbox();
+
+            _currentReactiveState = stateId;
+            _reactiveFrameIndex = 0;
+            _reactiveFrameTickCounter = 0;
+            _lyingTimerTicks = 0;
+
+            switch (stateId)
+            {
+                case ReactiveStateId.Defend:
+                    superState = SuperState.Defending;
+                    break;
+                case ReactiveStateId.DefendBreak:
+                    superState = SuperState.DefendBreak;
+                    ApplyReactiveKnockback(hit.Knockback, hit.AttackerFacing, 1f);
+                    break;
+                case ReactiveStateId.DefendHit:
+                    superState = SuperState.Defending; // stays in defending, just micro-stun
+                    ApplyReactiveKnockback(hit.Knockback, hit.AttackerFacing, 0.3f);
+                    break;
+                case ReactiveStateId.HurtGrounded:
+                    superState = SuperState.HurtGrounded;
+                    ApplyReactiveKnockback(hit.Knockback, hit.AttackerFacing, 1f);
+                    break;
+                case ReactiveStateId.HurtAir:
+                    superState = SuperState.HurtAir;
+                    // Horizontal knockback (HSM-owned)
+                    var dir = hit.AttackerFacing >= 0 ? -1f : 1f; // knock away from attacker
+                    _reactiveVelocity = new Vector2(dir * Mathf.Abs(hit.Knockback.x) * 0.1f, 0f);
+                    // Vertical launch via CharacterMotor
+                    if (_motor != null)
+                        _motor.Launch(hit.Knockback.y * 0.15f);
+                    break;
+                case ReactiveStateId.Lying:
+                    superState = SuperState.Lying;
+                    break;
+                case ReactiveStateId.GetUp:
+                    superState = SuperState.GetUp;
+                    invulnLeft = tuning.invulnOnGetUpTicks / 60f;
+                    break;
+                case ReactiveStateId.Dead:
+                    superState = SuperState.Dead;
+                    break;
+            }
+        }
+
+        private void ApplyReactiveKnockback(Vector2 knockback, int attackerFacing, float scale)
+        {
+            var kbDir = attackerFacing >= 0 ? -1f : 1f;
+            knockbackVel = new Vector2(
+                kbDir * knockback.x * scale * tuning.knockbackSpeed * 0.1f, 0f);
+            hitstunLeft = 0.2f; // brief knockback movement
+        }
+
+        private void TickReactiveState(in TickContext ctx, float dt)
+        {
+            // Tick status effect
+            if (_statusEffect.IsActive)
+            {
+                StatusEffectProcessor.Tick(ref _statusEffect, _cachedSR, _originalTint, _burnDamageCallback);
+            }
+
+            var move = _reactionRouter?.GetMove(_currentReactiveState);
+            if (move == null || move.frames == null || move.frames.Length == 0)
+            {
+                // No move data — fallback to Locomotion
+                superState = SuperState.Locomotion;
+                return;
+            }
+
+            // State-specific logic
+            switch (_currentReactiveState)
+            {
+                case ReactiveStateId.Defend:
+                    TickDefend(in ctx, dt, move);
+                    break;
+                case ReactiveStateId.DefendHit:
+                    TickDefendHit(in ctx, dt, move);
+                    break;
+                case ReactiveStateId.DefendBreak:
+                    TickReactiveSequence(dt, move);
+                    break;
+                case ReactiveStateId.HurtGrounded:
+                    TickReactiveSequence(dt, move);
+                    break;
+                case ReactiveStateId.HurtAir:
+                    TickHurtAir(dt, move);
+                    break;
+                case ReactiveStateId.Lying:
+                    TickLying(dt);
+                    break;
+                case ReactiveStateId.GetUp:
+                    TickReactiveSequence(dt, move);
+                    break;
+                case ReactiveStateId.Dead:
+                    // Dead is permanent — no tick needed
+                    break;
+            }
+
+            // Apply knockback velocity decay (for states that use it)
+            if (knockbackVel.sqrMagnitude > 0.001f)
+            {
+                transform.position += new Vector3(knockbackVel.x, knockbackVel.y, 0f) * dt;
+                knockbackVel = Vector2.Lerp(knockbackVel, Vector2.zero, dt * 5f);
+            }
+        }
+
+        private void TickDefend(in TickContext ctx, float dt, ReactiveMoveDefinition move)
+        {
+            AdvanceReactiveFrame(dt, move);
+
+            // If defend released, return to Locomotion
+            if (!IsDefendHeld)
+            {
+                superState = SuperState.Locomotion;
+                _currentReactiveState = ReactiveStateId.HurtGrounded; // reset to safe default
+                return;
+            }
+        }
+
+        private void TickDefendHit(in TickContext ctx, float dt, ReactiveMoveDefinition move)
+        {
+            AdvanceReactiveFrame(dt, move);
+
+            // When sequence finishes, return to Defend (if still held) or Locomotion
+            if (_reactiveFrameIndex >= move.frames.Length)
+            {
+                superState = IsDefendHeld ? SuperState.Defending : SuperState.Locomotion;
+                _currentReactiveState = IsDefendHeld ? ReactiveStateId.Defend : ReactiveStateId.HurtGrounded;
+                _reactiveFrameIndex = 0;
+                _reactiveFrameTickCounter = 0;
+            }
+        }
+
+        private void TickReactiveSequence(float dt, ReactiveMoveDefinition move)
+        {
+            AdvanceReactiveFrame(dt, move);
+
+            if (_reactiveFrameIndex >= move.frames.Length)
+            {
+                if (move.loop)
+                {
+                    _reactiveFrameIndex = 0;
+                    _reactiveFrameTickCounter = 0;
+                }
+                else
+                {
+                    TransitionFromReactiveMove(move);
+                }
+            }
+        }
+
+        private void TickHurtAir(float dt, ReactiveMoveDefinition move)
+        {
+            // Horizontal velocity (HSM-owned, not motor)
+            if (_reactiveVelocity.x != 0f)
+            {
+                var pos = transform.position;
+                pos.x += _reactiveVelocity.x * dt;
+                transform.position = pos;
+                _reactiveVelocity.x = Mathf.MoveTowards(_reactiveVelocity.x, 0f, dt * 5f);
+            }
+
+            // Vertical physics via CharacterMotor (gravity + grounded check)
+            if (_motor != null)
+            {
+                _motor.Tick(dt);
+
+                if (_motor.IsGrounded)
+                {
+                    // Landing → transition to Lying
+                    _reactiveVelocity = Vector2.zero;
+                    EnterReactiveState(ReactiveStateId.Lying, default);
+                    return;
+                }
+            }
+
+            // Advance frames (looping)
+            AdvanceReactiveFrame(dt, move);
+            if (_reactiveFrameIndex >= move.frames.Length && move.loop)
+            {
+                _reactiveFrameIndex = 0;
+                _reactiveFrameTickCounter = 0;
+            }
+        }
+
+        private void TickLying(float dt)
+        {
+            _lyingTimerTicks++;
+            if (_lyingTimerTicks >= tuning.lyingDurationTicks)
+            {
+                EnterReactiveState(ReactiveStateId.GetUp, default);
+            }
+        }
+
+        private void AdvanceReactiveFrame(float dt, ReactiveMoveDefinition move)
+        {
+            if (move.frames == null || _reactiveFrameIndex >= move.frames.Length)
+                return;
+
+            // Apply impulse for the very first frame on entry
+            if (_reactiveFrameTickCounter == 0)
+                ApplyFrameEffects(move.frames[_reactiveFrameIndex]);
+
+            _reactiveFrameTickCounter++;
+            var frame = move.frames[_reactiveFrameIndex];
+
+            if (_reactiveFrameTickCounter >= frame.durationTicks)
+            {
+                _reactiveFrameIndex++;
+                _reactiveFrameTickCounter = 0;
+
+                // Apply impulse/invuln for the new frame we just entered
+                if (_reactiveFrameIndex < move.frames.Length)
+                    ApplyFrameEffects(move.frames[_reactiveFrameIndex]);
+            }
+        }
+
+        private void ApplyFrameEffects(ReactiveFrameDefinition frame)
+        {
+            if (frame.impulse.sqrMagnitude > 0.001f)
+            {
+                var facing = FacingRight ? 1f : -1f;
+                _reactiveVelocity += new Vector2(
+                    frame.impulse.x * facing, frame.impulse.y) * 0.1f;
+            }
+
+            if (frame.invulnerable)
+                invulnLeft = frame.durationTicks / 60f;
+        }
+
+        private void TransitionFromReactiveMove(ReactiveMoveDefinition move)
+        {
+            // Safety: if GetUp transitions back to GetUp, force Locomotion to prevent infinite loop
+            if (move.stateId == ReactiveStateId.GetUp && move.nextStateOnFinish == ReactiveStateId.GetUp)
+            {
+                superState = SuperState.Locomotion;
+                _currentReactiveState = ReactiveStateId.HurtGrounded;
+                return;
+            }
+
+            switch (move.nextStateOnFinish)
+            {
+                case ReactiveStateId.HurtGrounded:
+                case ReactiveStateId.Defend:
+                    superState = SuperState.Locomotion;
+                    _currentReactiveState = ReactiveStateId.HurtGrounded;
+                    break;
+                case ReactiveStateId.GetUp:
+                    EnterReactiveState(ReactiveStateId.GetUp, default);
+                    break;
+                case ReactiveStateId.Lying:
+                    EnterReactiveState(ReactiveStateId.Lying, default);
+                    break;
+                default:
+                    superState = SuperState.Locomotion;
+                    _currentReactiveState = ReactiveStateId.HurtGrounded;
+                    break;
+            }
+        }
+
+        private void OnBurnDamageTick(int dmg)
+        {
+            if (_cachedHealth != null) _cachedHealth.ApplyDamage(dmg);
+            // Burn death → enter Dead state immediately
+            if (_cachedHealth != null && _cachedHealth.IsDead && _currentReactiveState != ReactiveStateId.Dead)
+                EnterReactiveState(ReactiveStateId.Dead, default);
         }
 
         private void TickLocomotionMovement(float dt)

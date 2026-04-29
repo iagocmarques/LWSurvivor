@@ -8,13 +8,6 @@
 
 ## 1. Ser confiavel
 
-### [2026-04-28] Lambda closure caching in PlayerHsmController
-
-**Problema:** `PlayerHsmController.Configure()` aloca delegates via lambda closures em cada chamada. Se `Configure()` for chamado multiplas vezes (ex: respawn), gera pressao de GC desnecessaria.
-**Solucao:** Cachear os delegates em campos privados apos primeira alocacao.
-**Impacto:** Baixo (Configure roda raramente), mas elimina footgun de performance.
-**Prioridade:** Baixa.
-
 ### [2026-04-28] Enemy arena bounds clamping
 
 **Problema:** Inimigos podem sair dos limites da arena se spawnados perto das bordas ou com knockback forte.

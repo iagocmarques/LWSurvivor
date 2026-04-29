@@ -143,7 +143,9 @@ namespace Project.Gameplay.Enemies
             prefab.AddComponent<Damageable>();
             prefab.AddComponent<EnemyAgent>();
             prefab.AddComponent<Project.Gameplay.Rendering.DepthSortByY>();
-            prefab.layer = LayerMask.NameToLayer("Hurtbox");
+            var hurtboxLayer = LayerMask.NameToLayer("Hurtbox");
+            if (hurtboxLayer >= 0 && hurtboxLayer <= 31)
+                prefab.layer = hurtboxLayer;
 
             enemyPool.Configure(prefab, 24);
         }

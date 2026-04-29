@@ -19,7 +19,7 @@ namespace Project.Gameplay.Rendering
             if (sortingGroup == null)
                 spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
 
-            tiebreak = GetInstanceID() & 0xFF;
+            tiebreak = GetEntityId().GetHashCode() & 0xFF;
         }
 
         private void OnEnable()

@@ -5,12 +5,8 @@ namespace Project.Gameplay.Visual
 {
     public static class Lf2VisualLibrary
     {
-        private const int Lf2FrameWidth = 80;
-        private const int Lf2FrameHeight = 80;
-        private const float CharacterPixelsPerUnit = 48f;
-
         private static readonly Dictionary<string, Sprite> Cache = new Dictionary<string, Sprite>();
-        private static readonly Dictionary<string, List<RectInt>> SheetRectCache = new Dictionary<string, List<RectInt>>();
+        private static readonly Dictionary<string, Sprite[]> SheetCache = new Dictionary<string, Sprite[]>();
         private static readonly string[] BackgroundKeys =
         {
             "bg_pic1_alpha",
@@ -21,12 +17,11 @@ namespace Project.Gameplay.Visual
 
         public static Sprite GetPlayerSprite()
         {
-            return LoadCharacterFrame("player_davis_0_alpha", preferredFrame: 2);
+            return GetCharacterFrame("player_davis_0_alpha", 2);
         }
 
         public static Sprite GetPlayerFrame(int frameIndex)
         {
-            // LF2 Davis: pic 0-69 = sheet _0, pic 70-139 = sheet _1
             if (frameIndex >= 70)
                 return GetCharacterFrame("player_davis_1_alpha", frameIndex - 70);
             return GetCharacterFrame("player_davis_0_alpha", frameIndex);
@@ -34,12 +29,11 @@ namespace Project.Gameplay.Visual
 
         public static Sprite GetEnemySprite(string enemyId)
         {
-            return LoadCharacterFrame(GetEnemySheetKey(enemyId), preferredFrame: 0);
+            return GetCharacterFrame(GetEnemySheetKey(enemyId), 0);
         }
 
         public static Sprite GetEnemyFrame(string enemyId, int frameIndex)
         {
-            // LF2 enemies: pic 0-69 = sheet _0, pic 70-139 = sheet _1
             if (frameIndex >= 70)
                 return GetCharacterFrame(GetEnemySheetKey1(enemyId), frameIndex - 70);
             return GetCharacterFrame(GetEnemySheetKey(enemyId), frameIndex);
@@ -65,54 +59,82 @@ namespace Project.Gameplay.Visual
 
         public static int GetPlayerFrameCount()
         {
-            return GetCharacterFrameCount("player_davis_0_alpha")
-                 + GetCharacterFrameCount("player_davis_1_alpha");
+            return GetSheetSprites("player_davis_0_alpha").Length
+                 + GetSheetSprites("player_davis_1_alpha").Length;
         }
 
         public static int GetEnemyFrameCount(string enemyId)
         {
-            return GetCharacterFrameCount(GetEnemySheetKey(enemyId))
-                 + GetCharacterFrameCount(GetEnemySheetKey1(enemyId));
+            return GetSheetSprites(GetEnemySheetKey(enemyId)).Length
+                 + GetSheetSprites(GetEnemySheetKey1(enemyId)).Length;
         }
 
+        /// <summary>
+        /// Get a specific frame from a sprite sheet using Unity's pre-configured sprites.
+        /// Uses Resources.LoadAll to load all sub-sprites from the sheet, which respects
+        /// the .meta sprite definitions without needing Read/Write enabled on the texture.
+        /// </summary>
         public static Sprite GetCharacterFrame(string key, int frameIndex)
         {
             var cacheKey = key + "#frame_" + frameIndex;
-            if (Cache.TryGetValue(cacheKey, out var sprite))
-                return sprite;
+            if (Cache.TryGetValue(cacheKey, out var cached))
+                return cached;
 
-            var texture = Resources.Load<Texture2D>("LF2/" + key);
-            if (texture == null)
+            var sprites = GetSheetSprites(key);
+            if (sprites.Length == 0)
                 return Load(key);
 
-            var rects = GetNonEmptyFrameRects(key, texture);
-            if (rects.Count == 0)
-                return Load(key);
-
-            var clamped = Mathf.Clamp(frameIndex, 0, rects.Count - 1);
-            var rect = rects[clamped];
-            sprite = Sprite.Create(
-                texture,
-                new Rect(rect.x, rect.y, rect.width, rect.height),
-                new Vector2(0.5f, 0f),
-                CharacterPixelsPerUnit,
-                SpriteMeshType.FullRect);
-            sprite.name = key + "_frame_" + clamped;
+            var clamped = Mathf.Clamp(frameIndex, 0, sprites.Length - 1);
+            var sprite = sprites[clamped];
             Cache[cacheKey] = sprite;
             return sprite;
         }
 
-        private static Sprite LoadCharacterFrame(string key, int preferredFrame)
+        private static Sprite[] GetSheetSprites(string key)
         {
-            return GetCharacterFrame(key, preferredFrame);
+            if (SheetCache.TryGetValue(key, out var cached))
+                return cached;
+
+            // Always create sprites from texture with FullRect mesh.
+            // LoadAll uses .meta spriteMeshType (Tight) which causes culling
+            // bugs with SpriteRenderer.flipX. FullRect avoids this.
+            var tex = Resources.Load<Texture2D>("LF2/" + key);
+            if (tex != null)
+            {
+                var sprites = CreateSpritesFromGrid(tex, 80, 80);
+                SheetCache[key] = sprites;
+                return sprites;
+            }
+
+            Debug.LogError($"[Lf2VisualLibrary] Failed to load texture '{key}'");
+            var empty = System.Array.Empty<Sprite>();
+            SheetCache[key] = empty;
+            return empty;
+        }
+
+        private static Sprite[] CreateSpritesFromGrid(Texture2D tex, int cellW, int cellH)
+        {
+            // Sprite sheet is 10 columns x N rows, 80x80 per cell
+            var cols = tex.width / cellW;
+            var rows = tex.height / cellH;
+            var total = cols * rows;
+            var result = new Sprite[total];
+            var idx = 0;
+            // Bottom-up row order (Unity texture coords)
+            for (var r = rows - 1; r >= 0; r--)
+            {
+                for (var c = 0; c < cols; c++)
+                {
+                    var rect = new Rect(c * cellW, r * cellH, cellW, cellH);
+                    result[idx++] = Sprite.Create(tex, rect, new Vector2(0.5f, 0f), 80f, SpriteMeshType.FullRect);
+                }
+            }
+            return result;
         }
 
         private static int GetCharacterFrameCount(string key)
         {
-            var texture = Resources.Load<Texture2D>("LF2/" + key);
-            if (texture == null)
-                return 0;
-            return GetNonEmptyFrameRects(key, texture).Count;
+            return GetSheetSprites(key).Length;
         }
 
         private static string GetEnemySheetKey(string enemyId)
@@ -135,42 +157,6 @@ namespace Project.Gameplay.Visual
                 return "enemy_grunt_bandit_1_alpha";
             // Fallback to _0 sheet if _1 doesn't exist
             return GetEnemySheetKey(enemyId);
-        }
-
-        private static List<RectInt> GetNonEmptyFrameRects(string key, Texture2D texture)
-        {
-            if (SheetRectCache.TryGetValue(key, out var cached))
-                return cached;
-
-            var results = new List<RectInt>();
-            if (texture == null || texture.width <= 0 || texture.height <= 0)
-            {
-                SheetRectCache[key] = results;
-                return results;
-            }
-
-            var columns = texture.width / Lf2FrameWidth;
-            var rows = texture.height / Lf2FrameHeight;
-            if (columns <= 0 || rows <= 0)
-            {
-                SheetRectCache[key] = results;
-                return results;
-            }
-
-            // LF2 sheets are organized in a regular 79x79 grid.
-            for (var row = 0; row < rows; row++)
-            {
-                for (var col = 0; col < columns; col++)
-                {
-                    var sourceTop = row * Lf2FrameHeight;
-                    var sourceLeft = col * Lf2FrameWidth;
-                    var unityY = texture.height - sourceTop - Lf2FrameHeight;
-                    results.Add(new RectInt(sourceLeft, unityY, Lf2FrameWidth, Lf2FrameHeight));
-                }
-            }
-
-            SheetRectCache[key] = results;
-            return results;
         }
 
         private static Sprite Load(string key)

@@ -12,6 +12,10 @@ namespace Project.Gameplay.Visual
         [SerializeField] private float moveFps = 10f;
         [SerializeField] private float attackFps = 14f;
         [SerializeField] private float hitstunFps = 8f;
+        [SerializeField] private float defendFps = 4f;
+        [SerializeField] private float hurtFps = 8f;
+        [SerializeField] private float lyingFps = 2f;
+        [SerializeField] private float getUpFps = 6f;
         [SerializeField] private float hitstunMoveThreshold = 0.002f;
 
         private SpriteRenderer _sr;
@@ -40,6 +44,16 @@ namespace Project.Gameplay.Visual
         private static readonly int[] DashAttackFrames = { 132, 133, 134, 135, 136, 137 };
         private static readonly int[] HitstunFrames = { 30, 31, 32, 33, 34, 35 };
 
+        // Reactive combat frames (Davis LF2 manual)
+        private static readonly int[] DefendFrames = { 56 };                    // frame 110, pic 56
+        private static readonly int[] DefendHitFrames = { 57 };                 // frame 111, pic 57
+        private static readonly int[] DefendBreakFrames = { 46, 47, 48 };       // frames 112-114
+        private static readonly int[] HurtGroundedFrames = { 30, 31, 32 };      // state 11 (injured)
+        private static readonly int[] HurtAirFrames = { 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45 }; // state 12 (falling)
+        private static readonly int[] LyingFrames = { 33 };                     // on ground (matches ReactiveMoveSet pic 33)
+        private static readonly int[] GetUpFrames = { 34, 35, 0 };             // getting up
+        private static readonly int[] DeadFrames = { 33 };                      // dead (matches ReactiveMoveSet pic 33)
+
         private void Awake()
         {
             _sr = GetComponent<SpriteRenderer>();
@@ -56,20 +70,60 @@ namespace Project.Gameplay.Visual
 
         private void Update()
         {
-            if (_sr == null)
+            if (_sr == null || _hsm == null)
                 return;
 
             var frames = IdleFrames;
             var fps = idleFps;
-            var directByAttackFrame = false;
+            var directBySimFrame = false;
 
-            // Track position for hitstun detection (knockback causes movement
-            // while neither IsAttacking nor IsMoving is true).
             var pos = transform.position;
             var moved = (pos - _lastPos).sqrMagnitude > hitstunMoveThreshold * hitstunMoveThreshold;
             _lastPos = pos;
 
-            if (_hsm != null && _hsm.IsAttacking)
+            // --- Reactive states (highest priority after Dead) ---
+            if (_hsm.IsDead)
+            {
+                frames = DeadFrames;
+                fps = 1f;
+                directBySimFrame = true;
+            }
+            else if (_hsm.IsHurtAir)
+            {
+                frames = HurtAirFrames;
+                fps = hurtFps;
+                directBySimFrame = true;
+            }
+            else if (_hsm.IsLying)
+            {
+                frames = LyingFrames;
+                fps = lyingFps;
+            }
+            else if (_hsm.IsGetUp)
+            {
+                frames = GetUpFrames;
+                fps = getUpFps;
+                directBySimFrame = true;
+            }
+            else if (_hsm.IsDefendBreak)
+            {
+                frames = DefendBreakFrames;
+                fps = hurtFps;
+                directBySimFrame = true;
+            }
+            else if (_hsm.IsHurtGrounded)
+            {
+                frames = HurtGroundedFrames;
+                fps = hurtFps;
+                directBySimFrame = true;
+            }
+            else if (_hsm.IsDefending)
+            {
+                frames = DefendFrames;
+                fps = defendFps;
+            }
+            // --- Original states ---
+            else if (_hsm.IsAttacking)
             {
                 fps = attackFps;
                 switch (_hsm.ActiveAttackId)
@@ -84,17 +138,15 @@ namespace Project.Gameplay.Visual
                         frames = JabFrames;
                         break;
                 }
-
-                directByAttackFrame = true;
+                directBySimFrame = true;
             }
-            else if (_hsm != null && _hsm.IsMoving)
+            else if (_hsm.IsMoving)
             {
                 frames = MoveFrames;
                 fps = moveFps;
             }
             else if (moved)
             {
-                // Knockback without intentional movement = hitstun
                 frames = HitstunFrames;
                 fps = hitstunFps;
             }
@@ -102,9 +154,12 @@ namespace Project.Gameplay.Visual
             if (frames.Length == 0)
                 return;
 
-            if (directByAttackFrame && _hsm != null)
+            if (directBySimFrame)
             {
-                _cursor = Mathf.Clamp(_hsm.ActiveAttackFrameIndex, 0, frames.Length - 1);
+                // For attacks: use ActiveAttackFrameIndex
+                // For reactive states: use ReactiveFrameIndex
+                int simIndex = _hsm.IsAttacking ? _hsm.ActiveAttackFrameIndex : _hsm.ReactiveFrameIndex;
+                _cursor = Mathf.Clamp(simIndex, 0, frames.Length - 1);
             }
             else
             {
@@ -124,8 +179,7 @@ namespace Project.Gameplay.Visual
             if (sprite != null)
                 _sr.sprite = sprite;
 
-            if (_hsm != null)
-                _sr.flipX = !_hsm.FacingRight;
+            _sr.flipX = !_hsm.FacingRight;
         }
     }
 }

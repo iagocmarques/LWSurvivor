@@ -18,6 +18,7 @@ namespace Project.Core.Bootstrap
         private static AttackDefinition _launcher;
         private static AttackDefinition _dashAttack;
         private static EnemyDefinition _bandit;
+        private static ReactiveMoveSet _davisReactiveMoves;
         private static CharacterDefinition _davis;
         private static DefinitionRegistry _registry;
 
@@ -49,6 +50,7 @@ namespace Project.Core.Bootstrap
             _dashAttack = MvpSoFactory.CreateDashAttack();
             _bandit = MvpSoFactory.CreateBandit();
             _davis = MvpSoFactory.CreateDavis(_playerTuning, _jab, _launcher, _dashAttack);
+            _davisReactiveMoves = MvpSoFactory.CreateDavisReactiveMoveSet();
             _registry = MvpSoFactory.CreateRegistry(_davis, _bandit);
 
             // ── 2. Create / find Player ───────────────────────────────
@@ -78,6 +80,8 @@ namespace Project.Core.Bootstrap
                     player.AddComponent<PlayerRuntimeStats>();
                 if (player.GetComponent<Health>() == null)
                     player.AddComponent<Health>();
+                if (player.GetComponent<CharacterMotor>() == null)
+                    player.AddComponent<CharacterMotor>();
                 if (player.GetComponent<Damageable>() == null)
                     player.AddComponent<Damageable>();
                 if (player.GetComponent<CircleCollider2D>() == null)
@@ -97,13 +101,20 @@ namespace Project.Core.Bootstrap
                     player.AddComponent<DepthSortByY>();
                 if (player.GetComponent<Lf2PlayerSpriteAnimator>() == null)
                     player.AddComponent<Lf2PlayerSpriteAnimator>();
+                if (player.GetComponent<ReactiveCombatDebugOverlay>() == null)
+                    player.AddComponent<ReactiveCombatDebugOverlay>();
                 if (player.GetComponent<ArenaBounds>() == null)
                     player.AddComponent<ArenaBounds>();
+
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+                if (player.GetComponent<TestAttacker>() == null)
+                    player.AddComponent<TestAttacker>();
+#endif
 
                 var hsm = player.GetComponent<PlayerHsmController>();
                 if (hsm == null)
                     hsm = player.AddComponent<PlayerHsmController>();
-                hsm.Configure(_playerTuning, _jab, _launcher, _dashAttack);
+                hsm.Configure(_playerTuning, _jab, _launcher, _dashAttack, _davisReactiveMoves);
             }
 
             // ── Wire Camera ──────────────────────────────────────────────
@@ -189,6 +200,14 @@ namespace Project.Core.Bootstrap
                 so.attackDuration = 0.22f;
                 so.hitstunDuration = 0.25f;
                 so.knockbackSpeed = 10f;
+                so.guardBreakThreshold = 15f;
+                so.airLaunchThreshold = 5f;
+                so.lyingDurationTicks = 60;
+                so.getUpDurationTicks = 15;
+                so.defendHitStunTicks = 6;
+                so.invulnOnGetUpTicks = 10;
+                so.defendDamageReduction = 0.5f;
+                so.gravityPerTick = 0.5f;
                 return so;
             }
 
@@ -325,6 +344,121 @@ namespace Project.Core.Bootstrap
                 so.jab = jab;
                 so.launcher = launcher;
                 so.dashAttack = dashAttack;
+                return so;
+            }
+
+            // ── Davis Reactive Move Set ─────────────────────────────
+            public static ReactiveMoveSet CreateDavisReactiveMoveSet()
+            {
+                var so = ScriptableObject.CreateInstance<ReactiveMoveSet>();
+
+                // Defend (hold stance)
+                so.defend = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.Defend,
+                    loop = true,
+                    nextStateOnFinish = ReactiveStateId.Defend,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 56, durationTicks = 12, lockInput = true, invulnerable = false, impulse = Vector2.zero },
+                        new ReactiveFrameDefinition { picId = 57, durationTicks = 0, lockInput = true, invulnerable = false, impulse = Vector2.zero }
+                    }
+                };
+
+                // DefendBreak (guard broken)
+                so.defendBreak = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.DefendBreak,
+                    loop = false,
+                    nextStateOnFinish = ReactiveStateId.HurtGrounded,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 46, durationTicks = 2, lockInput = true, invulnerable = false, impulse = new Vector2(-3f, 0f) },
+                        new ReactiveFrameDefinition { picId = 47, durationTicks = 3, lockInput = true, invulnerable = false, impulse = new Vector2(-2f, 0f) },
+                        new ReactiveFrameDefinition { picId = 48, durationTicks = 4, lockInput = true, invulnerable = false, impulse = Vector2.zero }
+                    }
+                };
+
+                // DefendHit (micro-stun while blocking)
+                so.defendHit = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.DefendHit,
+                    loop = false,
+                    nextStateOnFinish = ReactiveStateId.Defend,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 56, durationTicks = 3, lockInput = true, invulnerable = false, impulse = new Vector2(-1f, 0f) },
+                        new ReactiveFrameDefinition { picId = 57, durationTicks = 3, lockInput = true, invulnerable = false, impulse = Vector2.zero }
+                    }
+                };
+
+                // HurtGrounded (hit while standing)
+                so.hurtGrounded = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.HurtGrounded,
+                    loop = false,
+                    nextStateOnFinish = ReactiveStateId.HurtGrounded,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 30, durationTicks = 3, lockInput = true, invulnerable = false, impulse = new Vector2(-4f, 0f) },
+                        new ReactiveFrameDefinition { picId = 31, durationTicks = 3, lockInput = true, invulnerable = false, impulse = new Vector2(-2f, 0f) },
+                        new ReactiveFrameDefinition { picId = 32, durationTicks = 4, lockInput = false, invulnerable = false, impulse = Vector2.zero }
+                    }
+                };
+
+                // HurtAir (launched/falling)
+                so.hurtAir = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.HurtAir,
+                    loop = true,
+                    nextStateOnFinish = ReactiveStateId.HurtAir,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 30, durationTicks = 3, lockInput = true, invulnerable = false, impulse = Vector2.zero },
+                        new ReactiveFrameDefinition { picId = 31, durationTicks = 3, lockInput = true, invulnerable = false, impulse = Vector2.zero },
+                        new ReactiveFrameDefinition { picId = 32, durationTicks = 3, lockInput = true, invulnerable = false, impulse = Vector2.zero },
+                        new ReactiveFrameDefinition { picId = 33, durationTicks = 3, lockInput = true, invulnerable = false, impulse = Vector2.zero }
+                    }
+                };
+
+                // Lying (on ground)
+                so.lying = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.Lying,
+                    loop = false,
+                    nextStateOnFinish = ReactiveStateId.GetUp,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 33, durationTicks = 60, lockInput = true, invulnerable = true, impulse = Vector2.zero }
+                    }
+                };
+
+                // GetUp
+                so.getUp = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.GetUp,
+                    loop = false,
+                    nextStateOnFinish = ReactiveStateId.HurtGrounded,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 34, durationTicks = 4, lockInput = true, invulnerable = true, impulse = Vector2.zero },
+                        new ReactiveFrameDefinition { picId = 35, durationTicks = 4, lockInput = true, invulnerable = true, impulse = Vector2.zero },
+                        new ReactiveFrameDefinition { picId = 0, durationTicks = 2, lockInput = false, invulnerable = false, impulse = Vector2.zero }
+                    }
+                };
+
+                // Dead
+                so.dead = new ReactiveMoveDefinition
+                {
+                    stateId = ReactiveStateId.Dead,
+                    loop = true,
+                    nextStateOnFinish = ReactiveStateId.Dead,
+                    frames = new[]
+                    {
+                        new ReactiveFrameDefinition { picId = 33, durationTicks = 9999, lockInput = true, invulnerable = true, impulse = Vector2.zero }
+                    }
+                };
+
                 return so;
             }
 

@@ -26,6 +26,33 @@ namespace Project.Gameplay.Combat
             SpawnPopup(worldPos + new Vector3(0f, 0.65f, 0f), text, new Color(1f, 0.45f, 0.45f, 1f), 0.8f);
         }
 
+        /// <summary>
+        /// Shows a status effect popup (BURN!, FREEZE!, BLOOD!).
+        /// </summary>
+        public static void SpawnStatusEffectPopup(Vector3 worldPos, StatusEffect effect)
+        {
+            if (effect == StatusEffect.None) return;
+
+            var (text, color) = effect switch
+            {
+                StatusEffect.Burn   => ("BURN!",   new Color(1f,  0.6f, 0.2f, 1f)),
+                StatusEffect.Freeze => ("FREEZE!", new Color(0.4f, 0.8f, 1f,  1f)),
+                StatusEffect.Blood  => ("BLOOD!",  new Color(0.8f, 0.1f, 0.1f, 1f)),
+                _ => ("", Color.white)
+            };
+
+            if (!string.IsNullOrEmpty(text))
+                SpawnPopup(worldPos + new Vector3(0f, 0.5f, 0f), text, color, 0.6f);
+        }
+
+        /// <summary>
+        /// Shows a guard break popup.
+        /// </summary>
+        public static void SpawnGuardBreakPopup(Vector3 worldPos)
+        {
+            SpawnPopup(worldPos + new Vector3(0f, 0.5f, 0f), "GUARD BREAK!", Color.white, 0.7f);
+        }
+
         private static void SpawnPopup(Vector3 pos, string text, Color color, float ttl)
         {
             var go = _pool.Count > 0 ? _pool.Pop() : CreatePopupGO();

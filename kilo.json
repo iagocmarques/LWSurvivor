@@ -1,0 +1,49 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "model": "xiaomi/mimo-v2.5-pro",
+  "small_model": "xiaomi/mimo-v2.5-flash",
+  "default_agent": "workflow-orchestrator",
+  "instructions": [
+    "AGENTS.md"
+  ],
+  "permission": {
+    "bash": {
+      "rm -rf /": "deny",
+      "rm -rf ~": "deny",
+      "rm -rf *": "deny",
+      "mkfs.*": "deny",
+      "dd if=* of=/dev/*": "deny",
+      ":(){ :|:& };:": "deny",
+      "git push --force origin main": "deny",
+      "git push --force origin master": "deny",
+      "shutdown": "deny",
+      "reboot": "deny",
+      "halt": "deny",
+      "poweroff": "deny",
+      "*": "ask"
+    },
+    "edit": {
+      "*.lock": "deny",
+      "Assets/**/*.cs": "allow",
+      "Assets/**/*.prefab": "ask",
+      "Assets/**/*.unity": "ask",
+      "*.asset": "ask",
+      "kilo.json": "ask",
+      "AGENTS.md": "ask",
+      ".kilo/**": "ask",
+      "*": "ask"
+    },
+    "external_directory": "deny"
+  },
+  "mcp": {
+    "user-unity-mcp": {
+      "type": "remote",
+      "url": "http://localhost:23163",
+      "headers": {},
+      "enabled": true
+    }
+  },
+  "skills": {
+    "paths": [".kilo/skill"]
+  }
+}

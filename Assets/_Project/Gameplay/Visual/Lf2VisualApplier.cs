@@ -37,7 +37,10 @@ namespace Project.Gameplay.Visual
 
             var sp = Lf2VisualLibrary.GetPlayerSprite();
             if (sp != null)
+            {
                 sr.sprite = sp;
+                sr.color = Color.white;
+            }
 
             if (player.GetComponent<Lf2PlayerSpriteAnimator>() == null)
                 player.AddComponent<Lf2PlayerSpriteAnimator>();
