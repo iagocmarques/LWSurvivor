@@ -1,0 +1,6166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d50be6631e96594dab91edffabe672f, type: 3}
+  m_Name: julian_Imported
+  m_EditorClassIdentifier: Assembly-CSharp::LF2Importer.ImportedLf2Character
+  dataTxtId: 52
+  sourceDatRelativePath: data/julian.dat
+  displayName: Julian
+  headSpritePath: sprite\sys\julian_f.bmp
+  smallSpritePath: sprite\sys\julian_s.bmp
+  importWarnings:
+  - 'C:\Users\Iago\My project\Assets\GameExample\LittleFighter\data\julian.dat: frame
+    251 next -> 1000 missing.'
+  bmpSheets:
+  - picStart: 0
+    picEnd: 49
+    sourcePath: sprite/sys/julian_0.bmp
+    cellW: 79
+    cellH: 99
+    row: 10
+    col: 5
+  - picStart: 50
+    picEnd: 63
+    sourcePath: sprite/sys/julian_1.bmp
+    cellW: 109
+    cellH: 99
+    row: 7
+    col: 2
+  - picStart: 64
+    picEnd: 113
+    sourcePath: sprite/sys/julian_2.bmp
+    cellW: 79
+    cellH: 99
+    row: 10
+    col: 5
+  movementParams: []
+  moves:
+  - name: standing
+    startFrameId: 0
+    frameSequence: 0000000001000000020000000300000004000000
+    inputBindings:
+    - hitKey: hit_a
+      fromFrameId: 0
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 0
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 0
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 1
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 1
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 1
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 2
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 2
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 2
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 3
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 3
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 3
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 4
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 4
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 4
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 5
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 5
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 5
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 6
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 6
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 6
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 7
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 7
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 7
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 8
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 8
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 8
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 9
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 9
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 9
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 10
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 10
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 10
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 11
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 11
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 11
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 12
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 12
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 12
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 13
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 13
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 13
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 14
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 14
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 14
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 15
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 15
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 15
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 16
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 16
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 16
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 17
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 17
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 17
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 18
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 18
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 18
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 19
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 19
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 19
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 20
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 20
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 20
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 21
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 21
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 21
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 25
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 25
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 25
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 30
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 30
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 30
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 31
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 31
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 31
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 32
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 32
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 32
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 35
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 35
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 35
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 36
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 36
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 36
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 40
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 40
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 40
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 41
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 41
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 41
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 42
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 42
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 42
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 45
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 45
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 45
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 46
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 46
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 46
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 50
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 50
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 50
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 51
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 51
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 51
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 52
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 52
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 52
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 53
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 53
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 53
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 54
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 54
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 54
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 55
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 55
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 56
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 56
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 57
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 57
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 58
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 58
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 60
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 60
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 60
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 61
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 61
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 61
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 65
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 65
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 65
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 66
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 66
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 66
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 70
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 70
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 70
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 71
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 71
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 71
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 72
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 72
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 72
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 73
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 73
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 73
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 74
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 74
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 74
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 75
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 75
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 75
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 76
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 76
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 76
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 79
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 79
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 80
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 80
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 80
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 81
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 81
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 81
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 85
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 85
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 85
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 86
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 86
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 86
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 87
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 87
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 87
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 88
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 88
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 88
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 89
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 89
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 90
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 90
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 90
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 91
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 91
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 91
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 100
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 100
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 100
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 101
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 101
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 101
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 102
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 102
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 102
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 103
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 103
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 103
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 104
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 104
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 104
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 105
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 105
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 106
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 106
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 106
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 108
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 108
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 108
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 109
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 109
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 109
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 110
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 110
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 110
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 111
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 111
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 111
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 112
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 112
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 112
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 113
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 113
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 113
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 114
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 114
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 114
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 115
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 115
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 115
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 116
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 116
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 116
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 117
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 117
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 117
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 120
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 120
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 120
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 121
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 121
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 121
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 122
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 122
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 122
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 123
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 123
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 123
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 130
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 130
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 130
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 131
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 131
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 131
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 132
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 132
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 132
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 133
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 133
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 133
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 134
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 134
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 134
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 135
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 135
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 135
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 136
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 136
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 136
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 137
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 137
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 137
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 138
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 138
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 138
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 139
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 139
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 139
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 140
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 140
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 140
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 141
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 141
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 141
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 142
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 142
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 142
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 143
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 143
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 143
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 144
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 144
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 144
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 180
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 180
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 180
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 181
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 181
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 181
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 182
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 182
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 182
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 183
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 183
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 183
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 184
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 184
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 184
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 185
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 185
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 185
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 186
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 186
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 186
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 187
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 187
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 187
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 188
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 188
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 188
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 189
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 189
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 189
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 190
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 190
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 190
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 191
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 191
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 191
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 200
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 200
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 200
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 201
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 201
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 201
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 202
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 202
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 202
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 203
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 203
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 203
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 204
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 204
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 204
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 205
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 205
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 205
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 206
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 206
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 206
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 207
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 207
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 207
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 210
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 210
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 210
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 211
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 211
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 211
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 212
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 212
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 212
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 213
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 213
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 213
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 214
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 214
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 214
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 215
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 215
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 215
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 218
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 218
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 218
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 219
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 219
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 219
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 220
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 220
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 220
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 221
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 221
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 221
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 222
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 222
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 222
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 223
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 223
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 223
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 224
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 224
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 224
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 225
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 225
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 225
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 226
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 226
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 226
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 227
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 227
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 227
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 228
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 228
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 228
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 229
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 229
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 229
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 230
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 230
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 230
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 231
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 231
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 231
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 232
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 232
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 232
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 233
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 233
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 233
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 234
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 234
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 234
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 235
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 235
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 235
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 240
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 240
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 240
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 241
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 241
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 241
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 242
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 242
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 242
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 243
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 243
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 243
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 244
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 244
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 244
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 245
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 245
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 245
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 246
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 246
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 246
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 247
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 247
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 247
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 248
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 248
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 248
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 249
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 249
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 249
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 250
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 250
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 250
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 251
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 251
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 251
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 260
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 260
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 260
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 261
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 261
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 261
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 262
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 263
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 263
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 263
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 264
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 264
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 264
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 265
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 265
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 265
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 266
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 267
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 267
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 267
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 268
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 268
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 268
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 269
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 270
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 270
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 270
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 271
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 271
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 271
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 272
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 273
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 273
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 273
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 274
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 274
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 274
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 276
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 276
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 276
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 280
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 280
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 280
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 281
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 281
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 281
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 282
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 282
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 282
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 283
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 283
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 283
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 284
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 284
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 284
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 285
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 285
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 285
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 286
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 286
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 286
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 287
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 287
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 287
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 288
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 288
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 288
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 289
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 289
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 289
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 290
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 290
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 290
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 291
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 291
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 291
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 300
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 300
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 300
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 301
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 301
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 301
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 302
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 302
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 302
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 303
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 303
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 303
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 304
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 304
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 304
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 305
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 305
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 305
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 306
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 306
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 306
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 307
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 307
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 307
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 310
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 310
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 310
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 311
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 311
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 311
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 312
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 312
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 312
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 313
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 313
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 313
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 314
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 314
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 314
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 315
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 315
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 315
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 316
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 316
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 316
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 317
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 317
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 317
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 318
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 318
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 318
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 319
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 319
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 319
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 320
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 320
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 320
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 321
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 321
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 321
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 322
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 322
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 322
+      toFrameId: 0
+    - hitKey: hit_a
+      fromFrameId: 399
+      toFrameId: 0
+    - hitKey: hit_d
+      fromFrameId: 399
+      toFrameId: 0
+    - hitKey: hit_j
+      fromFrameId: 399
+      toFrameId: 0
+  - name: jump_attack
+    startFrameId: 80
+    frameSequence: 5000000051000000
+    inputBindings:
+    - hitKey: hit_a
+      fromFrameId: 79
+      toFrameId: 80
+    - hitKey: hit_a
+      fromFrameId: 89
+      toFrameId: 80
+  - name: rowing
+    startFrameId: 106
+    frameSequence: 6a000000670000006800000069000000
+    inputBindings:
+    - hitKey: hit_ja
+      fromFrameId: 0
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 1
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 2
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 3
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 4
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 5
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 6
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 7
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 8
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 9
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 10
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 11
+      toFrameId: 106
+    - hitKey: hit_j
+      fromFrameId: 105
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 110
+      toFrameId: 106
+    - hitKey: hit_ja
+      fromFrameId: 111
+      toFrameId: 106
+  - name: singlong
+    startFrameId: 235
+    frameSequence: eb000000560000005700000058000000590000004f0000000000000001000000020000000300000004000000
+    inputBindings:
+    - hitKey: hit_Ua
+      fromFrameId: 0
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 1
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 2
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 3
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 4
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 5
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 6
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 7
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 8
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 9
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 10
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 11
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 110
+      toFrameId: 235
+    - hitKey: hit_Ua
+      fromFrameId: 111
+      toFrameId: 235
+  - name: ball
+    startFrameId: 260
+    frameSequence: 0401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f0100001001000011010000120100001301000014010000
+    inputBindings:
+    - hitKey: hit_Fa
+      fromFrameId: 0
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 1
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 2
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 3
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 4
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 5
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 6
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 7
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 8
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 9
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 10
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 11
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 105
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 110
+      toFrameId: 260
+    - hitKey: hit_Fa
+      fromFrameId: 111
+      toFrameId: 260
+  - name: ball
+    startFrameId: 263
+    frameSequence: 0701000008010000090100000a0100000b0100000c0100000d0100000e0100000f0100001001000011010000120100001301000014010000
+    inputBindings:
+    - hitKey: hit_a
+      fromFrameId: 275
+      toFrameId: 263
+    - hitKey: hit_Fa
+      fromFrameId: 275
+      toFrameId: 263
+  - name: ball_end
+    startFrameId: 276
+    frameSequence: 14010000
+    inputBindings:
+    - hitKey: hit_d
+      fromFrameId: 262
+      toFrameId: 276
+    - hitKey: hit_j
+      fromFrameId: 262
+      toFrameId: 276
+    - hitKey: hit_d
+      fromFrameId: 266
+      toFrameId: 276
+    - hitKey: hit_j
+      fromFrameId: 266
+      toFrameId: 276
+    - hitKey: hit_d
+      fromFrameId: 269
+      toFrameId: 276
+    - hitKey: hit_j
+      fromFrameId: 269
+      toFrameId: 276
+    - hitKey: hit_d
+      fromFrameId: 272
+      toFrameId: 276
+    - hitKey: hit_j
+      fromFrameId: 272
+      toFrameId: 276
+    - hitKey: hit_d
+      fromFrameId: 275
+      toFrameId: 276
+    - hitKey: hit_j
+      fromFrameId: 275
+      toFrameId: 276
+  - name: big_ball
+    startFrameId: 280
+    frameSequence: 18010000190100001a0100001b0100001c0100001d0100001e0100001f01000020010000210100002201000023010000
+    inputBindings:
+    - hitKey: hit_Fj
+      fromFrameId: 0
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 1
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 2
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 3
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 4
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 5
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 6
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 7
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 8
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 9
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 10
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 11
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 110
+      toFrameId: 280
+    - hitKey: hit_Fj
+      fromFrameId: 111
+      toFrameId: 280
+  - name: explosion
+    startFrameId: 310
+    frameSequence: 360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000
+    inputBindings:
+    - hitKey: hit_Uj
+      fromFrameId: 0
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 1
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 2
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 3
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 4
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 5
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 6
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 7
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 8
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 9
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 10
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 11
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 110
+      toFrameId: 310
+    - hitKey: hit_Uj
+      fromFrameId: 111
+      toFrameId: 310
+  frameRows:
+  - id: 0
+    frameName: standing
+    pic: 0
+    state: 0
+    wait: 10
+    next: 1
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 1
+    frameName: standing
+    pic: 1
+    state: 0
+    wait: 4
+    next: 2
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 2
+    frameName: standing
+    pic: 2
+    state: 0
+    wait: 3
+    next: 3
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 3
+    frameName: standing
+    pic: 3
+    state: 0
+    wait: 8
+    next: 4
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 4
+    frameName: standing
+    pic: 2
+    state: 0
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 5
+    frameName: walking
+    pic: 4
+    state: 1
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 1
+      x: 31
+      y: 10
+      w: 57
+      h: 89
+      raw: kind:1 x:31 y:10 w:57 h:89 catchingact:120 caughtact:130
+    opoints: []
+  - id: 6
+    frameName: walking
+    pic: 5
+    state: 1
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 1
+      x: 33
+      y: 11
+      w: 59
+      h: 90
+      raw: kind:1 x:33 y:11 w:59 h:90 catchingact:120 caughtact:130
+    opoints: []
+  - id: 7
+    frameName: walking
+    pic: 6
+    state: 1
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 1
+      x: 32
+      y: 9
+      w: 60
+      h: 92
+      raw: kind:1 x:32 y:9 w:60 h:92 catchingact:120 caughtact:130
+    opoints: []
+  - id: 8
+    frameName: walking
+    pic: 7
+    state: 1
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 1
+      x: 32
+      y: 6
+      w: 63
+      h: 96
+      raw: kind:1 x:32 y:6 w:63 h:96 catchingact:120 caughtact:130
+    opoints: []
+  - id: 9
+    frameName: running
+    pic: 26
+    state: 2
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\003.wav
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 10
+    frameName: running
+    pic: 27
+    state: 2
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 11
+    frameName: running
+    pic: 28
+    state: 2
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\004.wav
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 12
+    frameName: heavy_obj_walk
+    pic: 30
+    state: 1
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 13
+      w: 63
+      h: 86
+      raw: kind:0 x:10 y:13 w:63 h:86
+    hitboxes: []
+    opoints: []
+  - id: 13
+    frameName: heavy_obj_walk
+    pic: 31
+    state: 1
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 14
+      y: 14
+      w: 60
+      h: 85
+      raw: kind:0 x:14 y:14 w:60 h:85
+    hitboxes: []
+    opoints: []
+  - id: 14
+    frameName: heavy_obj_walk
+    pic: 32
+    state: 1
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 13
+      y: 10
+      w: 60
+      h: 91
+      raw: kind:0 x:13 y:10 w:60 h:91
+    hitboxes: []
+    opoints: []
+  - id: 15
+    frameName: heavy_obj_walk
+    pic: 33
+    state: 1
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 12
+      y: 7
+      w: 62
+      h: 93
+      raw: kind:0 x:12 y:7 w:62 h:93
+    hitboxes: []
+    opoints: []
+  - id: 16
+    frameName: heavy_obj_run
+    pic: 34
+    state: 2
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\003.wav
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 7
+      w: 63
+      h: 90
+      raw: kind:0 x:8 y:7 w:63 h:90
+    hitboxes: []
+    opoints: []
+  - id: 17
+    frameName: heavy_obj_run
+    pic: 35
+    state: 2
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 11
+      y: 11
+      w: 64
+      h: 88
+      raw: kind:0 x:11 y:11 w:64 h:88
+    hitboxes: []
+    opoints: []
+  - id: 18
+    frameName: heavy_obj_run
+    pic: 36
+    state: 2
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\004.wav
+    hurtboxes:
+    - kind: 0
+      x: 9
+      y: 7
+      w: 59
+      h: 93
+      raw: kind:0 x:9 y:7 w:59 h:93
+    hitboxes: []
+    opoints: []
+  - id: 19
+    frameName: heavy_stop_run
+    pic: 41
+    state: 15
+    wait: 7
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\009.wav
+    hurtboxes:
+    - kind: 0
+      x: 13
+      y: 9
+      w: 55
+      h: 90
+      raw: kind:0 x:13 y:9 w:55 h:90
+    hitboxes: []
+    opoints: []
+  - id: 20
+    frameName: normal_weapon_atck
+    pic: 37
+    state: 15
+    wait: 2
+    next: 21
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 9
+      y: 9
+      w: 59
+      h: 91
+      raw: kind:0 x:9 y:9 w:59 h:91
+    hitboxes: []
+    opoints: []
+  - id: 21
+    frameName: normal_weapon_atck
+    pic: 38
+    state: 15
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\008.wav
+    hurtboxes:
+    - kind: 0
+      x: 4
+      y: 15
+      w: 56
+      h: 86
+      raw: kind:0 x:4 y:15 w:56 h:86
+    hitboxes: []
+    opoints: []
+  - id: 25
+    frameName: normal_weapon_atck
+    pic: 37
+    state: 15
+    wait: 2
+    next: 21
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 9
+      y: 9
+      w: 59
+      h: 91
+      raw: kind:0 x:9 y:9 w:59 h:91
+    hitboxes: []
+    opoints: []
+  - id: 30
+    frameName: jump_weapon_atck
+    pic: 37
+    state: 3
+    wait: 1
+    next: 31
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 13
+      w: 47
+      h: 85
+      raw: kind:0 x:20 y:13 w:47 h:85
+    hitboxes: []
+    opoints: []
+  - id: 31
+    frameName: jump_weapon_atck
+    pic: 39
+    state: 3
+    wait: 1
+    next: 32
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\008.wav
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 32
+      w: 44
+      h: 67
+      raw: kind:0 x:7 y:32 w:44 h:67
+    - kind: 0
+      x: 29
+      y: 12
+      w: 26
+      h: 38
+      raw: kind:0 x:29 y:12 w:26 h:38
+    hitboxes: []
+    opoints: []
+  - id: 32
+    frameName: jump_weapon_atck
+    pic: 39
+    state: 3
+    wait: 4
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 32
+      w: 44
+      h: 67
+      raw: kind:0 x:7 y:32 w:44 h:67
+    - kind: 0
+      x: 29
+      y: 12
+      w: 26
+      h: 38
+      raw: kind:0 x:29 y:12 w:26 h:38
+    hitboxes: []
+    opoints: []
+  - id: 35
+    frameName: run_weapon_atck
+    pic: 37
+    state: 15
+    wait: 3
+    next: 36
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 9
+      y: 9
+      w: 59
+      h: 91
+      raw: kind:0 x:9 y:9 w:59 h:91
+    hitboxes: []
+    opoints: []
+  - id: 36
+    frameName: run_weapon_atck
+    pic: 38
+    state: 15
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\008.wav
+    hurtboxes:
+    - kind: 0
+      x: 4
+      y: 15
+      w: 56
+      h: 86
+      raw: kind:0 x:4 y:15 w:56 h:86
+    hitboxes: []
+    opoints: []
+  - id: 40
+    frameName: dash_weapon_atck
+    pic: 37
+    state: 3
+    wait: 1
+    next: 41
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 13
+      w: 47
+      h: 85
+      raw: kind:0 x:20 y:13 w:47 h:85
+    hitboxes: []
+    opoints: []
+  - id: 41
+    frameName: dash_weapon_atck
+    pic: 39
+    state: 3
+    wait: 1
+    next: 42
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\008.wav
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 32
+      w: 44
+      h: 67
+      raw: kind:0 x:7 y:32 w:44 h:67
+    - kind: 0
+      x: 29
+      y: 12
+      w: 26
+      h: 38
+      raw: kind:0 x:29 y:12 w:26 h:38
+    hitboxes: []
+    opoints: []
+  - id: 42
+    frameName: dash_weapon_atck
+    pic: 39
+    state: 3
+    wait: 4
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 32
+      w: 44
+      h: 67
+      raw: kind:0 x:7 y:32 w:44 h:67
+    - kind: 0
+      x: 29
+      y: 12
+      w: 26
+      h: 38
+      raw: kind:0 x:29 y:12 w:26 h:38
+    hitboxes: []
+    opoints: []
+  - id: 45
+    frameName: light_weapon_thw
+    pic: 37
+    state: 15
+    wait: 3
+    next: 46
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 9
+      y: 9
+      w: 59
+      h: 91
+      raw: kind:0 x:9 y:9 w:59 h:91
+    hitboxes: []
+    opoints: []
+  - id: 46
+    frameName: light_weapon_thw
+    pic: 38
+    state: 15
+    wait: 3
+    next: 999
+    dvx: 24
+    dvy: -4
+    dvz: 3
+    soundPath: data\008.wav
+    hurtboxes:
+    - kind: 0
+      x: 4
+      y: 15
+      w: 56
+      h: 86
+      raw: kind:0 x:4 y:15 w:56 h:86
+    hitboxes: []
+    opoints: []
+  - id: 50
+    frameName: heavy_weapon_thw
+    pic: 37
+    state: 15
+    wait: 3
+    next: 51
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 11
+      y: 4
+      w: 59
+      h: 97
+      raw: kind:0 x:11 y:4 w:59 h:97
+    hitboxes: []
+    opoints: []
+  - id: 51
+    frameName: heavy_weapon_thw
+    pic: 38
+    state: 15
+    wait: 3
+    next: 999
+    dvx: 17
+    dvy: -4
+    dvz: 2
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 12
+      y: 16
+      w: 50
+      h: 84
+      raw: kind:0 x:12 y:16 w:50 h:84
+    hitboxes: []
+    opoints: []
+  - id: 52
+    frameName: sky_lgt_wp_thw
+    pic: 37
+    state: 15
+    wait: 3
+    next: 53
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 8
+      w: 44
+      h: 88
+      raw: kind:0 x:20 y:8 w:44 h:88
+    hitboxes: []
+    opoints: []
+  - id: 53
+    frameName: sky_lgt_wp_thw
+    pic: 39
+    state: 15
+    wait: 1
+    next: 54
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\008.wav
+    hurtboxes:
+    - kind: 0
+      x: 11
+      y: 14
+      w: 46
+      h: 80
+      raw: kind:0 x:11 y:14 w:46 h:80
+    hitboxes: []
+    opoints: []
+  - id: 54
+    frameName: sky_lgt_wp_thw
+    pic: 39
+    state: 15
+    wait: 9
+    next: 999
+    dvx: 16
+    dvy: 8
+    dvz: 3
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 13
+      y: 17
+      w: 48
+      h: 85
+      raw: kind:0 x:13 y:17 w:48 h:85
+    hitboxes: []
+    opoints: []
+  - id: 55
+    frameName: weapon_drink
+    pic: 46
+    state: 17
+    wait: 3
+    next: 56
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\042.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 12
+      w: 37
+      h: 67
+      raw: kind:0 x:15 y:12 w:37 h:67
+    hitboxes: []
+    opoints: []
+  - id: 56
+    frameName: weapon_drink
+    pic: 47
+    state: 17
+    wait: 3
+    next: 57
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 16
+      y: 20
+      w: 36
+      h: 59
+      raw: kind:0 x:16 y:20 w:36 h:59
+    hitboxes: []
+    opoints: []
+  - id: 57
+    frameName: weapon_drink
+    pic: 48
+    state: 17
+    wait: 3
+    next: 58
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 17
+      y: 17
+      w: 32
+      h: 63
+      raw: kind:0 x:17 y:17 w:32 h:63
+    hitboxes: []
+    opoints: []
+  - id: 58
+    frameName: weapon_drink
+    pic: 47
+    state: 17
+    wait: 3
+    next: 55
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 16
+      y: 13
+      w: 36
+      h: 65
+      raw: kind:0 x:16 y:13 w:36 h:65
+    hitboxes: []
+    opoints: []
+  - id: 60
+    frameName: punch
+    pic: 10
+    state: 3
+    wait: 2
+    next: 61
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 2
+      x: 11
+      y: 79
+      w: 65
+      h: 28
+      raw: kind:2 x:11 y:79 w:65 h:28 vrest:1
+    opoints: []
+  - id: 61
+    frameName: punch
+    pic: 11
+    state: 3
+    wait: 1
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 0
+      x: 35
+      y: 36
+      w: 46
+      h: 26
+      raw: kind:0 x:35 y:36 w:46 h:26 dvx:2 fall:25 vrest:8 bdefend:30 injury:35
+    opoints: []
+  - id: 65
+    frameName: punch
+    pic: 12
+    state: 3
+    wait: 2
+    next: 66
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 2
+      x: 8
+      y: 78
+      w: 65
+      h: 31
+      raw: kind:2 x:8 y:78 w:65 h:31 vrest:1
+    opoints: []
+  - id: 66
+    frameName: punch
+    pic: 13
+    state: 3
+    wait: 1
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 0
+      x: 32
+      y: 37
+      w: 48
+      h: 31
+      raw: kind:0 x:32 y:37 w:48 h:31 dvx:2 fall:25 vrest:8 bdefend:30 injury:35
+    opoints: []
+  - id: 70
+    frameName: super
+    pic: 15
+    state: 3
+    wait: 1
+    next: 71
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 71
+    frameName: super
+    pic: 16
+    state: 3
+    wait: 1
+    next: 72
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 72
+    frameName: super
+    pic: 17
+    state: 3
+    wait: 1
+    next: 73
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 73
+    frameName: super
+    pic: 18
+    state: 3
+    wait: 1
+    next: 74
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 74
+    frameName: super
+    pic: 19
+    state: 3
+    wait: 1
+    next: 75
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 0
+      x: 34
+      y: 18
+      w: 41
+      h: 58
+      raw: kind:0 x:34 y:18 w:41 h:58 dvx:7 dvy:9 fall:70 vrest:10 bdefend:60 injury:60
+    opoints: []
+  - id: 75
+    frameName: super
+    pic: 29
+    state: 3
+    wait: 4
+    next: 76
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 0
+      x: 43
+      y: 47
+      w: 34
+      h: 25
+      raw: kind:0 x:43 y:47 w:34 h:25 dvx:7 dvy:9 fall:70 vrest:10 bdefend:60 injury:60
+    opoints: []
+  - id: 76
+    frameName: super
+    pic: 10
+    state: 3
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 79
+    frameName: singlong
+    pic: 25
+    state: 3
+    wait: 9
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 6
+      y: 16
+      w: 48
+      h: 75
+      raw: kind:0 x:6 y:16 w:48 h:75
+    hitboxes: []
+    opoints: []
+  - id: 80
+    frameName: jump_attack
+    pic: 76
+    state: 3
+    wait: 3
+    next: 81
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 13
+      w: 54
+      h: 76
+      raw: kind:0 x:8 y:13 w:54 h:76
+    hitboxes: []
+    opoints: []
+  - id: 81
+    frameName: jump_attack
+    pic: 50
+    state: 3
+    wait: 20
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 12
+      y: 13
+      w: 56
+      h: 73
+      raw: kind:0 x:12 y:13 w:56 h:73
+    hitboxes:
+    - kind: 0
+      x: 37
+      y: 56
+      w: 65
+      h: 32
+      raw: kind:0 x:37 y:56 w:65 h:32 dvx:13 dvy:-4 fall:70 vrest:10 bdefend:60 injury:60
+    opoints: []
+  - id: 85
+    frameName: run_attack
+    pic: 51
+    state: 3
+    wait: 4
+    next: 300
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 86
+    frameName: singlong
+    pic: 21
+    state: 3
+    wait: 1
+    next: 87
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 0
+      x: 34
+      y: 2
+      w: 41
+      h: 97
+      raw: kind:0 x:34 y:2 w:41 h:97 dvx:7 dvy:-13 fall:70 vrest:10 bdefend:60 injury:80
+    opoints: []
+  - id: 87
+    frameName: singlong
+    pic: 22
+    state: 3
+    wait: 1
+    next: 88
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 88
+    frameName: singlong
+    pic: 23
+    state: 3
+    wait: 2
+    next: 89
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes:
+    - kind: 0
+      x: 1
+      y: 6
+      w: 65
+      h: 118
+      raw: kind:0 x:1 y:6 w:65 h:118 dvx:7 dvy:-8 fall:70 vrest:10 bdefend:60 injury:60
+    opoints: []
+  - id: 89
+    frameName: singlong
+    pic: 24
+    state: 3
+    wait: 2
+    next: 79
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 90
+    frameName: dash_attack
+    pic: 76
+    state: 3
+    wait: 3
+    next: 81
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 13
+      w: 54
+      h: 76
+      raw: kind:0 x:8 y:13 w:54 h:76
+    hitboxes: []
+    opoints: []
+  - id: 91
+    frameName: dash_attack
+    pic: 50
+    state: 3
+    wait: 20
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 12
+      y: 13
+      w: 56
+      h: 73
+      raw: kind:0 x:12 y:13 w:56 h:73
+    hitboxes:
+    - kind: 0
+      x: 37
+      y: 56
+      w: 65
+      h: 32
+      raw: kind:0 x:37 y:56 w:65 h:32 dvx:13 dvy:-4 fall:70 vrest:10 bdefend:60 injury:80
+    opoints: []
+  - id: 100
+    frameName: rowing
+    pic: 55
+    state: 6
+    wait: 2
+    next: 101
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\017.wav
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 101
+    frameName: rowing
+    pic: 39
+    state: 6
+    wait: 6
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 102
+    frameName: rowing
+    pic: 78
+    state: 6
+    wait: 1
+    next: 103
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\030.wav
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 9
+      w: 52
+      h: 94
+      raw: kind:0 x:8 y:9 w:52 h:94
+    hitboxes: []
+    opoints: []
+  - id: 103
+    frameName: rowing
+    pic: 49
+    state: 6
+    wait: 10
+    next: 104
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints:
+    - oid: 52
+      resolvedRelativeFile: data/julian.dat
+      raw: kind=1 x=39 y=99 action=240 dvx=0 dvy=0 oid=52 facing=0
+  - id: 104
+    frameName: rowing
+    pic: 77
+    state: 6
+    wait: 3
+    next: 105
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 9
+      w: 52
+      h: 94
+      raw: kind:0 x:8 y:9 w:52 h:94
+    hitboxes: []
+    opoints: []
+  - id: 105
+    frameName: rowing
+    pic: 78
+    state: 6
+    wait: 4
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 9
+      w: 52
+      h: 94
+      raw: kind:0 x:8 y:9 w:52 h:94
+    hitboxes: []
+    opoints: []
+  - id: 106
+    frameName: rowing
+    pic: 78
+    state: 6
+    wait: 1
+    next: 103
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\030.wav
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 9
+      w: 52
+      h: 94
+      raw: kind:0 x:8 y:9 w:52 h:94
+    hitboxes: []
+    opoints: []
+  - id: 108
+    frameName: rowing
+    pic: 54
+    state: 6
+    wait: 3
+    next: 109
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\017.wav
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 109
+    frameName: rowing
+    pic: 67
+    state: 6
+    wait: 6
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 110
+    frameName: defend
+    pic: 42
+    state: 7
+    wait: 12
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 9
+      w: 52
+      h: 94
+      raw: kind:0 x:8 y:9 w:52 h:94
+    hitboxes: []
+    opoints: []
+  - id: 111
+    frameName: defend
+    pic: 42
+    state: 7
+    wait: 12
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 9
+      w: 52
+      h: 94
+      raw: kind:0 x:8 y:9 w:52 h:94
+    hitboxes: []
+    opoints: []
+  - id: 112
+    frameName: broken_defend
+    pic: 66
+    state: 8
+    wait: 1
+    next: 113
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 19
+      y: 6
+      w: 53
+      h: 94
+      raw: kind:0 x:19 y:6 w:53 h:94
+    hitboxes: []
+    opoints: []
+  - id: 113
+    frameName: broken_defend
+    pic: 67
+    state: 8
+    wait: 2
+    next: 114
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 6
+      w: 57
+      h: 92
+      raw: kind:0 x:15 y:6 w:57 h:92
+    hitboxes: []
+    opoints: []
+  - id: 114
+    frameName: broken_defend
+    pic: 69
+    state: 8
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 10
+      w: 54
+      h: 90
+      raw: kind:0 x:15 y:10 w:54 h:90
+    hitboxes: []
+    opoints: []
+  - id: 115
+    frameName: picking_light
+    pic: 14
+    state: 15
+    wait: 4
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\009.wav
+    hurtboxes:
+    - kind: 0
+      x: 19
+      y: 22
+      w: 52
+      h: 75
+      raw: kind:0 x:19 y:22 w:52 h:75
+    hitboxes: []
+    opoints: []
+  - id: 116
+    frameName: picking_heavy
+    pic: 14
+    state: 15
+    wait: 1
+    next: 117
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\009.wav
+    hurtboxes:
+    - kind: 0
+      x: 19
+      y: 23
+      w: 49
+      h: 75
+      raw: kind:0 x:19 y:23 w:49 h:75
+    hitboxes: []
+    opoints: []
+  - id: 117
+    frameName: picking_heavy
+    pic: 14
+    state: 15
+    wait: 1
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 19
+      y: 22
+      w: 49
+      h: 78
+      raw: kind:0 x:19 y:22 w:49 h:78
+    hitboxes: []
+    opoints: []
+  - id: 120
+    frameName: catching
+    pic: 44
+    state: 9
+    wait: 2
+    next: 121
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\015.wav
+    hurtboxes:
+    - kind: 0
+      x: 17
+      y: 13
+      w: 49
+      h: 89
+      raw: kind:0 x:17 y:13 w:49 h:89
+    hitboxes: []
+    opoints: []
+  - id: 121
+    frameName: catching
+    pic: 43
+    state: 9
+    wait: 0
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 11
+      y: 11
+      w: 54
+      h: 84
+      raw: kind:0 x:11 y:11 w:54 h:84
+    hitboxes: []
+    opoints: []
+  - id: 122
+    frameName: catching
+    pic: 44
+    state: 9
+    wait: 3
+    next: 123
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 18
+      y: 10
+      w: 52
+      h: 86
+      raw: kind:0 x:18 y:10 w:52 h:86
+    hitboxes: []
+    opoints: []
+  - id: 123
+    frameName: catching
+    pic: 45
+    state: 9
+    wait: 3
+    next: 121
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\014.wav
+    hurtboxes:
+    - kind: 0
+      x: 22
+      y: 4
+      w: 52
+      h: 92
+      raw: kind:0 x:22 y:4 w:52 h:92
+    hitboxes: []
+    opoints: []
+  - id: 130
+    frameName: picked_caught
+    pic: 68
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 26
+      y: 14
+      w: 28
+      h: 66
+      raw: kind:0 x:26 y:14 w:28 h:66
+    hitboxes: []
+    opoints: []
+  - id: 131
+    frameName: picked_caught
+    pic: 69
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 26
+      y: 14
+      w: 28
+      h: 66
+      raw: kind:0 x:26 y:14 w:28 h:66
+    hitboxes: []
+    opoints: []
+  - id: 132
+    frameName: picked_caught
+    pic: 69
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 26
+      y: 14
+      w: 28
+      h: 66
+      raw: kind:0 x:26 y:14 w:28 h:66
+    hitboxes: []
+    opoints: []
+  - id: 133
+    frameName: picked_caught
+    pic: 64
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 134
+    frameName: picked_caught
+    pic: 65
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 135
+    frameName: picked_caught
+    pic: 54
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 136
+    frameName: picked_caught
+    pic: 55
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 137
+    frameName: picked_caught
+    pic: 56
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 138
+    frameName: picked_caught
+    pic: 54
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 139
+    frameName: picked_caught
+    pic: 74
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 140
+    frameName: picked_caught
+    pic: 75
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 141
+    frameName: picked_caught
+    pic: 57
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 142
+    frameName: picked_caught
+    pic: 58
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 143
+    frameName: picked_caught
+    pic: 59
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 144
+    frameName: picked_caught
+    pic: 58
+    state: 10
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 180
+    frameName: falling
+    pic: 64
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 23
+      y: 45
+      w: 22
+      h: 21
+      raw: kind:0 x:23 y:45 w:22 h:21
+    hitboxes:
+    - kind: 4
+      x: 17
+      y: 39
+      w: 35
+      h: 31
+      raw: kind:4 x:17 y:39 w:35 h:31 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 181
+    frameName: falling
+    pic: 65
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 41
+      w: 26
+      h: 22
+      raw: kind:0 x:20 y:41 w:26 h:22
+    hitboxes:
+    - kind: 4
+      x: 12
+      y: 33
+      w: 29
+      h: 23
+      raw: kind:4 x:12 y:33 w:29 h:23 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    - kind: 4
+      x: 20
+      y: 45
+      w: 33
+      h: 27
+      raw: kind:4 x:20 y:45 w:33 h:27 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 182
+    frameName: falling
+    pic: 54
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 37
+      y: 38
+      w: 27
+      h: 24
+      raw: kind:0 x:37 y:38 w:27 h:24
+    hitboxes:
+    - kind: 4
+      x: 33
+      y: 37
+      w: 39
+      h: 30
+      raw: kind:4 x:33 y:37 w:39 h:30 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 183
+    frameName: falling
+    pic: 55
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 38
+      y: 40
+      w: 26
+      h: 22
+      raw: kind:0 x:38 y:40 w:26 h:22
+    hitboxes:
+    - kind: 4
+      x: 55
+      y: 32
+      w: 27
+      h: 19
+      raw: kind:4 x:55 y:32 w:27 h:19 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    - kind: 4
+      x: 30
+      y: 37
+      w: 36
+      h: 32
+      raw: kind:4 x:30 y:37 w:36 h:32 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 184
+    frameName: falling
+    pic: 56
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 185
+    frameName: falling
+    pic: 54
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 186
+    frameName: falling
+    pic: 74
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 31
+      y: 47
+      w: 25
+      h: 24
+      raw: kind:0 x:31 y:47 w:25 h:24
+    hitboxes:
+    - kind: 4
+      x: 19
+      y: 37
+      w: 42
+      h: 36
+      raw: kind:4 x:19 y:37 w:42 h:36 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 187
+    frameName: falling
+    pic: 75
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 25
+      y: 49
+      w: 25
+      h: 22
+      raw: kind:0 x:25 y:49 w:25 h:22
+    hitboxes:
+    - kind: 4
+      x: 22
+      y: 26
+      w: 41
+      h: 57
+      raw: kind:4 x:22 y:26 w:41 h:57 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 188
+    frameName: falling
+    pic: 57
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 42
+      y: 38
+      w: 26
+      h: 23
+      raw: kind:0 x:42 y:38 w:26 h:23
+    hitboxes:
+    - kind: 4
+      x: 34
+      y: 29
+      w: 35
+      h: 32
+      raw: kind:4 x:34 y:29 w:35 h:32 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 189
+    frameName: falling
+    pic: 58
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 30
+      y: 39
+      w: 23
+      h: 21
+      raw: kind:0 x:30 y:39 w:23 h:21
+    hitboxes:
+    - kind: 4
+      x: 24
+      y: 27
+      w: 26
+      h: 28
+      raw: kind:4 x:24 y:27 w:26 h:28 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    - kind: 4
+      x: 37
+      y: 45
+      w: 31
+      h: 28
+      raw: kind:4 x:37 y:45 w:31 h:28 dvx:2 fall:70 vrest:20 bdefend:10 injury:30
+    opoints: []
+  - id: 190
+    frameName: falling
+    pic: 59
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 191
+    frameName: falling
+    pic: 57
+    state: 12
+    wait: 3
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 200
+    frameName: ice
+    pic: 8
+    state: 15
+    wait: 2
+    next: 201
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 12
+      y: 15
+      w: 61
+      h: 84
+      raw: kind:0 x:12 y:15 w:61 h:84
+    hitboxes: []
+    opoints: []
+  - id: 201
+    frameName: ice
+    pic: 9
+    state: 13
+    wait: 90
+    next: 202
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 12
+      w: 66
+      h: 86
+      raw: kind:0 x:8 y:12 w:66 h:86
+    hitboxes:
+    - kind: 14
+      x: 8
+      y: 12
+      w: 66
+      h: 86
+      raw: kind:14 x:8 y:12 w:66 h:86 vrest:1
+    opoints: []
+  - id: 202
+    frameName: ice
+    pic: 8
+    state: 15
+    wait: 1
+    next: 182
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 8
+      y: 6
+      w: 67
+      h: 73
+      raw: kind:0 x:8 y:6 w:67 h:73
+    hitboxes: []
+    opoints: []
+  - id: 203
+    frameName: fire
+    pic: 61
+    state: 18
+    wait: 1
+    next: 204
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19
+    hitboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19 dvx:-6 dvy:-6 fall:70 vrest:10 bdefend:16 injury:30
+        effect:20
+    opoints: []
+  - id: 204
+    frameName: fire
+    pic: 60
+    state: 18
+    wait: 1
+    next: 203
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19
+    hitboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19 dvx:-6 dvy:-6 fall:70 vrest:10 bdefend:16 injury:30
+        effect:20
+    opoints: []
+  - id: 205
+    frameName: fire
+    pic: 61
+    state: 18
+    wait: 1
+    next: 206
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19
+    hitboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19 dvx:-6 dvy:-6 fall:70 vrest:10 bdefend:16 injury:30
+        effect:20
+    opoints: []
+  - id: 206
+    frameName: fire
+    pic: 60
+    state: 18
+    wait: 1
+    next: 205
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19
+    hitboxes:
+    - kind: 0
+      x: 22
+      y: 35
+      w: 26
+      h: 19
+      raw: kind:0 x:22 y:35 w:26 h:19 dvx:-6 dvy:-6 fall:70 vrest:10 bdefend:16 injury:30
+        effect:20
+    opoints: []
+  - id: 207
+    frameName: tired
+    pic: 69
+    state: 15
+    wait: 2
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 44
+      y: 28
+      w: 22
+      h: 37
+      raw: kind:0 x:44 y:28 w:22 h:37
+    - kind: 0
+      x: 28
+      y: 47
+      w: 28
+      h: 35
+      raw: kind:0 x:28 y:47 w:28 h:35
+    hitboxes: []
+    opoints: []
+  - id: 210
+    frameName: jump
+    pic: 14
+    state: 4
+    wait: 2
+    next: 211
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 14
+      y: 19
+      w: 53
+      h: 83
+      raw: kind:0 x:14 y:19 w:53 h:83
+    hitboxes: []
+    opoints: []
+  - id: 211
+    frameName: jump
+    pic: 14
+    state: 4
+    wait: 2
+    next: 212
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\017.wav
+    hurtboxes:
+    - kind: 0
+      x: 13
+      y: 20
+      w: 52
+      h: 80
+      raw: kind:0 x:13 y:20 w:52 h:80
+    hitboxes: []
+    opoints: []
+  - id: 212
+    frameName: jump
+    pic: 25
+    state: 4
+    wait: 1
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 22
+      y: 5
+      w: 37
+      h: 84
+      raw: kind:0 x:22 y:5 w:37 h:84
+    hitboxes: []
+    opoints: []
+  - id: 213
+    frameName: jump
+    pic: 25
+    state: 4
+    wait: 1
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 18
+      y: 1
+      w: 37
+      h: 92
+      raw: kind:0 x:18 y:1 w:37 h:92
+    hitboxes: []
+    opoints: []
+  - id: 214
+    frameName: jump
+    pic: 25
+    state: 4
+    wait: 1
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 19
+      y: 5
+      w: 38
+      h: 88
+      raw: kind:0 x:19 y:5 w:38 h:88
+    hitboxes: []
+    opoints: []
+  - id: 215
+    frameName: crouch
+    pic: 14
+    state: 15
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\012.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 22
+      w: 50
+      h: 76
+      raw: kind:0 x:15 y:22 w:50 h:76
+    hitboxes: []
+    opoints: []
+  - id: 218
+    frameName: stop_running
+    pic: 40
+    state: 15
+    wait: 6
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\009.wav
+    hurtboxes:
+    - kind: 0
+      x: 16
+      y: 8
+      w: 47
+      h: 92
+      raw: kind:0 x:16 y:8 w:47 h:92
+    - kind: 0
+      x: 45
+      y: 47
+      w: 16
+      h: 32
+      raw: kind:0 x:45 y:47 w:16 h:32
+    hitboxes: []
+    opoints: []
+  - id: 219
+    frameName: crouch2
+    pic: 14
+    state: 15
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\012.wav
+    hurtboxes:
+    - kind: 0
+      x: 14
+      y: 21
+      w: 53
+      h: 77
+      raw: kind:0 x:14 y:21 w:53 h:77
+    hitboxes: []
+    opoints: []
+  - id: 220
+    frameName: injured
+    pic: 66
+    state: 11
+    wait: 2
+    next: 221
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 27
+      y: 16
+      w: 38
+      h: 85
+      raw: kind:0 x:27 y:16 w:38 h:85
+    hitboxes: []
+    opoints: []
+  - id: 221
+    frameName: injured
+    pic: 67
+    state: 11
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 18
+      y: 16
+      w: 47
+      h: 85
+      raw: kind:0 x:18 y:16 w:47 h:85
+    - kind: 0
+      x: 22
+      y: 37
+      w: 26
+      h: 42
+      raw: kind:0 x:22 y:37 w:26 h:42
+    hitboxes: []
+    opoints: []
+  - id: 222
+    frameName: injured
+    pic: 69
+    state: 11
+    wait: 2
+    next: 223
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 13
+      y: 14
+      w: 45
+      h: 83
+      raw: kind:0 x:13 y:14 w:45 h:83
+    hitboxes: []
+    opoints: []
+  - id: 223
+    frameName: injured
+    pic: 68
+    state: 11
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 14
+      y: 15
+      w: 50
+      h: 78
+      raw: kind:0 x:14 y:15 w:50 h:78
+    hitboxes: []
+    opoints: []
+  - id: 224
+    frameName: injured
+    pic: 69
+    state: 11
+    wait: 2
+    next: 225
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 13
+      y: 14
+      w: 45
+      h: 83
+      raw: kind:0 x:13 y:14 w:45 h:83
+    hitboxes: []
+    opoints: []
+  - id: 225
+    frameName: injured
+    pic: 68
+    state: 11
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 14
+      y: 15
+      w: 50
+      h: 78
+      raw: kind:0 x:14 y:15 w:50 h:78
+    hitboxes: []
+    opoints: []
+  - id: 226
+    frameName: injured
+    pic: 69
+    state: 16
+    wait: 6
+    next: 227
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 26
+      y: 24
+      w: 41
+      h: 74
+      raw: kind:0 x:26 y:24 w:41 h:74
+    hitboxes:
+    - kind: 6
+      x: 6
+      y: 12
+      w: 85
+      h: 68
+      raw: kind:6 x:6 y:12 w:85 h:68 vrest:1
+    opoints: []
+  - id: 227
+    frameName: injured
+    pic: 67
+    state: 16
+    wait: 6
+    next: 228
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 23
+      y: 22
+      w: 46
+      h: 77
+      raw: kind:0 x:23 y:22 w:46 h:77
+    hitboxes:
+    - kind: 6
+      x: 6
+      y: 12
+      w: 85
+      h: 68
+      raw: kind:6 x:6 y:12 w:85 h:68 vrest:1
+    opoints: []
+  - id: 228
+    frameName: injured
+    pic: 66
+    state: 16
+    wait: 6
+    next: 229
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 23
+      y: 11
+      w: 43
+      h: 86
+      raw: kind:0 x:23 y:11 w:43 h:86
+    hitboxes:
+    - kind: 6
+      x: 6
+      y: 12
+      w: 85
+      h: 68
+      raw: kind:6 x:6 y:12 w:85 h:68 vrest:1
+    opoints: []
+  - id: 229
+    frameName: injured
+    pic: 67
+    state: 16
+    wait: 6
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 18
+      y: 12
+      w: 49
+      h: 87
+      raw: kind:0 x:18 y:12 w:49 h:87
+    hitboxes:
+    - kind: 6
+      x: 6
+      y: 12
+      w: 85
+      h: 68
+      raw: kind:6 x:6 y:12 w:85 h:68 vrest:1
+    opoints: []
+  - id: 230
+    frameName: lying
+    pic: 56
+    state: 14
+    wait: 30
+    next: 219
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 231
+    frameName: lying
+    pic: 59
+    state: 14
+    wait: 30
+    next: 219
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 232
+    frameName: throw_lying_man
+    pic: 37
+    state: 9
+    wait: 3
+    next: 233
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 29
+      y: 25
+      w: 41
+      h: 74
+      raw: kind:0 x:29 y:25 w:41 h:74
+    hitboxes: []
+    opoints: []
+  - id: 233
+    frameName: throw_lying_man
+    pic: 38
+    state: 9
+    wait: 1
+    next: 234
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\007.wav
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 15
+      w: 53
+      h: 84
+      raw: kind:0 x:7 y:15 w:53 h:84
+    - kind: 0
+      x: 19
+      y: 56
+      w: 30
+      h: 24
+      raw: kind:0 x:19 y:56 w:30 h:24
+    hitboxes: []
+    opoints: []
+  - id: 234
+    frameName: throw_lying_man
+    pic: 38
+    state: 9
+    wait: 5
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 9
+      y: 15
+      w: 46
+      h: 83
+      raw: kind:0 x:9 y:15 w:46 h:83
+    hitboxes: []
+    opoints: []
+  - id: 235
+    frameName: singlong
+    pic: 20
+    state: 3
+    wait: 1
+    next: 86
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 10
+      y: 10
+      w: 64
+      h: 90
+      raw: kind:0 x:10 y:10 w:64 h:90
+    hitboxes: []
+    opoints: []
+  - id: 240
+    frameName: shadow
+    pic: 78
+    state: 15
+    wait: 25
+    next: 241
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 241
+    frameName: shadow
+    pic: 80
+    state: 15
+    wait: 2
+    next: 242
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 242
+    frameName: shadow
+    pic: 79
+    state: 15
+    wait: 2
+    next: 243
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 243
+    frameName: shadow
+    pic: 80
+    state: 15
+    wait: 2
+    next: 244
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 244
+    frameName: shadow
+    pic: 78
+    state: 15
+    wait: 2
+    next: 245
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 245
+    frameName: shadow
+    pic: 81
+    state: 15
+    wait: 2
+    next: 246
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 246
+    frameName: shadow
+    pic: 82
+    state: 15
+    wait: 2
+    next: 247
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 247
+    frameName: shadow
+    pic: 81
+    state: 15
+    wait: 2
+    next: 248
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 248
+    frameName: shadow
+    pic: 78
+    state: 15
+    wait: 2
+    next: 249
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 249
+    frameName: shadow
+    pic: 70
+    state: 15
+    wait: 2
+    next: 250
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 250
+    frameName: shadow
+    pic: 71
+    state: 15
+    wait: 2
+    next: 251
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 251
+    frameName: shadow
+    pic: 72
+    state: 15
+    wait: 2
+    next: 1000
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes: []
+    hitboxes: []
+    opoints: []
+  - id: 260
+    frameName: ball
+    pic: 84
+    state: 3
+    wait: 3
+    next: 261
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 261
+    frameName: ball
+    pic: 85
+    state: 3
+    wait: 0
+    next: 262
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\091.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints:
+    - oid: 228
+      resolvedRelativeFile: data/julian_ball.dat
+      raw: kind=1 x=60 y=50 action=100 dvx=15 dvy=0 oid=228 facing=0
+  - id: 262
+    frameName: ball
+    pic: 86
+    state: 3
+    wait: 1
+    next: 263
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 263
+    frameName: ball
+    pic: 87
+    state: 3
+    wait: 1
+    next: 264
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 264
+    frameName: ball
+    pic: 88
+    state: 3
+    wait: 0
+    next: 265
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\091.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints:
+    - oid: 228
+      resolvedRelativeFile: data/julian_ball.dat
+      raw: kind=1 x=60 y=50 action=100 dvx=15 dvy=0 oid=228 facing=0
+  - id: 265
+    frameName: ball
+    pic: 89
+    state: 3
+    wait: 1
+    next: 266
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 266
+    frameName: ball
+    pic: 90
+    state: 3
+    wait: 1
+    next: 267
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 267
+    frameName: ball
+    pic: 91
+    state: 3
+    wait: 1
+    next: 268
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 268
+    frameName: ball
+    pic: 92
+    state: 3
+    wait: 0
+    next: 269
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\091.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints:
+    - oid: 228
+      resolvedRelativeFile: data/julian_ball.dat
+      raw: kind=1 x=60 y=50 action=100 dvx=15 dvy=0 oid=228 facing=0
+  - id: 269
+    frameName: ball
+    pic: 93
+    state: 3
+    wait: 1
+    next: 270
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 270
+    frameName: ball
+    pic: 103
+    state: 3
+    wait: 1
+    next: 271
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 271
+    frameName: ball
+    pic: 102
+    state: 3
+    wait: 0
+    next: 272
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\091.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints:
+    - oid: 228
+      resolvedRelativeFile: data/julian_ball.dat
+      raw: kind=1 x=60 y=50 action=100 dvx=15 dvy=0 oid=228 facing=0
+  - id: 272
+    frameName: ball
+    pic: 101
+    state: 3
+    wait: 1
+    next: 273
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 273
+    frameName: ball
+    pic: 100
+    state: 3
+    wait: 1
+    next: 274
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 274
+    frameName: ball
+    pic: 99
+    state: 3
+    wait: 0
+    next: 275
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\091.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints:
+    - oid: 228
+      resolvedRelativeFile: data/julian_ball.dat
+      raw: kind=1 x=60 y=50 action=100 dvx=15 dvy=0 oid=228 facing=0
+  - id: 275
+    frameName: ball
+    pic: 98
+    state: 3
+    wait: 1
+    next: 276
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 276
+    frameName: ball_end
+    pic: 97
+    state: 3
+    wait: 3
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 280
+    frameName: big_ball
+    pic: 94
+    state: 3
+    wait: 3
+    next: 281
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 281
+    frameName: big_ball
+    pic: 95
+    state: 3
+    wait: 0
+    next: 282
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 282
+    frameName: big_ball
+    pic: 96
+    state: 3
+    wait: 0
+    next: 283
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 283
+    frameName: big_ball
+    pic: 95
+    state: 3
+    wait: 0
+    next: 284
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 284
+    frameName: big_ball
+    pic: 96
+    state: 3
+    wait: 0
+    next: 285
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 285
+    frameName: big_ball
+    pic: 95
+    state: 3
+    wait: 0
+    next: 286
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 286
+    frameName: big_ball
+    pic: 96
+    state: 3
+    wait: 0
+    next: 287
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 287
+    frameName: big_ball
+    pic: 95
+    state: 3
+    wait: 0
+    next: 288
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 288
+    frameName: big_ball
+    pic: 96
+    state: 3
+    wait: 0
+    next: 289
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 289
+    frameName: big_ball
+    pic: 104
+    state: 3
+    wait: 0
+    next: 290
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\019.wav
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints:
+    - oid: 229
+      resolvedRelativeFile: data/julian_ball2.dat
+      raw: kind=1 x=90 y=50 action=0 dvx=15 dvy=0 oid=229 facing=0
+  - id: 290
+    frameName: big_ball
+    pic: 105
+    state: 3
+    wait: 0
+    next: 291
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 291
+    frameName: big_ball
+    pic: 106
+    state: 3
+    wait: 5
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 20
+      y: 10
+      w: 43
+      h: 89
+      raw: kind:0 x:20 y:10 w:43 h:89
+    hitboxes: []
+    opoints: []
+  - id: 300
+    frameName: run_attack
+    pic: 52
+    state: 3
+    wait: 0
+    next: 301
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\031.wav
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 19
+      w: 71
+      h: 82
+      raw: kind:0 x:7 y:19 w:71 h:82
+    hitboxes:
+    - kind: 0
+      x: -1
+      y: 38
+      w: 108
+      h: 40
+      raw: kind:0 x:-1 y:38 w:108 h:40 dvx:25 dvy:-9 fall:70 vrest:8 bdefend:60 injury:90
+    opoints: []
+  - id: 301
+    frameName: run_attack
+    pic: 53
+    state: 3
+    wait: 0
+    next: 302
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 19
+      w: 71
+      h: 82
+      raw: kind:0 x:7 y:19 w:71 h:82
+    hitboxes:
+    - kind: 0
+      x: -1
+      y: 38
+      w: 108
+      h: 40
+      raw: kind:0 x:-1 y:38 w:108 h:40 dvx:25 dvy:-9 fall:70 vrest:8 bdefend:60 injury:90
+    opoints: []
+  - id: 302
+    frameName: run_attack
+    pic: 52
+    state: 3
+    wait: 0
+    next: 303
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 19
+      w: 71
+      h: 82
+      raw: kind:0 x:7 y:19 w:71 h:82
+    hitboxes:
+    - kind: 0
+      x: -1
+      y: 38
+      w: 108
+      h: 40
+      raw: kind:0 x:-1 y:38 w:108 h:40 dvx:25 dvy:-9 fall:70 vrest:8 bdefend:60 injury:90
+    opoints: []
+  - id: 303
+    frameName: run_attack
+    pic: 53
+    state: 3
+    wait: 0
+    next: 304
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 19
+      w: 71
+      h: 82
+      raw: kind:0 x:7 y:19 w:71 h:82
+    hitboxes:
+    - kind: 0
+      x: -1
+      y: 38
+      w: 108
+      h: 40
+      raw: kind:0 x:-1 y:38 w:108 h:40 dvx:25 dvy:-9 fall:70 vrest:8 bdefend:60 injury:90
+    opoints: []
+  - id: 304
+    frameName: run_attack
+    pic: 52
+    state: 3
+    wait: 0
+    next: 305
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 19
+      w: 71
+      h: 82
+      raw: kind:0 x:7 y:19 w:71 h:82
+    hitboxes:
+    - kind: 0
+      x: -1
+      y: 38
+      w: 108
+      h: 40
+      raw: kind:0 x:-1 y:38 w:108 h:40 dvx:25 dvy:-9 fall:70 vrest:8 bdefend:60 injury:90
+    opoints: []
+  - id: 305
+    frameName: run_attack
+    pic: 53
+    state: 3
+    wait: 0
+    next: 306
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 7
+      y: 19
+      w: 71
+      h: 82
+      raw: kind:0 x:7 y:19 w:71 h:82
+    hitboxes:
+    - kind: 0
+      x: -1
+      y: 38
+      w: 108
+      h: 40
+      raw: kind:0 x:-1 y:38 w:108 h:40 dvx:25 dvy:-9 fall:70 vrest:8 bdefend:60 injury:90
+    opoints: []
+  - id: 306
+    frameName: run_attack
+    pic: 62
+    state: 3
+    wait: 4
+    next: 307
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 11
+      y: 24
+      w: 73
+      h: 76
+      raw: kind:0 x:11 y:24 w:73 h:76
+    hitboxes: []
+    opoints: []
+  - id: 307
+    frameName: run_attack
+    pic: 63
+    state: 3
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 310
+    frameName: explosion
+    pic: 107
+    state: 3
+    wait: 1
+    next: 311
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 311
+    frameName: explosion
+    pic: 108
+    state: 3
+    wait: 0
+    next: 312
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 312
+    frameName: explosion
+    pic: 107
+    state: 3
+    wait: 1
+    next: 313
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 313
+    frameName: explosion
+    pic: 108
+    state: 3
+    wait: 0
+    next: 314
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 314
+    frameName: explosion
+    pic: 109
+    state: 3
+    wait: 1
+    next: 315
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 315
+    frameName: explosion
+    pic: 108
+    state: 3
+    wait: 0
+    next: 316
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 316
+    frameName: explosion
+    pic: 109
+    state: 3
+    wait: 1
+    next: 317
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 317
+    frameName: explosion
+    pic: 108
+    state: 3
+    wait: 0
+    next: 318
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: data\018.wav
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 318
+    frameName: explosion
+    pic: 110
+    state: 3
+    wait: 8
+    next: 319
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints:
+    - oid: 229
+      resolvedRelativeFile: data/julian_ball2.dat
+      raw: kind=1 x=40 y=100 action=40 dvx=0 dvy=0 oid=229 facing=0
+  - id: 319
+    frameName: explosion
+    pic: 110
+    state: 3
+    wait: 7
+    next: 320
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 320
+    frameName: explosion
+    pic: 110
+    state: 3
+    wait: 7
+    next: 321
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 321
+    frameName: explosion
+    pic: 111
+    state: 3
+    wait: 2
+    next: 322
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 322
+    frameName: explosion
+    pic: 112
+    state: 3
+    wait: 2
+    next: 999
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 15
+      y: 27
+      w: 70
+      h: 71
+      raw: kind:0 x:15 y:27 w:70 h:71
+    hitboxes: []
+    opoints: []
+  - id: 399
+    frameName: dummy
+    pic: 0
+    state: 0
+    wait: 1
+    next: 0
+    dvx: 0
+    dvy: 0
+    dvz: 0
+    soundPath: 
+    hurtboxes:
+    - kind: 0
+      x: 21
+      y: 18
+      w: 43
+      h: 62
+      raw: kind:0 x:21 y:18 w:43 h:62
+    hitboxes: []
+    opoints: []
+  clipStanding: {fileID: 0}
+  clipWalking: {fileID: 0}
+  clipRunning: {fileID: 0}
+  clipDefend: {fileID: 0}
+  extraClips: []

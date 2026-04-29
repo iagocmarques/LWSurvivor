@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: b8bb2db368e789b42b225bb8d124bd0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8137104818448181184
+    second: rudolf_smoke_0
+  - first:
+      213: 8623542008742297799
+    second: rudolf_smoke_1
+  - first:
+      213: 9171522339017028334
+    second: rudolf_smoke_2
+  - first:
+      213: 5782629574513887037
+    second: rudolf_smoke_3
+  - first:
+      213: 8527151474469684488
+    second: rudolf_smoke_4
+  - first:
+      213: 8782359170732700545
+    second: rudolf_smoke_5
+  - first:
+      213: -5073679981604020273
+    second: rudolf_smoke_6
+  - first:
+      213: -4583026381749723121
+    second: rudolf_smoke_7
+  - first:
+      213: -8754053557517925461
+    second: rudolf_smoke_8
+  - first:
+      213: 4960349265319910690
+    second: rudolf_smoke_9
+  - first:
+      213: 8613217277893025720
+    second: rudolf_smoke_10
+  - first:
+      213: 4273923930402758194
+    second: rudolf_smoke_11
+  - first:
+      213: -7544086719823410281
+    second: rudolf_smoke_12
+  - first:
+      213: -4916910978266456771
+    second: rudolf_smoke_13
+  - first:
+      213: -2761894889122350817
+    second: rudolf_smoke_14
+  - first:
+      213: 3598070101315184532
+    second: rudolf_smoke_15
+  - first:
+      213: 1660089789565876012
+    second: rudolf_smoke_16
+  - first:
+      213: -8133823032228633362
+    second: rudolf_smoke_17
+  - first:
+      213: 6258119255682270194
+    second: rudolf_smoke_18
+  - first:
+      213: -7261383603580709268
+    second: rudolf_smoke_19
+  - first:
+      213: -538444193376783848
+    second: rudolf_smoke_20
+  - first:
+      213: -5953664340810831105
+    second: rudolf_smoke_21
+  - first:
+      213: -3873750841116596267
+    second: rudolf_smoke_22
+  - first:
+      213: 6586576870622633429
+    second: rudolf_smoke_23
+  - first:
+      213: -4973381718952597836
+    second: rudolf_smoke_24
+  - first:
+      213: -1093308890338575130
+    second: rudolf_smoke_25
+  - first:
+      213: -8960724750782903682
+    second: rudolf_smoke_26
+  - first:
+      213: -1134128683547409915
+    second: rudolf_smoke_27
+  - first:
+      213: -7092649312080446735
+    second: rudolf_smoke_28
+  - first:
+      213: -1722615205352724124
+    second: rudolf_smoke_29
+  - first:
+      213: -4885655732888913434
+    second: rudolf_smoke_30
+  - first:
+      213: -7089388770295821538
+    second: rudolf_smoke_31
+  - first:
+      213: 2348634514217872440
+    second: rudolf_smoke_32
+  - first:
+      213: 3186838292408239081
+    second: rudolf_smoke_33
+  - first:
+      213: 3070106803845935859
+    second: rudolf_smoke_34
+  - first:
+      213: 2774648971369800096
+    second: rudolf_smoke_35
+  - first:
+      213: 6124208075817186238
+    second: rudolf_smoke_36
+  - first:
+      213: 4708308851765978383
+    second: rudolf_smoke_37
+  - first:
+      213: -3026311439760012766
+    second: rudolf_smoke_38
+  - first:
+      213: -1674264760509697963
+    second: rudolf_smoke_39
+  - first:
+      213: 618055696199663358
+    second: rudolf_smoke_40
+  - first:
+      213: 5858116174013788169
+    second: rudolf_smoke_41
+  - first:
+      213: 5756005059468792223
+    second: rudolf_smoke_42
+  - first:
+      213: 7512899958843179368
+    second: rudolf_smoke_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rudolf_smoke_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 81
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c729bb58bdcce070800000000000000
+      internalID: 8137104818448181184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 82
+        width: 67
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c04eb874c9fca770800000000000000
+      internalID: 8623542008742297799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 89
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee27baa79fac74f70800000000000000
+      internalID: 9171522339017028334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 106
+        width: 74
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d378198d5f6004050800000000000000
+      internalID: 5782629574513887037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 112
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805c6b55617865670800000000000000
+      internalID: 8527151474469684488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 133
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183ba65822531e970800000000000000
+      internalID: 8782359170732700545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_6
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 133
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf5b7030faa699b0800000000000000
+      internalID: -5073679981604020273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f006097a9c1d560c0800000000000000
+      internalID: -4583026381749723121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3466f9baa538680800000000000000
+      internalID: -8754053557517925461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 136
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d53413063b6d440800000000000000
+      internalID: 4960349265319910690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_10
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 126
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf121eba7b488770800000000000000
+      internalID: 8613217277893025720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 109
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e92b4ab27005b30800000000000000
+      internalID: 4273923930402758194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_12
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 120
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b0f2e39150e4790800000000000000
+      internalID: -7544086719823410281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_13
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 129
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d9534248f93cbb0800000000000000
+      internalID: -4916910978266456771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 136
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1935e24b37cba9d0800000000000000
+      internalID: -2761894889122350817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_15
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 127
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49768d991b9eee130800000000000000
+      internalID: 3598070101315184532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 129
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27b35a3ed2d90710800000000000000
+      internalID: 1660089789565876012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_17
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 118
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee42f1a0c0bde1f80800000000000000
+      internalID: -8133823032228633362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_18
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f349fc5e4e49d650800000000000000
+      internalID: 6258119255682270194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_19
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 116
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66d9b2c5126a3b90800000000000000
+      internalID: -7261383603580709268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_20
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 125
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812b762ebdf0788f0800000000000000
+      internalID: -538444193376783848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_21
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 125
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa6f0e63d5506da0800000000000000
+      internalID: -5953664340810831105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7efde422cad3ac0800000000000000
+      internalID: -3873750841116596267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd144344c8386b50800000000000000
+      internalID: 6586576870622633429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 9
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6a86d3daffafab0800000000000000
+      internalID: -4973381718952597836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_25
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 26
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecb7995b59c3d0f0800000000000000
+      internalID: -1093308890338575130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_26
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 32
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ac88ba05c15a380800000000000000
+      internalID: -8960724750782903682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_27
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 53
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502439f98f3c240f0800000000000000
+      internalID: -1134128683547409915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_28
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 53
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fab6057709d19d90800000000000000
+      internalID: -7092649312080446735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 68
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a348f89a0818e0800000000000000
+      internalID: -1722615205352724124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_30
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 68
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e93e4a0ff9a23cb0800000000000000
+      internalID: -4885655732888913434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_31
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bcfdf797e6d9d90800000000000000
+      internalID: -7089388770295821538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_32
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 46
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cad27a5a6089020800000000000000
+      internalID: 2348634514217872440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 29
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e30b97da8ce93c20800000000000000
+      internalID: 3186838292408239081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_34
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 40
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f23fb93fd53b9a20800000000000000
+      internalID: 3070106803845935859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_35
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 49
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a166eae988818620800000000000000
+      internalID: 2774648971369800096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_36
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 56
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb379a92cce8df450800000000000000
+      internalID: 6124208075817186238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_37
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 47
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05a65a74f5475140800000000000000
+      internalID: 4708308851765978383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_38
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 49
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a476597c16006d0800000000000000
+      internalID: -3026311439760012766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_39
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 38
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5507dd92211d3c8e0800000000000000
+      internalID: -1674264760509697963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_40
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe336f8166c39800800000000000000
+      internalID: 618055696199663358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_41
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 36
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900ff056f953c4150800000000000000
+      internalID: 5858116174013788169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_42
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 45
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f911dfeda1071ef40800000000000000
+      internalID: 5756005059468792223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_smoke_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 45
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86105ef15be234860800000000000000
+      internalID: 7512899958843179368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rudolf_smoke_0: 8137104818448181184
+      rudolf_smoke_1: 8623542008742297799
+      rudolf_smoke_10: 8613217277893025720
+      rudolf_smoke_11: 4273923930402758194
+      rudolf_smoke_12: -7544086719823410281
+      rudolf_smoke_13: -4916910978266456771
+      rudolf_smoke_14: -2761894889122350817
+      rudolf_smoke_15: 3598070101315184532
+      rudolf_smoke_16: 1660089789565876012
+      rudolf_smoke_17: -8133823032228633362
+      rudolf_smoke_18: 6258119255682270194
+      rudolf_smoke_19: -7261383603580709268
+      rudolf_smoke_2: 9171522339017028334
+      rudolf_smoke_20: -538444193376783848
+      rudolf_smoke_21: -5953664340810831105
+      rudolf_smoke_22: -3873750841116596267
+      rudolf_smoke_23: 6586576870622633429
+      rudolf_smoke_24: -4973381718952597836
+      rudolf_smoke_25: -1093308890338575130
+      rudolf_smoke_26: -8960724750782903682
+      rudolf_smoke_27: -1134128683547409915
+      rudolf_smoke_28: -7092649312080446735
+      rudolf_smoke_29: -1722615205352724124
+      rudolf_smoke_3: 5782629574513887037
+      rudolf_smoke_30: -4885655732888913434
+      rudolf_smoke_31: -7089388770295821538
+      rudolf_smoke_32: 2348634514217872440
+      rudolf_smoke_33: 3186838292408239081
+      rudolf_smoke_34: 3070106803845935859
+      rudolf_smoke_35: 2774648971369800096
+      rudolf_smoke_36: 6124208075817186238
+      rudolf_smoke_37: 4708308851765978383
+      rudolf_smoke_38: -3026311439760012766
+      rudolf_smoke_39: -1674264760509697963
+      rudolf_smoke_4: 8527151474469684488
+      rudolf_smoke_40: 618055696199663358
+      rudolf_smoke_41: 5858116174013788169
+      rudolf_smoke_42: 5756005059468792223
+      rudolf_smoke_43: 7512899958843179368
+      rudolf_smoke_5: 8782359170732700545
+      rudolf_smoke_6: -5073679981604020273
+      rudolf_smoke_7: -4583026381749723121
+      rudolf_smoke_8: -8754053557517925461
+      rudolf_smoke_9: 4960349265319910690
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "user-unity-mcp": {
+      "type": "http",
+      "url": "http://localhost:23163",
+      "headers": {
+        "Authorization": "Bearer r6zxoTL-isRXW8MLP7UoDZmHSEdDloztb3x0qRuOxEE"
+      }
+    }
+  }
+}

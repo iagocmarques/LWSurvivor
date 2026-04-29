@@ -1,0 +1,2230 @@
+fileFormatVersion: 2
+guid: 6ddf55cbacfdb1347a54443a119038a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1198692751362711349
+    second: player_davis_0_alpha_0
+  - first:
+      213: 4520534842162456372
+    second: player_davis_0_alpha_1
+  - first:
+      213: 2654586995300136433
+    second: player_davis_0_alpha_2
+  - first:
+      213: -5758343048643486701
+    second: player_davis_0_alpha_3
+  - first:
+      213: -7675391218263688538
+    second: player_davis_0_alpha_4
+  - first:
+      213: 2221612886884297677
+    second: player_davis_0_alpha_5
+  - first:
+      213: 911861223573496274
+    second: player_davis_0_alpha_6
+  - first:
+      213: -1627145905457624458
+    second: player_davis_0_alpha_7
+  - first:
+      213: 4681703062997279700
+    second: player_davis_0_alpha_8
+  - first:
+      213: -8525066916305238227
+    second: player_davis_0_alpha_9
+  - first:
+      213: -3932633330642633817
+    second: player_davis_0_alpha_10
+  - first:
+      213: -4246263858398730646
+    second: player_davis_0_alpha_11
+  - first:
+      213: -1897442601237784336
+    second: player_davis_0_alpha_12
+  - first:
+      213: -4051352975677477634
+    second: player_davis_0_alpha_13
+  - first:
+      213: -2278854952472577610
+    second: player_davis_0_alpha_14
+  - first:
+      213: 6397961294708406773
+    second: player_davis_0_alpha_15
+  - first:
+      213: -8488386489559955322
+    second: player_davis_0_alpha_16
+  - first:
+      213: -5988222867495853777
+    second: player_davis_0_alpha_17
+  - first:
+      213: -8377675956185020337
+    second: player_davis_0_alpha_18
+  - first:
+      213: 6951002745083470510
+    second: player_davis_0_alpha_19
+  - first:
+      213: -917437996705590903
+    second: player_davis_0_alpha_20
+  - first:
+      213: -7793841424886551133
+    second: player_davis_0_alpha_21
+  - first:
+      213: -5760804925916283676
+    second: player_davis_0_alpha_22
+  - first:
+      213: 1910658668510984014
+    second: player_davis_0_alpha_23
+  - first:
+      213: -8748446708418310934
+    second: player_davis_0_alpha_24
+  - first:
+      213: 4979036744333364941
+    second: player_davis_0_alpha_25
+  - first:
+      213: 1833711025412375971
+    second: player_davis_0_alpha_26
+  - first:
+      213: -3374981124027817806
+    second: player_davis_0_alpha_27
+  - first:
+      213: -1074707104925855355
+    second: player_davis_0_alpha_28
+  - first:
+      213: 6339776711020954031
+    second: player_davis_0_alpha_29
+  - first:
+      213: -11553255283337382
+    second: player_davis_0_alpha_30
+  - first:
+      213: 3440178696170287695
+    second: player_davis_0_alpha_31
+  - first:
+      213: -8522476290555993748
+    second: player_davis_0_alpha_32
+  - first:
+      213: 5263592305570183036
+    second: player_davis_0_alpha_33
+  - first:
+      213: -8360191011919907505
+    second: player_davis_0_alpha_34
+  - first:
+      213: 2576404923795955366
+    second: player_davis_0_alpha_35
+  - first:
+      213: 1397627541986285669
+    second: player_davis_0_alpha_36
+  - first:
+      213: -4540192979672618458
+    second: player_davis_0_alpha_37
+  - first:
+      213: 428347297245447948
+    second: player_davis_0_alpha_38
+  - first:
+      213: 7601754032660715634
+    second: player_davis_0_alpha_39
+  - first:
+      213: 6950399628730971226
+    second: player_davis_0_alpha_40
+  - first:
+      213: -3477276685123188587
+    second: player_davis_0_alpha_41
+  - first:
+      213: -4921672729920124220
+    second: player_davis_0_alpha_42
+  - first:
+      213: 6003601941770611430
+    second: player_davis_0_alpha_43
+  - first:
+      213: 758070617618715816
+    second: player_davis_0_alpha_44
+  - first:
+      213: 515144729783670022
+    second: player_davis_0_alpha_45
+  - first:
+      213: -6892469454822512294
+    second: player_davis_0_alpha_46
+  - first:
+      213: 7929177440190517510
+    second: player_davis_0_alpha_47
+  - first:
+      213: 3007446790207617943
+    second: player_davis_0_alpha_48
+  - first:
+      213: 8933538601753622634
+    second: player_davis_0_alpha_49
+  - first:
+      213: 6172601272578771494
+    second: player_davis_0_alpha_50
+  - first:
+      213: -2919775152819320175
+    second: player_davis_0_alpha_51
+  - first:
+      213: -2988044609424841462
+    second: player_davis_0_alpha_52
+  - first:
+      213: 7972441084524287592
+    second: player_davis_0_alpha_53
+  - first:
+      213: 260078296014113398
+    second: player_davis_0_alpha_54
+  - first:
+      213: 4740340433237801474
+    second: player_davis_0_alpha_55
+  - first:
+      213: -3202419788619784535
+    second: player_davis_0_alpha_56
+  - first:
+      213: -4989252009488502977
+    second: player_davis_0_alpha_57
+  - first:
+      213: -7104158502137454453
+    second: player_davis_0_alpha_58
+  - first:
+      213: -5778199754720802114
+    second: player_davis_0_alpha_59
+  - first:
+      213: 3785193002311162497
+    second: player_davis_0_alpha_60
+  - first:
+      213: 2341673795538597370
+    second: player_davis_0_alpha_61
+  - first:
+      213: 1070268549692828423
+    second: player_davis_0_alpha_62
+  - first:
+      213: -7070725379619855239
+    second: player_davis_0_alpha_63
+  - first:
+      213: -5984394668049417822
+    second: player_davis_0_alpha_64
+  - first:
+      213: -2712263145968258003
+    second: player_davis_0_alpha_65
+  - first:
+      213: -5747102538165807379
+    second: player_davis_0_alpha_66
+  - first:
+      213: -5616189008936660436
+    second: player_davis_0_alpha_67
+  - first:
+      213: -7883567206689199761
+    second: player_davis_0_alpha_68
+  - first:
+      213: 5161611616756611968
+    second: player_davis_0_alpha_69
+  - first:
+      213: 138029137583100841
+    second: player_davis_0_alpha_000
+  - first:
+      213: -8331449395760312404
+    second: player_davis_0_alpha_001
+  - first:
+      213: 6046060318431881640
+    second: player_davis_0_alpha_002
+  - first:
+      213: 3546721881438925373
+    second: player_davis_0_alpha_003
+  - first:
+      213: -7021459696214732797
+    second: player_davis_0_alpha_004
+  - first:
+      213: -3717449136860418508
+    second: player_davis_0_alpha_005
+  - first:
+      213: 5602639169206466691
+    second: player_davis_0_alpha_006
+  - first:
+      213: 4077615676394109982
+    second: player_davis_0_alpha_007
+  - first:
+      213: -6272986926480141974
+    second: player_davis_0_alpha_008
+  - first:
+      213: 1981462345738218865
+    second: player_davis_0_alpha_009
+  - first:
+      213: 3523608156905895157
+    second: player_davis_0_alpha_010
+  - first:
+      213: -8857880482337509122
+    second: player_davis_0_alpha_011
+  - first:
+      213: -8088871320333588731
+    second: player_davis_0_alpha_012
+  - first:
+      213: -7375521710625403361
+    second: player_davis_0_alpha_013
+  - first:
+      213: -8910576521867726084
+    second: player_davis_0_alpha_014
+  - first:
+      213: 1637898923908444811
+    second: player_davis_0_alpha_015
+  - first:
+      213: 5250663536266755086
+    second: player_davis_0_alpha_016
+  - first:
+      213: -5359359163047259557
+    second: player_davis_0_alpha_017
+  - first:
+      213: -527474561129334429
+    second: player_davis_0_alpha_018
+  - first:
+      213: -96165672092074823
+    second: player_davis_0_alpha_019
+  - first:
+      213: -7843253509125431221
+    second: player_davis_0_alpha_020
+  - first:
+      213: -6426115607134053664
+    second: player_davis_0_alpha_021
+  - first:
+      213: 7236055475204275755
+    second: player_davis_0_alpha_022
+  - first:
+      213: -5733811065984270993
+    second: player_davis_0_alpha_023
+  - first:
+      213: 4418316949101628981
+    second: player_davis_0_alpha_024
+  - first:
+      213: 8892831993664411634
+    second: player_davis_0_alpha_025
+  - first:
+      213: 4752613532583060776
+    second: player_davis_0_alpha_026
+  - first:
+      213: -6959446878368968006
+    second: player_davis_0_alpha_027
+  - first:
+      213: -4260053737255133343
+    second: player_davis_0_alpha_028
+  - first:
+      213: 522746265980973786
+    second: player_davis_0_alpha_029
+  - first:
+      213: -5910889805369729203
+    second: player_davis_0_alpha_030
+  - first:
+      213: 5164406461797688433
+    second: player_davis_0_alpha_031
+  - first:
+      213: 2582362712873516561
+    second: player_davis_0_alpha_032
+  - first:
+      213: 2822285712266154300
+    second: player_davis_0_alpha_033
+  - first:
+      213: -4753114489744340375
+    second: player_davis_0_alpha_034
+  - first:
+      213: 3065189185037037099
+    second: player_davis_0_alpha_035
+  - first:
+      213: -1715935852377080493
+    second: player_davis_0_alpha_036
+  - first:
+      213: 6037317476355019707
+    second: player_davis_0_alpha_037
+  - first:
+      213: -5921736995136171373
+    second: player_davis_0_alpha_038
+  - first:
+      213: -7610571564824835587
+    second: player_davis_0_alpha_039
+  - first:
+      213: -3038997448884603784
+    second: player_davis_0_alpha_040
+  - first:
+      213: -6468990989173158722
+    second: player_davis_0_alpha_041
+  - first:
+      213: 1685690484094644370
+    second: player_davis_0_alpha_042
+  - first:
+      213: 7444858073656656641
+    second: player_davis_0_alpha_043
+  - first:
+      213: -3821062617502521606
+    second: player_davis_0_alpha_044
+  - first:
+      213: -2422352431145948881
+    second: player_davis_0_alpha_045
+  - first:
+      213: -8884767592054371177
+    second: player_davis_0_alpha_046
+  - first:
+      213: -8614224679171326781
+    second: player_davis_0_alpha_047
+  - first:
+      213: 4868752621938714829
+    second: player_davis_0_alpha_048
+  - first:
+      213: -6423190311417812997
+    second: player_davis_0_alpha_049
+  - first:
+      213: 7489815617277639382
+    second: player_davis_0_alpha_050
+  - first:
+      213: 6842000942317436506
+    second: player_davis_0_alpha_051
+  - first:
+      213: -5286287980025465018
+    second: player_davis_0_alpha_052
+  - first:
+      213: 2159770251004814621
+    second: player_davis_0_alpha_053
+  - first:
+      213: 7006263310793329237
+    second: player_davis_0_alpha_054
+  - first:
+      213: 4094788226689499716
+    second: player_davis_0_alpha_055
+  - first:
+      213: 6506827108587703298
+    second: player_davis_0_alpha_056
+  - first:
+      213: -8981499963842097223
+    second: player_davis_0_alpha_057
+  - first:
+      213: -2414526123114087290
+    second: player_davis_0_alpha_058
+  - first:
+      213: -6737764361002815357
+    second: player_davis_0_alpha_059
+  - first:
+      213: -3418866603166485823
+    second: player_davis_0_alpha_060
+  - first:
+      213: 4151409716711125270
+    second: player_davis_0_alpha_061
+  - first:
+      213: -6055193802024922774
+    second: player_davis_0_alpha_062
+  - first:
+      213: 3495590718295716979
+    second: player_davis_0_alpha_063
+  - first:
+      213: 3068437265350601499
+    second: player_davis_0_alpha_064
+  - first:
+      213: 8848621039346658961
+    second: player_davis_0_alpha_065
+  - first:
+      213: 6725552662570017008
+    second: player_davis_0_alpha_066
+  - first:
+      213: 7613566611785961454
+    second: player_davis_0_alpha_067
+  - first:
+      213: 2851352568746213492
+    second: player_davis_0_alpha_068
+  - first:
+      213: 2810241903832085184
+    second: player_davis_0_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: player_davis_0_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_davis_0_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      player_davis_0_alpha_0: -1198692751362711349
+      player_davis_0_alpha_000: 138029137583100841
+      player_davis_0_alpha_001: -8331449395760312404
+      player_davis_0_alpha_002: 6046060318431881640
+      player_davis_0_alpha_003: 3546721881438925373
+      player_davis_0_alpha_004: -7021459696214732797
+      player_davis_0_alpha_005: -3717449136860418508
+      player_davis_0_alpha_006: 5602639169206466691
+      player_davis_0_alpha_007: 4077615676394109982
+      player_davis_0_alpha_008: -6272986926480141974
+      player_davis_0_alpha_009: 1981462345738218865
+      player_davis_0_alpha_010: 3523608156905895157
+      player_davis_0_alpha_011: -8857880482337509122
+      player_davis_0_alpha_012: -8088871320333588731
+      player_davis_0_alpha_013: -7375521710625403361
+      player_davis_0_alpha_014: -8910576521867726084
+      player_davis_0_alpha_015: 1637898923908444811
+      player_davis_0_alpha_016: 5250663536266755086
+      player_davis_0_alpha_017: -5359359163047259557
+      player_davis_0_alpha_018: -527474561129334429
+      player_davis_0_alpha_019: -96165672092074823
+      player_davis_0_alpha_020: -7843253509125431221
+      player_davis_0_alpha_021: -6426115607134053664
+      player_davis_0_alpha_022: 7236055475204275755
+      player_davis_0_alpha_023: -5733811065984270993
+      player_davis_0_alpha_024: 4418316949101628981
+      player_davis_0_alpha_025: 8892831993664411634
+      player_davis_0_alpha_026: 4752613532583060776
+      player_davis_0_alpha_027: -6959446878368968006
+      player_davis_0_alpha_028: -4260053737255133343
+      player_davis_0_alpha_029: 522746265980973786
+      player_davis_0_alpha_030: -5910889805369729203
+      player_davis_0_alpha_031: 5164406461797688433
+      player_davis_0_alpha_032: 2582362712873516561
+      player_davis_0_alpha_033: 2822285712266154300
+      player_davis_0_alpha_034: -4753114489744340375
+      player_davis_0_alpha_035: 3065189185037037099
+      player_davis_0_alpha_036: -1715935852377080493
+      player_davis_0_alpha_037: 6037317476355019707
+      player_davis_0_alpha_038: -5921736995136171373
+      player_davis_0_alpha_039: -7610571564824835587
+      player_davis_0_alpha_040: -3038997448884603784
+      player_davis_0_alpha_041: -6468990989173158722
+      player_davis_0_alpha_042: 1685690484094644370
+      player_davis_0_alpha_043: 7444858073656656641
+      player_davis_0_alpha_044: -3821062617502521606
+      player_davis_0_alpha_045: -2422352431145948881
+      player_davis_0_alpha_046: -8884767592054371177
+      player_davis_0_alpha_047: -8614224679171326781
+      player_davis_0_alpha_048: 4868752621938714829
+      player_davis_0_alpha_049: -6423190311417812997
+      player_davis_0_alpha_050: 7489815617277639382
+      player_davis_0_alpha_051: 6842000942317436506
+      player_davis_0_alpha_052: -5286287980025465018
+      player_davis_0_alpha_053: 2159770251004814621
+      player_davis_0_alpha_054: 7006263310793329237
+      player_davis_0_alpha_055: 4094788226689499716
+      player_davis_0_alpha_056: 6506827108587703298
+      player_davis_0_alpha_057: -8981499963842097223
+      player_davis_0_alpha_058: -2414526123114087290
+      player_davis_0_alpha_059: -6737764361002815357
+      player_davis_0_alpha_060: -3418866603166485823
+      player_davis_0_alpha_061: 4151409716711125270
+      player_davis_0_alpha_062: -6055193802024922774
+      player_davis_0_alpha_063: 3495590718295716979
+      player_davis_0_alpha_064: 3068437265350601499
+      player_davis_0_alpha_065: 8848621039346658961
+      player_davis_0_alpha_066: 6725552662570017008
+      player_davis_0_alpha_067: 7613566611785961454
+      player_davis_0_alpha_068: 2851352568746213492
+      player_davis_0_alpha_069: 2810241903832085184
+      player_davis_0_alpha_1: 4520534842162456372
+      player_davis_0_alpha_10: -3932633330642633817
+      player_davis_0_alpha_11: -4246263858398730646
+      player_davis_0_alpha_12: -1897442601237784336
+      player_davis_0_alpha_13: -4051352975677477634
+      player_davis_0_alpha_14: -2278854952472577610
+      player_davis_0_alpha_15: 6397961294708406773
+      player_davis_0_alpha_16: -8488386489559955322
+      player_davis_0_alpha_17: -5988222867495853777
+      player_davis_0_alpha_18: -8377675956185020337
+      player_davis_0_alpha_19: 6951002745083470510
+      player_davis_0_alpha_2: 2654586995300136433
+      player_davis_0_alpha_20: -917437996705590903
+      player_davis_0_alpha_21: -7793841424886551133
+      player_davis_0_alpha_22: -5760804925916283676
+      player_davis_0_alpha_23: 1910658668510984014
+      player_davis_0_alpha_24: -8748446708418310934
+      player_davis_0_alpha_25: 4979036744333364941
+      player_davis_0_alpha_26: 1833711025412375971
+      player_davis_0_alpha_27: -3374981124027817806
+      player_davis_0_alpha_28: -1074707104925855355
+      player_davis_0_alpha_29: 6339776711020954031
+      player_davis_0_alpha_3: -5758343048643486701
+      player_davis_0_alpha_30: -11553255283337382
+      player_davis_0_alpha_31: 3440178696170287695
+      player_davis_0_alpha_32: -8522476290555993748
+      player_davis_0_alpha_33: 5263592305570183036
+      player_davis_0_alpha_34: -8360191011919907505
+      player_davis_0_alpha_35: 2576404923795955366
+      player_davis_0_alpha_36: 1397627541986285669
+      player_davis_0_alpha_37: -4540192979672618458
+      player_davis_0_alpha_38: 428347297245447948
+      player_davis_0_alpha_39: 7601754032660715634
+      player_davis_0_alpha_4: -7675391218263688538
+      player_davis_0_alpha_40: 6950399628730971226
+      player_davis_0_alpha_41: -3477276685123188587
+      player_davis_0_alpha_42: -4921672729920124220
+      player_davis_0_alpha_43: 6003601941770611430
+      player_davis_0_alpha_44: 758070617618715816
+      player_davis_0_alpha_45: 515144729783670022
+      player_davis_0_alpha_46: -6892469454822512294
+      player_davis_0_alpha_47: 7929177440190517510
+      player_davis_0_alpha_48: 3007446790207617943
+      player_davis_0_alpha_49: 8933538601753622634
+      player_davis_0_alpha_5: 2221612886884297677
+      player_davis_0_alpha_50: 6172601272578771494
+      player_davis_0_alpha_51: -2919775152819320175
+      player_davis_0_alpha_52: -2988044609424841462
+      player_davis_0_alpha_53: 7972441084524287592
+      player_davis_0_alpha_54: 260078296014113398
+      player_davis_0_alpha_55: 4740340433237801474
+      player_davis_0_alpha_56: -3202419788619784535
+      player_davis_0_alpha_57: -4989252009488502977
+      player_davis_0_alpha_58: -7104158502137454453
+      player_davis_0_alpha_59: -5778199754720802114
+      player_davis_0_alpha_6: 911861223573496274
+      player_davis_0_alpha_60: 3785193002311162497
+      player_davis_0_alpha_61: 2341673795538597370
+      player_davis_0_alpha_62: 1070268549692828423
+      player_davis_0_alpha_63: -7070725379619855239
+      player_davis_0_alpha_64: -5984394668049417822
+      player_davis_0_alpha_65: -2712263145968258003
+      player_davis_0_alpha_66: -5747102538165807379
+      player_davis_0_alpha_67: -5616189008936660436
+      player_davis_0_alpha_68: -7883567206689199761
+      player_davis_0_alpha_69: 5161611616756611968
+      player_davis_0_alpha_7: -1627145905457624458
+      player_davis_0_alpha_8: 4681703062997279700
+      player_davis_0_alpha_9: -8525066916305238227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

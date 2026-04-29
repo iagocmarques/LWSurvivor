@@ -1,0 +1,53 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/block-dangerous.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/format-changed.sh"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/verify-completion.sh"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "WebSearch",
+      "WebFetch(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "TodoWrite(*)",
+      "Agent(*)",
+      "NotebookEdit(*)",
+      "AskUserQuestion(*)",
+      "mcp__*",
+      "Skill(schedule)",
+      "Skill(schedule:*)"
+    ]
+  }
+}

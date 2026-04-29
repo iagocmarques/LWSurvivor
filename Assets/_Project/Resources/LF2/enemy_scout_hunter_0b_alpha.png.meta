@@ -1,0 +1,2210 @@
+fileFormatVersion: 2
+guid: a48f3bab45b32da4a96c5860236b9c11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1981839950252967086
+    second: enemy_scout_hunter_0b_alpha_0
+  - first:
+      213: -2338767254311909018
+    second: enemy_scout_hunter_0b_alpha_1
+  - first:
+      213: 243638487508383746
+    second: enemy_scout_hunter_0b_alpha_2
+  - first:
+      213: -3711311022522464437
+    second: enemy_scout_hunter_0b_alpha_3
+  - first:
+      213: 3543629010160313481
+    second: enemy_scout_hunter_0b_alpha_4
+  - first:
+      213: 2664444068489316829
+    second: enemy_scout_hunter_0b_alpha_5
+  - first:
+      213: -5654368206103491356
+    second: enemy_scout_hunter_0b_alpha_6
+  - first:
+      213: 5803269795347859585
+    second: enemy_scout_hunter_0b_alpha_7
+  - first:
+      213: 2953800014681386800
+    second: enemy_scout_hunter_0b_alpha_8
+  - first:
+      213: 3927205505670445409
+    second: enemy_scout_hunter_0b_alpha_9
+  - first:
+      213: 4707033086122707002
+    second: enemy_scout_hunter_0b_alpha_10
+  - first:
+      213: -3155304193117054888
+    second: enemy_scout_hunter_0b_alpha_11
+  - first:
+      213: 8254282910224022914
+    second: enemy_scout_hunter_0b_alpha_12
+  - first:
+      213: 3897301645991757335
+    second: enemy_scout_hunter_0b_alpha_13
+  - first:
+      213: 8491272257197609432
+    second: enemy_scout_hunter_0b_alpha_14
+  - first:
+      213: -3559616641814012176
+    second: enemy_scout_hunter_0b_alpha_15
+  - first:
+      213: -6547611778701198597
+    second: enemy_scout_hunter_0b_alpha_16
+  - first:
+      213: -7962140446580237961
+    second: enemy_scout_hunter_0b_alpha_17
+  - first:
+      213: 7819338064469563130
+    second: enemy_scout_hunter_0b_alpha_18
+  - first:
+      213: 697455203344746519
+    second: enemy_scout_hunter_0b_alpha_19
+  - first:
+      213: 3264267655880071139
+    second: enemy_scout_hunter_0b_alpha_20
+  - first:
+      213: 3422206573622851022
+    second: enemy_scout_hunter_0b_alpha_21
+  - first:
+      213: 3799451122740384827
+    second: enemy_scout_hunter_0b_alpha_22
+  - first:
+      213: -1214725518303056592
+    second: enemy_scout_hunter_0b_alpha_23
+  - first:
+      213: -1655084587064341193
+    second: enemy_scout_hunter_0b_alpha_24
+  - first:
+      213: 3246536149872611179
+    second: enemy_scout_hunter_0b_alpha_25
+  - first:
+      213: 4341504485164458891
+    second: enemy_scout_hunter_0b_alpha_26
+  - first:
+      213: 6100000361814572501
+    second: enemy_scout_hunter_0b_alpha_27
+  - first:
+      213: -5007865112613852277
+    second: enemy_scout_hunter_0b_alpha_28
+  - first:
+      213: 898401248689411190
+    second: enemy_scout_hunter_0b_alpha_29
+  - first:
+      213: -6374646026154804098
+    second: enemy_scout_hunter_0b_alpha_30
+  - first:
+      213: 4860728374198139500
+    second: enemy_scout_hunter_0b_alpha_31
+  - first:
+      213: 6318509290944548582
+    second: enemy_scout_hunter_0b_alpha_32
+  - first:
+      213: 1051559704635779084
+    second: enemy_scout_hunter_0b_alpha_33
+  - first:
+      213: 8480411394326580609
+    second: enemy_scout_hunter_0b_alpha_34
+  - first:
+      213: 303342318962645177
+    second: enemy_scout_hunter_0b_alpha_35
+  - first:
+      213: 2843699412193877682
+    second: enemy_scout_hunter_0b_alpha_36
+  - first:
+      213: 2679775212248122723
+    second: enemy_scout_hunter_0b_alpha_37
+  - first:
+      213: 6657804111511756287
+    second: enemy_scout_hunter_0b_alpha_38
+  - first:
+      213: 7369618820925731878
+    second: enemy_scout_hunter_0b_alpha_39
+  - first:
+      213: -5123819958781606149
+    second: enemy_scout_hunter_0b_alpha_40
+  - first:
+      213: -6705565704936987282
+    second: enemy_scout_hunter_0b_alpha_41
+  - first:
+      213: 7838877106723559612
+    second: enemy_scout_hunter_0b_alpha_42
+  - first:
+      213: 7616917497423133220
+    second: enemy_scout_hunter_0b_alpha_43
+  - first:
+      213: 7257504476701954435
+    second: enemy_scout_hunter_0b_alpha_44
+  - first:
+      213: 3170273007295694484
+    second: enemy_scout_hunter_0b_alpha_45
+  - first:
+      213: -287213098249513365
+    second: enemy_scout_hunter_0b_alpha_46
+  - first:
+      213: -5271761083697637686
+    second: enemy_scout_hunter_0b_alpha_47
+  - first:
+      213: -3649525545169093250
+    second: enemy_scout_hunter_0b_alpha_48
+  - first:
+      213: -6673459046742519629
+    second: enemy_scout_hunter_0b_alpha_49
+  - first:
+      213: -5653786034201455708
+    second: enemy_scout_hunter_0b_alpha_50
+  - first:
+      213: 156245003787558802
+    second: enemy_scout_hunter_0b_alpha_51
+  - first:
+      213: 1767804579811624560
+    second: enemy_scout_hunter_0b_alpha_52
+  - first:
+      213: -4568004452841338666
+    second: enemy_scout_hunter_0b_alpha_53
+  - first:
+      213: 1081979625760880145
+    second: enemy_scout_hunter_0b_alpha_54
+  - first:
+      213: -5690566992915322348
+    second: enemy_scout_hunter_0b_alpha_55
+  - first:
+      213: 4635482805896683228
+    second: enemy_scout_hunter_0b_alpha_56
+  - first:
+      213: -5756903741904608372
+    second: enemy_scout_hunter_0b_alpha_57
+  - first:
+      213: 1935490119669364190
+    second: enemy_scout_hunter_0b_alpha_58
+  - first:
+      213: -9000516426210898369
+    second: enemy_scout_hunter_0b_alpha_59
+  - first:
+      213: -7911734073819088757
+    second: enemy_scout_hunter_0b_alpha_60
+  - first:
+      213: -216664092362989156
+    second: enemy_scout_hunter_0b_alpha_61
+  - first:
+      213: -4240778721930675217
+    second: enemy_scout_hunter_0b_alpha_62
+  - first:
+      213: -3272736575186248965
+    second: enemy_scout_hunter_0b_alpha_63
+  - first:
+      213: -5402186426537920418
+    second: enemy_scout_hunter_0b_alpha_64
+  - first:
+      213: 2193183051134087855
+    second: enemy_scout_hunter_0b_alpha_000
+  - first:
+      213: -5396293993855996132
+    second: enemy_scout_hunter_0b_alpha_001
+  - first:
+      213: -5612817458250439095
+    second: enemy_scout_hunter_0b_alpha_002
+  - first:
+      213: -4571742054241421128
+    second: enemy_scout_hunter_0b_alpha_003
+  - first:
+      213: 8306302713927741840
+    second: enemy_scout_hunter_0b_alpha_004
+  - first:
+      213: 5998330901322647636
+    second: enemy_scout_hunter_0b_alpha_005
+  - first:
+      213: 7600880960502205774
+    second: enemy_scout_hunter_0b_alpha_006
+  - first:
+      213: 9184263975542622236
+    second: enemy_scout_hunter_0b_alpha_007
+  - first:
+      213: 3436038451696161111
+    second: enemy_scout_hunter_0b_alpha_008
+  - first:
+      213: 7079728891771899187
+    second: enemy_scout_hunter_0b_alpha_009
+  - first:
+      213: -822822662281377876
+    second: enemy_scout_hunter_0b_alpha_010
+  - first:
+      213: 2138029083733105584
+    second: enemy_scout_hunter_0b_alpha_011
+  - first:
+      213: -3423982141394450500
+    second: enemy_scout_hunter_0b_alpha_012
+  - first:
+      213: -5456581967147349817
+    second: enemy_scout_hunter_0b_alpha_013
+  - first:
+      213: -6377072968362917171
+    second: enemy_scout_hunter_0b_alpha_014
+  - first:
+      213: -848728608342648618
+    second: enemy_scout_hunter_0b_alpha_015
+  - first:
+      213: 560280856009104841
+    second: enemy_scout_hunter_0b_alpha_016
+  - first:
+      213: 3376718079702212635
+    second: enemy_scout_hunter_0b_alpha_017
+  - first:
+      213: -520191688606617768
+    second: enemy_scout_hunter_0b_alpha_018
+  - first:
+      213: -6385737517571197543
+    second: enemy_scout_hunter_0b_alpha_019
+  - first:
+      213: 756539296399500304
+    second: enemy_scout_hunter_0b_alpha_020
+  - first:
+      213: 2193359827680204617
+    second: enemy_scout_hunter_0b_alpha_021
+  - first:
+      213: -5487183071892014319
+    second: enemy_scout_hunter_0b_alpha_022
+  - first:
+      213: 1368141938433741483
+    second: enemy_scout_hunter_0b_alpha_023
+  - first:
+      213: -4422800791676354766
+    second: enemy_scout_hunter_0b_alpha_024
+  - first:
+      213: 8527468736300783615
+    second: enemy_scout_hunter_0b_alpha_025
+  - first:
+      213: 6494283613270901368
+    second: enemy_scout_hunter_0b_alpha_026
+  - first:
+      213: 5577291862497834310
+    second: enemy_scout_hunter_0b_alpha_027
+  - first:
+      213: -6438588592072209094
+    second: enemy_scout_hunter_0b_alpha_028
+  - first:
+      213: 4912488359709433902
+    second: enemy_scout_hunter_0b_alpha_029
+  - first:
+      213: 3475473345743213482
+    second: enemy_scout_hunter_0b_alpha_030
+  - first:
+      213: 1253242190871578144
+    second: enemy_scout_hunter_0b_alpha_031
+  - first:
+      213: -1773960566503886085
+    second: enemy_scout_hunter_0b_alpha_032
+  - first:
+      213: 5017439324983669441
+    second: enemy_scout_hunter_0b_alpha_033
+  - first:
+      213: 678800179038199432
+    second: enemy_scout_hunter_0b_alpha_034
+  - first:
+      213: 1686560313181252985
+    second: enemy_scout_hunter_0b_alpha_035
+  - first:
+      213: -3109248610712963094
+    second: enemy_scout_hunter_0b_alpha_036
+  - first:
+      213: -135376841094673616
+    second: enemy_scout_hunter_0b_alpha_037
+  - first:
+      213: -7993276411410893701
+    second: enemy_scout_hunter_0b_alpha_038
+  - first:
+      213: -8564596729629120278
+    second: enemy_scout_hunter_0b_alpha_039
+  - first:
+      213: 279027032013836849
+    second: enemy_scout_hunter_0b_alpha_040
+  - first:
+      213: -6097934825744932008
+    second: enemy_scout_hunter_0b_alpha_041
+  - first:
+      213: -2448091350588583597
+    second: enemy_scout_hunter_0b_alpha_042
+  - first:
+      213: -9035486399079854495
+    second: enemy_scout_hunter_0b_alpha_043
+  - first:
+      213: 6873560348161668759
+    second: enemy_scout_hunter_0b_alpha_044
+  - first:
+      213: 4002727226291773470
+    second: enemy_scout_hunter_0b_alpha_045
+  - first:
+      213: 3814443393582755710
+    second: enemy_scout_hunter_0b_alpha_046
+  - first:
+      213: 5834706701130452518
+    second: enemy_scout_hunter_0b_alpha_047
+  - first:
+      213: -9222180669985779995
+    second: enemy_scout_hunter_0b_alpha_048
+  - first:
+      213: -6195011173457600407
+    second: enemy_scout_hunter_0b_alpha_049
+  - first:
+      213: -6081093789756463710
+    second: enemy_scout_hunter_0b_alpha_050
+  - first:
+      213: -696810164182488249
+    second: enemy_scout_hunter_0b_alpha_051
+  - first:
+      213: -217751390306699114
+    second: enemy_scout_hunter_0b_alpha_052
+  - first:
+      213: -1468466512421171674
+    second: enemy_scout_hunter_0b_alpha_053
+  - first:
+      213: -3113159103976223592
+    second: enemy_scout_hunter_0b_alpha_054
+  - first:
+      213: 1902877894821529049
+    second: enemy_scout_hunter_0b_alpha_055
+  - first:
+      213: -476134244444923789
+    second: enemy_scout_hunter_0b_alpha_056
+  - first:
+      213: 2335624646464334596
+    second: enemy_scout_hunter_0b_alpha_057
+  - first:
+      213: 6017489570526930054
+    second: enemy_scout_hunter_0b_alpha_058
+  - first:
+      213: 5011391608955720615
+    second: enemy_scout_hunter_0b_alpha_059
+  - first:
+      213: 4932834756939529152
+    second: enemy_scout_hunter_0b_alpha_060
+  - first:
+      213: 7781146049774487602
+    second: enemy_scout_hunter_0b_alpha_061
+  - first:
+      213: 6912285665150425628
+    second: enemy_scout_hunter_0b_alpha_062
+  - first:
+      213: 6789512546032114209
+    second: enemy_scout_hunter_0b_alpha_063
+  - first:
+      213: 3296968226184539441
+    second: enemy_scout_hunter_0b_alpha_064
+  - first:
+      213: 7144673150129253079
+    second: enemy_scout_hunter_0b_alpha_065
+  - first:
+      213: 5238252728811530539
+    second: enemy_scout_hunter_0b_alpha_066
+  - first:
+      213: 3911715871772796514
+    second: enemy_scout_hunter_0b_alpha_067
+  - first:
+      213: -5827686303240827959
+    second: enemy_scout_hunter_0b_alpha_068
+  - first:
+      213: 5327623619345111345
+    second: enemy_scout_hunter_0b_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_scout_hunter_0b_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemy_scout_hunter_0b_alpha_0: 1981839950252967086
+      enemy_scout_hunter_0b_alpha_000: 2193183051134087855
+      enemy_scout_hunter_0b_alpha_001: -5396293993855996132
+      enemy_scout_hunter_0b_alpha_002: -5612817458250439095
+      enemy_scout_hunter_0b_alpha_003: -4571742054241421128
+      enemy_scout_hunter_0b_alpha_004: 8306302713927741840
+      enemy_scout_hunter_0b_alpha_005: 5998330901322647636
+      enemy_scout_hunter_0b_alpha_006: 7600880960502205774
+      enemy_scout_hunter_0b_alpha_007: 9184263975542622236
+      enemy_scout_hunter_0b_alpha_008: 3436038451696161111
+      enemy_scout_hunter_0b_alpha_009: 7079728891771899187
+      enemy_scout_hunter_0b_alpha_010: -822822662281377876
+      enemy_scout_hunter_0b_alpha_011: 2138029083733105584
+      enemy_scout_hunter_0b_alpha_012: -3423982141394450500
+      enemy_scout_hunter_0b_alpha_013: -5456581967147349817
+      enemy_scout_hunter_0b_alpha_014: -6377072968362917171
+      enemy_scout_hunter_0b_alpha_015: -848728608342648618
+      enemy_scout_hunter_0b_alpha_016: 560280856009104841
+      enemy_scout_hunter_0b_alpha_017: 3376718079702212635
+      enemy_scout_hunter_0b_alpha_018: -520191688606617768
+      enemy_scout_hunter_0b_alpha_019: -6385737517571197543
+      enemy_scout_hunter_0b_alpha_020: 756539296399500304
+      enemy_scout_hunter_0b_alpha_021: 2193359827680204617
+      enemy_scout_hunter_0b_alpha_022: -5487183071892014319
+      enemy_scout_hunter_0b_alpha_023: 1368141938433741483
+      enemy_scout_hunter_0b_alpha_024: -4422800791676354766
+      enemy_scout_hunter_0b_alpha_025: 8527468736300783615
+      enemy_scout_hunter_0b_alpha_026: 6494283613270901368
+      enemy_scout_hunter_0b_alpha_027: 5577291862497834310
+      enemy_scout_hunter_0b_alpha_028: -6438588592072209094
+      enemy_scout_hunter_0b_alpha_029: 4912488359709433902
+      enemy_scout_hunter_0b_alpha_030: 3475473345743213482
+      enemy_scout_hunter_0b_alpha_031: 1253242190871578144
+      enemy_scout_hunter_0b_alpha_032: -1773960566503886085
+      enemy_scout_hunter_0b_alpha_033: 5017439324983669441
+      enemy_scout_hunter_0b_alpha_034: 678800179038199432
+      enemy_scout_hunter_0b_alpha_035: 1686560313181252985
+      enemy_scout_hunter_0b_alpha_036: -3109248610712963094
+      enemy_scout_hunter_0b_alpha_037: -135376841094673616
+      enemy_scout_hunter_0b_alpha_038: -7993276411410893701
+      enemy_scout_hunter_0b_alpha_039: -8564596729629120278
+      enemy_scout_hunter_0b_alpha_040: 279027032013836849
+      enemy_scout_hunter_0b_alpha_041: -6097934825744932008
+      enemy_scout_hunter_0b_alpha_042: -2448091350588583597
+      enemy_scout_hunter_0b_alpha_043: -9035486399079854495
+      enemy_scout_hunter_0b_alpha_044: 6873560348161668759
+      enemy_scout_hunter_0b_alpha_045: 4002727226291773470
+      enemy_scout_hunter_0b_alpha_046: 3814443393582755710
+      enemy_scout_hunter_0b_alpha_047: 5834706701130452518
+      enemy_scout_hunter_0b_alpha_048: -9222180669985779995
+      enemy_scout_hunter_0b_alpha_049: -6195011173457600407
+      enemy_scout_hunter_0b_alpha_050: -6081093789756463710
+      enemy_scout_hunter_0b_alpha_051: -696810164182488249
+      enemy_scout_hunter_0b_alpha_052: -217751390306699114
+      enemy_scout_hunter_0b_alpha_053: -1468466512421171674
+      enemy_scout_hunter_0b_alpha_054: -3113159103976223592
+      enemy_scout_hunter_0b_alpha_055: 1902877894821529049
+      enemy_scout_hunter_0b_alpha_056: -476134244444923789
+      enemy_scout_hunter_0b_alpha_057: 2335624646464334596
+      enemy_scout_hunter_0b_alpha_058: 6017489570526930054
+      enemy_scout_hunter_0b_alpha_059: 5011391608955720615
+      enemy_scout_hunter_0b_alpha_060: 4932834756939529152
+      enemy_scout_hunter_0b_alpha_061: 7781146049774487602
+      enemy_scout_hunter_0b_alpha_062: 6912285665150425628
+      enemy_scout_hunter_0b_alpha_063: 6789512546032114209
+      enemy_scout_hunter_0b_alpha_064: 3296968226184539441
+      enemy_scout_hunter_0b_alpha_065: 7144673150129253079
+      enemy_scout_hunter_0b_alpha_066: 5238252728811530539
+      enemy_scout_hunter_0b_alpha_067: 3911715871772796514
+      enemy_scout_hunter_0b_alpha_068: -5827686303240827959
+      enemy_scout_hunter_0b_alpha_069: 5327623619345111345
+      enemy_scout_hunter_0b_alpha_1: -2338767254311909018
+      enemy_scout_hunter_0b_alpha_10: 4707033086122707002
+      enemy_scout_hunter_0b_alpha_11: -3155304193117054888
+      enemy_scout_hunter_0b_alpha_12: 8254282910224022914
+      enemy_scout_hunter_0b_alpha_13: 3897301645991757335
+      enemy_scout_hunter_0b_alpha_14: 8491272257197609432
+      enemy_scout_hunter_0b_alpha_15: -3559616641814012176
+      enemy_scout_hunter_0b_alpha_16: -6547611778701198597
+      enemy_scout_hunter_0b_alpha_17: -7962140446580237961
+      enemy_scout_hunter_0b_alpha_18: 7819338064469563130
+      enemy_scout_hunter_0b_alpha_19: 697455203344746519
+      enemy_scout_hunter_0b_alpha_2: 243638487508383746
+      enemy_scout_hunter_0b_alpha_20: 3264267655880071139
+      enemy_scout_hunter_0b_alpha_21: 3422206573622851022
+      enemy_scout_hunter_0b_alpha_22: 3799451122740384827
+      enemy_scout_hunter_0b_alpha_23: -1214725518303056592
+      enemy_scout_hunter_0b_alpha_24: -1655084587064341193
+      enemy_scout_hunter_0b_alpha_25: 3246536149872611179
+      enemy_scout_hunter_0b_alpha_26: 4341504485164458891
+      enemy_scout_hunter_0b_alpha_27: 6100000361814572501
+      enemy_scout_hunter_0b_alpha_28: -5007865112613852277
+      enemy_scout_hunter_0b_alpha_29: 898401248689411190
+      enemy_scout_hunter_0b_alpha_3: -3711311022522464437
+      enemy_scout_hunter_0b_alpha_30: -6374646026154804098
+      enemy_scout_hunter_0b_alpha_31: 4860728374198139500
+      enemy_scout_hunter_0b_alpha_32: 6318509290944548582
+      enemy_scout_hunter_0b_alpha_33: 1051559704635779084
+      enemy_scout_hunter_0b_alpha_34: 8480411394326580609
+      enemy_scout_hunter_0b_alpha_35: 303342318962645177
+      enemy_scout_hunter_0b_alpha_36: 2843699412193877682
+      enemy_scout_hunter_0b_alpha_37: 2679775212248122723
+      enemy_scout_hunter_0b_alpha_38: 6657804111511756287
+      enemy_scout_hunter_0b_alpha_39: 7369618820925731878
+      enemy_scout_hunter_0b_alpha_4: 3543629010160313481
+      enemy_scout_hunter_0b_alpha_40: -5123819958781606149
+      enemy_scout_hunter_0b_alpha_41: -6705565704936987282
+      enemy_scout_hunter_0b_alpha_42: 7838877106723559612
+      enemy_scout_hunter_0b_alpha_43: 7616917497423133220
+      enemy_scout_hunter_0b_alpha_44: 7257504476701954435
+      enemy_scout_hunter_0b_alpha_45: 3170273007295694484
+      enemy_scout_hunter_0b_alpha_46: -287213098249513365
+      enemy_scout_hunter_0b_alpha_47: -5271761083697637686
+      enemy_scout_hunter_0b_alpha_48: -3649525545169093250
+      enemy_scout_hunter_0b_alpha_49: -6673459046742519629
+      enemy_scout_hunter_0b_alpha_5: 2664444068489316829
+      enemy_scout_hunter_0b_alpha_50: -5653786034201455708
+      enemy_scout_hunter_0b_alpha_51: 156245003787558802
+      enemy_scout_hunter_0b_alpha_52: 1767804579811624560
+      enemy_scout_hunter_0b_alpha_53: -4568004452841338666
+      enemy_scout_hunter_0b_alpha_54: 1081979625760880145
+      enemy_scout_hunter_0b_alpha_55: -5690566992915322348
+      enemy_scout_hunter_0b_alpha_56: 4635482805896683228
+      enemy_scout_hunter_0b_alpha_57: -5756903741904608372
+      enemy_scout_hunter_0b_alpha_58: 1935490119669364190
+      enemy_scout_hunter_0b_alpha_59: -9000516426210898369
+      enemy_scout_hunter_0b_alpha_6: -5654368206103491356
+      enemy_scout_hunter_0b_alpha_60: -7911734073819088757
+      enemy_scout_hunter_0b_alpha_61: -216664092362989156
+      enemy_scout_hunter_0b_alpha_62: -4240778721930675217
+      enemy_scout_hunter_0b_alpha_63: -3272736575186248965
+      enemy_scout_hunter_0b_alpha_64: -5402186426537920418
+      enemy_scout_hunter_0b_alpha_7: 5803269795347859585
+      enemy_scout_hunter_0b_alpha_8: 2953800014681386800
+      enemy_scout_hunter_0b_alpha_9: 3927205505670445409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
