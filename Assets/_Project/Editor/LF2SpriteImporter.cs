@@ -24,50 +24,47 @@ namespace Project.EditorTools
             importer.sRGBTexture = true;
             importer.alphaIsTransparency = true;
             importer.spritePixelsPerUnit = 80f;
+            importer.isReadable = true;
 
             var platform = importer.GetDefaultPlatformTextureSettings();
             platform.textureCompression = TextureImporterCompression.Uncompressed;
             importer.SetPlatformTextureSettings(platform);
 
-            importer.spriteImportMode = IsCharacterSheet(path)
-                ? SpriteImportMode.Multiple
-                : SpriteImportMode.Single;
-            importer.spritePivot = new Vector2(0.5f, 0f);
-        }
-
-        private void OnPostprocessTexture(Texture2D texture)
-        {
-            var path = assetPath.Replace('\\', '/');
-            if (!IsCharacterSheet(path))
-                return;
-            if (texture.width != 800 || texture.height != 560)
-                return;
-
-            var importer = (TextureImporter)assetImporter;
-            var metas = new SpriteMetaData[Cols * Rows];
-            var baseName = Path.GetFileNameWithoutExtension(path);
-
-            for (var row = 0; row < Rows; row++)
+            if (IsCharacterSheet(path))
             {
-                for (var col = 0; col < Cols; col++)
+                importer.spriteImportMode = SpriteImportMode.Multiple;
+                importer.spritePivot = new Vector2(0.5f, 0f);
+
+                // Set sprite sheet metadata here (not in OnPostprocessTexture)
+                var metas = new SpriteMetaData[Cols * Rows];
+                var baseName = Path.GetFileNameWithoutExtension(path);
+
+                for (var row = 0; row < Rows; row++)
                 {
-                    var i = row * Cols + col;
-                    var x = col * Cell;
-                    var y = (Rows - 1 - row) * Cell;
-                    metas[i] = new SpriteMetaData
+                    for (var col = 0; col < Cols; col++)
                     {
-                        name = $"{baseName}_{i:D3}",
-                        rect = new Rect(x, y, Cell, Cell),
-                        alignment = (int)SpriteAlignment.Custom,
-                        pivot = new Vector2(0.5f, 0f)
-                    };
+                        var i = row * Cols + col;
+                        var x = col * Cell;
+                        var y = (Rows - 1 - row) * Cell;
+                        metas[i] = new SpriteMetaData
+                        {
+                            name = $"{baseName}_{i:D3}",
+                            rect = new Rect(x, y, Cell, Cell),
+                            alignment = (int)SpriteAlignment.Custom,
+                            pivot = new Vector2(0.5f, 0f)
+                        };
+                    }
                 }
-            }
 
 #pragma warning disable CS0618
-            importer.spritesheet = metas;
+                importer.spritesheet = metas;
 #pragma warning restore CS0618
-            importer.SaveAndReimport();
+            }
+            else
+            {
+                importer.spriteImportMode = SpriteImportMode.Single;
+                importer.spritePivot = new Vector2(0.5f, 0f);
+            }
         }
 
         private static bool IsCharacterSheet(string path)

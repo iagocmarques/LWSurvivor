@@ -95,13 +95,20 @@ namespace Project.Gameplay.Visual
             if (SheetCache.TryGetValue(key, out var cached))
                 return cached;
 
-            // Always create sprites from texture with FullRect mesh.
-            // LoadAll uses .meta spriteMeshType (Tight) which causes culling
-            // bugs with SpriteRenderer.flipX. FullRect avoids this.
+            // LoadAll returns sprites configured in .meta (now set to FullRect).
+            var sprites = Resources.LoadAll<Sprite>("LF2/" + key);
+            if (sprites != null && sprites.Length > 0)
+            {
+                SheetCache[key] = sprites;
+                return sprites;
+            }
+
+            // Fallback: create from texture directly if LoadAll fails
             var tex = Resources.Load<Texture2D>("LF2/" + key);
             if (tex != null)
             {
-                var sprites = CreateSpritesFromGrid(tex, 80, 80);
+                Debug.LogWarning($"[Lf2VisualLibrary] LoadAll returned 0 sprites for '{key}', using grid fallback");
+                sprites = CreateSpritesFromGrid(tex, 80, 80);
                 SheetCache[key] = sprites;
                 return sprites;
             }
@@ -126,7 +133,7 @@ namespace Project.Gameplay.Visual
                 for (var c = 0; c < cols; c++)
                 {
                     var rect = new Rect(c * cellW, r * cellH, cellW, cellH);
-                    result[idx++] = Sprite.Create(tex, rect, new Vector2(0.5f, 0f), 80f, SpriteMeshType.FullRect);
+                    result[idx++] = Sprite.Create(tex, rect, new Vector2(0.5f, 0f), 80f, 0u, SpriteMeshType.FullRect);
                 }
             }
             return result;

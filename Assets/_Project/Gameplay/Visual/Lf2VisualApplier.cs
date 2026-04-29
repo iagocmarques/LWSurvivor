@@ -35,6 +35,8 @@ namespace Project.Gameplay.Visual
             if (sr == null)
                 sr = player.AddComponent<SpriteRenderer>();
 
+            Sprite2DMaterialUtility.EnsureCompatibleMaterial(sr);
+
             var sp = Lf2VisualLibrary.GetPlayerSprite();
             if (sp != null)
             {
@@ -61,6 +63,7 @@ namespace Project.Gameplay.Visual
 
             var go = new GameObject("LF2_Background");
             var sr = go.AddComponent<SpriteRenderer>();
+            Sprite2DMaterialUtility.EnsureCompatibleMaterial(sr);
             sr.sprite = sp;
             sr.sortingOrder = -10000;
             go.transform.position = new Vector3(0f, 0f, 20f);

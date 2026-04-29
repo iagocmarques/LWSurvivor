@@ -25,7 +25,7 @@ namespace Project.Gameplay.Enemies
         [SerializeField] private float spawnRadius = 10f;
         [SerializeField] private float runDurationSeconds = 120f;
         [SerializeField] private int targetEnemyCountAtEnd = 200;
-        [SerializeField] private float spawnCooldown = 0.08f;
+        [SerializeField] private float spawnCooldown = 0.7f;
 
         private float _runTimer;
         private float _spawnCooldownLeft;

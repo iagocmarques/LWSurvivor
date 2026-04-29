@@ -57,6 +57,7 @@ namespace Project.Gameplay.Visual
         private void Awake()
         {
             _sr = GetComponent<SpriteRenderer>();
+            Sprite2DMaterialUtility.EnsureCompatibleMaterial(_sr);
             _hsm = GetComponent<PlayerHsmController>();
             _lastPos = transform.position;
         }

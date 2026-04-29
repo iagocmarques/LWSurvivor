@@ -70,6 +70,27 @@
 - Enemy prefab na layer Hurtbox
 - `CameraFollow2D` null-safe
 
+### Sprite Pipeline (2026-04-29)
+
+**Problema resolvido:** Sprites do LF2 apareciam como retangulos pretos/sem transparência no Unity.
+
+**Causas raiz identificadas e corrigidas:**
+1. `textureFormat: 1` (Alpha8) nos .meta — armazenava apenas alpha sem dados de cor. Corrigido para `textureFormat: -1` (RGBA32).
+2. `LF2SpriteImporter` chamava `SaveAndReimport()` dentro de `OnPostprocessTexture` (proibido pela Unity). Reescrito para configurar tudo em `OnPreprocessTexture`.
+3. `isReadable: 0` nos .meta — impossibilitava fallback de leitura de textura. Corrigido para `isReadable: 1`.
+4. `Lf2VisualApplier` nao resetava `sr.color` apos GameRuntimeInstaller setar amarelo placeholder. Adicionado `sr.color = Color.white`.
+
+**Arquivos alterados:**
+- `Assets/_Project/Editor/LF2SpriteImporter.cs` (reescrito)
+- `Assets/_Project/Gameplay/Visual/Lf2VisualLibrary.cs` (fallback CreateSpritesFromGrid)
+- `Assets/_Project/Gameplay/Visual/Lf2VisualApplier.cs` (color reset)
+- Todos os 16 `*_alpha.png.meta` em `Assets/_Project/Resources/LF2/`
+
+**Documentacao:**
+- Criado `doc/sprite_pipeline.md` com pipeline completo atualizado
+- Arquivado `doc/lf2_asset_pipeline.md` (desatualizado, referenciava ArquivosOpus)
+- Arquivado `doc/ArquivosOpus/` (usuario orientou usar ArquivosTRAE)
+
 ## Implementacoes da rodada anterior
 
 - `Health` e `Damageable` como base de dano para player/inimigos/dummy.
@@ -92,6 +113,10 @@
 
 ## O que precisa de teste no Unity Editor
 
+- [x] Sprite Davis renderiza com transparencia (sem retangulo preto)
+- [x] Console mostra "Loaded 70 sprites for 'player_davis_0_alpha'" (sem erros)
+- [x] F8 cicla backgrounds
+- [x] Inimigos spawnam com cooldown 0.7s
 - [ ] GameRuntimeInstaller roda sem erros no console
 - [ ] Player spawna e responde a inputs (WASD + ataques)
 - [ ] Inimigos aparecem via EnemySpawnerDirector

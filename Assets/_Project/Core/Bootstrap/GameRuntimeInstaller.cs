@@ -63,6 +63,7 @@ namespace Project.Core.Bootstrap
                     player.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y, 0f);
 
                 var sr = player.AddComponent<SpriteRenderer>();
+                Sprite2DMaterialUtility.EnsureCompatibleMaterial(sr);
                 sr.sprite = CreatePlaceholderSprite();
                 sr.color = new Color(1f, 0.95f, 0.35f, 1f);
 
@@ -71,6 +72,8 @@ namespace Project.Core.Bootstrap
 
             if (player != null)
             {
+                Sprite2DMaterialUtility.EnsureCompatibleMaterial(player.GetComponent<SpriteRenderer>());
+
                 // Remove stale components from previous dev sessions
                 var oldController = player.GetComponent<Player25DController>();
                 if (oldController != null)
