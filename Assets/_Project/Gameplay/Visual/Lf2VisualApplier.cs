@@ -59,7 +59,7 @@ namespace Project.Gameplay.Visual
             var go = new GameObject("LF2_Background");
             var sr = go.AddComponent<SpriteRenderer>();
             sr.sprite = sp;
-            sr.sortingOrder = -1000;
+            sr.sortingOrder = -10000;
             go.transform.position = new Vector3(0f, 0f, 20f);
             go.transform.localScale = Vector3.one * 3.5f;
             _backgroundRenderer = sr;

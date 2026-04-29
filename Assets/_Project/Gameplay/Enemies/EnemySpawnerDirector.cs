@@ -37,6 +37,14 @@ namespace Project.Gameplay.Enemies
         public int AliveCount => _alive;
         public IReadOnlyDictionary<int, EnemyAgent> AliveById => _aliveById;
 
+        public void SetEnemyDefinition(EnemyDefinition def)
+        {
+            if (def == null) return;
+            enemyDefinition = def;
+            spawnEntries = null;
+            EnsureSpawnEntries();
+        }
+
         public void ApplyBalance(float rampDurationSeconds, int targetAtEnd, float cooldownSeconds)
         {
             runDurationSeconds = Mathf.Max(10f, rampDurationSeconds);
@@ -134,6 +142,8 @@ namespace Project.Gameplay.Enemies
             prefab.AddComponent<Health>();
             prefab.AddComponent<Damageable>();
             prefab.AddComponent<EnemyAgent>();
+            prefab.AddComponent<Project.Gameplay.Rendering.DepthSortByY>();
+            prefab.layer = LayerMask.NameToLayer("Hurtbox");
 
             enemyPool.Configure(prefab, 24);
         }

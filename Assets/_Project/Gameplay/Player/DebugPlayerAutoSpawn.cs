@@ -12,7 +12,11 @@ namespace Project.Gameplay.Player
             if (SceneManager.GetActiveScene().name != "Game")
                 return;
 
-            var controller = Object.FindAnyObjectByType<Player25DController>();
+            // GameRuntimeInstaller now owns player creation — skip if it already ran
+            if (Object.FindAnyObjectByType<Core.Bootstrap.GameRuntimeInstaller>() != null)
+                return;
+
+            var controller = Object.FindAnyObjectByType<PlayerHsmController>();
 
             if (controller != null)
             {
@@ -37,7 +41,7 @@ namespace Project.Gameplay.Player
             sr.sprite = CreateDebugSprite();
             sr.color = new Color(1f, 0.95f, 0.35f, 1f);
 
-            player.AddComponent<Player25DController>();
+            player.AddComponent<PlayerHsmController>();
             player.AddComponent<DepthSortByY>();
         }
 

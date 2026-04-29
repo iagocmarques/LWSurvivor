@@ -38,7 +38,7 @@ namespace Project.Gameplay.Combat
                 FixedTickSystem.RequestGlobalHitStop(hit.HitStopTicks);
 
             if (triggerScreenShake && hit.ScreenShakeAmplitude > 0f)
-                ScreenShake2D.Instance?.Shake(hit.ScreenShakeAmplitude, 0.08f);
+                ScreenShake2D.Instance?.Shake(hit.ScreenShakeAmplitude, Mathf.Max(0.08f, hit.HitStopTicks / 60f));
 
             return true;
         }

@@ -11,12 +11,15 @@ namespace Project.Gameplay.Rendering
 
         private SortingGroup sortingGroup;
         private SpriteRenderer[] spriteRenderers;
+        private int tiebreak;
 
         private void Awake()
         {
             sortingGroup = GetComponent<SortingGroup>();
             if (sortingGroup == null)
                 spriteRenderers = GetComponentsInChildren<SpriteRenderer>(true);
+
+            tiebreak = GetInstanceID() & 0xFF;
         }
 
         private void OnEnable()
@@ -38,7 +41,7 @@ namespace Project.Gameplay.Rendering
         private void Apply()
         {
             var y = transform.position.y;
-            var order = baseSortingOrder - Mathf.RoundToInt(y * orderPerUnit);
+            var order = baseSortingOrder - Mathf.RoundToInt(y * orderPerUnit) + tiebreak;
 
             if (sortingGroup != null)
             {

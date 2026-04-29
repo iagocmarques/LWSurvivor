@@ -26,6 +26,9 @@ namespace Project.Gameplay.Visual
 
         public static Sprite GetPlayerFrame(int frameIndex)
         {
+            // LF2 Davis: pic 0-69 = sheet _0, pic 70-139 = sheet _1
+            if (frameIndex >= 70)
+                return GetCharacterFrame("player_davis_1_alpha", frameIndex - 70);
             return GetCharacterFrame("player_davis_0_alpha", frameIndex);
         }
 
@@ -36,6 +39,9 @@ namespace Project.Gameplay.Visual
 
         public static Sprite GetEnemyFrame(string enemyId, int frameIndex)
         {
+            // LF2 enemies: pic 0-69 = sheet _0, pic 70-139 = sheet _1
+            if (frameIndex >= 70)
+                return GetCharacterFrame(GetEnemySheetKey1(enemyId), frameIndex - 70);
             return GetCharacterFrame(GetEnemySheetKey(enemyId), frameIndex);
         }
 
@@ -59,12 +65,14 @@ namespace Project.Gameplay.Visual
 
         public static int GetPlayerFrameCount()
         {
-            return GetCharacterFrameCount("player_davis_0_alpha");
+            return GetCharacterFrameCount("player_davis_0_alpha")
+                 + GetCharacterFrameCount("player_davis_1_alpha");
         }
 
         public static int GetEnemyFrameCount(string enemyId)
         {
-            return GetCharacterFrameCount(GetEnemySheetKey(enemyId));
+            return GetCharacterFrameCount(GetEnemySheetKey(enemyId))
+                 + GetCharacterFrameCount(GetEnemySheetKey1(enemyId));
         }
 
         public static Sprite GetCharacterFrame(string key, int frameIndex)
@@ -87,7 +95,8 @@ namespace Project.Gameplay.Visual
                 texture,
                 new Rect(rect.x, rect.y, rect.width, rect.height),
                 new Vector2(0.5f, 0f),
-                CharacterPixelsPerUnit);
+                CharacterPixelsPerUnit,
+                SpriteMeshType.FullRect);
             sprite.name = key + "_frame_" + clamped;
             Cache[cacheKey] = sprite;
             return sprite;
@@ -117,6 +126,15 @@ namespace Project.Gameplay.Visual
             }
 
             return "enemy_grunt_bandit_0_alpha";
+        }
+
+        private static string GetEnemySheetKey1(string enemyId)
+        {
+            // _1 sheets: only bandit has one in Resources for now
+            if (!string.IsNullOrWhiteSpace(enemyId) && enemyId.Contains("bandit"))
+                return "enemy_grunt_bandit_1_alpha";
+            // Fallback to _0 sheet if _1 doesn't exist
+            return GetEnemySheetKey(enemyId);
         }
 
         private static List<RectInt> GetNonEmptyFrameRects(string key, Texture2D texture)

@@ -84,6 +84,11 @@ namespace Project.Gameplay.Enemies
 
             var delta = (Vector3)(_steerDir * (definition.moveSpeed * context.FixedDelta));
             transform.position += delta;
+
+            if (_steerDir.sqrMagnitude > 0.0001f && _lf2Animator != null)
+            {
+                _lf2Animator.SetFacing(_steerDir.x >= 0f);
+            }
         }
 
         private void OnTriggerStay2D(Collider2D other)
@@ -103,8 +108,8 @@ namespace Project.Gameplay.Enemies
                 Mathf.RoundToInt(definition.touchDamage),
                 toVictim.normalized * 2f,
                 CombatAttackId.None,
-                1,
-                0.05f,
+                2,
+                0.08f,
                 false);
 
             if (hurt.ReceiveHit(in hit))
@@ -167,7 +172,8 @@ namespace Project.Gameplay.Enemies
             if (_flashLeft > 0f)
             {
                 _flashLeft -= Time.deltaTime;
-                _sprite.color = Color.Lerp(_baseTint, Color.white, 0.85f);
+                float t = Mathf.Clamp01(_flashLeft / Mathf.Max(0.01f, definition != null ? definition.hitFlashSeconds : 0.10f));
+                _sprite.color = Color.Lerp(_baseTint, Color.white, Mathf.Lerp(0.85f, 0f, 1f - t));
             }
             else
             {

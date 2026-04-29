@@ -56,5 +56,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "My project.sln"
+    "dotnet.defaultSolution": "My project.sln",
+    "terminal.integrated.env.windows": {
+        "Path": "C:\\Program Files\\nodejs;${env:Path}"
+    }
 }

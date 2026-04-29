@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__unity-mcp__Unity_Camera_Capture",
+      "mcp__unity-mcp__Unity_ReadConsole",
+      "mcp__unity-mcp__Unity_RunCommand",
+      "Bash(*)",
+      "Read(*)",
+      "WebSearch",
+      "WebFetch(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "TodoWrite(*)",
+      "Agent(*)",
+      "NotebookEdit(*)",
+      "AskUserQuestion(*)",
+      "mcp__*",
+      "Skill(schedule)",
+      "Skill(schedule:*)",
+      "mcp__unity-mcp__Unity_SceneView_Capture2DScene",
+      "mcp__unity-mcp__Unity_GetConsoleLogs"
+    ]
+  }
+}

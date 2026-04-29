@@ -12,7 +12,7 @@ namespace Project.Gameplay.Run
     [DisallowMultipleComponent]
     public sealed class RunManager : MonoBehaviour, ITickable
     {
-        [SerializeField] private float runDurationSeconds = 600f;
+        [SerializeField] private float runDurationSeconds = 120f;
         [SerializeField] private float xpBasePerLevel = 5f;
         [SerializeField] private float xpGrowth = 1.2f;
         [SerializeField] private RunBalanceDefinition balanceDefinition;
@@ -28,7 +28,9 @@ namespace Project.Gameplay.Run
         private Health _playerHealth;
         private TelemetryService _telemetry;
         private bool _runEndSent;
+        private bool _won;
         private bool _runFailed;
+        private bool _spawnerBalancePending;
         private Enemies.EnemySpawnerDirector _spawner;
         private int _kills;
 
@@ -59,10 +61,21 @@ namespace Project.Gameplay.Run
             if (_runFailed)
                 return;
 
+            if (_won)
+                return;
+
+            if (_spawnerBalancePending)
+                TryApplyPendingSpawnerBalance();
+
             _runTime += context.FixedDelta;
             if (_runTime >= runDurationSeconds)
             {
                 _runTime = runDurationSeconds;
+                if (!_won)
+                {
+                    _won = true;
+                    _isChoosing = false;
+                }
                 if (!_runEndSent)
                 {
                     _runEndSent = true;
@@ -186,6 +199,22 @@ namespace Project.Gameplay.Run
             _telemetry?.TrackUpgradePick(upgrade.id, _level);
         }
 
+        private void TryApplyPendingSpawnerBalance()
+        {
+            if (!_spawnerBalancePending)
+                return;
+
+            _spawner = FindAnyObjectByType<Enemies.EnemySpawnerDirector>();
+            if (_spawner == null || balanceDefinition == null)
+                return;
+
+            _spawner.ApplyBalance(
+                balanceDefinition.spawnRampDurationSeconds,
+                balanceDefinition.targetEnemyCountAtEnd,
+                balanceDefinition.spawnCooldown);
+            _spawnerBalancePending = false;
+        }
+
         private void ResolvePlayerRefs()
         {
             if (_playerStats != null)
@@ -241,17 +270,22 @@ namespace Project.Gameplay.Run
                     balanceDefinition.spawnRampDurationSeconds,
                     balanceDefinition.targetEnemyCountAtEnd,
                     balanceDefinition.spawnCooldown);
+                _spawnerBalancePending = false;
+            }
+            else
+            {
+                _spawnerBalancePending = true;
             }
         }
 
         private static RunBalanceDefinition CreateRuntimeBalance()
         {
             var b = ScriptableObject.CreateInstance<RunBalanceDefinition>();
-            b.runDurationSeconds = 900f;
+            b.runDurationSeconds = 120f;
             b.xpBasePerLevel = 4.5f;
             b.xpGrowth = 1.16f;
             b.targetEnemyCountAtEnd = 320;
-            b.spawnRampDurationSeconds = 600f;
+            b.spawnRampDurationSeconds = 90f;
             b.spawnCooldown = 0.06f;
             return b;
         }
@@ -278,7 +312,7 @@ namespace Project.Gameplay.Run
         {
             var kb = Keyboard.current;
 
-            if (_runFailed && kb != null && kb.rKey.wasPressedThisFrame)
+            if ((_runFailed || _won) && kb != null && kb.rKey.wasPressedThisFrame)
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
                 return;
@@ -340,6 +374,27 @@ namespace Project.Gameplay.Run
                 GUILayout.BeginArea(new Rect(Screen.width * 0.5f - 180f, Screen.height * 0.5f - 70f, 360f, 140f), GUI.skin.box);
                 GUILayout.Label("Você foi derrotado.");
                 GUILayout.Label("Pressione R para reiniciar a run.");
+                GUILayout.EndArea();
+            }
+
+            if (_won)
+            {
+                GUILayout.BeginArea(new Rect(Screen.width * 0.5f - 200f, Screen.height * 0.5f - 90f, 400f, 180f), GUI.skin.box);
+                GUILayout.FlexibleSpace();
+                GUILayout.BeginHorizontal();
+                GUILayout.FlexibleSpace();
+                GUILayout.Label("YOU SURVIVED!");
+                GUILayout.FlexibleSpace();
+                GUILayout.EndHorizontal();
+                GUILayout.Space(6f);
+                GUILayout.Label($"Level: {_level}  |  Kills: {_kills}  |  Time: {_runTime:0}s");
+                GUILayout.Space(6f);
+                GUILayout.BeginHorizontal();
+                GUILayout.FlexibleSpace();
+                GUILayout.Label("Press R to play again");
+                GUILayout.FlexibleSpace();
+                GUILayout.EndHorizontal();
+                GUILayout.FlexibleSpace();
                 GUILayout.EndArea();
             }
         }

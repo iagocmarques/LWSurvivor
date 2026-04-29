@@ -64,15 +64,15 @@ namespace Project.Gameplay.Player
         public bool IsAttacking => superState == SuperState.Attack;
         public CombatAttackId ActiveAttackId => currentAttackId;
         public int ActiveAttackFrameIndex => attackFrameIndex;
+        public bool FacingRight => lastMoveDir.x >= 0f;
 
         private void Awake()
         {
-            if (tuning == null)
-            {
-                enabled = false;
-                return;
-            }
-
+            // Always create input actions so they're ready when Configure() enables us.
+            // This is critical for the stale-serialized-data case: if tuning is a
+            // destroyed SO reference (null at runtime), Awake would previously bail
+            // early, leaving input actions uninitialized. Then Configure() enables the
+            // component, OnEnable fires, but Tick has no actions to read.
             moveAction = new InputAction("Move", InputActionType.Value, expectedControlType: "Vector2");
             moveAction.AddCompositeBinding("2DVector")
                 .With("Up", "<Keyboard>/w")
@@ -107,6 +107,29 @@ namespace Project.Gameplay.Player
             superState = SuperState.Locomotion;
             locomotionSubState = LocomotionSubState.Idle;
             _runtimeStats = GetComponent<PlayerRuntimeStats>();
+
+            // If tuning is not yet configured, disable until Configure() is called.
+            // Input actions are ready; they just won't be read while disabled.
+            if (tuning == null)
+                enabled = false;
+        }
+
+        /// <summary>
+        /// Wires runtime-created SO instances into the private serialized fields.
+        /// Call after Awake (e.g. from GameRuntimeInstaller) to bootstrap the
+        /// player without pre-authored .asset files.
+        /// </summary>
+        public void Configure(
+            PlayerTuning tuningData,
+            AttackDefinition jab,
+            AttackDefinition launcher,
+            AttackDefinition dash)
+        {
+            tuning = tuningData;
+            jabDefinition = jab;
+            launcherDefinition = launcher;
+            dashAttackDefinition = dash;
+            enabled = true;
         }
 
         private void OnEnable()
@@ -401,12 +424,13 @@ namespace Project.Gameplay.Player
 
             if (_activeHitbox == null)
             {
+                var facingRight = lastMoveDir.x >= 0f;
                 _activeHitbox = CombatHitboxPool.Rent();
                 _activeHitbox.Arm(
                     gameObject,
                     enemyHurtboxMask,
                     Mathf.Max(1, Mathf.RoundToInt(frame.damage * (_runtimeStats != null ? _runtimeStats.DamageMultiplier : 1f))),
-                    frame.knockback,
+                    Lf2MirrorUtil.MirrorKnockback(frame.knockback, facingRight),
                     currentAttackId,
                     frame.hitStopTicks,
                     frame.screenShakeAmplitude,
