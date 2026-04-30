@@ -24,8 +24,8 @@ namespace Project.Gameplay.Modes
         public event Action<int, StagePhaseDefinition> OnPhaseChanged;
         public event Action<string> OnPhaseMusicRequested;
         public event Action OnStageCleared;
-        public event Action OnGameOver; // Reserved for stage game-over flow
 #pragma warning disable CS0067
+        public event Action OnGameOver; // Reserved for stage game-over flow
 
         public int CurrentPhase => _currentPhase;
         public bool IsComplete => _currentPhase >= stageDefinition.phases.Count;

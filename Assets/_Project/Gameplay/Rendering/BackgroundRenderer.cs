@@ -104,7 +104,7 @@ namespace Project.Gameplay.Rendering
         {
             var arena = GetComponentInParent<ArenaBounds>();
             if (arena == null)
-                arena = FindFirstObjectByType<ArenaBounds>();
+                arena = FindAnyObjectByType<ArenaBounds>();
 
             if (arena == null || definition == null)
                 return;
