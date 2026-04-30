@@ -1,0 +1,2238 @@
+fileFormatVersion: 2
+guid: 304f04bc47040aa4fb91ec425904e7ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6569325143769105814
+    second: freeze_0_0
+  - first:
+      213: -1834337560539462844
+    second: freeze_0_1
+  - first:
+      213: -4683768941241145208
+    second: freeze_0_2
+  - first:
+      213: 1358447075743941133
+    second: freeze_0_3
+  - first:
+      213: 4307392722250541925
+    second: freeze_0_4
+  - first:
+      213: 8658934577977360210
+    second: freeze_0_5
+  - first:
+      213: -4551197180472740095
+    second: freeze_0_6
+  - first:
+      213: -4904201673594456669
+    second: freeze_0_7
+  - first:
+      213: 1660990113789360074
+    second: freeze_0_8
+  - first:
+      213: 6266719419903884294
+    second: freeze_0_9
+  - first:
+      213: 8347667387627922043
+    second: freeze_0_10
+  - first:
+      213: 7532551554104674473
+    second: freeze_0_11
+  - first:
+      213: -5033723073485344648
+    second: freeze_0_12
+  - first:
+      213: 1726647445490368377
+    second: freeze_0_13
+  - first:
+      213: 6612512977897248191
+    second: freeze_0_14
+  - first:
+      213: 7117457750585683775
+    second: freeze_0_15
+  - first:
+      213: -6434062399546346138
+    second: freeze_0_16
+  - first:
+      213: 5682135771715481724
+    second: freeze_0_17
+  - first:
+      213: 1103108221551266293
+    second: freeze_0_18
+  - first:
+      213: -5188166255661749751
+    second: freeze_0_19
+  - first:
+      213: 6653743329591673136
+    second: freeze_0_20
+  - first:
+      213: -8234743723556652521
+    second: freeze_0_21
+  - first:
+      213: 4893666555092896865
+    second: freeze_0_22
+  - first:
+      213: 4291214440220006398
+    second: freeze_0_23
+  - first:
+      213: 3591729858395470269
+    second: freeze_0_24
+  - first:
+      213: -1529059647931670672
+    second: freeze_0_25
+  - first:
+      213: -5976919096780231864
+    second: freeze_0_26
+  - first:
+      213: 7790161070336233879
+    second: freeze_0_27
+  - first:
+      213: -6132551267954009521
+    second: freeze_0_28
+  - first:
+      213: -6594280947254920621
+    second: freeze_0_29
+  - first:
+      213: 2752047392383109765
+    second: freeze_0_30
+  - first:
+      213: 8532913828512166766
+    second: freeze_0_31
+  - first:
+      213: -9001856578933617830
+    second: freeze_0_32
+  - first:
+      213: -6475574055666087539
+    second: freeze_0_33
+  - first:
+      213: 850482332470442052
+    second: freeze_0_34
+  - first:
+      213: -2975224195685463202
+    second: freeze_0_35
+  - first:
+      213: -8522139335559593943
+    second: freeze_0_36
+  - first:
+      213: -24793629958392781
+    second: freeze_0_37
+  - first:
+      213: 5928102370299980279
+    second: freeze_0_38
+  - first:
+      213: 5516099662508588997
+    second: freeze_0_39
+  - first:
+      213: -8938306748133729832
+    second: freeze_0_40
+  - first:
+      213: -8885882858309447580
+    second: freeze_0_41
+  - first:
+      213: -7394555071975394329
+    second: freeze_0_42
+  - first:
+      213: -7236604324972855822
+    second: freeze_0_43
+  - first:
+      213: -8096536804302512803
+    second: freeze_0_44
+  - first:
+      213: 4976619443865193743
+    second: freeze_0_45
+  - first:
+      213: 8075987245226893963
+    second: freeze_0_46
+  - first:
+      213: -3292073687883218296
+    second: freeze_0_47
+  - first:
+      213: -4542253556320951156
+    second: freeze_0_48
+  - first:
+      213: 3287214035264976822
+    second: freeze_0_49
+  - first:
+      213: -6691814690932533923
+    second: freeze_0_50
+  - first:
+      213: -1541491658523868380
+    second: freeze_0_51
+  - first:
+      213: 6169793494471941502
+    second: freeze_0_52
+  - first:
+      213: -466660223064611413
+    second: freeze_0_53
+  - first:
+      213: -7901107562833892096
+    second: freeze_0_54
+  - first:
+      213: 8835094168154713235
+    second: freeze_0_55
+  - first:
+      213: 5464609843219901190
+    second: freeze_0_56
+  - first:
+      213: -8680052656755143368
+    second: freeze_0_57
+  - first:
+      213: 5191274108880697313
+    second: freeze_0_58
+  - first:
+      213: 5261661142749174883
+    second: freeze_0_59
+  - first:
+      213: -1905299468955879794
+    second: freeze_0_60
+  - first:
+      213: -5640835914336505546
+    second: freeze_0_61
+  - first:
+      213: 2993440516439863685
+    second: freeze_0_62
+  - first:
+      213: 826160806453456685
+    second: freeze_0_63
+  - first:
+      213: -7749278855276557077
+    second: freeze_0_64
+  - first:
+      213: 9059592671032046918
+    second: freeze_0_65
+  - first:
+      213: -5205869879996361076
+    second: freeze_0_66
+  - first:
+      213: -8610784293631156704
+    second: freeze_0_67
+  - first:
+      213: 5837702752635722825
+    second: freeze_0_68
+  - first:
+      213: 2251514955140140061
+    second: freeze_0_69
+  - first:
+      213: 3652295057811346578
+    second: freeze_0_70
+  - first:
+      213: -7901334416173104203
+    second: freeze_0_71
+  - first:
+      213: 8987676756826766261
+    second: freeze_0_alpha_000
+  - first:
+      213: 4493109912505431362
+    second: freeze_0_alpha_001
+  - first:
+      213: 3526502947083676695
+    second: freeze_0_alpha_002
+  - first:
+      213: -4648800725838819039
+    second: freeze_0_alpha_003
+  - first:
+      213: 662372407984730296
+    second: freeze_0_alpha_004
+  - first:
+      213: -6010512076396142488
+    second: freeze_0_alpha_005
+  - first:
+      213: -1495642532319915762
+    second: freeze_0_alpha_006
+  - first:
+      213: -3675788585473620848
+    second: freeze_0_alpha_007
+  - first:
+      213: -3631589379930810125
+    second: freeze_0_alpha_008
+  - first:
+      213: 1348392388156372443
+    second: freeze_0_alpha_009
+  - first:
+      213: 275792528725727647
+    second: freeze_0_alpha_010
+  - first:
+      213: -5214882939062637695
+    second: freeze_0_alpha_011
+  - first:
+      213: -3832211763020826037
+    second: freeze_0_alpha_012
+  - first:
+      213: -5294315410203333059
+    second: freeze_0_alpha_013
+  - first:
+      213: -2017455566109200552
+    second: freeze_0_alpha_014
+  - first:
+      213: 7624983482527022107
+    second: freeze_0_alpha_015
+  - first:
+      213: -6246409570057566195
+    second: freeze_0_alpha_016
+  - first:
+      213: -4693213684853737952
+    second: freeze_0_alpha_017
+  - first:
+      213: 7166920163572708561
+    second: freeze_0_alpha_018
+  - first:
+      213: -5286391518693760008
+    second: freeze_0_alpha_019
+  - first:
+      213: 8743712067053655696
+    second: freeze_0_alpha_020
+  - first:
+      213: -3280711549276904061
+    second: freeze_0_alpha_021
+  - first:
+      213: 6646797365337208353
+    second: freeze_0_alpha_022
+  - first:
+      213: -2702574393935303174
+    second: freeze_0_alpha_023
+  - first:
+      213: -4789837638972597021
+    second: freeze_0_alpha_024
+  - first:
+      213: -5943812036269938383
+    second: freeze_0_alpha_025
+  - first:
+      213: -6848943660287889709
+    second: freeze_0_alpha_026
+  - first:
+      213: 6324430131658145850
+    second: freeze_0_alpha_027
+  - first:
+      213: -4953558129778968425
+    second: freeze_0_alpha_028
+  - first:
+      213: 2408923642427353791
+    second: freeze_0_alpha_029
+  - first:
+      213: -4912638055006756156
+    second: freeze_0_alpha_030
+  - first:
+      213: -4207937705450268436
+    second: freeze_0_alpha_031
+  - first:
+      213: -2219509234684096638
+    second: freeze_0_alpha_032
+  - first:
+      213: 8336475971429995599
+    second: freeze_0_alpha_033
+  - first:
+      213: -8664056071529093661
+    second: freeze_0_alpha_034
+  - first:
+      213: -4502482010382038886
+    second: freeze_0_alpha_035
+  - first:
+      213: 5101874891114155896
+    second: freeze_0_alpha_036
+  - first:
+      213: 3545179388104169113
+    second: freeze_0_alpha_037
+  - first:
+      213: -2539655293000916781
+    second: freeze_0_alpha_038
+  - first:
+      213: -7226762799295307538
+    second: freeze_0_alpha_039
+  - first:
+      213: 8990326699615091166
+    second: freeze_0_alpha_040
+  - first:
+      213: 3822532179618381693
+    second: freeze_0_alpha_041
+  - first:
+      213: -994489769353603581
+    second: freeze_0_alpha_042
+  - first:
+      213: -9015300004837152022
+    second: freeze_0_alpha_043
+  - first:
+      213: 1400033699403226577
+    second: freeze_0_alpha_044
+  - first:
+      213: 8752871897203795016
+    second: freeze_0_alpha_045
+  - first:
+      213: 1858163378854473506
+    second: freeze_0_alpha_046
+  - first:
+      213: 6177782074620112858
+    second: freeze_0_alpha_047
+  - first:
+      213: 5658413368434525892
+    second: freeze_0_alpha_048
+  - first:
+      213: 2483042924867060677
+    second: freeze_0_alpha_049
+  - first:
+      213: 1221142157332573375
+    second: freeze_0_alpha_050
+  - first:
+      213: -8959938001582525403
+    second: freeze_0_alpha_051
+  - first:
+      213: -6537338279032118802
+    second: freeze_0_alpha_052
+  - first:
+      213: -1273851367743531727
+    second: freeze_0_alpha_053
+  - first:
+      213: -7099519828952272152
+    second: freeze_0_alpha_054
+  - first:
+      213: 6310427405315365229
+    second: freeze_0_alpha_055
+  - first:
+      213: -6931220962631828934
+    second: freeze_0_alpha_056
+  - first:
+      213: 386782975268889801
+    second: freeze_0_alpha_057
+  - first:
+      213: 6223119154301691741
+    second: freeze_0_alpha_058
+  - first:
+      213: -5651960134820156732
+    second: freeze_0_alpha_059
+  - first:
+      213: -8920950495859399834
+    second: freeze_0_alpha_060
+  - first:
+      213: 1388577057580928782
+    second: freeze_0_alpha_061
+  - first:
+      213: -4678551383985645138
+    second: freeze_0_alpha_062
+  - first:
+      213: -4059822956407158479
+    second: freeze_0_alpha_063
+  - first:
+      213: 3275690809471958514
+    second: freeze_0_alpha_064
+  - first:
+      213: 3387864013211447473
+    second: freeze_0_alpha_065
+  - first:
+      213: 4616109823407516140
+    second: freeze_0_alpha_066
+  - first:
+      213: 7318106185733260403
+    second: freeze_0_alpha_067
+  - first:
+      213: -529150564909581961
+    second: freeze_0_alpha_068
+  - first:
+      213: 1426635777358876409
+    second: freeze_0_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: freeze_0_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbb1be3464aabc70800000000000000
+      internalID: 8987676756826766261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2453cafe8abba5e30800000000000000
+      internalID: 4493109912505431362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c6a440fb7a0f030800000000000000
+      internalID: 3526502947083676695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1219cc8ce542c7fb0800000000000000
+      internalID: -4648800725838819039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b033f61238313900800000000000000
+      internalID: 662372407984730296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86066309c1f569ca0800000000000000
+      internalID: -6010512076396142488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e011b168a096e3be0800000000000000
+      internalID: -1495642532319915762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094c865b1c9fcfcc0800000000000000
+      internalID: -3675788585473620848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8942f23b00a9dc0800000000000000
+      internalID: -3631589379930810125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5b6e1abb376b210800000000000000
+      internalID: 1348392388156372443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99576af7dfc3d300800000000000000
+      internalID: 275792528725727647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b2de7b89301a7b0800000000000000
+      internalID: -5214882939062637695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4af11994bf31dac0800000000000000
+      internalID: -3832211763020826037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e24f55f20d686b0800000000000000
+      internalID: -5294315410203333059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f2deff9de8004e0800000000000000
+      internalID: -2017455566109200552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c7e36141261d960800000000000000
+      internalID: 7624983482527022107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d084e17479b4059a0800000000000000
+      internalID: -6246409570057566195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0267a43f40b5edeb0800000000000000
+      internalID: -4693213684853737952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4f553bae3067360800000000000000
+      internalID: 7166920163572708561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3ee981ce6f2a6b0800000000000000
+      internalID: -5286391518693760008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096970f7cc7e75970800000000000000
+      internalID: 8743712067053655696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38524d65a329872d0800000000000000
+      internalID: -3280711549276904061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1263deeccfa2e3c50800000000000000
+      internalID: 6646797365337208353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd6b6658e68e7ad0800000000000000
+      internalID: -2702574393935303174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec1e358b04178db0800000000000000
+      internalID: -4789837638972597021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1396076d176538da0800000000000000
+      internalID: -5943812036269938383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de60e9370aa3f0a0800000000000000
+      internalID: -6848943660287889709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30c24c42b3e4c750800000000000000
+      internalID: 6324430131658145850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798b644402d614bb0800000000000000
+      internalID: -4953558129778968425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba2ced2a473e6120800000000000000
+      internalID: 2408923642427353791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2a14d97bdc2dbb0800000000000000
+      internalID: -4912638055006756156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce81aa593f66a95c0800000000000000
+      internalID: -4207937705450268436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f84fa4c18b231e0800000000000000
+      internalID: -2219509234684096638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f441aab3abc11b370800000000000000
+      internalID: 8336475971429995599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5217638e613c780800000000000000
+      internalID: -8664056071529093661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98879b7778f381c0800000000000000
+      internalID: -4502482010382038886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f085dbe208dc640800000000000000
+      internalID: 5101874891114155896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9965cfcced1033130800000000000000
+      internalID: 3545179388104169113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d06db877f451ccd0800000000000000
+      internalID: -2539655293000916781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0eef7e58165bb90800000000000000
+      internalID: -7226762799295307538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed97441208e04cc70800000000000000
+      internalID: 8990326699615091166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f37a4c3cc5c0530800000000000000
+      internalID: 3822532179618381693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3061be4e2dcd232f0800000000000000
+      internalID: -994489769353603581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaaa14296833e280800000000000000
+      internalID: -9015300004837152022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd518e5b3bed6310800000000000000
+      internalID: 1400033699403226577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844e455ad92787970800000000000000
+      internalID: 8752871897203795016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa2438fb589c910800000000000000
+      internalID: 1858163378854473506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfe189c014ebb550800000000000000
+      internalID: 6177782074620112858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c68cd1aaf8b68e40800000000000000
+      internalID: 5658413368434525892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c38fba626a857220800000000000000
+      internalID: 2483042924867060677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcef0c725e52f010800000000000000
+      internalID: 1221142157332573375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524762efbd7e7a380800000000000000
+      internalID: -8959938001582525403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee12ab5b875b645a0800000000000000
+      internalID: -6537338279032118802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13550012eee525ee0800000000000000
+      internalID: -1273851367743531727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e235779450797d90800000000000000
+      internalID: -7099519828952272152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6956b28a44239750800000000000000
+      internalID: 6310427405315365229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ab696f14b5fcf90800000000000000
+      internalID: -6931220962631828934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4221611112e5500800000000000000
+      internalID: 386782975268889801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57e41b36e5fc5650800000000000000
+      internalID: 6223119154301691741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca2067e3343091b0800000000000000
+      internalID: -5651960134820156732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663a47b0aca623480800000000000000
+      internalID: -8920950495859399834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f4e541a77354310800000000000000
+      internalID: 1388577057580928782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea99f16ed42721fb0800000000000000
+      internalID: -4678551383985645138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1390060f78c98a7c0800000000000000
+      internalID: -4059822956407158479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd76949f67957d20800000000000000
+      internalID: 3275690809471958514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b03ccece5c140f20800000000000000
+      internalID: 3387864013211447473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9656c5d67bf0040800000000000000
+      internalID: 4616109823407516140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374483d8dc22f8560800000000000000
+      internalID: 7318106185733260403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779fdd16d5418a8f0800000000000000
+      internalID: -529150564909581961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze_0_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fec65d4ead6cc310800000000000000
+      internalID: 1426635777358876409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      freeze_0_0: -6569325143769105814
+      freeze_0_1: -1834337560539462844
+      freeze_0_10: 8347667387627922043
+      freeze_0_11: 7532551554104674473
+      freeze_0_12: -5033723073485344648
+      freeze_0_13: 1726647445490368377
+      freeze_0_14: 6612512977897248191
+      freeze_0_15: 7117457750585683775
+      freeze_0_16: -6434062399546346138
+      freeze_0_17: 5682135771715481724
+      freeze_0_18: 1103108221551266293
+      freeze_0_19: -5188166255661749751
+      freeze_0_2: -4683768941241145208
+      freeze_0_20: 6653743329591673136
+      freeze_0_21: -8234743723556652521
+      freeze_0_22: 4893666555092896865
+      freeze_0_23: 4291214440220006398
+      freeze_0_24: 3591729858395470269
+      freeze_0_25: -1529059647931670672
+      freeze_0_26: -5976919096780231864
+      freeze_0_27: 7790161070336233879
+      freeze_0_28: -6132551267954009521
+      freeze_0_29: -6594280947254920621
+      freeze_0_3: 1358447075743941133
+      freeze_0_30: 2752047392383109765
+      freeze_0_31: 8532913828512166766
+      freeze_0_32: -9001856578933617830
+      freeze_0_33: -6475574055666087539
+      freeze_0_34: 850482332470442052
+      freeze_0_35: -2975224195685463202
+      freeze_0_36: -8522139335559593943
+      freeze_0_37: -24793629958392781
+      freeze_0_38: 5928102370299980279
+      freeze_0_39: 5516099662508588997
+      freeze_0_4: 4307392722250541925
+      freeze_0_40: -8938306748133729832
+      freeze_0_41: -8885882858309447580
+      freeze_0_42: -7394555071975394329
+      freeze_0_43: -7236604324972855822
+      freeze_0_44: -8096536804302512803
+      freeze_0_45: 4976619443865193743
+      freeze_0_46: 8075987245226893963
+      freeze_0_47: -3292073687883218296
+      freeze_0_48: -4542253556320951156
+      freeze_0_49: 3287214035264976822
+      freeze_0_5: 8658934577977360210
+      freeze_0_50: -6691814690932533923
+      freeze_0_51: -1541491658523868380
+      freeze_0_52: 6169793494471941502
+      freeze_0_53: -466660223064611413
+      freeze_0_54: -7901107562833892096
+      freeze_0_55: 8835094168154713235
+      freeze_0_56: 5464609843219901190
+      freeze_0_57: -8680052656755143368
+      freeze_0_58: 5191274108880697313
+      freeze_0_59: 5261661142749174883
+      freeze_0_6: -4551197180472740095
+      freeze_0_60: -1905299468955879794
+      freeze_0_61: -5640835914336505546
+      freeze_0_62: 2993440516439863685
+      freeze_0_63: 826160806453456685
+      freeze_0_64: -7749278855276557077
+      freeze_0_65: 9059592671032046918
+      freeze_0_66: -5205869879996361076
+      freeze_0_67: -8610784293631156704
+      freeze_0_68: 5837702752635722825
+      freeze_0_69: 2251514955140140061
+      freeze_0_7: -4904201673594456669
+      freeze_0_70: 3652295057811346578
+      freeze_0_71: -7901334416173104203
+      freeze_0_8: 1660990113789360074
+      freeze_0_9: 6266719419903884294
+      freeze_0_alpha_000: 8987676756826766261
+      freeze_0_alpha_001: 4493109912505431362
+      freeze_0_alpha_002: 3526502947083676695
+      freeze_0_alpha_003: -4648800725838819039
+      freeze_0_alpha_004: 662372407984730296
+      freeze_0_alpha_005: -6010512076396142488
+      freeze_0_alpha_006: -1495642532319915762
+      freeze_0_alpha_007: -3675788585473620848
+      freeze_0_alpha_008: -3631589379930810125
+      freeze_0_alpha_009: 1348392388156372443
+      freeze_0_alpha_010: 275792528725727647
+      freeze_0_alpha_011: -5214882939062637695
+      freeze_0_alpha_012: -3832211763020826037
+      freeze_0_alpha_013: -5294315410203333059
+      freeze_0_alpha_014: -2017455566109200552
+      freeze_0_alpha_015: 7624983482527022107
+      freeze_0_alpha_016: -6246409570057566195
+      freeze_0_alpha_017: -4693213684853737952
+      freeze_0_alpha_018: 7166920163572708561
+      freeze_0_alpha_019: -5286391518693760008
+      freeze_0_alpha_020: 8743712067053655696
+      freeze_0_alpha_021: -3280711549276904061
+      freeze_0_alpha_022: 6646797365337208353
+      freeze_0_alpha_023: -2702574393935303174
+      freeze_0_alpha_024: -4789837638972597021
+      freeze_0_alpha_025: -5943812036269938383
+      freeze_0_alpha_026: -6848943660287889709
+      freeze_0_alpha_027: 6324430131658145850
+      freeze_0_alpha_028: -4953558129778968425
+      freeze_0_alpha_029: 2408923642427353791
+      freeze_0_alpha_030: -4912638055006756156
+      freeze_0_alpha_031: -4207937705450268436
+      freeze_0_alpha_032: -2219509234684096638
+      freeze_0_alpha_033: 8336475971429995599
+      freeze_0_alpha_034: -8664056071529093661
+      freeze_0_alpha_035: -4502482010382038886
+      freeze_0_alpha_036: 5101874891114155896
+      freeze_0_alpha_037: 3545179388104169113
+      freeze_0_alpha_038: -2539655293000916781
+      freeze_0_alpha_039: -7226762799295307538
+      freeze_0_alpha_040: 8990326699615091166
+      freeze_0_alpha_041: 3822532179618381693
+      freeze_0_alpha_042: -994489769353603581
+      freeze_0_alpha_043: -9015300004837152022
+      freeze_0_alpha_044: 1400033699403226577
+      freeze_0_alpha_045: 8752871897203795016
+      freeze_0_alpha_046: 1858163378854473506
+      freeze_0_alpha_047: 6177782074620112858
+      freeze_0_alpha_048: 5658413368434525892
+      freeze_0_alpha_049: 2483042924867060677
+      freeze_0_alpha_050: 1221142157332573375
+      freeze_0_alpha_051: -8959938001582525403
+      freeze_0_alpha_052: -6537338279032118802
+      freeze_0_alpha_053: -1273851367743531727
+      freeze_0_alpha_054: -7099519828952272152
+      freeze_0_alpha_055: 6310427405315365229
+      freeze_0_alpha_056: -6931220962631828934
+      freeze_0_alpha_057: 386782975268889801
+      freeze_0_alpha_058: 6223119154301691741
+      freeze_0_alpha_059: -5651960134820156732
+      freeze_0_alpha_060: -8920950495859399834
+      freeze_0_alpha_061: 1388577057580928782
+      freeze_0_alpha_062: -4678551383985645138
+      freeze_0_alpha_063: -4059822956407158479
+      freeze_0_alpha_064: 3275690809471958514
+      freeze_0_alpha_065: 3387864013211447473
+      freeze_0_alpha_066: 4616109823407516140
+      freeze_0_alpha_067: 7318106185733260403
+      freeze_0_alpha_068: -529150564909581961
+      freeze_0_alpha_069: 1426635777358876409
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

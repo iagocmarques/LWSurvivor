@@ -13,6 +13,22 @@ namespace Project.Gameplay.Rendering
         [SerializeField] private float minY = -10f;
         [SerializeField] private float maxY = 10f;
 
+        public float MinX => minX;
+        public float MaxX => maxX;
+        public float MinY => minY;
+        public float MaxY => maxY;
+
+        /// <summary>
+        /// Updates the arena boundaries at runtime.
+        /// </summary>
+        public void SetBounds(float newMinX, float newMaxX, float newMinY, float newMaxY)
+        {
+            minX = newMinX;
+            maxX = newMaxX;
+            minY = newMinY;
+            maxY = newMaxY;
+        }
+
         /// <summary>
         /// Returns a position clamped inside the arena rectangle.
         /// Uses the instance bounds so each ArenaBounds can have different values.

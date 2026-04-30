@@ -51,5 +51,11 @@ namespace Project.Gameplay.Combat
                 Destroy(gameObject);
             return true;
         }
+
+        public void Heal(int amount)
+        {
+            if (IsDead || amount <= 0) return;
+            CurrentHealth = Mathf.Min(CurrentHealth + amount, maxHealth);
+        }
     }
 }

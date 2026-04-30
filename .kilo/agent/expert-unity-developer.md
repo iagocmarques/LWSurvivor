@@ -1,7 +1,6 @@
 ---
 description: 'Implementação em Unity 6 / C# / URP 2D. Diagnóstico, código, ScriptableObjects, shaders, animações, netcode.'
 mode: subagent
-model: xiaomi/mimo-v2.5-pro
 steps: 30
 hidden: false
 permission:

@@ -5,6 +5,7 @@ namespace Project.Gameplay.Visual
 {
     public static class Lf2VisualLibrary
     {
+        private static readonly Dictionary<long, Sprite> FrameCache = new Dictionary<long, Sprite>(256);
         private static readonly Dictionary<string, Sprite> Cache = new Dictionary<string, Sprite>();
         private static readonly Dictionary<string, Sprite[]> SheetCache = new Dictionary<string, Sprite[]>();
         private static readonly string[] BackgroundKeys =
@@ -15,16 +16,48 @@ namespace Project.Gameplay.Visual
             "bg_template3_pic1_alpha"
         };
 
+        private static string _playerSheet0 = "davis_0_alpha";
+        private static string _playerSheet1 = "davis_1_alpha";
+        private static string _playerSheet2 = "davis_2_alpha";
+        private static string _playerName = "davis";
+
+        public static void SetPlayerCharacter(string characterName)
+        {
+            _playerName = characterName ?? "davis";
+            _playerSheet0 = _playerName + "_0_alpha";
+            _playerSheet1 = _playerName + "_1_alpha";
+            _playerSheet2 = _playerName + "_2_alpha";
+
+            for (long i = 0; i < 210; i++)
+                FrameCache.Remove(i);
+
+            foreach (var k in new[] { _playerSheet0, _playerSheet1, _playerSheet2 })
+                SheetCache.Remove(k);
+        }
+
+        public static string PlayerCharacterName => _playerName;
+
         public static Sprite GetPlayerSprite()
         {
-            return GetCharacterFrame("player_davis_0_alpha", 2);
+            return GetCharacterFrame(_playerSheet0, 2);
         }
 
         public static Sprite GetPlayerFrame(int frameIndex)
         {
-            if (frameIndex >= 70)
-                return GetCharacterFrame("player_davis_1_alpha", frameIndex - 70);
-            return GetCharacterFrame("player_davis_0_alpha", frameIndex);
+            long key = frameIndex;
+            if (FrameCache.TryGetValue(key, out var cached))
+                return cached;
+
+            Sprite sprite;
+            if (frameIndex >= 140)
+                sprite = GetCharacterFrameInternal(_playerSheet2, frameIndex - 140);
+            else if (frameIndex >= 70)
+                sprite = GetCharacterFrameInternal(_playerSheet1, frameIndex - 70);
+            else
+                sprite = GetCharacterFrameInternal(_playerSheet0, frameIndex);
+
+            FrameCache[key] = sprite;
+            return sprite;
         }
 
         public static Sprite GetEnemySprite(string enemyId)
@@ -59,8 +92,9 @@ namespace Project.Gameplay.Visual
 
         public static int GetPlayerFrameCount()
         {
-            return GetSheetSprites("player_davis_0_alpha").Length
-                 + GetSheetSprites("player_davis_1_alpha").Length;
+            return GetSheetSprites(_playerSheet0).Length
+                 + GetSheetSprites(_playerSheet1).Length
+                 + GetSheetSprites(_playerSheet2).Length;
         }
 
         public static int GetEnemyFrameCount(string enemyId)
@@ -76,18 +110,23 @@ namespace Project.Gameplay.Visual
         /// </summary>
         public static Sprite GetCharacterFrame(string key, int frameIndex)
         {
-            var cacheKey = key + "#frame_" + frameIndex;
-            if (Cache.TryGetValue(cacheKey, out var cached))
+            long cacheKey = ((long)key.GetHashCode() << 16) | (long)(frameIndex & 0xFFFF);
+            if (FrameCache.TryGetValue(cacheKey, out var cached))
                 return cached;
 
+            var sprite = GetCharacterFrameInternal(key, frameIndex);
+            FrameCache[cacheKey] = sprite;
+            return sprite;
+        }
+
+        private static Sprite GetCharacterFrameInternal(string key, int frameIndex)
+        {
             var sprites = GetSheetSprites(key);
             if (sprites.Length == 0)
                 return Load(key);
 
             var clamped = Mathf.Clamp(frameIndex, 0, sprites.Length - 1);
-            var sprite = sprites[clamped];
-            Cache[cacheKey] = sprite;
-            return sprite;
+            return sprites[clamped];
         }
 
         private static Sprite[] GetSheetSprites(string key)
@@ -144,25 +183,69 @@ namespace Project.Gameplay.Visual
             return GetSheetSprites(key).Length;
         }
 
-        private static string GetEnemySheetKey(string enemyId)
+private static string GetEnemySheetKey(string enemyId)
         {
             if (!string.IsNullOrWhiteSpace(enemyId))
             {
                 if (enemyId.Contains("scout"))
-                    return "enemy_scout_hunter_0b_alpha";
+                    return "hunter_0b_alpha";
                 if (enemyId.Contains("bruiser"))
-                    return "enemy_bruiser_knight_0_alpha";
+                    return "knight_0b_alpha";
+                if (enemyId.Contains("mark"))
+                    return "mark_0_alpha";
+                if (enemyId.Contains("jack"))
+                    return "jack_0_alpha";
+                if (enemyId.Contains("sorcerer"))
+                    return "sorcerer_0_alpha";
+                if (enemyId.Contains("monk"))
+                    return "monk_0_alpha";
+                if (enemyId.Contains("jan"))
+                    return "jan_0_alpha";
+                if (enemyId.Contains("knight"))
+                    return "knight_0_alpha";
+                if (enemyId.Contains("bat"))
+                    return "bat_0_alpha";
+                if (enemyId.Contains("justin"))
+                    return "justin_0_alpha";
+                if (enemyId.Contains("louisEX"))
+                    return "louisEX_0_alpha";
+                if (enemyId.Contains("firzen"))
+                    return "firzen_0_alpha";
+                if (enemyId.Contains("julian"))
+                    return "julian_0_alpha";
+                if (enemyId.Contains("hunter"))
+                    return "hunter_0b_alpha";
             }
 
-            return "enemy_grunt_bandit_0_alpha";
+            return "bandit_0_alpha";
         }
 
-        private static string GetEnemySheetKey1(string enemyId)
+private static string GetEnemySheetKey1(string enemyId)
         {
-            // _1 sheets: only bandit has one in Resources for now
-            if (!string.IsNullOrWhiteSpace(enemyId) && enemyId.Contains("bandit"))
-                return "enemy_grunt_bandit_1_alpha";
-            // Fallback to _0 sheet if _1 doesn't exist
+            if (!string.IsNullOrWhiteSpace(enemyId))
+            {
+                if (enemyId.Contains("bandit"))
+                    return "bandit_1_alpha";
+                if (enemyId.Contains("mark"))
+                    return "mark_1_alpha";
+                if (enemyId.Contains("jack"))
+                    return "jack_1_alpha";
+                if (enemyId.Contains("sorcerer"))
+                    return "sorcerer_1_alpha";
+                if (enemyId.Contains("knight"))
+                    return "knight_1_alpha";
+                if (enemyId.Contains("bat"))
+                    return "bat_1_alpha";
+                if (enemyId.Contains("justin"))
+                    return "justin_1_alpha";
+                if (enemyId.Contains("louisEX"))
+                    return "louisEX_1_alpha";
+                if (enemyId.Contains("firzen"))
+                    return "firzen_1_alpha";
+                if (enemyId.Contains("julian"))
+                    return "julian_1_alpha";
+            }
+
             return GetEnemySheetKey(enemyId);
         }
 

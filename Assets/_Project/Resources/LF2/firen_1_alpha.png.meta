@@ -1,0 +1,2154 @@
+fileFormatVersion: 2
+guid: 534074532716d8d4ea7461b0a93d87e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3207083542250758560
+    second: firen_1_0
+  - first:
+      213: -5767002989230588302
+    second: firen_1_1
+  - first:
+      213: 5315273849604949191
+    second: firen_1_2
+  - first:
+      213: -4092989901475143511
+    second: firen_1_3
+  - first:
+      213: 6902307314184641813
+    second: firen_1_4
+  - first:
+      213: -5554373933356176692
+    second: firen_1_5
+  - first:
+      213: -2438235958484778876
+    second: firen_1_6
+  - first:
+      213: -8832495542556585799
+    second: firen_1_7
+  - first:
+      213: -4995328983225760075
+    second: firen_1_8
+  - first:
+      213: 4725650251482559021
+    second: firen_1_9
+  - first:
+      213: -5158122899134468636
+    second: firen_1_10
+  - first:
+      213: 3563888801285809004
+    second: firen_1_11
+  - first:
+      213: 1086060250359531251
+    second: firen_1_12
+  - first:
+      213: -3551239966442314190
+    second: firen_1_13
+  - first:
+      213: -4813441907988978401
+    second: firen_1_14
+  - first:
+      213: 1167070367910296448
+    second: firen_1_15
+  - first:
+      213: -9156080029050253211
+    second: firen_1_16
+  - first:
+      213: 1447919587613371188
+    second: firen_1_17
+  - first:
+      213: 7761347091819639298
+    second: firen_1_18
+  - first:
+      213: 5732960744729449949
+    second: firen_1_19
+  - first:
+      213: 580968497183644267
+    second: firen_1_20
+  - first:
+      213: 8530199425873785752
+    second: firen_1_21
+  - first:
+      213: -7978662339098400773
+    second: firen_1_22
+  - first:
+      213: -5055616688666258576
+    second: firen_1_23
+  - first:
+      213: 6764513072229139438
+    second: firen_1_24
+  - first:
+      213: 3949038585780265417
+    second: firen_1_25
+  - first:
+      213: 300921827421048082
+    second: firen_1_26
+  - first:
+      213: -222723947023429161
+    second: firen_1_27
+  - first:
+      213: 5227223141245216538
+    second: firen_1_28
+  - first:
+      213: 3005133717472662098
+    second: firen_1_29
+  - first:
+      213: -3321001963454018878
+    second: firen_1_30
+  - first:
+      213: -5333351165956881316
+    second: firen_1_31
+  - first:
+      213: 5101113143251196217
+    second: firen_1_32
+  - first:
+      213: -3449589056487172681
+    second: firen_1_33
+  - first:
+      213: 7099180385959640743
+    second: firen_1_34
+  - first:
+      213: 8262664457431191344
+    second: firen_1_35
+  - first:
+      213: -6595994043157490251
+    second: firen_1_36
+  - first:
+      213: 8580565324167116160
+    second: firen_1_37
+  - first:
+      213: -1732010813374986880
+    second: firen_1_38
+  - first:
+      213: 6191890461396970805
+    second: firen_1_39
+  - first:
+      213: -2852720440661006910
+    second: firen_1_40
+  - first:
+      213: 5071206613012665625
+    second: firen_1_41
+  - first:
+      213: 5168811405388240485
+    second: firen_1_42
+  - first:
+      213: -2021685663674741208
+    second: firen_1_43
+  - first:
+      213: -7546991155516748799
+    second: firen_1_44
+  - first:
+      213: -6472279859573456701
+    second: firen_1_45
+  - first:
+      213: -4926472534871384853
+    second: firen_1_46
+  - first:
+      213: -4741571611701056640
+    second: firen_1_47
+  - first:
+      213: 7526522444821978725
+    second: firen_1_48
+  - first:
+      213: -8889044170964055099
+    second: firen_1_49
+  - first:
+      213: 8997423154384647604
+    second: firen_1_50
+  - first:
+      213: 5644264956747562773
+    second: firen_1_alpha_000
+  - first:
+      213: -3318272289975729872
+    second: firen_1_alpha_001
+  - first:
+      213: -4950564695732770234
+    second: firen_1_alpha_002
+  - first:
+      213: 8937532928392882235
+    second: firen_1_alpha_003
+  - first:
+      213: -6715435433341631596
+    second: firen_1_alpha_004
+  - first:
+      213: -4234730482339671607
+    second: firen_1_alpha_005
+  - first:
+      213: 3431877494991119545
+    second: firen_1_alpha_006
+  - first:
+      213: 2898262981221020518
+    second: firen_1_alpha_007
+  - first:
+      213: -5129119970662790210
+    second: firen_1_alpha_008
+  - first:
+      213: -6439233527796050141
+    second: firen_1_alpha_009
+  - first:
+      213: 1924537643885043307
+    second: firen_1_alpha_010
+  - first:
+      213: 6161905788775429408
+    second: firen_1_alpha_011
+  - first:
+      213: -2360261372499759102
+    second: firen_1_alpha_012
+  - first:
+      213: -2397155394780080052
+    second: firen_1_alpha_013
+  - first:
+      213: 758560566155577795
+    second: firen_1_alpha_014
+  - first:
+      213: 1490250729279837100
+    second: firen_1_alpha_015
+  - first:
+      213: -4160500883428012031
+    second: firen_1_alpha_016
+  - first:
+      213: 562028843652407066
+    second: firen_1_alpha_017
+  - first:
+      213: 3181275206327538065
+    second: firen_1_alpha_018
+  - first:
+      213: -1741263767899936525
+    second: firen_1_alpha_019
+  - first:
+      213: 4542265880629495542
+    second: firen_1_alpha_020
+  - first:
+      213: -7532523486936207091
+    second: firen_1_alpha_021
+  - first:
+      213: -1357652679591262785
+    second: firen_1_alpha_022
+  - first:
+      213: -6433181135730472934
+    second: firen_1_alpha_023
+  - first:
+      213: -4768008366500172233
+    second: firen_1_alpha_024
+  - first:
+      213: 7116237818654538588
+    second: firen_1_alpha_025
+  - first:
+      213: -3521978763155820027
+    second: firen_1_alpha_026
+  - first:
+      213: -406971959770298474
+    second: firen_1_alpha_027
+  - first:
+      213: -8203107397259413511
+    second: firen_1_alpha_028
+  - first:
+      213: 8460892364832534629
+    second: firen_1_alpha_029
+  - first:
+      213: 5071009577011144862
+    second: firen_1_alpha_030
+  - first:
+      213: 562911816595155101
+    second: firen_1_alpha_031
+  - first:
+      213: 7992337492230490475
+    second: firen_1_alpha_032
+  - first:
+      213: 4094060902297352179
+    second: firen_1_alpha_033
+  - first:
+      213: -7479912579921072212
+    second: firen_1_alpha_034
+  - first:
+      213: 5723568755750766195
+    second: firen_1_alpha_035
+  - first:
+      213: -7037949219978865273
+    second: firen_1_alpha_036
+  - first:
+      213: 6713154930639884761
+    second: firen_1_alpha_037
+  - first:
+      213: 602293571130588159
+    second: firen_1_alpha_038
+  - first:
+      213: -2398907835196491212
+    second: firen_1_alpha_039
+  - first:
+      213: -858013155170243345
+    second: firen_1_alpha_040
+  - first:
+      213: -4382057883078357946
+    second: firen_1_alpha_041
+  - first:
+      213: -7382323767164447617
+    second: firen_1_alpha_042
+  - first:
+      213: 1509055560663296043
+    second: firen_1_alpha_043
+  - first:
+      213: -3216712069177849397
+    second: firen_1_alpha_044
+  - first:
+      213: -3922003810057681251
+    second: firen_1_alpha_045
+  - first:
+      213: 1719496454473163124
+    second: firen_1_alpha_046
+  - first:
+      213: 3218352674720987345
+    second: firen_1_alpha_047
+  - first:
+      213: -8382785415504901387
+    second: firen_1_alpha_048
+  - first:
+      213: -632868519558470718
+    second: firen_1_alpha_049
+  - first:
+      213: 786985188358862459
+    second: firen_1_alpha_050
+  - first:
+      213: 7013023882316674427
+    second: firen_1_alpha_051
+  - first:
+      213: -4870444730555641601
+    second: firen_1_alpha_052
+  - first:
+      213: 8319103309868926054
+    second: firen_1_alpha_053
+  - first:
+      213: 7337141231622019033
+    second: firen_1_alpha_054
+  - first:
+      213: 2961325569423225325
+    second: firen_1_alpha_055
+  - first:
+      213: -6807329240218589138
+    second: firen_1_alpha_056
+  - first:
+      213: 6759787709210035503
+    second: firen_1_alpha_057
+  - first:
+      213: 6106161237648844933
+    second: firen_1_alpha_058
+  - first:
+      213: 3093716207643570013
+    second: firen_1_alpha_059
+  - first:
+      213: -1298072415868409387
+    second: firen_1_alpha_060
+  - first:
+      213: 7474229871759313954
+    second: firen_1_alpha_061
+  - first:
+      213: 3472518349385367758
+    second: firen_1_alpha_062
+  - first:
+      213: 5118983527577359723
+    second: firen_1_alpha_063
+  - first:
+      213: 5124330153004439589
+    second: firen_1_alpha_064
+  - first:
+      213: 959652851999627559
+    second: firen_1_alpha_065
+  - first:
+      213: 2871150936466710417
+    second: firen_1_alpha_066
+  - first:
+      213: -5410077760712558683
+    second: firen_1_alpha_067
+  - first:
+      213: -7435388591496687929
+    second: firen_1_alpha_068
+  - first:
+      213: -6885063146599849091
+    second: firen_1_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: firen_1_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fbf15d215745e40800000000000000
+      internalID: 5644264956747562773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03189f7eee023f1d0800000000000000
+      internalID: -3318272289975729872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a224173af0c4bb0800000000000000
+      internalID: -4950564695732770234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38e63568de780c70800000000000000
+      internalID: 8937532928392882235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493c993ad0bfdc2a0800000000000000
+      internalID: -6715435433341631596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c110a810173b35c0800000000000000
+      internalID: -4234730482339671607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b46a99166a70af20800000000000000
+      internalID: 3431877494991119545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663f75563d2b83820800000000000000
+      internalID: 2898262981221020518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb484adf84b1d8b0800000000000000
+      internalID: -5129119970662790210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3275ee5193f33a6a0800000000000000
+      internalID: -6439233527796050141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e92ac5ac455ba10800000000000000
+      internalID: 1924537643885043307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025f16feaac738550800000000000000
+      internalID: 6161905788775429408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200731379caae3fd0800000000000000
+      internalID: -2360261372499759102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48d8be7ed79bbed0800000000000000
+      internalID: -2397155394780080052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9825ed0d2f68a00800000000000000
+      internalID: 758560566155577795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3ddf0842f6ea410800000000000000
+      internalID: 1490250729279837100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10013936d7ee246c0800000000000000
+      internalID: -4160500883428012031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fdc6b614abcc700800000000000000
+      internalID: 562028843652407066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19119ede1f8262c20800000000000000
+      internalID: 3181275206327538065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8e01624d9c5d7e0800000000000000
+      internalID: -1741263767899936525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f64c42a0ce590f30800000000000000
+      internalID: 4542265880629495542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0171e23cc9177790800000000000000
+      internalID: -7532523486936207091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb50b90c416a82de0800000000000000
+      internalID: -1357652679591262785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a188a0d67dfb8b6a0800000000000000
+      internalID: -6433181135730472934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73eaaa417a1a4ddb0800000000000000
+      internalID: -4768008366500172233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bba16b794f1c260800000000000000
+      internalID: 7116237818654538588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502b0a3a9fa6f1fc0800000000000000
+      internalID: -3521978763155820027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697c858a8252a5af0800000000000000
+      internalID: -406971959770298474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f739fbb845b82e80800000000000000
+      internalID: -8203107397259413511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56078a037c02b6570800000000000000
+      internalID: 8460892364832534629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e986a5ac758df5640800000000000000
+      internalID: 5071009577011144862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d982604905ddfc700800000000000000
+      internalID: 562911816595155101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b694f6d9a9c7aee60800000000000000
+      internalID: 7992337492230490475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7bf3a03b601d830800000000000000
+      internalID: 4094060902297352179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf24da8323023890800000000000000
+      internalID: -7479912579921072212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3768c0665733e6f40800000000000000
+      internalID: 5723568755750766195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7851ceb197e245e90800000000000000
+      internalID: -7037949219978865273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1d3f277dae92d50800000000000000
+      internalID: 6713154930639884761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb7db5dfc6cb5800800000000000000
+      internalID: 602293571130588159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a363aa80e55bed0800000000000000
+      internalID: -2398907835196491212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec2771d499b714f0800000000000000
+      internalID: -858013155170243345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c0aed829dcf23c0800000000000000
+      internalID: -4382057883078357946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f745d31a5a7bc8990800000000000000
+      internalID: -7382323767164447617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28e9af790e31f410800000000000000
+      internalID: 1509055560663296043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc941fb7a61fb53d0800000000000000
+      internalID: -3216712069177849397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9688cd705e3299c0800000000000000
+      internalID: -3922003810057681251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471aa614ae0ecd710800000000000000
+      internalID: 1719496454473163124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d83ca2c4b2e9ac20800000000000000
+      internalID: 3218352674720987345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa4188141d5aab80800000000000000
+      internalID: -8382785415504901387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3a03e3f699737f0800000000000000
+      internalID: -632868519558470718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76bf93fbdeebea00800000000000000
+      internalID: 786985188358862459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75f0da7014435160800000000000000
+      internalID: 7013023882316674427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0de018254b86cb0800000000000000
+      internalID: -4870444730555641601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66483824264637370800000000000000
+      internalID: 8319103309868926054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7d3b98313c2d560800000000000000
+      internalID: 7337141231622019033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1b0c56aedb81920800000000000000
+      internalID: 2961325569423225325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2824af6f128781a0800000000000000
+      internalID: -6807329240218589138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25048c4b179fcd50800000000000000
+      internalID: 6759787709210035503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588a1573b417db450800000000000000
+      internalID: 6106161237648844933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fa678ef761fea20800000000000000
+      internalID: 3093716207643570013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d92e67e3025cfde0800000000000000
+      internalID: -1298072415868409387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cc3dbd77cc9b760800000000000000
+      internalID: 7474229871759313954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec004236a0dd03030800000000000000
+      internalID: 3472518349385367758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65135495684a0740800000000000000
+      internalID: 5118983527577359723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52817a1df174d1740800000000000000
+      internalID: 5124330153004439589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729d0273f2f515d00800000000000000
+      internalID: 959652851999627559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fd0a0909068d720800000000000000
+      internalID: 2871150936466710417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7bc71c0fa8be4b0800000000000000
+      internalID: -5410077760712558683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce09dc687130d890800000000000000
+      internalID: -7435388591496687929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: firen_1_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7368cafb875370a0800000000000000
+      internalID: -6885063146599849091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      firen_1_0: 3207083542250758560
+      firen_1_1: -5767002989230588302
+      firen_1_10: -5158122899134468636
+      firen_1_11: 3563888801285809004
+      firen_1_12: 1086060250359531251
+      firen_1_13: -3551239966442314190
+      firen_1_14: -4813441907988978401
+      firen_1_15: 1167070367910296448
+      firen_1_16: -9156080029050253211
+      firen_1_17: 1447919587613371188
+      firen_1_18: 7761347091819639298
+      firen_1_19: 5732960744729449949
+      firen_1_2: 5315273849604949191
+      firen_1_20: 580968497183644267
+      firen_1_21: 8530199425873785752
+      firen_1_22: -7978662339098400773
+      firen_1_23: -5055616688666258576
+      firen_1_24: 6764513072229139438
+      firen_1_25: 3949038585780265417
+      firen_1_26: 300921827421048082
+      firen_1_27: -222723947023429161
+      firen_1_28: 5227223141245216538
+      firen_1_29: 3005133717472662098
+      firen_1_3: -4092989901475143511
+      firen_1_30: -3321001963454018878
+      firen_1_31: -5333351165956881316
+      firen_1_32: 5101113143251196217
+      firen_1_33: -3449589056487172681
+      firen_1_34: 7099180385959640743
+      firen_1_35: 8262664457431191344
+      firen_1_36: -6595994043157490251
+      firen_1_37: 8580565324167116160
+      firen_1_38: -1732010813374986880
+      firen_1_39: 6191890461396970805
+      firen_1_4: 6902307314184641813
+      firen_1_40: -2852720440661006910
+      firen_1_41: 5071206613012665625
+      firen_1_42: 5168811405388240485
+      firen_1_43: -2021685663674741208
+      firen_1_44: -7546991155516748799
+      firen_1_45: -6472279859573456701
+      firen_1_46: -4926472534871384853
+      firen_1_47: -4741571611701056640
+      firen_1_48: 7526522444821978725
+      firen_1_49: -8889044170964055099
+      firen_1_5: -5554373933356176692
+      firen_1_50: 8997423154384647604
+      firen_1_6: -2438235958484778876
+      firen_1_7: -8832495542556585799
+      firen_1_8: -4995328983225760075
+      firen_1_9: 4725650251482559021
+      firen_1_alpha_000: 5644264956747562773
+      firen_1_alpha_001: -3318272289975729872
+      firen_1_alpha_002: -4950564695732770234
+      firen_1_alpha_003: 8937532928392882235
+      firen_1_alpha_004: -6715435433341631596
+      firen_1_alpha_005: -4234730482339671607
+      firen_1_alpha_006: 3431877494991119545
+      firen_1_alpha_007: 2898262981221020518
+      firen_1_alpha_008: -5129119970662790210
+      firen_1_alpha_009: -6439233527796050141
+      firen_1_alpha_010: 1924537643885043307
+      firen_1_alpha_011: 6161905788775429408
+      firen_1_alpha_012: -2360261372499759102
+      firen_1_alpha_013: -2397155394780080052
+      firen_1_alpha_014: 758560566155577795
+      firen_1_alpha_015: 1490250729279837100
+      firen_1_alpha_016: -4160500883428012031
+      firen_1_alpha_017: 562028843652407066
+      firen_1_alpha_018: 3181275206327538065
+      firen_1_alpha_019: -1741263767899936525
+      firen_1_alpha_020: 4542265880629495542
+      firen_1_alpha_021: -7532523486936207091
+      firen_1_alpha_022: -1357652679591262785
+      firen_1_alpha_023: -6433181135730472934
+      firen_1_alpha_024: -4768008366500172233
+      firen_1_alpha_025: 7116237818654538588
+      firen_1_alpha_026: -3521978763155820027
+      firen_1_alpha_027: -406971959770298474
+      firen_1_alpha_028: -8203107397259413511
+      firen_1_alpha_029: 8460892364832534629
+      firen_1_alpha_030: 5071009577011144862
+      firen_1_alpha_031: 562911816595155101
+      firen_1_alpha_032: 7992337492230490475
+      firen_1_alpha_033: 4094060902297352179
+      firen_1_alpha_034: -7479912579921072212
+      firen_1_alpha_035: 5723568755750766195
+      firen_1_alpha_036: -7037949219978865273
+      firen_1_alpha_037: 6713154930639884761
+      firen_1_alpha_038: 602293571130588159
+      firen_1_alpha_039: -2398907835196491212
+      firen_1_alpha_040: -858013155170243345
+      firen_1_alpha_041: -4382057883078357946
+      firen_1_alpha_042: -7382323767164447617
+      firen_1_alpha_043: 1509055560663296043
+      firen_1_alpha_044: -3216712069177849397
+      firen_1_alpha_045: -3922003810057681251
+      firen_1_alpha_046: 1719496454473163124
+      firen_1_alpha_047: 3218352674720987345
+      firen_1_alpha_048: -8382785415504901387
+      firen_1_alpha_049: -632868519558470718
+      firen_1_alpha_050: 786985188358862459
+      firen_1_alpha_051: 7013023882316674427
+      firen_1_alpha_052: -4870444730555641601
+      firen_1_alpha_053: 8319103309868926054
+      firen_1_alpha_054: 7337141231622019033
+      firen_1_alpha_055: 2961325569423225325
+      firen_1_alpha_056: -6807329240218589138
+      firen_1_alpha_057: 6759787709210035503
+      firen_1_alpha_058: 6106161237648844933
+      firen_1_alpha_059: 3093716207643570013
+      firen_1_alpha_060: -1298072415868409387
+      firen_1_alpha_061: 7474229871759313954
+      firen_1_alpha_062: 3472518349385367758
+      firen_1_alpha_063: 5118983527577359723
+      firen_1_alpha_064: 5124330153004439589
+      firen_1_alpha_065: 959652851999627559
+      firen_1_alpha_066: 2871150936466710417
+      firen_1_alpha_067: -5410077760712558683
+      firen_1_alpha_068: -7435388591496687929
+      firen_1_alpha_069: -6885063146599849091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

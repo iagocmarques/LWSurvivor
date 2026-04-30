@@ -1,7 +1,6 @@
 ---
 description: 'Entry point de orquestração. Roteia requests para specialists, gerencia waves de trabalho, lança verificação independente e documentação final.'
 mode: primary
-model: xiaomi/mimo-v2.5-pro
 steps: 40
 hidden: false
 permission:

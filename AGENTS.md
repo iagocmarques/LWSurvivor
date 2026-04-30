@@ -358,14 +358,14 @@ permission:                      # optional agent-level permissions
 
 | Role | Model | Rationale |
 | --- | --- | --- |
-| Workflow Orchestrator | `xiaomi/mimo-v2.5-pro` | complex coordination, deep reasoning |
-| Architect/Planner | `xiaomi/mimo-v2.5-pro` | decomposition, parallelization design |
-| Expert Unity Developer | `xiaomi/mimo-v2.5-pro` | fast, accurate implementation |
-| Game Designer | `xiaomi/mimo-v2.5-pro` | game feel analysis, design decisions |
-| QA | `xiaomi/mimo-v2.5-flash` | test execution, verification |
-| Security Reviewer | `xiaomi/mimo-v2.5-pro` | deep security analysis |
-| Performance Analyst | `xiaomi/mimo-v2.5-pro` | profiling, metrics analysis |
-| Documentation Agent | `xiaomi/mimo-v2.5-flash` | fast documentation writing |
+| Workflow Orchestrator | `xiaomi-token-plan-sgp/mimo-v2.5-pro` | complex coordination, deep reasoning |
+| Architect/Planner | `xiaomi-token-plan-sgp/mimo-v2.5-pro` | decomposition, parallelization design |
+| Expert Unity Developer | `xiaomi-token-plan-sgp/mimo-v2.5-pro` | fast, accurate implementation |
+| Game Designer | `xiaomi-token-plan-sgp/mimo-v2.5-pro` | game feel analysis, design decisions |
+| QA | `xiaomi-token-plan-sgp/mimo-v2.5-flash` | test execution, verification |
+| Security Reviewer | `xiaomi-token-plan-sgp/mimo-v2.5-pro` | deep security analysis |
+| Performance Analyst | `xiaomi-token-plan-sgp/mimo-v2.5-pro` | profiling, metrics analysis |
+| Documentation Agent | `xiaomi-token-plan-sgp/mimo-v2.5-flash` | fast documentation writing |
 
 ---
 

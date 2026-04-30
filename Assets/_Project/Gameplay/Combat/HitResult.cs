@@ -11,7 +11,8 @@ namespace Project.Gameplay.Combat
         None = 0,
         IsProjectile = 1,
         IsHeavy = 2,
-        BreaksGuard = 4
+        BreaksGuard = 4,
+        HighFall = 8
     }
 
     /// <summary>

@@ -10,6 +10,7 @@ namespace Project.Gameplay.Feedback
         private Vector3 _origin;
         private float _timeLeft;
         private float _amplitude;
+        private float _totalDuration;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void AutoInstall()
@@ -43,6 +44,7 @@ namespace Project.Gameplay.Feedback
                 _amplitude = amplitude;
 
             _timeLeft = Mathf.Max(_timeLeft, duration);
+            _totalDuration = _timeLeft;
         }
 
         private void LateUpdate()
@@ -66,7 +68,7 @@ namespace Project.Gameplay.Feedback
 
             _timeLeft -= Time.unscaledDeltaTime;
 
-            var fade = Mathf.Clamp01(_timeLeft / 0.08f);
+            var fade = _totalDuration > 0f ? Mathf.Clamp01(_timeLeft / _totalDuration) : 0f;
             var offset = Random.insideUnitCircle * (_amplitude * fade);
             _cam.transform.position = new Vector3(_origin.x + offset.x, _origin.y + offset.y, _origin.z);
         }

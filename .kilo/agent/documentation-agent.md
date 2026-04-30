@@ -1,7 +1,6 @@
 ---
 description: 'Documentação e memória duradoura. Último a rodar. Nunca implementa código de produto.'
 mode: subagent
-model: xiaomi/mimo-v2.5-flash
 steps: 15
 hidden: false
 permission:

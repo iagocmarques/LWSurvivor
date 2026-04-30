@@ -1,0 +1,2226 @@
+fileFormatVersion: 2
+guid: 3814f9985b767d1448b3bda87b843759
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6140932374826575314
+    second: woody_0_0
+  - first:
+      213: -249262131496885888
+    second: woody_0_1
+  - first:
+      213: 6905668669195993537
+    second: woody_0_2
+  - first:
+      213: -4744151078689634343
+    second: woody_0_3
+  - first:
+      213: 6868015050411988818
+    second: woody_0_4
+  - first:
+      213: 4645682350188673608
+    second: woody_0_5
+  - first:
+      213: -5741814305328596814
+    second: woody_0_6
+  - first:
+      213: 5844071836078017152
+    second: woody_0_7
+  - first:
+      213: -4013992248329168137
+    second: woody_0_8
+  - first:
+      213: -1012512234836414910
+    second: woody_0_9
+  - first:
+      213: 885692195848495495
+    second: woody_0_10
+  - first:
+      213: 8197248926386451505
+    second: woody_0_11
+  - first:
+      213: -1866451931270773147
+    second: woody_0_12
+  - first:
+      213: -6289205404613877077
+    second: woody_0_13
+  - first:
+      213: 5896244130629804796
+    second: woody_0_14
+  - first:
+      213: 4867346942497946813
+    second: woody_0_15
+  - first:
+      213: -607953017280507861
+    second: woody_0_16
+  - first:
+      213: 8031633328343617761
+    second: woody_0_17
+  - first:
+      213: -5791851880121817095
+    second: woody_0_18
+  - first:
+      213: -7759673889026844166
+    second: woody_0_19
+  - first:
+      213: -8335408305329114225
+    second: woody_0_20
+  - first:
+      213: -819490474145696021
+    second: woody_0_21
+  - first:
+      213: 8530520384282385345
+    second: woody_0_22
+  - first:
+      213: -3584435404837693186
+    second: woody_0_23
+  - first:
+      213: 7023205236892600724
+    second: woody_0_24
+  - first:
+      213: 2676831929914558996
+    second: woody_0_25
+  - first:
+      213: -8176113437611336739
+    second: woody_0_26
+  - first:
+      213: -2032619861678096803
+    second: woody_0_27
+  - first:
+      213: 7627871683073697948
+    second: woody_0_28
+  - first:
+      213: 9198202677680393436
+    second: woody_0_29
+  - first:
+      213: 3197536087258903727
+    second: woody_0_30
+  - first:
+      213: 1613596632836876185
+    second: woody_0_31
+  - first:
+      213: 5324286888413721166
+    second: woody_0_32
+  - first:
+      213: -8537987660624032547
+    second: woody_0_33
+  - first:
+      213: -609156406344712391
+    second: woody_0_34
+  - first:
+      213: -3948926402086259675
+    second: woody_0_35
+  - first:
+      213: 161722645060118247
+    second: woody_0_36
+  - first:
+      213: -5780703990269888726
+    second: woody_0_37
+  - first:
+      213: -1014205134339389040
+    second: woody_0_38
+  - first:
+      213: -8526230174392583613
+    second: woody_0_39
+  - first:
+      213: 101105549833813325
+    second: woody_0_40
+  - first:
+      213: 3239396223701407801
+    second: woody_0_41
+  - first:
+      213: 357024640248501542
+    second: woody_0_42
+  - first:
+      213: -4210403905748659157
+    second: woody_0_43
+  - first:
+      213: 4646503141687968028
+    second: woody_0_44
+  - first:
+      213: 5488725063594749291
+    second: woody_0_45
+  - first:
+      213: 2514129087548328686
+    second: woody_0_46
+  - first:
+      213: 3872663382699032182
+    second: woody_0_47
+  - first:
+      213: -4072452388764172164
+    second: woody_0_48
+  - first:
+      213: 3331262549997456046
+    second: woody_0_49
+  - first:
+      213: 1989395217728926346
+    second: woody_0_50
+  - first:
+      213: -5078279922153691417
+    second: woody_0_51
+  - first:
+      213: 4459356396113624150
+    second: woody_0_52
+  - first:
+      213: 7654036024687242487
+    second: woody_0_53
+  - first:
+      213: -3530175538629877246
+    second: woody_0_54
+  - first:
+      213: -5622102710261174312
+    second: woody_0_55
+  - first:
+      213: 755602252251699534
+    second: woody_0_56
+  - first:
+      213: 4449590310615678057
+    second: woody_0_57
+  - first:
+      213: 7726380061874159752
+    second: woody_0_58
+  - first:
+      213: -2928031984992225633
+    second: woody_0_59
+  - first:
+      213: -5904003822570848178
+    second: woody_0_60
+  - first:
+      213: -8915370952315230071
+    second: woody_0_61
+  - first:
+      213: -3844835291175990937
+    second: woody_0_62
+  - first:
+      213: -7689265291024765525
+    second: woody_0_63
+  - first:
+      213: 5571208036357035294
+    second: woody_0_64
+  - first:
+      213: 3945759245949331490
+    second: woody_0_65
+  - first:
+      213: -4970892848050106348
+    second: woody_0_66
+  - first:
+      213: -5750386520070993787
+    second: woody_0_67
+  - first:
+      213: -8320333755339156431
+    second: woody_0_68
+  - first:
+      213: 8870624295449174998
+    second: woody_0_alpha_000
+  - first:
+      213: 5054101124449679969
+    second: woody_0_alpha_001
+  - first:
+      213: 1685312900703273396
+    second: woody_0_alpha_002
+  - first:
+      213: 2855045158491293398
+    second: woody_0_alpha_003
+  - first:
+      213: -7892059099773843720
+    second: woody_0_alpha_004
+  - first:
+      213: -4945894287989147808
+    second: woody_0_alpha_005
+  - first:
+      213: -8539049095095021738
+    second: woody_0_alpha_006
+  - first:
+      213: -8903050695254216585
+    second: woody_0_alpha_007
+  - first:
+      213: 2302854453394455486
+    second: woody_0_alpha_008
+  - first:
+      213: 4438254676228409915
+    second: woody_0_alpha_009
+  - first:
+      213: 8779407526665002014
+    second: woody_0_alpha_010
+  - first:
+      213: 2214461530675388373
+    second: woody_0_alpha_011
+  - first:
+      213: 1546680138076756624
+    second: woody_0_alpha_012
+  - first:
+      213: 8794872579409954410
+    second: woody_0_alpha_013
+  - first:
+      213: 5264908107480132005
+    second: woody_0_alpha_014
+  - first:
+      213: -2847667090280626958
+    second: woody_0_alpha_015
+  - first:
+      213: 8107704973971158556
+    second: woody_0_alpha_016
+  - first:
+      213: 4280226419858552534
+    second: woody_0_alpha_017
+  - first:
+      213: 5207247649165317731
+    second: woody_0_alpha_018
+  - first:
+      213: 262870726372173169
+    second: woody_0_alpha_019
+  - first:
+      213: -5731023330680200450
+    second: woody_0_alpha_020
+  - first:
+      213: 2447487945689279576
+    second: woody_0_alpha_021
+  - first:
+      213: -8315708957715322937
+    second: woody_0_alpha_022
+  - first:
+      213: 3076795387558999446
+    second: woody_0_alpha_023
+  - first:
+      213: -8967915774644975942
+    second: woody_0_alpha_024
+  - first:
+      213: -3686088232293456845
+    second: woody_0_alpha_025
+  - first:
+      213: 4624863930382626083
+    second: woody_0_alpha_026
+  - first:
+      213: 839319229607080571
+    second: woody_0_alpha_027
+  - first:
+      213: -8999291131284761875
+    second: woody_0_alpha_028
+  - first:
+      213: -183456330233823692
+    second: woody_0_alpha_029
+  - first:
+      213: 4478234389286513474
+    second: woody_0_alpha_030
+  - first:
+      213: 7307248621144360643
+    second: woody_0_alpha_031
+  - first:
+      213: -3969965174295172973
+    second: woody_0_alpha_032
+  - first:
+      213: 4638434316955936580
+    second: woody_0_alpha_033
+  - first:
+      213: -9111516466686517870
+    second: woody_0_alpha_034
+  - first:
+      213: -1300190703793059900
+    second: woody_0_alpha_035
+  - first:
+      213: -7697655402673620177
+    second: woody_0_alpha_036
+  - first:
+      213: -591765021779808828
+    second: woody_0_alpha_037
+  - first:
+      213: -5927194897926598133
+    second: woody_0_alpha_038
+  - first:
+      213: 6317185080872531591
+    second: woody_0_alpha_039
+  - first:
+      213: -7230759497279613499
+    second: woody_0_alpha_040
+  - first:
+      213: 3067540772013652600
+    second: woody_0_alpha_041
+  - first:
+      213: -7557169396610255066
+    second: woody_0_alpha_042
+  - first:
+      213: -6336454389511343789
+    second: woody_0_alpha_043
+  - first:
+      213: -9155625725569506391
+    second: woody_0_alpha_044
+  - first:
+      213: -4551411270824294925
+    second: woody_0_alpha_045
+  - first:
+      213: -3211809752207152959
+    second: woody_0_alpha_046
+  - first:
+      213: -7112617433087990695
+    second: woody_0_alpha_047
+  - first:
+      213: 4748222616550768703
+    second: woody_0_alpha_048
+  - first:
+      213: 76559443373252279
+    second: woody_0_alpha_049
+  - first:
+      213: -2851846442609552981
+    second: woody_0_alpha_050
+  - first:
+      213: 7926200699280700842
+    second: woody_0_alpha_051
+  - first:
+      213: -5476022674056827671
+    second: woody_0_alpha_052
+  - first:
+      213: -7253711660265591822
+    second: woody_0_alpha_053
+  - first:
+      213: -1187073091706174234
+    second: woody_0_alpha_054
+  - first:
+      213: 8163105397803530241
+    second: woody_0_alpha_055
+  - first:
+      213: 1820702395692458955
+    second: woody_0_alpha_056
+  - first:
+      213: 1077589573049660224
+    second: woody_0_alpha_057
+  - first:
+      213: -8895402108229328135
+    second: woody_0_alpha_058
+  - first:
+      213: -4084421983364496343
+    second: woody_0_alpha_059
+  - first:
+      213: 5858314826488124554
+    second: woody_0_alpha_060
+  - first:
+      213: 765885681224800814
+    second: woody_0_alpha_061
+  - first:
+      213: 5929818285356350132
+    second: woody_0_alpha_062
+  - first:
+      213: 2342087450622330611
+    second: woody_0_alpha_063
+  - first:
+      213: 8627627811723350803
+    second: woody_0_alpha_064
+  - first:
+      213: 4974270805124474503
+    second: woody_0_alpha_065
+  - first:
+      213: 5045945894293220795
+    second: woody_0_alpha_066
+  - first:
+      213: 6981276736843886167
+    second: woody_0_alpha_067
+  - first:
+      213: -5695682330477596283
+    second: woody_0_alpha_068
+  - first:
+      213: -5567050188868181417
+    second: woody_0_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: woody_0_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3a2325cc9ca1b70800000000000000
+      internalID: 8870624295449174998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ab9b5e136c32640800000000000000
+      internalID: 5054101124449679969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b14dcd672f636710800000000000000
+      internalID: 1685312900703273396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d68299e1782f9720800000000000000
+      internalID: 2855045158491293398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6479b0016c97290800000000000000
+      internalID: -7892059099773843720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067f5cb7957ac5bb0800000000000000
+      internalID: -4945894287989147808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f8d3ff6143f7980800000000000000
+      internalID: -8539049095095021738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770f3142092027480800000000000000
+      internalID: -8903050695254216585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbb000ace165ff10800000000000000
+      internalID: 2302854453394455486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a8f47fc19d79d30800000000000000
+      internalID: 4438254676228409915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c124551a8b6d970800000000000000
+      internalID: 8779407526665002014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df9ca887095bbe10800000000000000
+      internalID: 2214461530675388373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a97331469e67510800000000000000
+      internalID: 1546680138076756624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66cd84830aad0a70800000000000000
+      internalID: 8794872579409954410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a96d617706b01940800000000000000
+      internalID: 5264908107480132005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4c0457edd0b78d0800000000000000
+      internalID: -2847667090280626958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16f735a7ba548070800000000000000
+      internalID: 8107704973971158556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d639e1504b666b30800000000000000
+      internalID: 4280226419858552534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3669cf1d52cd34840800000000000000
+      internalID: 5207247649165317731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175234b6887e5a300800000000000000
+      internalID: 262870726372173169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2a45f15a05770b0800000000000000
+      internalID: -5731023330680200450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c2cdab15937f120800000000000000
+      internalID: 2447487945689279576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c728dfe2caa89c80800000000000000
+      internalID: -8315708957715322937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695b30a7a19f2ba20800000000000000
+      internalID: 3076795387558999446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab60aa4fd109b8380800000000000000
+      internalID: -8967915774644975942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334a66f484268dcc0800000000000000
+      internalID: -3686088232293456845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d29f8bd31de2040800000000000000
+      internalID: 4624863930382626083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7272e5746cd5ab00800000000000000
+      internalID: 839319229607080571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2d27975681c1380800000000000000
+      internalID: -8999291131284761875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ebd9c807b347df0800000000000000
+      internalID: -183456330233823692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b6c5a4372e52e30800000000000000
+      internalID: 4478234389286513474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6c5ccc7ef886560800000000000000
+      internalID: 7307248621144360643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398e67f25b9d7e8c0800000000000000
+      internalID: -3969965174295172973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447e3209f670f5040800000000000000
+      internalID: 4638434316955936580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d17066c046d8180800000000000000
+      internalID: -9111516466686517870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c74620917bc4fde0800000000000000
+      internalID: -1300190703793059900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bb548f13f6c2590800000000000000
+      internalID: -7697655402673620177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd205619d0a9c7f0800000000000000
+      internalID: -591765021779808828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02d39ad4af5ebda0800000000000000
+      internalID: -5927194897926598133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786fdc57c562ba750800000000000000
+      internalID: 6317185080872531591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5dd542c8e27ab90800000000000000
+      internalID: -7230759497279613499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ab6e16418129a20800000000000000
+      internalID: 3067540772013652600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627b79f297a8f1790800000000000000
+      internalID: -7557169396610255066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35136b10e446018a0800000000000000
+      internalID: -6336454389511343789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3600349eea0f080800000000000000
+      internalID: -9155625725569506391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f50fc7409326d0c0800000000000000
+      internalID: -4551411270824294925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8ae891c0c5d63d0800000000000000
+      internalID: -3211809752207152959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9542a8df028ea4d90800000000000000
+      internalID: -7112617433087990695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f300cf5005315e140800000000000000
+      internalID: 4748222616550768703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed67a786eff0100800000000000000
+      internalID: 76559443373252279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1db4a25c43c68d0800000000000000
+      internalID: -2851846442609552981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5341b8a858ffd60800000000000000
+      internalID: 7926200699280700842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecabd224624104b0800000000000000
+      internalID: -5476022674056827671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fba2c24da3a55b90800000000000000
+      internalID: -7253711660265591822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4cd6eff4ba68fe0800000000000000
+      internalID: -1187073091706174234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108372cfb1d294170800000000000000
+      internalID: 8163105397803530241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3a3f0be2f644910800000000000000
+      internalID: 1820702395692458955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0433a43e10e54fe00800000000000000
+      internalID: 1077589573049660224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2eab499ee2d8480800000000000000
+      internalID: -8895402108229328135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92443c8a8d73157c0800000000000000
+      internalID: -4084421983364496343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a849a37cb4aec4150800000000000000
+      internalID: 5858314826488124554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a56ff18f8f0aa00800000000000000
+      internalID: 765885681224800814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4baf7412052fa4250800000000000000
+      internalID: 5929818285356350132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f68e3f9024c08020800000000000000
+      internalID: 2342087450622330611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3131d0c98cd7bb770800000000000000
+      internalID: 8627627811723350803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7866a0441f8280540800000000000000
+      internalID: 4974270805124474503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd20396e0dc60640800000000000000
+      internalID: 5045945894293220795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e274a243a72e060800000000000000
+      internalID: 6981276736843886167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581f962f81fd4f0b0800000000000000
+      internalID: -5695682330477596283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woody_0_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752adb5495dddb2b0800000000000000
+      internalID: -5567050188868181417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      woody_0_0: 6140932374826575314
+      woody_0_1: -249262131496885888
+      woody_0_10: 885692195848495495
+      woody_0_11: 8197248926386451505
+      woody_0_12: -1866451931270773147
+      woody_0_13: -6289205404613877077
+      woody_0_14: 5896244130629804796
+      woody_0_15: 4867346942497946813
+      woody_0_16: -607953017280507861
+      woody_0_17: 8031633328343617761
+      woody_0_18: -5791851880121817095
+      woody_0_19: -7759673889026844166
+      woody_0_2: 6905668669195993537
+      woody_0_20: -8335408305329114225
+      woody_0_21: -819490474145696021
+      woody_0_22: 8530520384282385345
+      woody_0_23: -3584435404837693186
+      woody_0_24: 7023205236892600724
+      woody_0_25: 2676831929914558996
+      woody_0_26: -8176113437611336739
+      woody_0_27: -2032619861678096803
+      woody_0_28: 7627871683073697948
+      woody_0_29: 9198202677680393436
+      woody_0_3: -4744151078689634343
+      woody_0_30: 3197536087258903727
+      woody_0_31: 1613596632836876185
+      woody_0_32: 5324286888413721166
+      woody_0_33: -8537987660624032547
+      woody_0_34: -609156406344712391
+      woody_0_35: -3948926402086259675
+      woody_0_36: 161722645060118247
+      woody_0_37: -5780703990269888726
+      woody_0_38: -1014205134339389040
+      woody_0_39: -8526230174392583613
+      woody_0_4: 6868015050411988818
+      woody_0_40: 101105549833813325
+      woody_0_41: 3239396223701407801
+      woody_0_42: 357024640248501542
+      woody_0_43: -4210403905748659157
+      woody_0_44: 4646503141687968028
+      woody_0_45: 5488725063594749291
+      woody_0_46: 2514129087548328686
+      woody_0_47: 3872663382699032182
+      woody_0_48: -4072452388764172164
+      woody_0_49: 3331262549997456046
+      woody_0_5: 4645682350188673608
+      woody_0_50: 1989395217728926346
+      woody_0_51: -5078279922153691417
+      woody_0_52: 4459356396113624150
+      woody_0_53: 7654036024687242487
+      woody_0_54: -3530175538629877246
+      woody_0_55: -5622102710261174312
+      woody_0_56: 755602252251699534
+      woody_0_57: 4449590310615678057
+      woody_0_58: 7726380061874159752
+      woody_0_59: -2928031984992225633
+      woody_0_6: -5741814305328596814
+      woody_0_60: -5904003822570848178
+      woody_0_61: -8915370952315230071
+      woody_0_62: -3844835291175990937
+      woody_0_63: -7689265291024765525
+      woody_0_64: 5571208036357035294
+      woody_0_65: 3945759245949331490
+      woody_0_66: -4970892848050106348
+      woody_0_67: -5750386520070993787
+      woody_0_68: -8320333755339156431
+      woody_0_7: 5844071836078017152
+      woody_0_8: -4013992248329168137
+      woody_0_9: -1012512234836414910
+      woody_0_alpha_000: 8870624295449174998
+      woody_0_alpha_001: 5054101124449679969
+      woody_0_alpha_002: 1685312900703273396
+      woody_0_alpha_003: 2855045158491293398
+      woody_0_alpha_004: -7892059099773843720
+      woody_0_alpha_005: -4945894287989147808
+      woody_0_alpha_006: -8539049095095021738
+      woody_0_alpha_007: -8903050695254216585
+      woody_0_alpha_008: 2302854453394455486
+      woody_0_alpha_009: 4438254676228409915
+      woody_0_alpha_010: 8779407526665002014
+      woody_0_alpha_011: 2214461530675388373
+      woody_0_alpha_012: 1546680138076756624
+      woody_0_alpha_013: 8794872579409954410
+      woody_0_alpha_014: 5264908107480132005
+      woody_0_alpha_015: -2847667090280626958
+      woody_0_alpha_016: 8107704973971158556
+      woody_0_alpha_017: 4280226419858552534
+      woody_0_alpha_018: 5207247649165317731
+      woody_0_alpha_019: 262870726372173169
+      woody_0_alpha_020: -5731023330680200450
+      woody_0_alpha_021: 2447487945689279576
+      woody_0_alpha_022: -8315708957715322937
+      woody_0_alpha_023: 3076795387558999446
+      woody_0_alpha_024: -8967915774644975942
+      woody_0_alpha_025: -3686088232293456845
+      woody_0_alpha_026: 4624863930382626083
+      woody_0_alpha_027: 839319229607080571
+      woody_0_alpha_028: -8999291131284761875
+      woody_0_alpha_029: -183456330233823692
+      woody_0_alpha_030: 4478234389286513474
+      woody_0_alpha_031: 7307248621144360643
+      woody_0_alpha_032: -3969965174295172973
+      woody_0_alpha_033: 4638434316955936580
+      woody_0_alpha_034: -9111516466686517870
+      woody_0_alpha_035: -1300190703793059900
+      woody_0_alpha_036: -7697655402673620177
+      woody_0_alpha_037: -591765021779808828
+      woody_0_alpha_038: -5927194897926598133
+      woody_0_alpha_039: 6317185080872531591
+      woody_0_alpha_040: -7230759497279613499
+      woody_0_alpha_041: 3067540772013652600
+      woody_0_alpha_042: -7557169396610255066
+      woody_0_alpha_043: -6336454389511343789
+      woody_0_alpha_044: -9155625725569506391
+      woody_0_alpha_045: -4551411270824294925
+      woody_0_alpha_046: -3211809752207152959
+      woody_0_alpha_047: -7112617433087990695
+      woody_0_alpha_048: 4748222616550768703
+      woody_0_alpha_049: 76559443373252279
+      woody_0_alpha_050: -2851846442609552981
+      woody_0_alpha_051: 7926200699280700842
+      woody_0_alpha_052: -5476022674056827671
+      woody_0_alpha_053: -7253711660265591822
+      woody_0_alpha_054: -1187073091706174234
+      woody_0_alpha_055: 8163105397803530241
+      woody_0_alpha_056: 1820702395692458955
+      woody_0_alpha_057: 1077589573049660224
+      woody_0_alpha_058: -8895402108229328135
+      woody_0_alpha_059: -4084421983364496343
+      woody_0_alpha_060: 5858314826488124554
+      woody_0_alpha_061: 765885681224800814
+      woody_0_alpha_062: 5929818285356350132
+      woody_0_alpha_063: 2342087450622330611
+      woody_0_alpha_064: 8627627811723350803
+      woody_0_alpha_065: 4974270805124474503
+      woody_0_alpha_066: 5045945894293220795
+      woody_0_alpha_067: 6981276736843886167
+      woody_0_alpha_068: -5695682330477596283
+      woody_0_alpha_069: -5567050188868181417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

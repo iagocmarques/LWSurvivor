@@ -222,11 +222,24 @@ namespace Project.Core.Tick
         {
             if (RemoveQueue.Count > 0)
             {
-                for (var i = 0; i < RemoveQueue.Count; i++)
+                var removeCount = RemoveQueue.Count;
+                var writeIdx = 0;
+                for (var readIdx = 0; readIdx < Tickables.Count; readIdx++)
                 {
-                    var t = RemoveQueue[i];
-                    Tickables.Remove(t);
+                    var t = Tickables[readIdx];
+                    bool shouldRemove = false;
+                    for (var r = 0; r < removeCount; r++)
+                    {
+                        if (ReferenceEquals(t, RemoveQueue[r]))
+                        {
+                            shouldRemove = true;
+                            break;
+                        }
+                    }
+                    if (!shouldRemove)
+                        Tickables[writeIdx++] = t;
                 }
+                Tickables.RemoveRange(writeIdx, Tickables.Count - writeIdx);
                 RemoveQueue.Clear();
             }
 

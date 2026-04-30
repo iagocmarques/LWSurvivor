@@ -1,7 +1,6 @@
 ---
 description: 'Testes e verificação de qualidade. Unit tests, integration tests, smoke tests, regressões.'
 mode: subagent
-model: xiaomi/mimo-v2.5-flash
 steps: 25
 hidden: false
 permission:

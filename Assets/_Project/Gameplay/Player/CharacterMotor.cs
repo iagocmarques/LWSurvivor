@@ -1,81 +1,169 @@
+using Project.Core.Tick;
+using Project.Data;
+using Project.Gameplay.Rendering;
 using UnityEngine;
 
 namespace Project.Gameplay.Player
 {
     /// <summary>
-    /// Handles gravity, vertical velocity, and grounded state for airborne characters.
-    /// Extracted from PlayerHsmController to share across characters and airborne states.
+    /// Full 2.5D character motor. Owns all position changes.
+    /// X = horizontal (walk/run/dash/knockback), Y = depth (2.5D planar), Vertical = jump/fall height.
+    /// Tick-based at 60Hz via ITickSystem. No Rigidbody2D dependency.
     /// </summary>
     [DisallowMultipleComponent]
-    public sealed class CharacterMotor : MonoBehaviour
+    public sealed class CharacterMotor : MonoBehaviour, ITickable
     {
-        private float _gravity;
-        private float _groundY;
+        [Header("Arena")]
+        [SerializeField] private ArenaBounds arenaBounds;
+
+        private CharacterMovementConfig _config;
+
+        private float _depth;
         private float _verticalVelocity;
-        private bool _grounded = true;
+        private Vector2 _planarVelocity;
 
-        /// <summary>True when the character is at or below ground level.</summary>
-        public bool IsGrounded => _grounded;
+        private bool _isGrounded = true;
+        private float _groundY;
+        private bool _configured;
 
-        /// <summary>Current vertical velocity (negative = falling).</summary>
-        public float VerticalVelocity
+        private float _frameDvx;
+        private float _frameDvy;
+        private bool _hasFrameVelocity;
+
+        public bool IsGrounded => _isGrounded;
+        public bool IsAirborne => !_isGrounded;
+        public float VerticalVelocity => _verticalVelocity;
+        public float Depth => _depth;
+        public Vector2 PlanarVelocity => _planarVelocity;
+        public Vector3 Position => transform.position;
+
+        public void Configure(CharacterMovementConfig config, float groundY = 0f)
         {
-            get => _verticalVelocity;
-            set => _verticalVelocity = value;
+            _config = config;
+            _groundY = groundY;
+            _depth = 0f;
+            _isGrounded = true;
+            _configured = true;
+            enabled = true;
         }
 
-        /// <summary>
-        /// Configure motor parameters. Call from PlayerHsmController.Configure().
-        /// </summary>
-        /// <param name="gravity">Gravity per tick at 60 Hz.</param>
-        /// <param name="groundY">Y coordinate considered ground level (default 0).</param>
         public void Configure(float gravity, float groundY = 0f)
         {
-            _gravity = gravity;
+            _config = new CharacterMovementConfig { gravity = gravity };
             _groundY = groundY;
+            var pos = transform.position;
+            _depth = 0f;
+            _isGrounded = pos.y <= _groundY + 0.01f;
+            _configured = true;
+            enabled = true;
         }
 
-        /// <summary>
-        /// Tick the motor: apply gravity, integrate vertical velocity, clamp to ground.
-        /// Call once per FixedTick (60 Hz) for airborne characters.
-        /// </summary>
-        /// <param name="dt">Fixed delta time.</param>
-        public void Tick(float dt)
+        private void OnEnable() => FixedTickSystem.Register(this);
+        private void OnDisable() => FixedTickSystem.Unregister(this);
+
+        public void Tick(in TickContext context)
         {
+            if (!_configured) return;
+
+            var dt = context.FixedDelta;
             var pos = transform.position;
 
-            // Grounded check
-            if (pos.y <= _groundY)
+            if (!_isGrounded)
             {
-                if (!_grounded)
+                _verticalVelocity += _config.gravity;
+                pos.y += _verticalVelocity * dt;
+
+                if (pos.y <= _groundY)
                 {
-                    // Landing
-                    _verticalVelocity = 0f;
                     pos.y = _groundY;
-                    transform.position = pos;
+                    _verticalVelocity = 0f;
+                    _isGrounded = true;
                 }
-                _grounded = true;
-                return;
             }
 
-            _grounded = false;
+            pos.x += _planarVelocity.x * dt;
 
-            // Gravity
-            _verticalVelocity -= _gravity * (dt * 60f);
+            if (_isGrounded)
+            {
+                _depth += _planarVelocity.y * dt;
+                pos.y = _groundY + _depth;
+            }
 
-            // Integrate vertical position
-            pos.y += _verticalVelocity * dt;
+            if (_hasFrameVelocity)
+            {
+                pos.x += _frameDvx * dt;
+                _depth += _frameDvy * dt;
+                if (_isGrounded)
+                    pos.y = _groundY + _depth;
+                _frameDvx = 0f;
+                _frameDvy = 0f;
+                _hasFrameVelocity = false;
+            }
+
+            if (arenaBounds != null)
+                pos = arenaBounds.ClampPosition(pos);
+
             transform.position = pos;
         }
 
-        /// <summary>
-        /// Set the character airborne with an initial vertical velocity.
-        /// Typically called from EnterReactiveState(HurtAir).
-        /// </summary>
-        public void Launch(float verticalVelocity)
+        /// <summary>Manual tick overload for backward compatibility. Delegates to ITickable.Tick.</summary>
+        public void Tick(float dt)
         {
-            _verticalVelocity = verticalVelocity;
-            _grounded = false;
+            Tick(new TickContext(0, dt, 0, 0, 0, 1));
+        }
+
+        public void ApplyMovementInput(Vector2 moveInput, float speedMultiplier = 1f)
+        {
+            _planarVelocity = moveInput * _config.walkSpeed * speedMultiplier;
+        }
+
+        public void SetPlanarVelocity(Vector2 velocity)
+        {
+            _planarVelocity = velocity;
+        }
+
+        public void SetHorizontalVelocity(float vx)
+        {
+            _planarVelocity.x = vx;
+        }
+
+        public void SetDepthVelocity(float vy)
+        {
+            _planarVelocity.y = vy;
+        }
+
+        public void StopMovement()
+        {
+            _planarVelocity = Vector2.zero;
+        }
+
+        public void Launch(float verticalSpeed)
+        {
+            _verticalVelocity = verticalSpeed;
+            _isGrounded = false;
+        }
+
+        public void ApplyFrameVelocity(float dvx, float dvy)
+        {
+            _frameDvx += dvx;
+            _frameDvy += dvy;
+            _hasFrameVelocity = true;
+        }
+
+        public void SetPosition(Vector3 pos)
+        {
+            transform.position = pos;
+            _depth = 0f;
+        }
+
+        public void SetGroundY(float y)
+        {
+            _groundY = y;
+        }
+
+        public void SetArenaBounds(ArenaBounds bounds)
+        {
+            arenaBounds = bounds;
         }
     }
 }

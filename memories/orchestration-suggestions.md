@@ -3,31 +3,26 @@
 > Melhorias de arquitetura intencionalmente diferidas.
 > Agrupadas pelos 7 princípios canônicos de auto-auditoria.
 > Entradas datadas e acionáveis. Remover quando implementadas ou substituídas.
+> Ultima revisao: 2026-04-30 (Wave 12.5 — Documentacao)
 
 ---
 
 ## 1. Ser confiável
 
-### [2026-04-29] CharacterMotor extraction from reactive combat
-
-**Problema:** HurtAir state applies gravity inline in PlayerHsmController. No CharacterMotor abstraction exists. When more characters and airborne states are added, gravity logic will be duplicated.
-**Solução:** Extract a CharacterMotor component handling gravity, grounded check, velocity integration. HSM states delegate to it instead of computing physics directly.
-**Impacto:** Alto (prevents duplication across characters, unblocks projectile arcs, cleaner state logic).
-**Prioridade:** Média (works for now, becomes urgent when adding more characters or projectile system).
-
-### [2026-04-28] Lambda closure caching in PlayerHsmController
+### [2026-04-28] Lambda closure caching in PlayerHsmController — DIFERIDO
 
 **Problema:** `PlayerHsmController.Configure()` aloca delegates via lambda closures em cada chamada. Se `Configure()` for chamado multiplas vezes (ex: respawn), gera pressao de GC desnecessária.
 **Solução:** Cachear os delegates em campos privados após primeira alocação.
 **Impacto:** Baixo (Configure roda raramente), mas elimina footgun de performance.
 **Prioridade:** Baixa.
 
-### [2026-04-28] Enemy arena bounds clamping
+### ~~[2026-04-29] CharacterMotor extraction from reactive combat~~ — RESOLVIDO
 
-**Problema:** Inimigos podem sair dos limites da arena se spawnados perto das bordas ou com knockback forte.
-**Solução:** Aplicar `ArenaBounds.ClampToBounds()` no `EnemyAgent.FixedTick()` ou no `EnemySpawnerDirector` ao posicionar spawn points.
-**Impacto:** Médio (inimigos fora da arena quebram gameplay loop).
-**Prioridade:** Média.
+CharacterMotor foi extraido como componente independente (`Assets/_Project/Gameplay/Player/CharacterMotor.cs`). Usado por PlayerHsmController, EnemyFactory, e todos os game modes.
+
+### ~~[2026-04-28] Enemy arena bounds clamping~~ — RESOLVIDO
+
+`ArenaBounds` (`Assets/_Project/Gameplay/Rendering/ArenaBounds.cs`) implementado e adicionado a todos os players e enemies nos game modes.
 
 ## 2. Ser o mais rápido possível na implementação (paralelização)
 
@@ -39,7 +34,12 @@ _Nenhuma sugestão pendente._
 
 ## 4. Rodar testes confiáveis em cada iteração
 
-_Nenhuma sugestão pendente._
+### [2026-04-30] Automated test coverage — DIFERIDO
+
+**Problema:** Nenhum teste automatizado existe. Todos os game modes foram verificados manualmente.
+**Solução:** Criar testes de unidade para Lf2StateMachine, Lf2ItrProcessor, Lf2GrabProcessor. Testes de integracao para game modes.
+**Impacto:** Alto (regressao detection).
+**Prioridade:** Media (importante antes de evoluir para hybrid).
 
 ## 5. Escrever DoD com evidências e relatórios
 
@@ -47,46 +47,47 @@ _Nenhuma sugestão pendente._
 
 ## 6. Ser autônomo
 
-### [2026-04-28] Projectile system (Davis energy ball)
+### ~~[2026-04-28] Projectile system (Davis energy ball)~~ — RESOLVIDO
 
-**Problema:** O jogo atual só tem ataques melee. Davis (personagem do LF2 original) tem projéteis (energy ball). Sem sistema de projéteis, o leque de gameplay é limitado.
-**Solução:** Implementar `ProjectileDefinition` (ScriptableObject) + `ProjectileAgent` (movimento, colisão hitbox/hurtbox, TTL, pooling). Integrar com `GameObjectPool` existente e `AttackDefinition`.
-**Impacto:** Alto (expande variedade de gameplay significativamente).
-**Prioridade:** Alta (próximo feature após MVP validado).
+Sistema de projéteis completo: `Lf2OpointProcessor`, `Lf2Projectile`, `Lf2ProjectilePool`. 5 personagens com projéteis (Davis, Deep, John, Henry, Firen).
 
-### [2026-04-28] Audio system
+### ~~[2026-04-28] Audio system~~ — RESOLVIDO
 
-**Problema:** O projeto não tem nenhum sistema de áudio. Hit stops, shake e flash estão visuais mas sem feedback sonoro.
-**Solução:** Implementar `AudioManager` singleton com pooling de AudioSource. Criar `SfxDefinition` (ScriptableObject) para sons de hit, KO, level up, UI. Integrar chamadas no `CombatReadabilityFx` e `RunManager`.
-**Impacto:** Alto (áudio é crítico para game feel e feedback de combate).
-**Prioridade:** Alta.
+`Lf2AudioManager` implementado como singleton com pooled AudioSource, clip cache de 102 WAVs, categorias de SFX, volume controls, integracao frame-driven no Lf2StateMachine.
 
-### [2026-04-28] UI Canvas (replace OnGUI)
+### ~~[2026-04-28] UI Canvas (replace OnGUI)~~ — DIFERIDO (renomeado)
 
-**Problema:** HUD atual usa `OnGUI` (immediate mode). Não escala para telas complexas, não suporta animações de UI, e é ineficiente para updates frequentes.
-**Solução:** Migrar para Unity UI Canvas com components reutilizáveis (`HealthBar`, `UpgradePicker`, `VictoryScreen`, `DeathScreen`). Manter `OnGUI` apenas para debug overlay.
-**Impacto:** Médio (HUD funcional, mas migração é trabalho substancial).
-**Prioridade:** Média.
+**Status:** OnGUI continua para HUD in-game. Menu system usa OnGUI com styling LF2-authentic. Migracao para Canvas nao e critica para o objetivo atual (copia fiel do LF2).
+**Impacto:** Medio.
+**Prioridade:** Baixa (funcional para LF2 fiel).
+
+### [2026-04-30] Real Steamworks integration — DIFERIDO
+
+**Problema:** Netcode atual usa `LoopbackTransport` (local apenas). Sem Steamworks real, nao e possivel jogar online.
+**Solução:** Implementar `SteamLobbyService` com Steamworks.NET (lobby, invite, IDs reais). Substituir `LoopbackTransport` por `SteamNetworkingSockets`/SDR.
+**Impacto:** Alto (funcionalidade core para multiplayer).
+**Prioridade:** Alta (pos-MVP, blocker para playtest online).
 
 ## 7. Ser custo-efetivo
 
-### [2026-04-28] More characters beyond Davis
+### ~~[2026-04-28] More characters beyond Davis~~ — RESOLVIDO
 
-**Problema:** Só existe 1 personagem jogável (Davis). Para variedade de gameplay e replayability, precisamos de mais personagens com movesets distintos.
-**Solução:** Criar `CharacterDefinition` variants (ex: Deep, Freeze) com `AttackDefinition[]` próprios. Os dados já estão em ScriptableObject, então a extensão é puramente data + sprites.
-**Impacto:** Médio (replayability), mas alto custo de arte.
-**Prioridade:** Média (pos-MVP, depende de arte).
+Todos os 24 personagens do LF2 importados como CharacterDefinition SOs. Pipeline automatizado via Lf2CharacterDatabase + Lf2DatRuntimeLoader.
 
-### [2026-04-28] More enemy types beyond Bandit
+### ~~[2026-04-28] More enemy types beyond Bandit~~ — RESOLVIDO
 
-**Problema:** Só existe 1 tipo de inimigo (Bandit). Para variedade de combate e progression, precisamos de mais tipos.
-**Solução:** Criar `EnemyDefinition` variants (ex: Archer, Heavy, Ninja) com stats, sprites e comportamentos distintos. `EnemySpawnerDirector` já suporta weighted spawning.
-**Impacto:** Médio (variedade de combate).
-**Prioridade:** Média (pos-MVP, depende de arte).
+EnemyFactory cria inimigos de qualquer Lf2CharacterData. AIArchetypePresets fornece Bandit, Boss, Hunter. Survival mode usa todos os 5 primeiros personagens como enemies com AI scaling.
 
-### [2026-04-28] Real Steamworks integration
+### [2026-04-30] LF2+Survivors hybrid features — PROXIMO
 
-**Problema:** Netcode atual usa `LoopbackTransport` (local apenas). Sem Steamworks real, não é possível jogar online.
-**Solução:** Implementar `SteamLobbyService` com Steamworks.NET (lobby, invite, IDs reais). Substituir `LoopbackTransport` por `SteamNetworkingSockets`/SDR. Reconciliador de player por input buffer de rede.
-**Impacto:** Alto (funcionalidade core para multiplayer).
-**Prioridade:** Alta (pos-MVP, mas blocker para playtest online).
+**Problema:** O projeto e atualmente uma copia fiel do LF2. Para evoluir para LF2+Survivors hybrid, precisamos de mecanicas Vampire Survivors.
+**Solução:** Adicionar: upgrade picker, passive abilities, XP/leveling, item drops, wave-based survival com progression, build variety.
+**Impacto:** Alto (transforma o jogo de copia para hybrid).
+**Prioridade:** Alta (proximo objetivo do projeto).
+
+### [2026-04-30] Sprite visual system completion — DIFERIDO
+
+**Problema:** Sprites atuais sao placeholders coloridos (32x32). Sprite sheets dos 24 personagens estao importados mas nao estao conectados ao sistema de animacao em todos os modes.
+**Solução:** Rodar Lf2SpriteConverter, conectar Lf2VisualLibrary/Lf2PlayerSpriteAnimator em todos os game modes.
+**Impacto:** Alto (visual fidelity).
+**Prioridade:** Alta (necessario para experiencia LF2 autentica).

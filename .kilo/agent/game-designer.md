@@ -1,7 +1,6 @@
 ---
 description: 'Game feel, balanceamento, UX de gameplay, visual fidelity, consistência de design.'
 mode: subagent
-model: xiaomi/mimo-v2.5-pro
 steps: 20
 hidden: false
 permission:

@@ -1,0 +1,2222 @@
+fileFormatVersion: 2
+guid: 8274f68622a0a474d8a26969509a9eb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8315118753368995139
+    second: rudolf_1_0
+  - first:
+      213: -561562209140411345
+    second: rudolf_1_1
+  - first:
+      213: 1654533434017469009
+    second: rudolf_1_2
+  - first:
+      213: 5200648524626204938
+    second: rudolf_1_3
+  - first:
+      213: -1005486533683170999
+    second: rudolf_1_4
+  - first:
+      213: -4301101863661043967
+    second: rudolf_1_5
+  - first:
+      213: -1503091812438406802
+    second: rudolf_1_6
+  - first:
+      213: 7136284879250919285
+    second: rudolf_1_7
+  - first:
+      213: -6127893403916463297
+    second: rudolf_1_8
+  - first:
+      213: 46344441091139074
+    second: rudolf_1_9
+  - first:
+      213: 8961988108146486263
+    second: rudolf_1_10
+  - first:
+      213: 8873876965884717974
+    second: rudolf_1_11
+  - first:
+      213: 5600974597340510218
+    second: rudolf_1_12
+  - first:
+      213: 4389164464361033962
+    second: rudolf_1_13
+  - first:
+      213: 5233172265091027868
+    second: rudolf_1_14
+  - first:
+      213: -5298209354839540032
+    second: rudolf_1_15
+  - first:
+      213: 8386633551287613207
+    second: rudolf_1_16
+  - first:
+      213: 2002962328304279001
+    second: rudolf_1_17
+  - first:
+      213: 7411470863096102623
+    second: rudolf_1_18
+  - first:
+      213: -6706778441834899243
+    second: rudolf_1_19
+  - first:
+      213: 1196991734528203644
+    second: rudolf_1_20
+  - first:
+      213: 8738612846594877240
+    second: rudolf_1_21
+  - first:
+      213: 3782012264513641232
+    second: rudolf_1_22
+  - first:
+      213: -6971233355036087081
+    second: rudolf_1_23
+  - first:
+      213: 9046387765856540447
+    second: rudolf_1_24
+  - first:
+      213: -8782324245283109329
+    second: rudolf_1_25
+  - first:
+      213: -7806670658255104807
+    second: rudolf_1_26
+  - first:
+      213: 7657406138774626422
+    second: rudolf_1_27
+  - first:
+      213: -635235553538767787
+    second: rudolf_1_28
+  - first:
+      213: 1577368370225352386
+    second: rudolf_1_29
+  - first:
+      213: -2928700063479557016
+    second: rudolf_1_30
+  - first:
+      213: -6525109659962764820
+    second: rudolf_1_31
+  - first:
+      213: -9019107161629017652
+    second: rudolf_1_32
+  - first:
+      213: 3245339447794146724
+    second: rudolf_1_33
+  - first:
+      213: -7348091016957624252
+    second: rudolf_1_34
+  - first:
+      213: -2263029542535053799
+    second: rudolf_1_35
+  - first:
+      213: -2824178882057168453
+    second: rudolf_1_36
+  - first:
+      213: 1775889226709195970
+    second: rudolf_1_37
+  - first:
+      213: -5851695104624103445
+    second: rudolf_1_38
+  - first:
+      213: -4656626213211195031
+    second: rudolf_1_39
+  - first:
+      213: 6545411681902971231
+    second: rudolf_1_40
+  - first:
+      213: -738030065674990605
+    second: rudolf_1_41
+  - first:
+      213: -6938812495953340943
+    second: rudolf_1_42
+  - first:
+      213: -8668210867112491733
+    second: rudolf_1_43
+  - first:
+      213: -4971891753992916665
+    second: rudolf_1_44
+  - first:
+      213: -3180465805545428379
+    second: rudolf_1_45
+  - first:
+      213: 1183539537946366881
+    second: rudolf_1_46
+  - first:
+      213: 4966526742189214968
+    second: rudolf_1_47
+  - first:
+      213: 2350135962211475424
+    second: rudolf_1_48
+  - first:
+      213: 576562163555870992
+    second: rudolf_1_49
+  - first:
+      213: -1588881848980852768
+    second: rudolf_1_50
+  - first:
+      213: -3658161609787203549
+    second: rudolf_1_51
+  - first:
+      213: -1875872759850729873
+    second: rudolf_1_52
+  - first:
+      213: 1041535324816553828
+    second: rudolf_1_53
+  - first:
+      213: -2718215752378190979
+    second: rudolf_1_54
+  - first:
+      213: 7282987739563594167
+    second: rudolf_1_55
+  - first:
+      213: 7697680810156831216
+    second: rudolf_1_56
+  - first:
+      213: -4418434946606255015
+    second: rudolf_1_57
+  - first:
+      213: 7704601348457147880
+    second: rudolf_1_58
+  - first:
+      213: -863379483192954275
+    second: rudolf_1_59
+  - first:
+      213: -3457154229902593089
+    second: rudolf_1_60
+  - first:
+      213: -5848573688852523526
+    second: rudolf_1_61
+  - first:
+      213: 8697263853514960966
+    second: rudolf_1_62
+  - first:
+      213: 6323833989240950697
+    second: rudolf_1_63
+  - first:
+      213: -6284726121552880683
+    second: rudolf_1_64
+  - first:
+      213: 212385043295597022
+    second: rudolf_1_65
+  - first:
+      213: -6182037096625976868
+    second: rudolf_1_66
+  - first:
+      213: 3838612983131303548
+    second: rudolf_1_67
+  - first:
+      213: 6329974704832063775
+    second: rudolf_1_alpha_000
+  - first:
+      213: -162452787034723001
+    second: rudolf_1_alpha_001
+  - first:
+      213: 2123224380012939231
+    second: rudolf_1_alpha_002
+  - first:
+      213: -3291110874732180889
+    second: rudolf_1_alpha_003
+  - first:
+      213: 1554158451177197931
+    second: rudolf_1_alpha_004
+  - first:
+      213: 5454135864164785223
+    second: rudolf_1_alpha_005
+  - first:
+      213: -3230447105391660925
+    second: rudolf_1_alpha_006
+  - first:
+      213: -4771456398064012076
+    second: rudolf_1_alpha_007
+  - first:
+      213: 6779121175930737127
+    second: rudolf_1_alpha_008
+  - first:
+      213: -8864095384132307330
+    second: rudolf_1_alpha_009
+  - first:
+      213: 1552677954300006042
+    second: rudolf_1_alpha_010
+  - first:
+      213: -3769332704505935935
+    second: rudolf_1_alpha_011
+  - first:
+      213: 5680689189714804522
+    second: rudolf_1_alpha_012
+  - first:
+      213: -7776436485497463007
+    second: rudolf_1_alpha_013
+  - first:
+      213: -6939139747045882370
+    second: rudolf_1_alpha_014
+  - first:
+      213: -5821175084443214282
+    second: rudolf_1_alpha_015
+  - first:
+      213: -3249518692009416585
+    second: rudolf_1_alpha_016
+  - first:
+      213: 4987119562268530861
+    second: rudolf_1_alpha_017
+  - first:
+      213: -7176563425362853609
+    second: rudolf_1_alpha_018
+  - first:
+      213: -8838506608050238414
+    second: rudolf_1_alpha_019
+  - first:
+      213: 6156926831657371784
+    second: rudolf_1_alpha_020
+  - first:
+      213: -1303695306053976780
+    second: rudolf_1_alpha_021
+  - first:
+      213: -8700506504857891986
+    second: rudolf_1_alpha_022
+  - first:
+      213: 3100761112902394539
+    second: rudolf_1_alpha_023
+  - first:
+      213: -3388506694724926058
+    second: rudolf_1_alpha_024
+  - first:
+      213: -2440540526711088224
+    second: rudolf_1_alpha_025
+  - first:
+      213: -4290479761130082454
+    second: rudolf_1_alpha_026
+  - first:
+      213: -1518915849681105171
+    second: rudolf_1_alpha_027
+  - first:
+      213: 287649004155091781
+    second: rudolf_1_alpha_028
+  - first:
+      213: 83046108269634735
+    second: rudolf_1_alpha_029
+  - first:
+      213: 4633274702832845682
+    second: rudolf_1_alpha_030
+  - first:
+      213: -4599865470508166489
+    second: rudolf_1_alpha_031
+  - first:
+      213: 8069015956494712888
+    second: rudolf_1_alpha_032
+  - first:
+      213: -9191948206375937243
+    second: rudolf_1_alpha_033
+  - first:
+      213: 3852775962519038147
+    second: rudolf_1_alpha_034
+  - first:
+      213: -145367571863835034
+    second: rudolf_1_alpha_035
+  - first:
+      213: -6733462859459006125
+    second: rudolf_1_alpha_036
+  - first:
+      213: -7035306993329942863
+    second: rudolf_1_alpha_037
+  - first:
+      213: 8152011443352291615
+    second: rudolf_1_alpha_038
+  - first:
+      213: -5540220596071542087
+    second: rudolf_1_alpha_039
+  - first:
+      213: 6179442423673981872
+    second: rudolf_1_alpha_040
+  - first:
+      213: 5627718594618833651
+    second: rudolf_1_alpha_041
+  - first:
+      213: -9104665623042917195
+    second: rudolf_1_alpha_042
+  - first:
+      213: -4337400494795068813
+    second: rudolf_1_alpha_043
+  - first:
+      213: -3200828687541847535
+    second: rudolf_1_alpha_044
+  - first:
+      213: 3636993812677645249
+    second: rudolf_1_alpha_045
+  - first:
+      213: 633412480880853369
+    second: rudolf_1_alpha_046
+  - first:
+      213: -8061547064908328467
+    second: rudolf_1_alpha_047
+  - first:
+      213: 6484491700657242933
+    second: rudolf_1_alpha_048
+  - first:
+      213: -6675927300784094831
+    second: rudolf_1_alpha_049
+  - first:
+      213: -5475170981546962735
+    second: rudolf_1_alpha_050
+  - first:
+      213: 2849995599041605901
+    second: rudolf_1_alpha_051
+  - first:
+      213: 8769360988314291767
+    second: rudolf_1_alpha_052
+  - first:
+      213: -866982725489369757
+    second: rudolf_1_alpha_053
+  - first:
+      213: 1610994046290655259
+    second: rudolf_1_alpha_054
+  - first:
+      213: 8852657192088094065
+    second: rudolf_1_alpha_055
+  - first:
+      213: 2219200484417980786
+    second: rudolf_1_alpha_056
+  - first:
+      213: 836964653807310437
+    second: rudolf_1_alpha_057
+  - first:
+      213: -370306019555109980
+    second: rudolf_1_alpha_058
+  - first:
+      213: -2260645983622615684
+    second: rudolf_1_alpha_059
+  - first:
+      213: 4890773353447121360
+    second: rudolf_1_alpha_060
+  - first:
+      213: 6932095105403709460
+    second: rudolf_1_alpha_061
+  - first:
+      213: 1374692197218330880
+    second: rudolf_1_alpha_062
+  - first:
+      213: -4938691913856757735
+    second: rudolf_1_alpha_063
+  - first:
+      213: 7333546430770314635
+    second: rudolf_1_alpha_064
+  - first:
+      213: 3366542733697123138
+    second: rudolf_1_alpha_065
+  - first:
+      213: -3466738721629496086
+    second: rudolf_1_alpha_066
+  - first:
+      213: 2305022222001364926
+    second: rudolf_1_alpha_067
+  - first:
+      213: 4693094593619139795
+    second: rudolf_1_alpha_068
+  - first:
+      213: -1571749937208466248
+    second: rudolf_1_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rudolf_1_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1929b6d47698d750800000000000000
+      internalID: 6329974704832063775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74de5080d0adebdf0800000000000000
+      internalID: -162452787034723001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7ce150355377d10800000000000000
+      internalID: 2123224380012939231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ac923b810a352d0800000000000000
+      internalID: -3291110874732180889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61961780ea719510800000000000000
+      internalID: 1554158451177197931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c9244dbabf0bb40800000000000000
+      internalID: 5454135864164785223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380f07929752b23d0800000000000000
+      internalID: -3230447105391660925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4312cafa168cdb0800000000000000
+      internalID: -4771456398064012076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e11eaccac6441e50800000000000000
+      internalID: 6779121175930737127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e763d9d46386cf480800000000000000
+      internalID: -8864095384132307330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ec1ac7f583c8510800000000000000
+      internalID: 1552677954300006042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c749a340e3a0bbc0800000000000000
+      internalID: -3769332704505935935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f3a5078bcd5de40800000000000000
+      internalID: 5680689189714804522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f598fb73c841490800000000000000
+      internalID: -7776436485497463007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5498a4a2933bf90800000000000000
+      internalID: -6939139747045882370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e58644a18073fa0800000000000000
+      internalID: -5821175084443214282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77869cf57f367e2d0800000000000000
+      internalID: -3249518692009416585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8da69a1dec53540800000000000000
+      internalID: 4987119562268530861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711cf237699b76c90800000000000000
+      internalID: -7176563425362853609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c09328111575580800000000000000
+      internalID: -8838506608050238414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8884205255cc17550800000000000000
+      internalID: 6156926831657371784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dfe43c60858ede0800000000000000
+      internalID: -1303695306053976780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b48fb5e67914780800000000000000
+      internalID: -8700506504857891986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba264ebbdcd180b20800000000000000
+      internalID: 3100761112902394539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69543ed3d1b99f0d0800000000000000
+      internalID: -3388506694724926058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abd07d4255712ed0800000000000000
+      internalID: -2440540526711088224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fa6d1a3672574c0800000000000000
+      internalID: -4290479761130082454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee0c00151abbeae0800000000000000
+      internalID: -1518915849681105171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bb8a8ce3fedf300800000000000000
+      internalID: 287649004155091781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4e367def9072100800000000000000
+      internalID: 83046108269634735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273c7294bc2bc4040800000000000000
+      internalID: 4633274702832845682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a296c7c9bef920c0800000000000000
+      internalID: -4599865470508166489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83083ddc247eaff60800000000000000
+      internalID: 8069015956494712888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b5c2daec3af6080800000000000000
+      internalID: -9191948206375937243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c86c15335fc77530800000000000000
+      internalID: 3852775962519038147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ee13da6fc8bfdf0800000000000000
+      internalID: -145367571863835034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351f8a9643fed82a0800000000000000
+      internalID: -6733462859459006125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be4fb070919d5e90800000000000000
+      internalID: -7035306993329942863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19ceed6733c12170800000000000000
+      internalID: 8152011443352291615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b25ad1a8be2d13b0800000000000000
+      internalID: -5540220596071542087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb011de42ac1c550800000000000000
+      internalID: 6179442423673981872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fabd10be3ca91e40800000000000000
+      internalID: 5627718594618833651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcf0dbbadab5a180800000000000000
+      internalID: -9104665623042917195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ae2230b357ec3c0800000000000000
+      internalID: -4337400494795068813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a3034744f5493d0800000000000000
+      internalID: -3200828687541847535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3d1fe5a92397230800000000000000
+      internalID: 3636993812677645249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971c33f9b455ac800800000000000000
+      internalID: 633412480880853369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1db0808a1af1090800000000000000
+      internalID: -8061547064908328467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533c4ae68da8df950800000000000000
+      internalID: 6484491700657242933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1918e629d775a53a0800000000000000
+      internalID: -6675927300784094831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0dd5040094404b0800000000000000
+      internalID: -5475170981546962735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d013d4cb5e73d8720800000000000000
+      internalID: 2849995599041605901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e44a75b5703b970800000000000000
+      internalID: 8769360988314291767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d5eccfdcbd7f3f0800000000000000
+      internalID: -866982725489369757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b187c68bc866b5610800000000000000
+      internalID: 1610994046290655259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175c7b410d4fada70800000000000000
+      internalID: 8852657192088094065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279cb1f251f2cce10800000000000000
+      internalID: 2219200484417980786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5661ebf0bee7d9b00800000000000000
+      internalID: 836964653807310437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a39a3e13a86cdaf0800000000000000
+      internalID: -370306019555109980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7da24f847290a0e0800000000000000
+      internalID: -2260645983622615684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d16929d3748fd340800000000000000
+      internalID: 4890773353447121360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418efc245cfb33060800000000000000
+      internalID: 6932095105403709460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00923ba1543e31310800000000000000
+      internalID: 1374692197218330880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9105973eedd367bb0800000000000000
+      internalID: -4938691913856757735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8df5edbf9df5c560800000000000000
+      internalID: 7333546430770314635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243803397cc58be20800000000000000
+      internalID: 3366542733697123138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec9e20108ba3efc0800000000000000
+      internalID: -3466738721629496086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfd5c59f751dff10800000000000000
+      internalID: 2305022222001364926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc99f5faa8312140800000000000000
+      internalID: 4693094593619139795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rudolf_1_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b462f472c5003ae0800000000000000
+      internalID: -1571749937208466248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rudolf_1_0: 8315118753368995139
+      rudolf_1_1: -561562209140411345
+      rudolf_1_10: 8961988108146486263
+      rudolf_1_11: 8873876965884717974
+      rudolf_1_12: 5600974597340510218
+      rudolf_1_13: 4389164464361033962
+      rudolf_1_14: 5233172265091027868
+      rudolf_1_15: -5298209354839540032
+      rudolf_1_16: 8386633551287613207
+      rudolf_1_17: 2002962328304279001
+      rudolf_1_18: 7411470863096102623
+      rudolf_1_19: -6706778441834899243
+      rudolf_1_2: 1654533434017469009
+      rudolf_1_20: 1196991734528203644
+      rudolf_1_21: 8738612846594877240
+      rudolf_1_22: 3782012264513641232
+      rudolf_1_23: -6971233355036087081
+      rudolf_1_24: 9046387765856540447
+      rudolf_1_25: -8782324245283109329
+      rudolf_1_26: -7806670658255104807
+      rudolf_1_27: 7657406138774626422
+      rudolf_1_28: -635235553538767787
+      rudolf_1_29: 1577368370225352386
+      rudolf_1_3: 5200648524626204938
+      rudolf_1_30: -2928700063479557016
+      rudolf_1_31: -6525109659962764820
+      rudolf_1_32: -9019107161629017652
+      rudolf_1_33: 3245339447794146724
+      rudolf_1_34: -7348091016957624252
+      rudolf_1_35: -2263029542535053799
+      rudolf_1_36: -2824178882057168453
+      rudolf_1_37: 1775889226709195970
+      rudolf_1_38: -5851695104624103445
+      rudolf_1_39: -4656626213211195031
+      rudolf_1_4: -1005486533683170999
+      rudolf_1_40: 6545411681902971231
+      rudolf_1_41: -738030065674990605
+      rudolf_1_42: -6938812495953340943
+      rudolf_1_43: -8668210867112491733
+      rudolf_1_44: -4971891753992916665
+      rudolf_1_45: -3180465805545428379
+      rudolf_1_46: 1183539537946366881
+      rudolf_1_47: 4966526742189214968
+      rudolf_1_48: 2350135962211475424
+      rudolf_1_49: 576562163555870992
+      rudolf_1_5: -4301101863661043967
+      rudolf_1_50: -1588881848980852768
+      rudolf_1_51: -3658161609787203549
+      rudolf_1_52: -1875872759850729873
+      rudolf_1_53: 1041535324816553828
+      rudolf_1_54: -2718215752378190979
+      rudolf_1_55: 7282987739563594167
+      rudolf_1_56: 7697680810156831216
+      rudolf_1_57: -4418434946606255015
+      rudolf_1_58: 7704601348457147880
+      rudolf_1_59: -863379483192954275
+      rudolf_1_6: -1503091812438406802
+      rudolf_1_60: -3457154229902593089
+      rudolf_1_61: -5848573688852523526
+      rudolf_1_62: 8697263853514960966
+      rudolf_1_63: 6323833989240950697
+      rudolf_1_64: -6284726121552880683
+      rudolf_1_65: 212385043295597022
+      rudolf_1_66: -6182037096625976868
+      rudolf_1_67: 3838612983131303548
+      rudolf_1_7: 7136284879250919285
+      rudolf_1_8: -6127893403916463297
+      rudolf_1_9: 46344441091139074
+      rudolf_1_alpha_000: 6329974704832063775
+      rudolf_1_alpha_001: -162452787034723001
+      rudolf_1_alpha_002: 2123224380012939231
+      rudolf_1_alpha_003: -3291110874732180889
+      rudolf_1_alpha_004: 1554158451177197931
+      rudolf_1_alpha_005: 5454135864164785223
+      rudolf_1_alpha_006: -3230447105391660925
+      rudolf_1_alpha_007: -4771456398064012076
+      rudolf_1_alpha_008: 6779121175930737127
+      rudolf_1_alpha_009: -8864095384132307330
+      rudolf_1_alpha_010: 1552677954300006042
+      rudolf_1_alpha_011: -3769332704505935935
+      rudolf_1_alpha_012: 5680689189714804522
+      rudolf_1_alpha_013: -7776436485497463007
+      rudolf_1_alpha_014: -6939139747045882370
+      rudolf_1_alpha_015: -5821175084443214282
+      rudolf_1_alpha_016: -3249518692009416585
+      rudolf_1_alpha_017: 4987119562268530861
+      rudolf_1_alpha_018: -7176563425362853609
+      rudolf_1_alpha_019: -8838506608050238414
+      rudolf_1_alpha_020: 6156926831657371784
+      rudolf_1_alpha_021: -1303695306053976780
+      rudolf_1_alpha_022: -8700506504857891986
+      rudolf_1_alpha_023: 3100761112902394539
+      rudolf_1_alpha_024: -3388506694724926058
+      rudolf_1_alpha_025: -2440540526711088224
+      rudolf_1_alpha_026: -4290479761130082454
+      rudolf_1_alpha_027: -1518915849681105171
+      rudolf_1_alpha_028: 287649004155091781
+      rudolf_1_alpha_029: 83046108269634735
+      rudolf_1_alpha_030: 4633274702832845682
+      rudolf_1_alpha_031: -4599865470508166489
+      rudolf_1_alpha_032: 8069015956494712888
+      rudolf_1_alpha_033: -9191948206375937243
+      rudolf_1_alpha_034: 3852775962519038147
+      rudolf_1_alpha_035: -145367571863835034
+      rudolf_1_alpha_036: -6733462859459006125
+      rudolf_1_alpha_037: -7035306993329942863
+      rudolf_1_alpha_038: 8152011443352291615
+      rudolf_1_alpha_039: -5540220596071542087
+      rudolf_1_alpha_040: 6179442423673981872
+      rudolf_1_alpha_041: 5627718594618833651
+      rudolf_1_alpha_042: -9104665623042917195
+      rudolf_1_alpha_043: -4337400494795068813
+      rudolf_1_alpha_044: -3200828687541847535
+      rudolf_1_alpha_045: 3636993812677645249
+      rudolf_1_alpha_046: 633412480880853369
+      rudolf_1_alpha_047: -8061547064908328467
+      rudolf_1_alpha_048: 6484491700657242933
+      rudolf_1_alpha_049: -6675927300784094831
+      rudolf_1_alpha_050: -5475170981546962735
+      rudolf_1_alpha_051: 2849995599041605901
+      rudolf_1_alpha_052: 8769360988314291767
+      rudolf_1_alpha_053: -866982725489369757
+      rudolf_1_alpha_054: 1610994046290655259
+      rudolf_1_alpha_055: 8852657192088094065
+      rudolf_1_alpha_056: 2219200484417980786
+      rudolf_1_alpha_057: 836964653807310437
+      rudolf_1_alpha_058: -370306019555109980
+      rudolf_1_alpha_059: -2260645983622615684
+      rudolf_1_alpha_060: 4890773353447121360
+      rudolf_1_alpha_061: 6932095105403709460
+      rudolf_1_alpha_062: 1374692197218330880
+      rudolf_1_alpha_063: -4938691913856757735
+      rudolf_1_alpha_064: 7333546430770314635
+      rudolf_1_alpha_065: 3366542733697123138
+      rudolf_1_alpha_066: -3466738721629496086
+      rudolf_1_alpha_067: 2305022222001364926
+      rudolf_1_alpha_068: 4693094593619139795
+      rudolf_1_alpha_069: -1571749937208466248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

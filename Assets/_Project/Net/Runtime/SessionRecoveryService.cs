@@ -1,4 +1,3 @@
-using Project.Gameplay.Run;
 using Project.Core.Telemetry;
 using UnityEngine;
 
@@ -10,7 +9,6 @@ namespace Project.Net.Runtime
         private const string KeyLastDisconnect = "run.last.disconnect";
 
         private NetSessionManager _session;
-        private RunManager _run;
         private TelemetryService _telemetry;
 
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -27,7 +25,6 @@ namespace Project.Net.Runtime
         private void Awake()
         {
             _session = FindAnyObjectByType<NetSessionManager>();
-            _run = FindAnyObjectByType<RunManager>();
             _telemetry = FindAnyObjectByType<TelemetryService>();
 
             if (_session != null)

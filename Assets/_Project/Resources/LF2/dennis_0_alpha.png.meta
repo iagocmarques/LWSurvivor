@@ -1,0 +1,2246 @@
+fileFormatVersion: 2
+guid: 1dce6e80ffee1a246ac958846132a305
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3864397313812339419
+    second: dennis_0_0
+  - first:
+      213: -8383136666734819040
+    second: dennis_0_1
+  - first:
+      213: 2978027434539217560
+    second: dennis_0_2
+  - first:
+      213: -4398807879970341574
+    second: dennis_0_3
+  - first:
+      213: 1283281018395621465
+    second: dennis_0_4
+  - first:
+      213: 8377747720094375952
+    second: dennis_0_5
+  - first:
+      213: -6761900379172082382
+    second: dennis_0_6
+  - first:
+      213: 6497452253042022592
+    second: dennis_0_7
+  - first:
+      213: -7353198558159252093
+    second: dennis_0_8
+  - first:
+      213: 5026405829566957778
+    second: dennis_0_9
+  - first:
+      213: 5941313425835441882
+    second: dennis_0_10
+  - first:
+      213: 7631375436519204628
+    second: dennis_0_11
+  - first:
+      213: 2274816017927078423
+    second: dennis_0_12
+  - first:
+      213: -1384687474600047570
+    second: dennis_0_13
+  - first:
+      213: 7362832128427304783
+    second: dennis_0_14
+  - first:
+      213: -2813355763152264844
+    second: dennis_0_15
+  - first:
+      213: 8236122100494145464
+    second: dennis_0_16
+  - first:
+      213: -7415677524412864908
+    second: dennis_0_17
+  - first:
+      213: 2066328066119702271
+    second: dennis_0_18
+  - first:
+      213: -1249898405639915408
+    second: dennis_0_19
+  - first:
+      213: -3237701650053094099
+    second: dennis_0_20
+  - first:
+      213: -9038017124030611094
+    second: dennis_0_21
+  - first:
+      213: -7674015245369854592
+    second: dennis_0_22
+  - first:
+      213: 5618936222308023520
+    second: dennis_0_23
+  - first:
+      213: -8855860832549429878
+    second: dennis_0_24
+  - first:
+      213: -3301652862032341176
+    second: dennis_0_25
+  - first:
+      213: -5441802978309586112
+    second: dennis_0_26
+  - first:
+      213: 7717523870812124484
+    second: dennis_0_27
+  - first:
+      213: -4984445463538416719
+    second: dennis_0_28
+  - first:
+      213: -2635557970924424116
+    second: dennis_0_29
+  - first:
+      213: -5092298580329159769
+    second: dennis_0_30
+  - first:
+      213: -2562078425278007371
+    second: dennis_0_31
+  - first:
+      213: -1960449777325682938
+    second: dennis_0_32
+  - first:
+      213: -3020844352689503963
+    second: dennis_0_33
+  - first:
+      213: -2433905396662769773
+    second: dennis_0_34
+  - first:
+      213: 3866014839953385082
+    second: dennis_0_35
+  - first:
+      213: 8144451163725258282
+    second: dennis_0_36
+  - first:
+      213: 6960573421081813794
+    second: dennis_0_37
+  - first:
+      213: -126755332209822564
+    second: dennis_0_38
+  - first:
+      213: 4802839784732362358
+    second: dennis_0_39
+  - first:
+      213: 5782860113063560836
+    second: dennis_0_40
+  - first:
+      213: 459236373829823681
+    second: dennis_0_41
+  - first:
+      213: -6629297816617155921
+    second: dennis_0_42
+  - first:
+      213: -8279450764216522293
+    second: dennis_0_43
+  - first:
+      213: 8465128218524635040
+    second: dennis_0_44
+  - first:
+      213: -5447571876986669593
+    second: dennis_0_45
+  - first:
+      213: 8209485803132038810
+    second: dennis_0_46
+  - first:
+      213: 2986584759019094823
+    second: dennis_0_47
+  - first:
+      213: 3519573714504319828
+    second: dennis_0_48
+  - first:
+      213: -6023979914343456146
+    second: dennis_0_49
+  - first:
+      213: 3131038300951196666
+    second: dennis_0_50
+  - first:
+      213: -637828596156064939
+    second: dennis_0_51
+  - first:
+      213: -8043032973631655701
+    second: dennis_0_52
+  - first:
+      213: 8567812875551064338
+    second: dennis_0_53
+  - first:
+      213: -2625139329224948259
+    second: dennis_0_54
+  - first:
+      213: 6238214128313894319
+    second: dennis_0_55
+  - first:
+      213: 5731965287561576730
+    second: dennis_0_56
+  - first:
+      213: -8528743023761330372
+    second: dennis_0_57
+  - first:
+      213: 7339452326117052329
+    second: dennis_0_58
+  - first:
+      213: 4017385240641646868
+    second: dennis_0_59
+  - first:
+      213: 9111474159008581273
+    second: dennis_0_60
+  - first:
+      213: 4654390190280908184
+    second: dennis_0_61
+  - first:
+      213: 2470650165867517930
+    second: dennis_0_62
+  - first:
+      213: 7356722627625261539
+    second: dennis_0_63
+  - first:
+      213: -2948661936224748774
+    second: dennis_0_64
+  - first:
+      213: -7067164086130580451
+    second: dennis_0_65
+  - first:
+      213: -2531227658429590774
+    second: dennis_0_66
+  - first:
+      213: 62214599486656784
+    second: dennis_0_67
+  - first:
+      213: 3367420195019257788
+    second: dennis_0_68
+  - first:
+      213: 7902673814370407193
+    second: dennis_0_69
+  - first:
+      213: 1418486416503852183
+    second: dennis_0_70
+  - first:
+      213: -3244459060530297530
+    second: dennis_0_71
+  - first:
+      213: 6600862653917945508
+    second: dennis_0_72
+  - first:
+      213: 4621667994066688217
+    second: dennis_0_73
+  - first:
+      213: 8641148307951919131
+    second: dennis_0_alpha_000
+  - first:
+      213: 2202806858983247012
+    second: dennis_0_alpha_001
+  - first:
+      213: -4279150538879742074
+    second: dennis_0_alpha_002
+  - first:
+      213: 1556046471653314989
+    second: dennis_0_alpha_003
+  - first:
+      213: -1838238395417076855
+    second: dennis_0_alpha_004
+  - first:
+      213: 7920902109271075605
+    second: dennis_0_alpha_005
+  - first:
+      213: 5591476375841272986
+    second: dennis_0_alpha_006
+  - first:
+      213: 9171198072327583783
+    second: dennis_0_alpha_007
+  - first:
+      213: -5742220346860828586
+    second: dennis_0_alpha_008
+  - first:
+      213: -9012727806599804594
+    second: dennis_0_alpha_009
+  - first:
+      213: -8217566123082612006
+    second: dennis_0_alpha_010
+  - first:
+      213: 1277914692983412934
+    second: dennis_0_alpha_011
+  - first:
+      213: 8315604829614160590
+    second: dennis_0_alpha_012
+  - first:
+      213: -7679075699475358761
+    second: dennis_0_alpha_013
+  - first:
+      213: -8364446155063079
+    second: dennis_0_alpha_014
+  - first:
+      213: -3150489440117876278
+    second: dennis_0_alpha_015
+  - first:
+      213: 8860263340790072288
+    second: dennis_0_alpha_016
+  - first:
+      213: -8145820668084609505
+    second: dennis_0_alpha_017
+  - first:
+      213: 3173357411450837420
+    second: dennis_0_alpha_018
+  - first:
+      213: -8333668974165562584
+    second: dennis_0_alpha_019
+  - first:
+      213: 5050798579591203665
+    second: dennis_0_alpha_020
+  - first:
+      213: -8148897249256985345
+    second: dennis_0_alpha_021
+  - first:
+      213: -6984309287304328960
+    second: dennis_0_alpha_022
+  - first:
+      213: 1895199557024381707
+    second: dennis_0_alpha_023
+  - first:
+      213: -2773713618280353886
+    second: dennis_0_alpha_024
+  - first:
+      213: 4833836283985582268
+    second: dennis_0_alpha_025
+  - first:
+      213: 4320435476167024554
+    second: dennis_0_alpha_026
+  - first:
+      213: 8372139416511773260
+    second: dennis_0_alpha_027
+  - first:
+      213: 5861838664129798516
+    second: dennis_0_alpha_028
+  - first:
+      213: -479619139349707920
+    second: dennis_0_alpha_029
+  - first:
+      213: -6409074421762090390
+    second: dennis_0_alpha_030
+  - first:
+      213: -1199393208325396537
+    second: dennis_0_alpha_031
+  - first:
+      213: 6712865197392258710
+    second: dennis_0_alpha_032
+  - first:
+      213: 5716770350437200860
+    second: dennis_0_alpha_033
+  - first:
+      213: -7002579903833846120
+    second: dennis_0_alpha_034
+  - first:
+      213: -2527951184947983794
+    second: dennis_0_alpha_035
+  - first:
+      213: -4811667695954054520
+    second: dennis_0_alpha_036
+  - first:
+      213: 241988218165016307
+    second: dennis_0_alpha_037
+  - first:
+      213: 8661140631254163655
+    second: dennis_0_alpha_038
+  - first:
+      213: 1506207653949600368
+    second: dennis_0_alpha_039
+  - first:
+      213: 5452312748090158204
+    second: dennis_0_alpha_040
+  - first:
+      213: 6241709780239417239
+    second: dennis_0_alpha_041
+  - first:
+      213: 4748013063204327426
+    second: dennis_0_alpha_042
+  - first:
+      213: 1323407733233210175
+    second: dennis_0_alpha_043
+  - first:
+      213: 4815547449926306720
+    second: dennis_0_alpha_044
+  - first:
+      213: 8324897241328664747
+    second: dennis_0_alpha_045
+  - first:
+      213: -2542258297681858906
+    second: dennis_0_alpha_046
+  - first:
+      213: -3442296621049981816
+    second: dennis_0_alpha_047
+  - first:
+      213: 5662439767508285663
+    second: dennis_0_alpha_048
+  - first:
+      213: -8007523147212116204
+    second: dennis_0_alpha_049
+  - first:
+      213: 9036744777802558492
+    second: dennis_0_alpha_050
+  - first:
+      213: 7559272884468360909
+    second: dennis_0_alpha_051
+  - first:
+      213: -798998200455286959
+    second: dennis_0_alpha_052
+  - first:
+      213: 3413477708626488287
+    second: dennis_0_alpha_053
+  - first:
+      213: 8676588293475147372
+    second: dennis_0_alpha_054
+  - first:
+      213: -7749563080236546488
+    second: dennis_0_alpha_055
+  - first:
+      213: -1510609201338460912
+    second: dennis_0_alpha_056
+  - first:
+      213: 4524401140669599061
+    second: dennis_0_alpha_057
+  - first:
+      213: -6328279121100411572
+    second: dennis_0_alpha_058
+  - first:
+      213: 5451985271805914695
+    second: dennis_0_alpha_059
+  - first:
+      213: -8292866157592244698
+    second: dennis_0_alpha_060
+  - first:
+      213: -7539849473970174442
+    second: dennis_0_alpha_061
+  - first:
+      213: -2484185963419346459
+    second: dennis_0_alpha_062
+  - first:
+      213: -4292286785217897940
+    second: dennis_0_alpha_063
+  - first:
+      213: 8266351795246893755
+    second: dennis_0_alpha_064
+  - first:
+      213: 4843250440600798344
+    second: dennis_0_alpha_065
+  - first:
+      213: -4324298912415709176
+    second: dennis_0_alpha_066
+  - first:
+      213: -1315653767975986913
+    second: dennis_0_alpha_067
+  - first:
+      213: 475270439863679891
+    second: dennis_0_alpha_068
+  - first:
+      213: 6754609087781723955
+    second: dennis_0_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dennis_0_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1021f27a968be770800000000000000
+      internalID: 8641148307951919131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac8d72da21f19e10800000000000000
+      internalID: 2202806858983247012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fc6adb1476d94c0800000000000000
+      internalID: -4279150538879742074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da155ec8500389510800000000000000
+      internalID: 1556046471653314989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b5ea43be34d76e0800000000000000
+      internalID: -1838238395417076855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51baebb6082bced60800000000000000
+      internalID: 7920902109271075605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94f100932ae89d40800000000000000
+      internalID: 5591476375841272986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72835d14e04a64f70800000000000000
+      internalID: 9171198072327583783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6580753a4098f40b0800000000000000
+      internalID: -5742220346860828586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e494556bfcb5ce280800000000000000
+      internalID: -9012727806599804594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2806b462755fd80800000000000000
+      internalID: -8217566123082612006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8578084a01cb110800000000000000
+      internalID: 1277914692983412934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecabca9d886f66370800000000000000
+      internalID: 8315604829614160590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbdf6936517e6590800000000000000
+      internalID: -7679075699475358761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d04f2e949842eff0800000000000000
+      internalID: -8364446155063079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac99725db863744d0800000000000000
+      internalID: -3150489440117876278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e34534909af5fa70800000000000000
+      internalID: 8860263340790072288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e18c2c24b34fe80800000000000000
+      internalID: -8145820668084609505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca951e6a0c70a0c20800000000000000
+      internalID: 3173357411450837420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bea2fb83cd85c80800000000000000
+      internalID: -8333668974165562584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bc4904c8a081640800000000000000
+      internalID: 5050798579591203665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc21e2602d49ee80800000000000000
+      internalID: -8148897249256985345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00983c825bfb21f90800000000000000
+      internalID: -6984309287304328960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b7ae6b4f91d4a10800000000000000
+      internalID: 1895199557024381707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af6cb1f82ac189d0800000000000000
+      internalID: -2773713618280353886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8da515d7c351340800000000000000
+      internalID: 4833836283985582268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf5ee7cc2545fb30800000000000000
+      internalID: 4320435476167024554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4afa3b1170df2470800000000000000
+      internalID: 8372139416511773260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4716b1a253f695150800000000000000
+      internalID: 5861838664129798516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07305931fec0859f0800000000000000
+      internalID: -479619139349707920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a14d725c46e07a0800000000000000
+      internalID: -6409074421762090390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7afbf4b36ea5fe0800000000000000
+      internalID: -1199393208325396537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696e5aba453e82d50800000000000000
+      internalID: 6712865197392258710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd37b40585c065f40800000000000000
+      internalID: 5716770350437200860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ec1b0cda6d1de90800000000000000
+      internalID: -7002579903833846120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ac5ab7ac9eaecd0800000000000000
+      internalID: -2527951184947983794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882bf6d49b5893db0800000000000000
+      internalID: -4811667695954054520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f63e879007bb5300800000000000000
+      internalID: 241988218165016307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c06b93f38d823870800000000000000
+      internalID: 8661140631254163655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072f3ab81ef17e410800000000000000
+      internalID: 1506207653949600368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c6f3a8e818aab40800000000000000
+      internalID: 5452312748090158204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f7042a9f10f9650800000000000000
+      internalID: 6241709780239417239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200553599b454e140800000000000000
+      internalID: 4748013063204327426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33de585250bd5210800000000000000
+      internalID: 1323407733233210175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab45ef44e244d240800000000000000
+      internalID: 4815547449926306720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0460d0fe9f78370800000000000000
+      internalID: 8324897241328664747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae22673c8518bcd0800000000000000
+      internalID: -2542258297681858906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884d9c216718a30d0800000000000000
+      internalID: -3442296621049981816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd87068b7f6059e40800000000000000
+      internalID: 5662439767508285663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f24bf8f109fd090800000000000000
+      internalID: -8007523147212116204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ca9c62f77f86d70800000000000000
+      internalID: 9036744777802558492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6aafe33aee7e860800000000000000
+      internalID: 7559272884468360909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fafa5be5369e4f0800000000000000
+      internalID: -798998200455286959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb656ff3eb1f5f20800000000000000
+      internalID: 3413477708626488287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e16e6151f696870800000000000000
+      internalID: 8676588293475147372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846c40eff65047490800000000000000
+      internalID: -7749563080236546488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d8c75fec390be0800000000000000
+      internalID: -1510609201338460912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dcbfabdd6e9ce30800000000000000
+      internalID: 4524401140669599061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4de9430baf6d28a0800000000000000
+      internalID: -6328279121100411572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e27a608b759ab40800000000000000
+      internalID: 5451985271805914695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e0bdaca22d9ec80800000000000000
+      internalID: -8292866157592244698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616871ce9d21d5790800000000000000
+      internalID: -7539849473970174442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9d06e2706668dd0800000000000000
+      internalID: -2484185963419346459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2adbfc09ebbe64c0800000000000000
+      internalID: -4292286785217897940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba8a18292bf7b270800000000000000
+      internalID: 8266351795246893755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884c3467d9ea63340800000000000000
+      internalID: 4843250440600798344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8088adedc010df3c0800000000000000
+      internalID: -4324298912415709176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1913606edbddbde0800000000000000
+      internalID: -1315653767975986913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b715c62ff789600800000000000000
+      internalID: 475270439863679891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dennis_0_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fdad98d213dbd50800000000000000
+      internalID: 6754609087781723955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dennis_0_0: 3864397313812339419
+      dennis_0_1: -8383136666734819040
+      dennis_0_10: 5941313425835441882
+      dennis_0_11: 7631375436519204628
+      dennis_0_12: 2274816017927078423
+      dennis_0_13: -1384687474600047570
+      dennis_0_14: 7362832128427304783
+      dennis_0_15: -2813355763152264844
+      dennis_0_16: 8236122100494145464
+      dennis_0_17: -7415677524412864908
+      dennis_0_18: 2066328066119702271
+      dennis_0_19: -1249898405639915408
+      dennis_0_2: 2978027434539217560
+      dennis_0_20: -3237701650053094099
+      dennis_0_21: -9038017124030611094
+      dennis_0_22: -7674015245369854592
+      dennis_0_23: 5618936222308023520
+      dennis_0_24: -8855860832549429878
+      dennis_0_25: -3301652862032341176
+      dennis_0_26: -5441802978309586112
+      dennis_0_27: 7717523870812124484
+      dennis_0_28: -4984445463538416719
+      dennis_0_29: -2635557970924424116
+      dennis_0_3: -4398807879970341574
+      dennis_0_30: -5092298580329159769
+      dennis_0_31: -2562078425278007371
+      dennis_0_32: -1960449777325682938
+      dennis_0_33: -3020844352689503963
+      dennis_0_34: -2433905396662769773
+      dennis_0_35: 3866014839953385082
+      dennis_0_36: 8144451163725258282
+      dennis_0_37: 6960573421081813794
+      dennis_0_38: -126755332209822564
+      dennis_0_39: 4802839784732362358
+      dennis_0_4: 1283281018395621465
+      dennis_0_40: 5782860113063560836
+      dennis_0_41: 459236373829823681
+      dennis_0_42: -6629297816617155921
+      dennis_0_43: -8279450764216522293
+      dennis_0_44: 8465128218524635040
+      dennis_0_45: -5447571876986669593
+      dennis_0_46: 8209485803132038810
+      dennis_0_47: 2986584759019094823
+      dennis_0_48: 3519573714504319828
+      dennis_0_49: -6023979914343456146
+      dennis_0_5: 8377747720094375952
+      dennis_0_50: 3131038300951196666
+      dennis_0_51: -637828596156064939
+      dennis_0_52: -8043032973631655701
+      dennis_0_53: 8567812875551064338
+      dennis_0_54: -2625139329224948259
+      dennis_0_55: 6238214128313894319
+      dennis_0_56: 5731965287561576730
+      dennis_0_57: -8528743023761330372
+      dennis_0_58: 7339452326117052329
+      dennis_0_59: 4017385240641646868
+      dennis_0_6: -6761900379172082382
+      dennis_0_60: 9111474159008581273
+      dennis_0_61: 4654390190280908184
+      dennis_0_62: 2470650165867517930
+      dennis_0_63: 7356722627625261539
+      dennis_0_64: -2948661936224748774
+      dennis_0_65: -7067164086130580451
+      dennis_0_66: -2531227658429590774
+      dennis_0_67: 62214599486656784
+      dennis_0_68: 3367420195019257788
+      dennis_0_69: 7902673814370407193
+      dennis_0_7: 6497452253042022592
+      dennis_0_70: 1418486416503852183
+      dennis_0_71: -3244459060530297530
+      dennis_0_72: 6600862653917945508
+      dennis_0_73: 4621667994066688217
+      dennis_0_8: -7353198558159252093
+      dennis_0_9: 5026405829566957778
+      dennis_0_alpha_000: 8641148307951919131
+      dennis_0_alpha_001: 2202806858983247012
+      dennis_0_alpha_002: -4279150538879742074
+      dennis_0_alpha_003: 1556046471653314989
+      dennis_0_alpha_004: -1838238395417076855
+      dennis_0_alpha_005: 7920902109271075605
+      dennis_0_alpha_006: 5591476375841272986
+      dennis_0_alpha_007: 9171198072327583783
+      dennis_0_alpha_008: -5742220346860828586
+      dennis_0_alpha_009: -9012727806599804594
+      dennis_0_alpha_010: -8217566123082612006
+      dennis_0_alpha_011: 1277914692983412934
+      dennis_0_alpha_012: 8315604829614160590
+      dennis_0_alpha_013: -7679075699475358761
+      dennis_0_alpha_014: -8364446155063079
+      dennis_0_alpha_015: -3150489440117876278
+      dennis_0_alpha_016: 8860263340790072288
+      dennis_0_alpha_017: -8145820668084609505
+      dennis_0_alpha_018: 3173357411450837420
+      dennis_0_alpha_019: -8333668974165562584
+      dennis_0_alpha_020: 5050798579591203665
+      dennis_0_alpha_021: -8148897249256985345
+      dennis_0_alpha_022: -6984309287304328960
+      dennis_0_alpha_023: 1895199557024381707
+      dennis_0_alpha_024: -2773713618280353886
+      dennis_0_alpha_025: 4833836283985582268
+      dennis_0_alpha_026: 4320435476167024554
+      dennis_0_alpha_027: 8372139416511773260
+      dennis_0_alpha_028: 5861838664129798516
+      dennis_0_alpha_029: -479619139349707920
+      dennis_0_alpha_030: -6409074421762090390
+      dennis_0_alpha_031: -1199393208325396537
+      dennis_0_alpha_032: 6712865197392258710
+      dennis_0_alpha_033: 5716770350437200860
+      dennis_0_alpha_034: -7002579903833846120
+      dennis_0_alpha_035: -2527951184947983794
+      dennis_0_alpha_036: -4811667695954054520
+      dennis_0_alpha_037: 241988218165016307
+      dennis_0_alpha_038: 8661140631254163655
+      dennis_0_alpha_039: 1506207653949600368
+      dennis_0_alpha_040: 5452312748090158204
+      dennis_0_alpha_041: 6241709780239417239
+      dennis_0_alpha_042: 4748013063204327426
+      dennis_0_alpha_043: 1323407733233210175
+      dennis_0_alpha_044: 4815547449926306720
+      dennis_0_alpha_045: 8324897241328664747
+      dennis_0_alpha_046: -2542258297681858906
+      dennis_0_alpha_047: -3442296621049981816
+      dennis_0_alpha_048: 5662439767508285663
+      dennis_0_alpha_049: -8007523147212116204
+      dennis_0_alpha_050: 9036744777802558492
+      dennis_0_alpha_051: 7559272884468360909
+      dennis_0_alpha_052: -798998200455286959
+      dennis_0_alpha_053: 3413477708626488287
+      dennis_0_alpha_054: 8676588293475147372
+      dennis_0_alpha_055: -7749563080236546488
+      dennis_0_alpha_056: -1510609201338460912
+      dennis_0_alpha_057: 4524401140669599061
+      dennis_0_alpha_058: -6328279121100411572
+      dennis_0_alpha_059: 5451985271805914695
+      dennis_0_alpha_060: -8292866157592244698
+      dennis_0_alpha_061: -7539849473970174442
+      dennis_0_alpha_062: -2484185963419346459
+      dennis_0_alpha_063: -4292286785217897940
+      dennis_0_alpha_064: 8266351795246893755
+      dennis_0_alpha_065: 4843250440600798344
+      dennis_0_alpha_066: -4324298912415709176
+      dennis_0_alpha_067: -1315653767975986913
+      dennis_0_alpha_068: 475270439863679891
+      dennis_0_alpha_069: 6754609087781723955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

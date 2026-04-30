@@ -1,7 +1,6 @@
 ---
 description: 'Auditoria de segurança. Code review para flaws exploráveis, CVEs, dependências, compliance.'
 mode: subagent
-model: xiaomi/mimo-v2.5-pro
 steps: 25
 hidden: false
 permission:

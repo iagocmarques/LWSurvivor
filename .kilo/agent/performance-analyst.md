@@ -1,7 +1,6 @@
 ---
 description: 'Profiling e otimização. Unity Profiler, object pooling, GC allocation, draw calls, FPS targets.'
 mode: subagent
-model: xiaomi/mimo-v2.5-pro
 steps: 25
 hidden: false
 permission:

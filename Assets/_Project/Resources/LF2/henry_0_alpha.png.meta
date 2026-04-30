@@ -1,0 +1,2230 @@
+fileFormatVersion: 2
+guid: 695047c7ae13f6747a50148532d67996
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1486120920034403506
+    second: henry_0_0
+  - first:
+      213: -2133164930671595351
+    second: henry_0_1
+  - first:
+      213: 5843411299394110820
+    second: henry_0_2
+  - first:
+      213: 6930359784896280486
+    second: henry_0_3
+  - first:
+      213: 1112229029222420580
+    second: henry_0_4
+  - first:
+      213: -2412144841266300019
+    second: henry_0_5
+  - first:
+      213: -4398910442328492517
+    second: henry_0_6
+  - first:
+      213: -4687553713895312257
+    second: henry_0_7
+  - first:
+      213: -1870537704166986073
+    second: henry_0_8
+  - first:
+      213: 6937314297341227452
+    second: henry_0_9
+  - first:
+      213: -3924888416250658937
+    second: henry_0_10
+  - first:
+      213: -8502373075278319931
+    second: henry_0_11
+  - first:
+      213: -1383491851840496932
+    second: henry_0_12
+  - first:
+      213: -6022539861185179179
+    second: henry_0_13
+  - first:
+      213: 5322799338025005379
+    second: henry_0_14
+  - first:
+      213: 5591940495943386473
+    second: henry_0_15
+  - first:
+      213: -7083934429627616298
+    second: henry_0_16
+  - first:
+      213: -6666752792020012154
+    second: henry_0_17
+  - first:
+      213: 4079390595902733240
+    second: henry_0_18
+  - first:
+      213: 26294326658950529
+    second: henry_0_19
+  - first:
+      213: -4415687434192586341
+    second: henry_0_20
+  - first:
+      213: 7053837086367763000
+    second: henry_0_21
+  - first:
+      213: -3568385880055256579
+    second: henry_0_22
+  - first:
+      213: -7232097823310464995
+    second: henry_0_23
+  - first:
+      213: -7957973296491774227
+    second: henry_0_24
+  - first:
+      213: -1131180270103040303
+    second: henry_0_25
+  - first:
+      213: -1618530539089731991
+    second: henry_0_26
+  - first:
+      213: 8425248336414902483
+    second: henry_0_27
+  - first:
+      213: -2826158286146417261
+    second: henry_0_28
+  - first:
+      213: -8055499740239353840
+    second: henry_0_29
+  - first:
+      213: 872068493546865907
+    second: henry_0_30
+  - first:
+      213: -3376490525562402581
+    second: henry_0_31
+  - first:
+      213: 6659722072501874484
+    second: henry_0_32
+  - first:
+      213: 1591569586840383368
+    second: henry_0_33
+  - first:
+      213: -8117252327029993146
+    second: henry_0_34
+  - first:
+      213: -7597609433923816575
+    second: henry_0_35
+  - first:
+      213: 4635476210645795033
+    second: henry_0_36
+  - first:
+      213: -142063949725471362
+    second: henry_0_37
+  - first:
+      213: 6268022644569384498
+    second: henry_0_38
+  - first:
+      213: 7927821011284110303
+    second: henry_0_39
+  - first:
+      213: -7329246471111686952
+    second: henry_0_40
+  - first:
+      213: 4074815850219730676
+    second: henry_0_41
+  - first:
+      213: 2213913526716840496
+    second: henry_0_42
+  - first:
+      213: 1135638515515466559
+    second: henry_0_43
+  - first:
+      213: -3302608115426007711
+    second: henry_0_44
+  - first:
+      213: 8303304928583401473
+    second: henry_0_45
+  - first:
+      213: 3204395484712475226
+    second: henry_0_46
+  - first:
+      213: 4231113882555342364
+    second: henry_0_47
+  - first:
+      213: -624967760423346855
+    second: henry_0_48
+  - first:
+      213: 1535442005241233797
+    second: henry_0_49
+  - first:
+      213: 6822667340187700545
+    second: henry_0_50
+  - first:
+      213: 9126299186292667536
+    second: henry_0_51
+  - first:
+      213: -5362523341158594043
+    second: henry_0_52
+  - first:
+      213: -2499140883471064952
+    second: henry_0_53
+  - first:
+      213: -2330841185742978122
+    second: henry_0_54
+  - first:
+      213: 1235725282854544076
+    second: henry_0_55
+  - first:
+      213: 4947782833023606378
+    second: henry_0_56
+  - first:
+      213: -4652930016154306397
+    second: henry_0_57
+  - first:
+      213: 976298536053145444
+    second: henry_0_58
+  - first:
+      213: 9074934892206396830
+    second: henry_0_59
+  - first:
+      213: 4408517726412448872
+    second: henry_0_60
+  - first:
+      213: 5360022056778594932
+    second: henry_0_61
+  - first:
+      213: 919166010500466599
+    second: henry_0_62
+  - first:
+      213: -7965159480205593482
+    second: henry_0_63
+  - first:
+      213: 6517248030737231783
+    second: henry_0_64
+  - first:
+      213: 3935572957716217409
+    second: henry_0_65
+  - first:
+      213: -6170319117565563520
+    second: henry_0_66
+  - first:
+      213: 2294591125176373392
+    second: henry_0_67
+  - first:
+      213: 7234473463748291997
+    second: henry_0_68
+  - first:
+      213: 8124460367488580300
+    second: henry_0_69
+  - first:
+      213: -3580535987848385698
+    second: henry_0_alpha_000
+  - first:
+      213: -5832502098536343387
+    second: henry_0_alpha_001
+  - first:
+      213: -284347029192240017
+    second: henry_0_alpha_002
+  - first:
+      213: -6316903371554324373
+    second: henry_0_alpha_003
+  - first:
+      213: 5066698440696225461
+    second: henry_0_alpha_004
+  - first:
+      213: -8476846432739728196
+    second: henry_0_alpha_005
+  - first:
+      213: -6213544947070079892
+    second: henry_0_alpha_006
+  - first:
+      213: -1953077568724606517
+    second: henry_0_alpha_007
+  - first:
+      213: -995924070881770338
+    second: henry_0_alpha_008
+  - first:
+      213: -5307325543275996215
+    second: henry_0_alpha_009
+  - first:
+      213: -6758948392749316578
+    second: henry_0_alpha_010
+  - first:
+      213: -8024390231717169181
+    second: henry_0_alpha_011
+  - first:
+      213: -5771330584852590661
+    second: henry_0_alpha_012
+  - first:
+      213: -7550636698020627141
+    second: henry_0_alpha_013
+  - first:
+      213: 2267064202768477794
+    second: henry_0_alpha_014
+  - first:
+      213: -149586746581511139
+    second: henry_0_alpha_015
+  - first:
+      213: 4990126032444155478
+    second: henry_0_alpha_016
+  - first:
+      213: 165822717364989977
+    second: henry_0_alpha_017
+  - first:
+      213: 720800515867499
+    second: henry_0_alpha_018
+  - first:
+      213: -6383580233784361577
+    second: henry_0_alpha_019
+  - first:
+      213: 7254424145018051975
+    second: henry_0_alpha_020
+  - first:
+      213: 1598856700678944644
+    second: henry_0_alpha_021
+  - first:
+      213: -2777891222701184901
+    second: henry_0_alpha_022
+  - first:
+      213: 6935459031810585621
+    second: henry_0_alpha_023
+  - first:
+      213: 4149878942016794051
+    second: henry_0_alpha_024
+  - first:
+      213: 4686288306470087058
+    second: henry_0_alpha_025
+  - first:
+      213: 3133410874798535212
+    second: henry_0_alpha_026
+  - first:
+      213: -2329765307063027139
+    second: henry_0_alpha_027
+  - first:
+      213: -7620101382174889758
+    second: henry_0_alpha_028
+  - first:
+      213: 5253711049661593644
+    second: henry_0_alpha_029
+  - first:
+      213: -8616013632241361491
+    second: henry_0_alpha_030
+  - first:
+      213: 6403800252290846216
+    second: henry_0_alpha_031
+  - first:
+      213: 7165616951089167497
+    second: henry_0_alpha_032
+  - first:
+      213: -7257625204882979277
+    second: henry_0_alpha_033
+  - first:
+      213: -5634515310403973910
+    second: henry_0_alpha_034
+  - first:
+      213: -711650831824089394
+    second: henry_0_alpha_035
+  - first:
+      213: 2092103352159783091
+    second: henry_0_alpha_036
+  - first:
+      213: -7318280098384235976
+    second: henry_0_alpha_037
+  - first:
+      213: -4368894051876504905
+    second: henry_0_alpha_038
+  - first:
+      213: -4523728996492798340
+    second: henry_0_alpha_039
+  - first:
+      213: 5470255470683331300
+    second: henry_0_alpha_040
+  - first:
+      213: 6607439321074213172
+    second: henry_0_alpha_041
+  - first:
+      213: -7329482284025195804
+    second: henry_0_alpha_042
+  - first:
+      213: -349778586486715564
+    second: henry_0_alpha_043
+  - first:
+      213: -6415284223410885798
+    second: henry_0_alpha_044
+  - first:
+      213: 80825243932783738
+    second: henry_0_alpha_045
+  - first:
+      213: -2608345049819351588
+    second: henry_0_alpha_046
+  - first:
+      213: -7423120806453121976
+    second: henry_0_alpha_047
+  - first:
+      213: -4725330880273635468
+    second: henry_0_alpha_048
+  - first:
+      213: -4410291523765688634
+    second: henry_0_alpha_049
+  - first:
+      213: 2179148689066300124
+    second: henry_0_alpha_050
+  - first:
+      213: 6240469435542411325
+    second: henry_0_alpha_051
+  - first:
+      213: 7775765101944568181
+    second: henry_0_alpha_052
+  - first:
+      213: -3714140041399422443
+    second: henry_0_alpha_053
+  - first:
+      213: 1617968620968026282
+    second: henry_0_alpha_054
+  - first:
+      213: -7163729997661910304
+    second: henry_0_alpha_055
+  - first:
+      213: -4693898069193852619
+    second: henry_0_alpha_056
+  - first:
+      213: -9181783381593088146
+    second: henry_0_alpha_057
+  - first:
+      213: 4500773388854015087
+    second: henry_0_alpha_058
+  - first:
+      213: -2782733632909371709
+    second: henry_0_alpha_059
+  - first:
+      213: 3592405082698176306
+    second: henry_0_alpha_060
+  - first:
+      213: 4922898741337937369
+    second: henry_0_alpha_061
+  - first:
+      213: -1538183432409195612
+    second: henry_0_alpha_062
+  - first:
+      213: 8592022291982145302
+    second: henry_0_alpha_063
+  - first:
+      213: 2382392415916650962
+    second: henry_0_alpha_064
+  - first:
+      213: 95378630611286740
+    second: henry_0_alpha_065
+  - first:
+      213: -8825382714695815163
+    second: henry_0_alpha_066
+  - first:
+      213: -7093675944102051502
+    second: henry_0_alpha_067
+  - first:
+      213: 3332916009570215990
+    second: henry_0_alpha_068
+  - first:
+      213: -1896264305638674224
+    second: henry_0_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: henry_0_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b6bc25d716f4ec0800000000000000
+      internalID: -3580535987848385698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a855094e3ace0fa0800000000000000
+      internalID: -5832502098536343387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f641f0c22ebcd0cf0800000000000000
+      internalID: -284347029192240017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60890a1ad9d558a0800000000000000
+      internalID: -6316903371554324373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be59b52367805640800000000000000
+      internalID: 5066698440696225461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4e209e4113c5a80800000000000000
+      internalID: -8476846432739728196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ce6f99acd05c9a0800000000000000
+      internalID: -6213544947070079892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1e2619c4645e4e0800000000000000
+      internalID: -1953077568724606517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94c4db8554cd22f0800000000000000
+      internalID: -995924070881770338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb5dada9879856b0800000000000000
+      internalID: -5307325543275996215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16cafa4f346332a0800000000000000
+      internalID: -6758948392749316578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7326b6993a3a090800000000000000
+      internalID: -8024390231717169181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf8380396d18efa0800000000000000
+      internalID: -5771330584852590661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3db37a9defb63790800000000000000
+      internalID: -7550636698020627141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ee40981ea367f10800000000000000
+      internalID: 2267064202768477794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1417e285af8cedf0800000000000000
+      internalID: -149586746581511139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656634c003d704540800000000000000
+      internalID: 4990126032444155478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910fa3402ee1d4200800000000000000
+      internalID: 165822717364989977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63c3b2709f820000800000000000000
+      internalID: 720800515867499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79df31a5997f867a0800000000000000
+      internalID: -6383580233784361577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d51d50354eca460800000000000000
+      internalID: 7254424145018051975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487b8bab2b7403610800000000000000
+      internalID: 1598856700678944644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78683e96a2f279d0800000000000000
+      internalID: -2777891222701184901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51438596e33bf3060800000000000000
+      internalID: 6935459031810585621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cde8c729e4579930800000000000000
+      internalID: 4149878942016794051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299673eb26a090140800000000000000
+      internalID: 4686288306470087058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2276bfc69c1c7b20800000000000000
+      internalID: 3133410874798535212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3aba7efbc20bafd0800000000000000
+      internalID: -2329765307063027139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8a00b7a26ff3690800000000000000
+      internalID: -7620101382174889758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28bf934d5ee8e840800000000000000
+      internalID: 5253711049661593644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad94564045cd6880800000000000000
+      internalID: -8616013632241361491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e4a52966eded850800000000000000
+      internalID: 6403800252290846216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cff26e6a2617360800000000000000
+      internalID: 7165616951089167497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3364706245cb74b90800000000000000
+      internalID: -7257625204882979277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec0fd99d2e2ec1b0800000000000000
+      internalID: -5634515310403973910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece8305c655bf16f0800000000000000
+      internalID: -711650831824089394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b843e21ae4a80d10800000000000000
+      internalID: 2092103352159783091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8323ff0460f307a90800000000000000
+      internalID: -7318280098384235976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba7598d1029e53c0800000000000000
+      internalID: -4368894051876504905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7699e7027c7831c0800000000000000
+      internalID: -4523728996492798340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea97b03e504aeb40800000000000000
+      internalID: 5470255470683331300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431a3970e0752bb50800000000000000
+      internalID: 6607439321074213172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2d82922b2784a90800000000000000
+      internalID: -7329482284025195804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bcb629a36552bf0800000000000000
+      internalID: -349778586486715564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b2d6a0df458f6a0800000000000000
+      internalID: -6415284223410885798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a747f7191262f1100800000000000000
+      internalID: 80825243932783738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd57edd2ffb4dcbd0800000000000000
+      internalID: -2608345049819351588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cec86b4f6cbf890800000000000000
+      internalID: -7423120806453121976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4772b1ba9904c6eb0800000000000000
+      internalID: -4725330880273635468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6a702d93f7bc2c0800000000000000
+      internalID: -4410291523765688634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd21e84ef24ed3e10800000000000000
+      internalID: 2179148689066300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38103163e99a9650800000000000000
+      internalID: 6240469435542411325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579f846992119eb60800000000000000
+      internalID: 7775765101944568181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512355a8f49b47cc0800000000000000
+      internalID: -3714140041399422443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0278e63ed247610800000000000000
+      internalID: 1617968620968026282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea4d8ea581559c90800000000000000
+      internalID: -7163729997661910304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539fecd439cebdeb0800000000000000
+      internalID: -4693898069193852619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f1f8f59a0c39080800000000000000
+      internalID: -9181783381593088146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64bc211d85f57e30800000000000000
+      internalID: 4500773388854015087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c697e1218eb169d0800000000000000
+      internalID: -2782733632909371709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237588ba369cad130800000000000000
+      internalID: 3592405082698176306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d55aa69256a15440800000000000000
+      internalID: 4922898741337937369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abdbdf515647aae0800000000000000
+      internalID: -1538183432409195612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61755d780cefc3770800000000000000
+      internalID: 8592022291982145302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1fb42a745ff0120800000000000000
+      internalID: 2382392415916650962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dabfb4fb5ad25100800000000000000
+      internalID: 95378630611286740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500feab0e21f58580800000000000000
+      internalID: -8825382714695815163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251401010533e8d90800000000000000
+      internalID: -7093675944102051502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63825a0c375e04e20800000000000000
+      internalID: 3332916009570215990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: henry_0_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0772e29ad1fa5e0800000000000000
+      internalID: -1896264305638674224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      henry_0_0: -1486120920034403506
+      henry_0_1: -2133164930671595351
+      henry_0_10: -3924888416250658937
+      henry_0_11: -8502373075278319931
+      henry_0_12: -1383491851840496932
+      henry_0_13: -6022539861185179179
+      henry_0_14: 5322799338025005379
+      henry_0_15: 5591940495943386473
+      henry_0_16: -7083934429627616298
+      henry_0_17: -6666752792020012154
+      henry_0_18: 4079390595902733240
+      henry_0_19: 26294326658950529
+      henry_0_2: 5843411299394110820
+      henry_0_20: -4415687434192586341
+      henry_0_21: 7053837086367763000
+      henry_0_22: -3568385880055256579
+      henry_0_23: -7232097823310464995
+      henry_0_24: -7957973296491774227
+      henry_0_25: -1131180270103040303
+      henry_0_26: -1618530539089731991
+      henry_0_27: 8425248336414902483
+      henry_0_28: -2826158286146417261
+      henry_0_29: -8055499740239353840
+      henry_0_3: 6930359784896280486
+      henry_0_30: 872068493546865907
+      henry_0_31: -3376490525562402581
+      henry_0_32: 6659722072501874484
+      henry_0_33: 1591569586840383368
+      henry_0_34: -8117252327029993146
+      henry_0_35: -7597609433923816575
+      henry_0_36: 4635476210645795033
+      henry_0_37: -142063949725471362
+      henry_0_38: 6268022644569384498
+      henry_0_39: 7927821011284110303
+      henry_0_4: 1112229029222420580
+      henry_0_40: -7329246471111686952
+      henry_0_41: 4074815850219730676
+      henry_0_42: 2213913526716840496
+      henry_0_43: 1135638515515466559
+      henry_0_44: -3302608115426007711
+      henry_0_45: 8303304928583401473
+      henry_0_46: 3204395484712475226
+      henry_0_47: 4231113882555342364
+      henry_0_48: -624967760423346855
+      henry_0_49: 1535442005241233797
+      henry_0_5: -2412144841266300019
+      henry_0_50: 6822667340187700545
+      henry_0_51: 9126299186292667536
+      henry_0_52: -5362523341158594043
+      henry_0_53: -2499140883471064952
+      henry_0_54: -2330841185742978122
+      henry_0_55: 1235725282854544076
+      henry_0_56: 4947782833023606378
+      henry_0_57: -4652930016154306397
+      henry_0_58: 976298536053145444
+      henry_0_59: 9074934892206396830
+      henry_0_6: -4398910442328492517
+      henry_0_60: 4408517726412448872
+      henry_0_61: 5360022056778594932
+      henry_0_62: 919166010500466599
+      henry_0_63: -7965159480205593482
+      henry_0_64: 6517248030737231783
+      henry_0_65: 3935572957716217409
+      henry_0_66: -6170319117565563520
+      henry_0_67: 2294591125176373392
+      henry_0_68: 7234473463748291997
+      henry_0_69: 8124460367488580300
+      henry_0_7: -4687553713895312257
+      henry_0_8: -1870537704166986073
+      henry_0_9: 6937314297341227452
+      henry_0_alpha_000: -3580535987848385698
+      henry_0_alpha_001: -5832502098536343387
+      henry_0_alpha_002: -284347029192240017
+      henry_0_alpha_003: -6316903371554324373
+      henry_0_alpha_004: 5066698440696225461
+      henry_0_alpha_005: -8476846432739728196
+      henry_0_alpha_006: -6213544947070079892
+      henry_0_alpha_007: -1953077568724606517
+      henry_0_alpha_008: -995924070881770338
+      henry_0_alpha_009: -5307325543275996215
+      henry_0_alpha_010: -6758948392749316578
+      henry_0_alpha_011: -8024390231717169181
+      henry_0_alpha_012: -5771330584852590661
+      henry_0_alpha_013: -7550636698020627141
+      henry_0_alpha_014: 2267064202768477794
+      henry_0_alpha_015: -149586746581511139
+      henry_0_alpha_016: 4990126032444155478
+      henry_0_alpha_017: 165822717364989977
+      henry_0_alpha_018: 720800515867499
+      henry_0_alpha_019: -6383580233784361577
+      henry_0_alpha_020: 7254424145018051975
+      henry_0_alpha_021: 1598856700678944644
+      henry_0_alpha_022: -2777891222701184901
+      henry_0_alpha_023: 6935459031810585621
+      henry_0_alpha_024: 4149878942016794051
+      henry_0_alpha_025: 4686288306470087058
+      henry_0_alpha_026: 3133410874798535212
+      henry_0_alpha_027: -2329765307063027139
+      henry_0_alpha_028: -7620101382174889758
+      henry_0_alpha_029: 5253711049661593644
+      henry_0_alpha_030: -8616013632241361491
+      henry_0_alpha_031: 6403800252290846216
+      henry_0_alpha_032: 7165616951089167497
+      henry_0_alpha_033: -7257625204882979277
+      henry_0_alpha_034: -5634515310403973910
+      henry_0_alpha_035: -711650831824089394
+      henry_0_alpha_036: 2092103352159783091
+      henry_0_alpha_037: -7318280098384235976
+      henry_0_alpha_038: -4368894051876504905
+      henry_0_alpha_039: -4523728996492798340
+      henry_0_alpha_040: 5470255470683331300
+      henry_0_alpha_041: 6607439321074213172
+      henry_0_alpha_042: -7329482284025195804
+      henry_0_alpha_043: -349778586486715564
+      henry_0_alpha_044: -6415284223410885798
+      henry_0_alpha_045: 80825243932783738
+      henry_0_alpha_046: -2608345049819351588
+      henry_0_alpha_047: -7423120806453121976
+      henry_0_alpha_048: -4725330880273635468
+      henry_0_alpha_049: -4410291523765688634
+      henry_0_alpha_050: 2179148689066300124
+      henry_0_alpha_051: 6240469435542411325
+      henry_0_alpha_052: 7775765101944568181
+      henry_0_alpha_053: -3714140041399422443
+      henry_0_alpha_054: 1617968620968026282
+      henry_0_alpha_055: -7163729997661910304
+      henry_0_alpha_056: -4693898069193852619
+      henry_0_alpha_057: -9181783381593088146
+      henry_0_alpha_058: 4500773388854015087
+      henry_0_alpha_059: -2782733632909371709
+      henry_0_alpha_060: 3592405082698176306
+      henry_0_alpha_061: 4922898741337937369
+      henry_0_alpha_062: -1538183432409195612
+      henry_0_alpha_063: 8592022291982145302
+      henry_0_alpha_064: 2382392415916650962
+      henry_0_alpha_065: 95378630611286740
+      henry_0_alpha_066: -8825382714695815163
+      henry_0_alpha_067: -7093675944102051502
+      henry_0_alpha_068: 3332916009570215990
+      henry_0_alpha_069: -1896264305638674224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

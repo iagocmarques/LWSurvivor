@@ -1,0 +1,2230 @@
+fileFormatVersion: 2
+guid: 289d1d26219ab9045b2a6674923cbd13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3113500145069180039
+    second: davis_0_0
+  - first:
+      213: -4816430905693750414
+    second: davis_0_1
+  - first:
+      213: 8302801254905242993
+    second: davis_0_2
+  - first:
+      213: -4796607591788761926
+    second: davis_0_3
+  - first:
+      213: -5033667563590628706
+    second: davis_0_4
+  - first:
+      213: 5620543572990943433
+    second: davis_0_5
+  - first:
+      213: -8170789799649427312
+    second: davis_0_6
+  - first:
+      213: -1236832483871533402
+    second: davis_0_7
+  - first:
+      213: -6934604062616290364
+    second: davis_0_8
+  - first:
+      213: 38688853946854887
+    second: davis_0_9
+  - first:
+      213: -6522281004899448667
+    second: davis_0_10
+  - first:
+      213: -375016049827158649
+    second: davis_0_11
+  - first:
+      213: -505663784079893384
+    second: davis_0_12
+  - first:
+      213: -5081298121478321708
+    second: davis_0_13
+  - first:
+      213: -688538021604562154
+    second: davis_0_14
+  - first:
+      213: -8320070708523633310
+    second: davis_0_15
+  - first:
+      213: 3630175950153178899
+    second: davis_0_16
+  - first:
+      213: -7553830560972795198
+    second: davis_0_17
+  - first:
+      213: 477273483493712529
+    second: davis_0_18
+  - first:
+      213: 5165065480663124168
+    second: davis_0_19
+  - first:
+      213: -3149015487292915700
+    second: davis_0_20
+  - first:
+      213: -6170495642871439417
+    second: davis_0_21
+  - first:
+      213: -3319694436824258954
+    second: davis_0_22
+  - first:
+      213: -5581420701292381469
+    second: davis_0_23
+  - first:
+      213: -7349988208411879597
+    second: davis_0_24
+  - first:
+      213: -5127148917413642370
+    second: davis_0_25
+  - first:
+      213: -2516319422675482868
+    second: davis_0_26
+  - first:
+      213: -5976278505348210597
+    second: davis_0_27
+  - first:
+      213: 1998713036754192678
+    second: davis_0_28
+  - first:
+      213: 6809389106256805836
+    second: davis_0_29
+  - first:
+      213: -2895954581105548897
+    second: davis_0_30
+  - first:
+      213: 6564494813718158139
+    second: davis_0_31
+  - first:
+      213: -1231918957512397443
+    second: davis_0_32
+  - first:
+      213: 1241574040974480279
+    second: davis_0_33
+  - first:
+      213: 61965861423041186
+    second: davis_0_34
+  - first:
+      213: 3780114994680804348
+    second: davis_0_35
+  - first:
+      213: 483738123400826574
+    second: davis_0_36
+  - first:
+      213: -1568135699330555599
+    second: davis_0_37
+  - first:
+      213: 6759441175621913387
+    second: davis_0_38
+  - first:
+      213: 4344401790593042355
+    second: davis_0_39
+  - first:
+      213: 9038690807850470954
+    second: davis_0_40
+  - first:
+      213: -188564509805616761
+    second: davis_0_41
+  - first:
+      213: -9165502040609344983
+    second: davis_0_42
+  - first:
+      213: -8977638746149670945
+    second: davis_0_43
+  - first:
+      213: 1524398071608203690
+    second: davis_0_44
+  - first:
+      213: -570043014045206760
+    second: davis_0_45
+  - first:
+      213: 1714269131673892027
+    second: davis_0_46
+  - first:
+      213: 4245716173304129293
+    second: davis_0_47
+  - first:
+      213: 8569642817308329020
+    second: davis_0_48
+  - first:
+      213: -6045164984042537833
+    second: davis_0_49
+  - first:
+      213: 2647207876891734862
+    second: davis_0_50
+  - first:
+      213: 8916887521338484740
+    second: davis_0_51
+  - first:
+      213: -199865661025761927
+    second: davis_0_52
+  - first:
+      213: 5992497550576425025
+    second: davis_0_53
+  - first:
+      213: 5510465808397918175
+    second: davis_0_54
+  - first:
+      213: 5630967947280219224
+    second: davis_0_55
+  - first:
+      213: -6742857312854589970
+    second: davis_0_56
+  - first:
+      213: -6091259157864147242
+    second: davis_0_57
+  - first:
+      213: -5674344091275901239
+    second: davis_0_58
+  - first:
+      213: 6691669991638955372
+    second: davis_0_59
+  - first:
+      213: -8414051982601911484
+    second: davis_0_60
+  - first:
+      213: 9136544590499863926
+    second: davis_0_61
+  - first:
+      213: -3665925285696138615
+    second: davis_0_62
+  - first:
+      213: -2449628586331346177
+    second: davis_0_63
+  - first:
+      213: -4417248776266141134
+    second: davis_0_64
+  - first:
+      213: 5161990305630496299
+    second: davis_0_65
+  - first:
+      213: 7531672173104921645
+    second: davis_0_66
+  - first:
+      213: -2398145051385719133
+    second: davis_0_67
+  - first:
+      213: -5524171261909214493
+    second: davis_0_68
+  - first:
+      213: 1303003486475344492
+    second: davis_0_69
+  - first:
+      213: 44970975760994312
+    second: davis_0_alpha_000
+  - first:
+      213: -762359439019632822
+    second: davis_0_alpha_001
+  - first:
+      213: -4570297117776121003
+    second: davis_0_alpha_002
+  - first:
+      213: 7175435256770182257
+    second: davis_0_alpha_003
+  - first:
+      213: -3981449142712822725
+    second: davis_0_alpha_004
+  - first:
+      213: 6506973668217519317
+    second: davis_0_alpha_005
+  - first:
+      213: 5768330185473414740
+    second: davis_0_alpha_006
+  - first:
+      213: -3905186539563336307
+    second: davis_0_alpha_007
+  - first:
+      213: -2362539378559244581
+    second: davis_0_alpha_008
+  - first:
+      213: 9090162902874900015
+    second: davis_0_alpha_009
+  - first:
+      213: 8926762943323001539
+    second: davis_0_alpha_010
+  - first:
+      213: 5729206038174822578
+    second: davis_0_alpha_011
+  - first:
+      213: 8146674896366432124
+    second: davis_0_alpha_012
+  - first:
+      213: 8425962069290938440
+    second: davis_0_alpha_013
+  - first:
+      213: 2245210746986694831
+    second: davis_0_alpha_014
+  - first:
+      213: -3190949494411143317
+    second: davis_0_alpha_015
+  - first:
+      213: 4168842152845107236
+    second: davis_0_alpha_016
+  - first:
+      213: 6659536224626707122
+    second: davis_0_alpha_017
+  - first:
+      213: 5218750933195100594
+    second: davis_0_alpha_018
+  - first:
+      213: -3479091248348861132
+    second: davis_0_alpha_019
+  - first:
+      213: 3174597671336644374
+    second: davis_0_alpha_020
+  - first:
+      213: 4009951494600126621
+    second: davis_0_alpha_021
+  - first:
+      213: -3092291727448178433
+    second: davis_0_alpha_022
+  - first:
+      213: -7257807115258781650
+    second: davis_0_alpha_023
+  - first:
+      213: -6004002987142311064
+    second: davis_0_alpha_024
+  - first:
+      213: -5601206098914921164
+    second: davis_0_alpha_025
+  - first:
+      213: -5759725404442641292
+    second: davis_0_alpha_026
+  - first:
+      213: -7502190908111163437
+    second: davis_0_alpha_027
+  - first:
+      213: 613417191280599028
+    second: davis_0_alpha_028
+  - first:
+      213: 2661952070921765901
+    second: davis_0_alpha_029
+  - first:
+      213: -355306931022801069
+    second: davis_0_alpha_030
+  - first:
+      213: -2922578468907611777
+    second: davis_0_alpha_031
+  - first:
+      213: 8345966195657179103
+    second: davis_0_alpha_032
+  - first:
+      213: -4479787783593569212
+    second: davis_0_alpha_033
+  - first:
+      213: 5201599449501702214
+    second: davis_0_alpha_034
+  - first:
+      213: 937475420997267352
+    second: davis_0_alpha_035
+  - first:
+      213: -6383547960785926663
+    second: davis_0_alpha_036
+  - first:
+      213: -7127728971136854419
+    second: davis_0_alpha_037
+  - first:
+      213: -3405273262677572282
+    second: davis_0_alpha_038
+  - first:
+      213: -9177352569157940647
+    second: davis_0_alpha_039
+  - first:
+      213: -3363918131168879557
+    second: davis_0_alpha_040
+  - first:
+      213: 7791771634587187991
+    second: davis_0_alpha_041
+  - first:
+      213: 1103757654437861782
+    second: davis_0_alpha_042
+  - first:
+      213: -712112663856789181
+    second: davis_0_alpha_043
+  - first:
+      213: 8958720958612016251
+    second: davis_0_alpha_044
+  - first:
+      213: -1904365286191847566
+    second: davis_0_alpha_045
+  - first:
+      213: 6726634741213464004
+    second: davis_0_alpha_046
+  - first:
+      213: -7104155897325503932
+    second: davis_0_alpha_047
+  - first:
+      213: 3521530582934337476
+    second: davis_0_alpha_048
+  - first:
+      213: 5735761953850447446
+    second: davis_0_alpha_049
+  - first:
+      213: 7941540076984307350
+    second: davis_0_alpha_050
+  - first:
+      213: 2192655297759739107
+    second: davis_0_alpha_051
+  - first:
+      213: 5860316790134256858
+    second: davis_0_alpha_052
+  - first:
+      213: 146611461621552584
+    second: davis_0_alpha_053
+  - first:
+      213: -595579382793535190
+    second: davis_0_alpha_054
+  - first:
+      213: -5876672436900747788
+    second: davis_0_alpha_055
+  - first:
+      213: -4902009323709371742
+    second: davis_0_alpha_056
+  - first:
+      213: -7866611689754871044
+    second: davis_0_alpha_057
+  - first:
+      213: -7690429728372833941
+    second: davis_0_alpha_058
+  - first:
+      213: 8475474777780658067
+    second: davis_0_alpha_059
+  - first:
+      213: 6269522738633804342
+    second: davis_0_alpha_060
+  - first:
+      213: -3486691353449463517
+    second: davis_0_alpha_061
+  - first:
+      213: -2408351796116638933
+    second: davis_0_alpha_062
+  - first:
+      213: -4234491467075189090
+    second: davis_0_alpha_063
+  - first:
+      213: 3404164838432464047
+    second: davis_0_alpha_064
+  - first:
+      213: -4172254061433081806
+    second: davis_0_alpha_065
+  - first:
+      213: 511539337227669931
+    second: davis_0_alpha_066
+  - first:
+      213: 207696821965566556
+    second: davis_0_alpha_067
+  - first:
+      213: 8518743149774680220
+    second: davis_0_alpha_068
+  - first:
+      213: -5382932858921256844
+    second: davis_0_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: davis_0_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800df6b3dd4cf9000800000000000000
+      internalID: 44970975760994312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47911e112e8b65f0800000000000000
+      internalID: -762359439019632822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55376f06cfa0390c0800000000000000
+      internalID: -4570297117776121003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cb9945954449360800000000000000
+      internalID: 7175435256770182257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34915d691d0fb8c0800000000000000
+      internalID: -3981449142712822725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcfce8631a6d4a50800000000000000
+      internalID: 6506973668217519317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4565e44edb93d0050800000000000000
+      internalID: 5768330185473414740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8db0b7688dfdc9c0800000000000000
+      internalID: -3905186539563336307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6aa15d3f2963fd0800000000000000
+      internalID: -2362539378559244581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26ca489ffeb62e70800000000000000
+      internalID: 9090162902874900015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c253e6d99b32eb70800000000000000
+      internalID: 8926762943323001539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0fe6e798a328f40800000000000000
+      internalID: 5729206038174822578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f6382c7adce0170800000000000000
+      internalID: 8146674896366432124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840700ffbd70fe470800000000000000
+      internalID: 8425962069290938440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8080c5747982f10800000000000000
+      internalID: 2245210746986694831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b675969575877b3d0800000000000000
+      internalID: -3190949494411143317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420e10db9d3bad930800000000000000
+      internalID: 4168842152845107236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba88bd99ec6b6c50800000000000000
+      internalID: 6659536224626707122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b11558d25abc6840800000000000000
+      internalID: 5218750933195100594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43deef051f8c7bfc0800000000000000
+      internalID: -3479091248348861132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f8dc823cf6e0c20800000000000000
+      internalID: 3174597671336644374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90ff2283a536a730800000000000000
+      internalID: 4009951494600126621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0829bbe09f515d0800000000000000
+      internalID: -3092291727448178433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20a2b6d1e6174b90800000000000000
+      internalID: -7257807115258781650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8639ff0081f7daca0800000000000000
+      internalID: -6004002987142311064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435bc60cab48442b0800000000000000
+      internalID: -5601206098914921164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c3760d2485110b0800000000000000
+      internalID: -5759725404442641292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df6edc0e1dd2e790800000000000000
+      internalID: -7502190908111163437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffd5697fab438800800000000000000
+      internalID: 613417191280599028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04486c0e4721f420800000000000000
+      internalID: 2661952070921765901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d62e8a32b11bf0800000000000000
+      internalID: -355306931022801069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f798e84fd5ae077d0800000000000000
+      internalID: -2922578468907611777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf709f3904d2d370800000000000000
+      internalID: 8345966195657179103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44455c9eeb894d1c0800000000000000
+      internalID: -4479787783593569212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6489a6bd32bcf2840800000000000000
+      internalID: 5201599449501702214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fa33eade4920d00800000000000000
+      internalID: 937475420997267352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f58fae73f41967a0800000000000000
+      internalID: -6383547960785926663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66902cd348351d90800000000000000
+      internalID: -7127728971136854419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645c7fe620a0eb0d0800000000000000
+      internalID: -3405273262677572282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a82d8467e73a080800000000000000
+      internalID: -9177352569157940647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cde225846f051d0800000000000000
+      internalID: -3363918131168879557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bb882e40fe12c60800000000000000
+      internalID: 7791771634587187991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69913ee1db5515f00800000000000000
+      internalID: 1103757654437861782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34942ce1e411e16f0800000000000000
+      internalID: -712112663856789181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c8aeb1f35c35c70800000000000000
+      internalID: 8958720958612016251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27723f9acd55295e0800000000000000
+      internalID: -1904365286191847566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c584db68aec95d50800000000000000
+      internalID: 6726634741213464004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44abaeec9d7f86d90800000000000000
+      internalID: -7104155897325503932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7b975486dfed030800000000000000
+      internalID: 3521530582934337476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656d47f8b15899f40800000000000000
+      internalID: 5735761953850447446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e8d2abf94063e60800000000000000
+      internalID: 7941540076984307350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecf8d94060ed6e10800000000000000
+      internalID: 2192655297759739107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4b5334217045150800000000000000
+      internalID: 5860316790134256858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c514f9f85ed80200800000000000000
+      internalID: 146611461621552584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a218b05f4b31cb7f0800000000000000
+      internalID: -595579382793535190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5a339fd8dd17ea0800000000000000
+      internalID: -5876672436900747788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aa66a6fd7098fbb0800000000000000
+      internalID: -4902009323709371742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab936e85e24d290800000000000000
+      internalID: -7866611689754871044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61cb3e58ea164590800000000000000
+      internalID: -7690429728372833941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f1668c76fee9570800000000000000
+      internalID: 8475474777780658067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a8083a6b1d10750800000000000000
+      internalID: 6269522738633804342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3210834ffa8cc9fc0800000000000000
+      internalID: -3486691353449463517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b233b4a2dc0d39ed0800000000000000
+      internalID: -2408351796116638933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e968f8c22701c35c0800000000000000
+      internalID: -4234491467075189090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac54af62e50e3f20800000000000000
+      internalID: 3404164838432464047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230b993690d2916c0800000000000000
+      internalID: -4172254061433081806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba11814215a591700800000000000000
+      internalID: 511539337227669931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c523c3eb823e1e200800000000000000
+      internalID: 207696821965566556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90bc1fa2c7a83670800000000000000
+      internalID: 8518743149774680220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: davis_0_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4787836b51bfb45b0800000000000000
+      internalID: -5382932858921256844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      davis_0_0: -3113500145069180039
+      davis_0_1: -4816430905693750414
+      davis_0_10: -6522281004899448667
+      davis_0_11: -375016049827158649
+      davis_0_12: -505663784079893384
+      davis_0_13: -5081298121478321708
+      davis_0_14: -688538021604562154
+      davis_0_15: -8320070708523633310
+      davis_0_16: 3630175950153178899
+      davis_0_17: -7553830560972795198
+      davis_0_18: 477273483493712529
+      davis_0_19: 5165065480663124168
+      davis_0_2: 8302801254905242993
+      davis_0_20: -3149015487292915700
+      davis_0_21: -6170495642871439417
+      davis_0_22: -3319694436824258954
+      davis_0_23: -5581420701292381469
+      davis_0_24: -7349988208411879597
+      davis_0_25: -5127148917413642370
+      davis_0_26: -2516319422675482868
+      davis_0_27: -5976278505348210597
+      davis_0_28: 1998713036754192678
+      davis_0_29: 6809389106256805836
+      davis_0_3: -4796607591788761926
+      davis_0_30: -2895954581105548897
+      davis_0_31: 6564494813718158139
+      davis_0_32: -1231918957512397443
+      davis_0_33: 1241574040974480279
+      davis_0_34: 61965861423041186
+      davis_0_35: 3780114994680804348
+      davis_0_36: 483738123400826574
+      davis_0_37: -1568135699330555599
+      davis_0_38: 6759441175621913387
+      davis_0_39: 4344401790593042355
+      davis_0_4: -5033667563590628706
+      davis_0_40: 9038690807850470954
+      davis_0_41: -188564509805616761
+      davis_0_42: -9165502040609344983
+      davis_0_43: -8977638746149670945
+      davis_0_44: 1524398071608203690
+      davis_0_45: -570043014045206760
+      davis_0_46: 1714269131673892027
+      davis_0_47: 4245716173304129293
+      davis_0_48: 8569642817308329020
+      davis_0_49: -6045164984042537833
+      davis_0_5: 5620543572990943433
+      davis_0_50: 2647207876891734862
+      davis_0_51: 8916887521338484740
+      davis_0_52: -199865661025761927
+      davis_0_53: 5992497550576425025
+      davis_0_54: 5510465808397918175
+      davis_0_55: 5630967947280219224
+      davis_0_56: -6742857312854589970
+      davis_0_57: -6091259157864147242
+      davis_0_58: -5674344091275901239
+      davis_0_59: 6691669991638955372
+      davis_0_6: -8170789799649427312
+      davis_0_60: -8414051982601911484
+      davis_0_61: 9136544590499863926
+      davis_0_62: -3665925285696138615
+      davis_0_63: -2449628586331346177
+      davis_0_64: -4417248776266141134
+      davis_0_65: 5161990305630496299
+      davis_0_66: 7531672173104921645
+      davis_0_67: -2398145051385719133
+      davis_0_68: -5524171261909214493
+      davis_0_69: 1303003486475344492
+      davis_0_7: -1236832483871533402
+      davis_0_8: -6934604062616290364
+      davis_0_9: 38688853946854887
+      davis_0_alpha_000: 44970975760994312
+      davis_0_alpha_001: -762359439019632822
+      davis_0_alpha_002: -4570297117776121003
+      davis_0_alpha_003: 7175435256770182257
+      davis_0_alpha_004: -3981449142712822725
+      davis_0_alpha_005: 6506973668217519317
+      davis_0_alpha_006: 5768330185473414740
+      davis_0_alpha_007: -3905186539563336307
+      davis_0_alpha_008: -2362539378559244581
+      davis_0_alpha_009: 9090162902874900015
+      davis_0_alpha_010: 8926762943323001539
+      davis_0_alpha_011: 5729206038174822578
+      davis_0_alpha_012: 8146674896366432124
+      davis_0_alpha_013: 8425962069290938440
+      davis_0_alpha_014: 2245210746986694831
+      davis_0_alpha_015: -3190949494411143317
+      davis_0_alpha_016: 4168842152845107236
+      davis_0_alpha_017: 6659536224626707122
+      davis_0_alpha_018: 5218750933195100594
+      davis_0_alpha_019: -3479091248348861132
+      davis_0_alpha_020: 3174597671336644374
+      davis_0_alpha_021: 4009951494600126621
+      davis_0_alpha_022: -3092291727448178433
+      davis_0_alpha_023: -7257807115258781650
+      davis_0_alpha_024: -6004002987142311064
+      davis_0_alpha_025: -5601206098914921164
+      davis_0_alpha_026: -5759725404442641292
+      davis_0_alpha_027: -7502190908111163437
+      davis_0_alpha_028: 613417191280599028
+      davis_0_alpha_029: 2661952070921765901
+      davis_0_alpha_030: -355306931022801069
+      davis_0_alpha_031: -2922578468907611777
+      davis_0_alpha_032: 8345966195657179103
+      davis_0_alpha_033: -4479787783593569212
+      davis_0_alpha_034: 5201599449501702214
+      davis_0_alpha_035: 937475420997267352
+      davis_0_alpha_036: -6383547960785926663
+      davis_0_alpha_037: -7127728971136854419
+      davis_0_alpha_038: -3405273262677572282
+      davis_0_alpha_039: -9177352569157940647
+      davis_0_alpha_040: -3363918131168879557
+      davis_0_alpha_041: 7791771634587187991
+      davis_0_alpha_042: 1103757654437861782
+      davis_0_alpha_043: -712112663856789181
+      davis_0_alpha_044: 8958720958612016251
+      davis_0_alpha_045: -1904365286191847566
+      davis_0_alpha_046: 6726634741213464004
+      davis_0_alpha_047: -7104155897325503932
+      davis_0_alpha_048: 3521530582934337476
+      davis_0_alpha_049: 5735761953850447446
+      davis_0_alpha_050: 7941540076984307350
+      davis_0_alpha_051: 2192655297759739107
+      davis_0_alpha_052: 5860316790134256858
+      davis_0_alpha_053: 146611461621552584
+      davis_0_alpha_054: -595579382793535190
+      davis_0_alpha_055: -5876672436900747788
+      davis_0_alpha_056: -4902009323709371742
+      davis_0_alpha_057: -7866611689754871044
+      davis_0_alpha_058: -7690429728372833941
+      davis_0_alpha_059: 8475474777780658067
+      davis_0_alpha_060: 6269522738633804342
+      davis_0_alpha_061: -3486691353449463517
+      davis_0_alpha_062: -2408351796116638933
+      davis_0_alpha_063: -4234491467075189090
+      davis_0_alpha_064: 3404164838432464047
+      davis_0_alpha_065: -4172254061433081806
+      davis_0_alpha_066: 511539337227669931
+      davis_0_alpha_067: 207696821965566556
+      davis_0_alpha_068: 8518743149774680220
+      davis_0_alpha_069: -5382932858921256844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

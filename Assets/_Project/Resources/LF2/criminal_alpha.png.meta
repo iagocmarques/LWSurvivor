@@ -1,0 +1,1155 @@
+fileFormatVersion: 2
+guid: 4efd77b1cf53eab469545fdf686e504a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4901276544714427713
+    second: criminal_alpha_0
+  - first:
+      213: -4441010214842925457
+    second: criminal_alpha_1
+  - first:
+      213: 3879771459644805320
+    second: criminal_alpha_2
+  - first:
+      213: -8396995705922114252
+    second: criminal_alpha_3
+  - first:
+      213: 5889593400827022595
+    second: criminal_alpha_4
+  - first:
+      213: 4806928629258022794
+    second: criminal_alpha_5
+  - first:
+      213: 9104257235340549216
+    second: criminal_alpha_6
+  - first:
+      213: 3886847190711984961
+    second: criminal_alpha_7
+  - first:
+      213: 8700616127908887877
+    second: criminal_alpha_8
+  - first:
+      213: 239599912855064633
+    second: criminal_alpha_9
+  - first:
+      213: -6689925596826284175
+    second: criminal_alpha_10
+  - first:
+      213: -24346862426045956
+    second: criminal_alpha_11
+  - first:
+      213: 1611883839746316497
+    second: criminal_alpha_12
+  - first:
+      213: -3588854568465296557
+    second: criminal_alpha_13
+  - first:
+      213: -9026819537995403370
+    second: criminal_alpha_14
+  - first:
+      213: -845041280160595508
+    second: criminal_alpha_15
+  - first:
+      213: 9078332035880549492
+    second: criminal_alpha_16
+  - first:
+      213: 4093722106256117761
+    second: criminal_alpha_17
+  - first:
+      213: -1272059597223697703
+    second: criminal_alpha_18
+  - first:
+      213: -8809728634143906379
+    second: criminal_alpha_19
+  - first:
+      213: 1640143571212445488
+    second: criminal_alpha_20
+  - first:
+      213: 4915713197675528999
+    second: criminal_alpha_21
+  - first:
+      213: 4672521616409583629
+    second: criminal_alpha_22
+  - first:
+      213: 3251595271033981019
+    second: criminal_alpha_23
+  - first:
+      213: 6579221469814761866
+    second: criminal_alpha_24
+  - first:
+      213: -2440579435211639379
+    second: criminal_alpha_25
+  - first:
+      213: -775992682805744286
+    second: criminal_alpha_26
+  - first:
+      213: -2388258603799248944
+    second: criminal_alpha_27
+  - first:
+      213: -5196004777288671494
+    second: criminal_alpha_28
+  - first:
+      213: -5195618671442036539
+    second: criminal_alpha_29
+  - first:
+      213: -6089235311746213892
+    second: criminal_alpha_30
+  - first:
+      213: -2068629418703612909
+    second: criminal_alpha_31
+  - first:
+      213: -163085030576452344
+    second: criminal_alpha_32
+  - first:
+      213: 5592787975845464531
+    second: criminal_alpha_33
+  - first:
+      213: 3292176505114748587
+    second: criminal_alpha_34
+  - first:
+      213: 6280268733574268853
+    second: criminal_alpha_35
+  - first:
+      213: 1243499572042938746
+    second: criminal_alpha_36
+  - first:
+      213: 5821559172246367737
+    second: criminal_alpha_37
+  - first:
+      213: -5851547404972134811
+    second: criminal_alpha_38
+  - first:
+      213: 4623884915105893277
+    second: criminal_alpha_39
+  - first:
+      213: -3503044811658559152
+    second: criminal_alpha_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: criminal_alpha_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 258
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2b75e53fa2bfbb0800000000000000
+      internalID: -4901276544714427713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 257
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ef7643dbc5e52c0800000000000000
+      internalID: -4441010214842925457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 257
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0d3dd2697b7d530800000000000000
+      internalID: 3879771459644805320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_3
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 258
+        width: 78
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d280805e0e77b80800000000000000
+      internalID: -8396995705922114252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 292
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d87cf5ef90cb150800000000000000
+      internalID: 5889593400827022595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 258
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f649fbe14a5b240800000000000000
+      internalID: 4806928629258022794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 290
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cd04818b1d85e70800000000000000
+      internalID: 9104257235340549216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 183
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ec923dead0f530800000000000000
+      internalID: 3886847190711984961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 183
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d3b0f354cceb870800000000000000
+      internalID: 8700616127908887877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 183
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930d0fde9da335300800000000000000
+      internalID: 239599912855064633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_10
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 183
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f406b4d1c9823a0800000000000000
+      internalID: -6689925596826284175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_11
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 211
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf143b958a089aff0800000000000000
+      internalID: -24346862426045956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_12
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 183
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d89547efcf8e5610800000000000000
+      internalID: 1611883839746316497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_13
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 181
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3539618d8c3d13ec0800000000000000
+      internalID: -3588854568465296557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_14
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 181
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f6a32d47b4ab280800000000000000
+      internalID: -9026819537995403370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 181
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc18c73de6fc544f0800000000000000
+      internalID: -845041280160595508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_16
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 181
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c75b733e6bcfd70800000000000000
+      internalID: 9078332035880549492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_17
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 181
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1005f80f092dfc830800000000000000
+      internalID: 4093722106256117761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 100
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2ea56398cb85ee0800000000000000
+      internalID: -1272059597223697703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 99
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5e342bb7e8db580800000000000000
+      internalID: -8809728634143906379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 99
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03722ce53e5f2c610800000000000000
+      internalID: 1640143571212445488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_21
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 99
+        width: 77
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7234625db1f183440800000000000000
+      internalID: 4915713197675528999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 131
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d006d6f67a128d040800000000000000
+      internalID: 4672521616409583629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 99
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58025bdbacff1d20800000000000000
+      internalID: 3251595271033981019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_24
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 129
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89aeee81171e4b50800000000000000
+      internalID: 6579221469814761866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_25
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 100
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da536163fe1512ed0800000000000000
+      internalID: -2440579435211639379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_26
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 100
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26daf0134ce1b35f0800000000000000
+      internalID: -775992682805744286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_27
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 100
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df76c014733bded0800000000000000
+      internalID: -2388258603799248944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_28
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 100
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed9764f2514e7b0800000000000000
+      internalID: -5196004777288671494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_29
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 100
+        width: 81
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c87f4c885475e7b0800000000000000
+      internalID: -5195618671442036539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf71a910fb0be7ba0800000000000000
+      internalID: -6089235311746213892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_31
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 16
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3149f36f080ca43e0800000000000000
+      internalID: -2068629418703612909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 16
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d8e4c570b9cbdf0800000000000000
+      internalID: -163085030576452344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_33
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 15
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9485c38039d9d40800000000000000
+      internalID: 5592787975845464531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_34
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 45
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba66045b61920bd20800000000000000
+      internalID: 3292176505114748587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_35
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 12
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7cfae832ff72750800000000000000
+      internalID: 6280268733574268853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_36
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 14
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7938fdb54cc14110800000000000000
+      internalID: 1243499572042938746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_37
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 13
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd69a429355ac050800000000000000
+      internalID: 5821559172246367737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_38
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 13
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ee64453a02bcea0800000000000000
+      internalID: -5851547404972134811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_39
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 13
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b8c27f4d65b2040800000000000000
+      internalID: 4623884915105893277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: criminal_alpha_40
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 13
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05101d0cd4fa26fc0800000000000000
+      internalID: -3503044811658559152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

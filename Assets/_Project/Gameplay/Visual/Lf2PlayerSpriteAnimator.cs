@@ -1,4 +1,5 @@
 using Project.Gameplay.Combat;
+using Project.Gameplay.LF2;
 using Project.Gameplay.Player;
 using UnityEngine;
 
@@ -24,18 +25,6 @@ namespace Project.Gameplay.Visual
         private int _cursor;
         private Vector3 _lastPos;
 
-        // LF2 Davis: pic values from the official .dat manual.
-        // Sheets: davis_0 (pic 0-69), davis_1 (pic 70-139), davis_2 (pic 140-209)
-        // pic = row * 10 + col in the 10x7 grid (80x80 per cell).
-        //
-        // Standing: pic 0,1,2,3 (row 0: cols 0-3)
-        // Walking:  pic 4,5,6,7 (row 0: cols 4-7)
-        // Running:  pic 20,21,22 (row 2: cols 0-2)
-        // Punch (jab combo 1): pic 10,11,12,13 (row 1: cols 0-3)
-        // Punch (jab combo 2): pic 14,15,16,17 (row 1: cols 4-7)
-        // Super punch (launcher): pic 67,68,8,9,19,29 (frames 70-75)
-        // Dash attack: pic 132,133,134,135,136,137 (sheet _1, row 6: cols 2-7)
-        // Hitstun (knocked): pic 30,31,32,33,34,35 (row 3: cols 0-5)
         private static readonly int[] IdleFrames = { 0, 1, 2, 3 };
         private static readonly int[] MoveFrames = { 4, 5, 6, 7 };
         private static readonly int[] RunFrames = { 20, 21, 22 };
@@ -44,15 +33,14 @@ namespace Project.Gameplay.Visual
         private static readonly int[] DashAttackFrames = { 132, 133, 134, 135, 136, 137 };
         private static readonly int[] HitstunFrames = { 30, 31, 32, 33, 34, 35 };
 
-        // Reactive combat frames (Davis LF2 manual)
-        private static readonly int[] DefendFrames = { 56 };                    // frame 110, pic 56
-        private static readonly int[] DefendHitFrames = { 57 };                 // frame 111, pic 57
-        private static readonly int[] DefendBreakFrames = { 46, 47, 48 };       // frames 112-114
-        private static readonly int[] HurtGroundedFrames = { 30, 31, 32 };      // state 11 (injured)
-        private static readonly int[] HurtAirFrames = { 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45 }; // state 12 (falling)
-        private static readonly int[] LyingFrames = { 33 };                     // on ground (matches ReactiveMoveSet pic 33)
-        private static readonly int[] GetUpFrames = { 34, 35, 0 };             // getting up
-        private static readonly int[] DeadFrames = { 33 };                      // dead (matches ReactiveMoveSet pic 33)
+        private static readonly int[] DefendFrames = { 56 };
+        private static readonly int[] DefendHitFrames = { 57 };
+        private static readonly int[] DefendBreakFrames = { 46, 47, 48 };
+        private static readonly int[] HurtGroundedFrames = { 30, 31, 32 };
+        private static readonly int[] HurtAirFrames = { 30, 31, 32, 33, 34, 35, 40, 41, 42, 43, 44, 45 };
+        private static readonly int[] LyingFrames = { 33 };
+        private static readonly int[] GetUpFrames = { 34, 35, 0 };
+        private static readonly int[] DeadFrames = { 33 };
 
         private void Awake()
         {
@@ -82,7 +70,6 @@ namespace Project.Gameplay.Visual
             var moved = (pos - _lastPos).sqrMagnitude > hitstunMoveThreshold * hitstunMoveThreshold;
             _lastPos = pos;
 
-            // --- Reactive states (highest priority after Dead) ---
             if (_hsm.IsDead)
             {
                 frames = DeadFrames;
@@ -118,27 +105,28 @@ namespace Project.Gameplay.Visual
                 fps = hurtFps;
                 directBySimFrame = true;
             }
+            else if (_hsm.IsDefendHit)
+            {
+                frames = DefendHitFrames;
+                fps = hitstunFps;
+                directBySimFrame = true;
+            }
             else if (_hsm.IsDefending)
             {
                 frames = DefendFrames;
                 fps = defendFps;
             }
-            // --- Original states ---
             else if (_hsm.IsAttacking)
             {
                 fps = attackFps;
-                switch (_hsm.ActiveAttackId)
-                {
-                    case CombatAttackId.Launcher:
-                        frames = LauncherFrames;
-                        break;
-                    case CombatAttackId.DashAttack:
-                        frames = DashAttackFrames;
-                        break;
-                    default:
-                        frames = JabFrames;
-                        break;
-                }
+                int startId = _hsm.Lf2Sm?.AttackStartFrameId ?? -1;
+                var roles = _hsm.Lf2Sm?.Roles;
+                if (roles != null && startId >= 0 && startId == roles.AttackForward)
+                    frames = LauncherFrames;
+                else if (roles != null && startId >= 0 && startId == roles.AttackBack)
+                    frames = DashAttackFrames;
+                else
+                    frames = JabFrames;
                 directBySimFrame = true;
             }
             else if (_hsm.IsMoving)
@@ -157,8 +145,6 @@ namespace Project.Gameplay.Visual
 
             if (directBySimFrame)
             {
-                // For attacks: use ActiveAttackFrameIndex
-                // For reactive states: use ReactiveFrameIndex
                 int simIndex = _hsm.IsAttacking ? _hsm.ActiveAttackFrameIndex : _hsm.ReactiveFrameIndex;
                 _cursor = Mathf.Clamp(simIndex, 0, frames.Length - 1);
             }
@@ -177,7 +163,7 @@ namespace Project.Gameplay.Visual
                 _cursor = 0;
             var frameIndex = frames[_cursor];
             var sprite = Lf2VisualLibrary.GetPlayerFrame(frameIndex);
-            if (sprite != null)
+            if (sprite != null && _sr.sprite != sprite)
                 _sr.sprite = sprite;
 
             _sr.flipX = !_hsm.FacingRight;

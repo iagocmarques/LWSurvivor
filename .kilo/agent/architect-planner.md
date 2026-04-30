@@ -1,7 +1,6 @@
 ---
 description: 'Decomposição de tarefas, design de paralelização, definição de DoD. Nunca implementa.'
 mode: subagent
-model: xiaomi/mimo-v2.5-pro
 steps: 25
 hidden: false
 permission:

@@ -1,0 +1,2190 @@
+fileFormatVersion: 2
+guid: e2c845823e54e824aa2bf6d43d7ddc17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1508603794688847983
+    second: bandit_1_0
+  - first:
+      213: 3079497284812973442
+    second: bandit_1_1
+  - first:
+      213: -1846392582574400888
+    second: bandit_1_2
+  - first:
+      213: 2982833454292109951
+    second: bandit_1_3
+  - first:
+      213: 1879271052656183624
+    second: bandit_1_4
+  - first:
+      213: 6940861113144210982
+    second: bandit_1_5
+  - first:
+      213: -6818855493512458942
+    second: bandit_1_6
+  - first:
+      213: -5359684350119681723
+    second: bandit_1_7
+  - first:
+      213: 5318226738623580044
+    second: bandit_1_8
+  - first:
+      213: 558110399034956719
+    second: bandit_1_9
+  - first:
+      213: 5201709717917211698
+    second: bandit_1_10
+  - first:
+      213: -3633704519494936560
+    second: bandit_1_11
+  - first:
+      213: -8660926285807670155
+    second: bandit_1_12
+  - first:
+      213: -1846745758835133771
+    second: bandit_1_13
+  - first:
+      213: -2404307047265056778
+    second: bandit_1_14
+  - first:
+      213: -3389955324931379395
+    second: bandit_1_15
+  - first:
+      213: -5304584829900200174
+    second: bandit_1_16
+  - first:
+      213: -2411643492851393355
+    second: bandit_1_17
+  - first:
+      213: 2682805697357713629
+    second: bandit_1_18
+  - first:
+      213: 4100374859045318817
+    second: bandit_1_19
+  - first:
+      213: -821508211715786585
+    second: bandit_1_20
+  - first:
+      213: 1858201699078657741
+    second: bandit_1_21
+  - first:
+      213: 4410475843207337011
+    second: bandit_1_22
+  - first:
+      213: 4823654379346478222
+    second: bandit_1_23
+  - first:
+      213: 6898982577344629718
+    second: bandit_1_24
+  - first:
+      213: -2938756243978197322
+    second: bandit_1_25
+  - first:
+      213: -6541338138058581976
+    second: bandit_1_26
+  - first:
+      213: 8955799743733864770
+    second: bandit_1_27
+  - first:
+      213: 1386164626656654819
+    second: bandit_1_28
+  - first:
+      213: -7156648287742168194
+    second: bandit_1_29
+  - first:
+      213: 137045294252812929
+    second: bandit_1_30
+  - first:
+      213: 6280824794348007566
+    second: bandit_1_31
+  - first:
+      213: 6574041890581442839
+    second: bandit_1_32
+  - first:
+      213: -8222445341199229402
+    second: bandit_1_33
+  - first:
+      213: 6787243638868083112
+    second: bandit_1_34
+  - first:
+      213: 8620194271613098480
+    second: bandit_1_35
+  - first:
+      213: -4252740238904969640
+    second: bandit_1_36
+  - first:
+      213: 5559050922795398136
+    second: bandit_1_37
+  - first:
+      213: 7077733429328353912
+    second: bandit_1_38
+  - first:
+      213: 6208710070679562052
+    second: bandit_1_39
+  - first:
+      213: -6805569345905243841
+    second: bandit_1_40
+  - first:
+      213: -301784831436236558
+    second: bandit_1_41
+  - first:
+      213: -7156358217091747168
+    second: bandit_1_42
+  - first:
+      213: -2459625064845230931
+    second: bandit_1_43
+  - first:
+      213: -4815025820689958630
+    second: bandit_1_44
+  - first:
+      213: 7629653148152967629
+    second: bandit_1_45
+  - first:
+      213: -2825124566929297413
+    second: bandit_1_46
+  - first:
+      213: 5884240769537513696
+    second: bandit_1_47
+  - first:
+      213: 5662003212058343079
+    second: bandit_1_48
+  - first:
+      213: 9182048387893871127
+    second: bandit_1_49
+  - first:
+      213: 6824355755148967967
+    second: bandit_1_50
+  - first:
+      213: -2295469399992920319
+    second: bandit_1_51
+  - first:
+      213: -5899545238135108818
+    second: bandit_1_52
+  - first:
+      213: -4212207227278634176
+    second: bandit_1_53
+  - first:
+      213: -1826372687685627384
+    second: bandit_1_54
+  - first:
+      213: -2177739180931426770
+    second: bandit_1_55
+  - first:
+      213: -4772155468986628500
+    second: bandit_1_56
+  - first:
+      213: 370351219300886784
+    second: bandit_1_57
+  - first:
+      213: 6649669444196021160
+    second: bandit_1_58
+  - first:
+      213: -5162917868133724704
+    second: bandit_1_59
+  - first:
+      213: -8556378019792645123
+    second: bandit_1_alpha_000
+  - first:
+      213: 8127508146486844645
+    second: bandit_1_alpha_001
+  - first:
+      213: -5470164807391511631
+    second: bandit_1_alpha_002
+  - first:
+      213: 3785632182315170802
+    second: bandit_1_alpha_003
+  - first:
+      213: -5810397218634271029
+    second: bandit_1_alpha_004
+  - first:
+      213: 6507244670907368712
+    second: bandit_1_alpha_005
+  - first:
+      213: -5060056847776292558
+    second: bandit_1_alpha_006
+  - first:
+      213: 4931459328631931103
+    second: bandit_1_alpha_007
+  - first:
+      213: 6341009121846375960
+    second: bandit_1_alpha_008
+  - first:
+      213: 6787271648713071357
+    second: bandit_1_alpha_009
+  - first:
+      213: 7319449722415681773
+    second: bandit_1_alpha_010
+  - first:
+      213: 1396952256093308989
+    second: bandit_1_alpha_011
+  - first:
+      213: -365202992667954960
+    second: bandit_1_alpha_012
+  - first:
+      213: 2833690547868072092
+    second: bandit_1_alpha_013
+  - first:
+      213: -464261043637333934
+    second: bandit_1_alpha_014
+  - first:
+      213: 816556894715650781
+    second: bandit_1_alpha_015
+  - first:
+      213: 1136452057380496538
+    second: bandit_1_alpha_016
+  - first:
+      213: 8562022242016132256
+    second: bandit_1_alpha_017
+  - first:
+      213: -1017733203257590822
+    second: bandit_1_alpha_018
+  - first:
+      213: 237641612559386516
+    second: bandit_1_alpha_019
+  - first:
+      213: 5790434945280537343
+    second: bandit_1_alpha_020
+  - first:
+      213: -7480264269084617300
+    second: bandit_1_alpha_021
+  - first:
+      213: -2416268471451428967
+    second: bandit_1_alpha_022
+  - first:
+      213: -2877791599924634112
+    second: bandit_1_alpha_023
+  - first:
+      213: 8114928663598321008
+    second: bandit_1_alpha_024
+  - first:
+      213: 596732853608089792
+    second: bandit_1_alpha_025
+  - first:
+      213: -9207064389230957617
+    second: bandit_1_alpha_026
+  - first:
+      213: -7700084392185366930
+    second: bandit_1_alpha_027
+  - first:
+      213: 4385756885856836690
+    second: bandit_1_alpha_028
+  - first:
+      213: 7947264276952542546
+    second: bandit_1_alpha_029
+  - first:
+      213: -7020121758037276110
+    second: bandit_1_alpha_030
+  - first:
+      213: -5158957297278007864
+    second: bandit_1_alpha_031
+  - first:
+      213: -1686534127575972798
+    second: bandit_1_alpha_032
+  - first:
+      213: -7699910434014481389
+    second: bandit_1_alpha_033
+  - first:
+      213: -624606819788799495
+    second: bandit_1_alpha_034
+  - first:
+      213: -6473805462746323032
+    second: bandit_1_alpha_035
+  - first:
+      213: 6861570137227890585
+    second: bandit_1_alpha_036
+  - first:
+      213: -150499434281455408
+    second: bandit_1_alpha_037
+  - first:
+      213: 5655049905474148753
+    second: bandit_1_alpha_038
+  - first:
+      213: 2003334403659853319
+    second: bandit_1_alpha_039
+  - first:
+      213: 6049725878901650362
+    second: bandit_1_alpha_040
+  - first:
+      213: 6762884879902343757
+    second: bandit_1_alpha_041
+  - first:
+      213: -746261449011863718
+    second: bandit_1_alpha_042
+  - first:
+      213: -2407140749431640798
+    second: bandit_1_alpha_043
+  - first:
+      213: 939473791018451312
+    second: bandit_1_alpha_044
+  - first:
+      213: -3645020130182894078
+    second: bandit_1_alpha_045
+  - first:
+      213: -5765034332498144492
+    second: bandit_1_alpha_046
+  - first:
+      213: 7330989618773082364
+    second: bandit_1_alpha_047
+  - first:
+      213: 5700403620037415427
+    second: bandit_1_alpha_048
+  - first:
+      213: 7270022971645183856
+    second: bandit_1_alpha_049
+  - first:
+      213: -4235739498094331551
+    second: bandit_1_alpha_050
+  - first:
+      213: -3318904691583417351
+    second: bandit_1_alpha_051
+  - first:
+      213: -2566858636722683886
+    second: bandit_1_alpha_052
+  - first:
+      213: -4280492970860190501
+    second: bandit_1_alpha_053
+  - first:
+      213: 3050675471662706715
+    second: bandit_1_alpha_054
+  - first:
+      213: -3546991094295062931
+    second: bandit_1_alpha_055
+  - first:
+      213: -4820415259695568311
+    second: bandit_1_alpha_056
+  - first:
+      213: 3266267776352714742
+    second: bandit_1_alpha_057
+  - first:
+      213: -1465252009955010118
+    second: bandit_1_alpha_058
+  - first:
+      213: 2252562776194442000
+    second: bandit_1_alpha_059
+  - first:
+      213: 6334212877730878977
+    second: bandit_1_alpha_060
+  - first:
+      213: -4122040130364251009
+    second: bandit_1_alpha_061
+  - first:
+      213: 4070647092899458096
+    second: bandit_1_alpha_062
+  - first:
+      213: 6042124212393345925
+    second: bandit_1_alpha_063
+  - first:
+      213: 2998197684247993873
+    second: bandit_1_alpha_064
+  - first:
+      213: -7052191830642685657
+    second: bandit_1_alpha_065
+  - first:
+      213: 2126998966165209988
+    second: bandit_1_alpha_066
+  - first:
+      213: -3131356379442424816
+    second: bandit_1_alpha_067
+  - first:
+      213: 5533615044976861963
+    second: bandit_1_alpha_068
+  - first:
+      213: 5326071182528077753
+    second: bandit_1_alpha_069
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bandit_1_alpha_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df39c4e4683a14980800000000000000
+      internalID: -8556378019792645123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_001
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec117c0995bac070800000000000000
+      internalID: 8127508146486844645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_002
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbf59007121614b0800000000000000
+      internalID: -5470164807391511631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_003
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbbe25a964498430800000000000000
+      internalID: 3785632182315170802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_004
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6f263b3825d5fa0800000000000000
+      internalID: -5810397218634271029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_005
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805ccf32d806e4a50800000000000000
+      internalID: 6507244670907368712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_006
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231e2053b1117c9b0800000000000000
+      internalID: -5060056847776292558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_007
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd08463a120107440800000000000000
+      internalID: 4931459328631931103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_008
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8163a21433acff750800000000000000
+      internalID: 6341009121846375960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_009
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 480
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa5f9f9a9b313e50800000000000000
+      internalID: 6787271648713071357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_010
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de01bef0eb8e39560800000000000000
+      internalID: 7319449722415681773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_011
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d384f90fca8f26310800000000000000
+      internalID: 1396952256093308989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_012
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0fd1720d98eeaf0800000000000000
+      internalID: -365202992667954960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_013
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98fe0d2a8a435720800000000000000
+      internalID: 2833690547868072092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_014
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250d1f26a0d9e89f0800000000000000
+      internalID: -464261043637333934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_015
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd22c606b2ef45b00800000000000000
+      internalID: 816556894715650781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_016
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a942d60002d75cf00800000000000000
+      internalID: 1136452057380496538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_017
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac7d569dd962d670800000000000000
+      internalID: 8562022242016132256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_018
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbf5b73b0940e1f0800000000000000
+      internalID: -1017733203257590822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_019
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 400
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497047c99c54c4300800000000000000
+      internalID: 237641612559386516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_020
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2747857e1cb5050800000000000000
+      internalID: 5790434945280537343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_021
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca51a278743c03890800000000000000
+      internalID: -7480264269084617300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_022
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997592d80a0b77ed0800000000000000
+      internalID: -2416268471451428967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_023
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e93ec79c70018d0800000000000000
+      internalID: -2877791599924634112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_024
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dc963ff940e9070800000000000000
+      internalID: 8114928663598321008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_025
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c88d156e55084800800000000000000
+      internalID: 596732853608089792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_026
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb6db718bfe93080800000000000000
+      internalID: -9207064389230957617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_027
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66f247ca0ec32590800000000000000
+      internalID: -7700084392185366930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c58b4a6a65ddc30800000000000000
+      internalID: 4385756885856836690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_029
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 320
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d68e3e0ca5a4e60800000000000000
+      internalID: 7947264276952542546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a823c8474839e90800000000000000
+      internalID: -7020121758037276110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_031
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5c554eba3b768b0800000000000000
+      internalID: -5158957297278007864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_032
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244c248852a3898e0800000000000000
+      internalID: -1686534127575972798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_033
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3143e32914c642590800000000000000
+      internalID: -7699910434014481389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1c33e1863f457f0800000000000000
+      internalID: -624606819788799495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_035
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7a5083b3c6826a0800000000000000
+      internalID: -6473805462746323032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_036
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f85e68fa1393f50800000000000000
+      internalID: 6861570137227890585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_037
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0b1c8df8159edf0800000000000000
+      internalID: -150499434281455408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_038
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19994e26de5ca7e40800000000000000
+      internalID: 5655049905474148753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_039
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ee678a6064dcb10800000000000000
+      internalID: 2003334403659853319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3bb6052a1f4f350800000000000000
+      internalID: 6049725878901650362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_041
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42807b87f79add50800000000000000
+      internalID: 6762884879902343757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_042
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f541e7a2fb4a5f0800000000000000
+      internalID: -746261449011863718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_043
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d62c1fd3e189ed0800000000000000
+      internalID: -2407140749431640798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_044
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071c1757f6ea90d00800000000000000
+      internalID: 939473791018451312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_045
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eec45f0894a6dc0800000000000000
+      internalID: -3645020130182894078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_046
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413548da1db7effa0800000000000000
+      internalID: -5765034332498144492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_047
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0cb0f8738ecb560800000000000000
+      internalID: 7330989618773082364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_048
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3025ea0f3e6eb1f40800000000000000
+      internalID: 5700403620037415427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_049
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 160
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07747dddf5f44e460800000000000000
+      internalID: 7270022971645183856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_050
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169fefe4e51a735c0800000000000000
+      internalID: -4235739498094331551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_051
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f30bce64c1e0f1d0800000000000000
+      internalID: -3318904691583417351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_052
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21040817bafa06cd0800000000000000
+      internalID: -2566858636722683886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_053
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd462507252a894c0800000000000000
+      internalID: -4280492970860190501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_054
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10f375ad2d265a20800000000000000
+      internalID: 3050675471662706715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_055
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66911b746e86cec0800000000000000
+      internalID: -3546991094295062931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_056
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a29f76cd17a1db0800000000000000
+      internalID: -4820415259695568311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_057
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fffec6bc3d145d20800000000000000
+      internalID: 3266267776352714742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_058
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab954386f016aabe0800000000000000
+      internalID: -1465252009955010118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_059
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013665d09e5b24f10800000000000000
+      internalID: 2252562776194442000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1069adc5d05a7e750800000000000000
+      internalID: 6334212877730878977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_061
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74ebb747529bc6c0800000000000000
+      internalID: -4122040130364251009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_062
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03caf3ab6f7dd7830800000000000000
+      internalID: 4070647092899458096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_063
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5830e7865ffe9d350800000000000000
+      internalID: 6042124212393345925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_064
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e1000a8ecbb9920800000000000000
+      internalID: 2998197684247993873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_065
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72981a6e4e4912e90800000000000000
+      internalID: -7052191830642685657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_066
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48386e75a4e948d10800000000000000
+      internalID: 2126998966165209988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_067
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0145e2aa6ff2b84d0800000000000000
+      internalID: -3131356379442424816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b036a97a0995bcc40800000000000000
+      internalID: 5533615044976861963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit_1_alpha_069
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 80
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfd70395810ae940800000000000000
+      internalID: 5326071182528077753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bandit_1_0: -1508603794688847983
+      bandit_1_1: 3079497284812973442
+      bandit_1_10: 5201709717917211698
+      bandit_1_11: -3633704519494936560
+      bandit_1_12: -8660926285807670155
+      bandit_1_13: -1846745758835133771
+      bandit_1_14: -2404307047265056778
+      bandit_1_15: -3389955324931379395
+      bandit_1_16: -5304584829900200174
+      bandit_1_17: -2411643492851393355
+      bandit_1_18: 2682805697357713629
+      bandit_1_19: 4100374859045318817
+      bandit_1_2: -1846392582574400888
+      bandit_1_20: -821508211715786585
+      bandit_1_21: 1858201699078657741
+      bandit_1_22: 4410475843207337011
+      bandit_1_23: 4823654379346478222
+      bandit_1_24: 6898982577344629718
+      bandit_1_25: -2938756243978197322
+      bandit_1_26: -6541338138058581976
+      bandit_1_27: 8955799743733864770
+      bandit_1_28: 1386164626656654819
+      bandit_1_29: -7156648287742168194
+      bandit_1_3: 2982833454292109951
+      bandit_1_30: 137045294252812929
+      bandit_1_31: 6280824794348007566
+      bandit_1_32: 6574041890581442839
+      bandit_1_33: -8222445341199229402
+      bandit_1_34: 6787243638868083112
+      bandit_1_35: 8620194271613098480
+      bandit_1_36: -4252740238904969640
+      bandit_1_37: 5559050922795398136
+      bandit_1_38: 7077733429328353912
+      bandit_1_39: 6208710070679562052
+      bandit_1_4: 1879271052656183624
+      bandit_1_40: -6805569345905243841
+      bandit_1_41: -301784831436236558
+      bandit_1_42: -7156358217091747168
+      bandit_1_43: -2459625064845230931
+      bandit_1_44: -4815025820689958630
+      bandit_1_45: 7629653148152967629
+      bandit_1_46: -2825124566929297413
+      bandit_1_47: 5884240769537513696
+      bandit_1_48: 5662003212058343079
+      bandit_1_49: 9182048387893871127
+      bandit_1_5: 6940861113144210982
+      bandit_1_50: 6824355755148967967
+      bandit_1_51: -2295469399992920319
+      bandit_1_52: -5899545238135108818
+      bandit_1_53: -4212207227278634176
+      bandit_1_54: -1826372687685627384
+      bandit_1_55: -2177739180931426770
+      bandit_1_56: -4772155468986628500
+      bandit_1_57: 370351219300886784
+      bandit_1_58: 6649669444196021160
+      bandit_1_59: -5162917868133724704
+      bandit_1_6: -6818855493512458942
+      bandit_1_7: -5359684350119681723
+      bandit_1_8: 5318226738623580044
+      bandit_1_9: 558110399034956719
+      bandit_1_alpha_000: -8556378019792645123
+      bandit_1_alpha_001: 8127508146486844645
+      bandit_1_alpha_002: -5470164807391511631
+      bandit_1_alpha_003: 3785632182315170802
+      bandit_1_alpha_004: -5810397218634271029
+      bandit_1_alpha_005: 6507244670907368712
+      bandit_1_alpha_006: -5060056847776292558
+      bandit_1_alpha_007: 4931459328631931103
+      bandit_1_alpha_008: 6341009121846375960
+      bandit_1_alpha_009: 6787271648713071357
+      bandit_1_alpha_010: 7319449722415681773
+      bandit_1_alpha_011: 1396952256093308989
+      bandit_1_alpha_012: -365202992667954960
+      bandit_1_alpha_013: 2833690547868072092
+      bandit_1_alpha_014: -464261043637333934
+      bandit_1_alpha_015: 816556894715650781
+      bandit_1_alpha_016: 1136452057380496538
+      bandit_1_alpha_017: 8562022242016132256
+      bandit_1_alpha_018: -1017733203257590822
+      bandit_1_alpha_019: 237641612559386516
+      bandit_1_alpha_020: 5790434945280537343
+      bandit_1_alpha_021: -7480264269084617300
+      bandit_1_alpha_022: -2416268471451428967
+      bandit_1_alpha_023: -2877791599924634112
+      bandit_1_alpha_024: 8114928663598321008
+      bandit_1_alpha_025: 596732853608089792
+      bandit_1_alpha_026: -9207064389230957617
+      bandit_1_alpha_027: -7700084392185366930
+      bandit_1_alpha_028: 4385756885856836690
+      bandit_1_alpha_029: 7947264276952542546
+      bandit_1_alpha_030: -7020121758037276110
+      bandit_1_alpha_031: -5158957297278007864
+      bandit_1_alpha_032: -1686534127575972798
+      bandit_1_alpha_033: -7699910434014481389
+      bandit_1_alpha_034: -624606819788799495
+      bandit_1_alpha_035: -6473805462746323032
+      bandit_1_alpha_036: 6861570137227890585
+      bandit_1_alpha_037: -150499434281455408
+      bandit_1_alpha_038: 5655049905474148753
+      bandit_1_alpha_039: 2003334403659853319
+      bandit_1_alpha_040: 6049725878901650362
+      bandit_1_alpha_041: 6762884879902343757
+      bandit_1_alpha_042: -746261449011863718
+      bandit_1_alpha_043: -2407140749431640798
+      bandit_1_alpha_044: 939473791018451312
+      bandit_1_alpha_045: -3645020130182894078
+      bandit_1_alpha_046: -5765034332498144492
+      bandit_1_alpha_047: 7330989618773082364
+      bandit_1_alpha_048: 5700403620037415427
+      bandit_1_alpha_049: 7270022971645183856
+      bandit_1_alpha_050: -4235739498094331551
+      bandit_1_alpha_051: -3318904691583417351
+      bandit_1_alpha_052: -2566858636722683886
+      bandit_1_alpha_053: -4280492970860190501
+      bandit_1_alpha_054: 3050675471662706715
+      bandit_1_alpha_055: -3546991094295062931
+      bandit_1_alpha_056: -4820415259695568311
+      bandit_1_alpha_057: 3266267776352714742
+      bandit_1_alpha_058: -1465252009955010118
+      bandit_1_alpha_059: 2252562776194442000
+      bandit_1_alpha_060: 6334212877730878977
+      bandit_1_alpha_061: -4122040130364251009
+      bandit_1_alpha_062: 4070647092899458096
+      bandit_1_alpha_063: 6042124212393345925
+      bandit_1_alpha_064: 2998197684247993873
+      bandit_1_alpha_065: -7052191830642685657
+      bandit_1_alpha_066: 2126998966165209988
+      bandit_1_alpha_067: -3131356379442424816
+      bandit_1_alpha_068: 5533615044976861963
+      bandit_1_alpha_069: 5326071182528077753
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
